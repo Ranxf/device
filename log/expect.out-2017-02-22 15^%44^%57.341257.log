@@ -1,0 +1,18 @@
+
+Lockfile is stale. Overriding it..
+
+[0m[10m[H[J[?25h[?0c
+Welcome to minicom 2.7
+
+OPTIONS: I18n 
+Compiled on Jan  1 2014, 17:13:19.
+Port /dev/ttyUSB1, 15:44:16
+
+Press CTRL-A Z for help on special keys
+
+
+root@dm814x:~# 
+
+root@dm814x:~# /opt/dvr_rdk/ti814x/read_db | grep serialNum
+/opt/dvr_rdk/ti814x/read_db | grep serialNum
+[xz_db_read]-1349: devInfo.serialNum= db177996751975a1f0df9742a9d5153e

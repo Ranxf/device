@@ -1,0 +1,84 @@
+#! /usr/bin/python
+
+import re,sys,os
+import pexpect
+
+
+class xin300:
+    def connect(self):
+        self.spawn_id = pexpect.spawn('minicom -D /dev/ttyUSB0')
+        self.spawn_id.logfile=open("expect.out.log",'w')
+        self.uboot_prompt = "UBOOT #"
+        return self.spawn_id
+
+    def reset_to_uboot(self):
+        self.spawn_id.send("\n")
+        while True:  
+            index = self.spawn_id.expect([self.uboot_prompt,'@.*#'])  
+            if index == 0:  
+                self.spawn_id.sendline("reset")
+                break
+            elif index == 1:  
+                self.spawn_id.sendline("reboot")
+                break
+                self.spawn_id.expect("Hit any key to stop autoboot")
+                self.spawn_id.send("\n")
+                self.spawn_id.expect(self.uboot_prompt)
+                
+
+    def enter_uboot_mode(self):
+        self.spawn_id.send("\n")
+        while True:  
+            index = self.spawn_id.expect('Hit any key to stop autoboot')  
+            self.spawn_id.send("\n")
+            self.spawn_id.expect(self.uboot_prompt)
+            break
+                
+    def config_uboot_env(self,ip):
+        self.spawn_id.sendline("setenv ipaddr " + ip)
+        self.spawn_id.expect(self.uboot_prompt)
+        self.spawn_id.sendline("setenv gatewayip 192.168.1.1")
+        self.spawn_id.expect(self.uboot_prompt)
+        self.spawn_id.sendline("setenv netmask 255.255.255.0")
+        self.spawn_id.expect(self.uboot_prompt)
+        self.spawn_id.sendline("setenv serverip 192.168.1.9")
+        self.spawn_id.expect(self.uboot_prompt)
+        self.spawn_id.sendline("console=ttyO2,115200n8 noinitrd ip=" + ip + " mem=256M rootwait=1 rw ubi.mtd=8,2048 rootfstype=ubifs root=ubi0:rootfs init=/init vram=20M notifyk.vpssm3_sva=0xBEE00000 stdin=serial ddr_mem=1024M")
+        self.spawn_id.expect(self.uboot_prompt)
+        self.spawn_id.sendline("saveenv")
+        self.spawn_id.expect(self.uboot_prompt)
+        self.reset_to_uboot()
+
+    def write_uboot_bin(self,ubootf):
+        self.spawn_id.sendline("mw.b 0x81000000 0xFF 0x260000")
+        self.spawn_id.expect(self.uboot_prompt)
+        self.spawn_id.sendline("tftp 0x81000000 " + ubootf)
+        self.spawn_id.expect("Load address: ")
+        self.spawn_id.expect("done")
+        self.spawn_id.expect('Bytes transferred.*')
+        output = self.spawn_id.match()
+        m = re.search('transferred =\s+(\d+)\s+\((0x.*)\)',output)
+        size = m.group(2)
+        print size
+        # adjust size to 1k
+        size = "0x%x" % ((int(size,0)+0x1000)/0x1000*0x1000)
+        self.spawn_id.sendline("nand write.i 0x81000000  0x0 " + size)
+        index = self.expect("written: OK")
+        if index == 0:
+            return
+        else:
+            raise("not written ok")
+
+        self.config("nandecc hw 2", self.uboot_prompt)
+        self.config("nand erase 0x0 " + size,self.uboot_prompt)
+        self.config("nand write.i 0x81000000  0x0 ", self.uboot_prompt)
+
+    def config(self,cmd,prompt):
+        self.spawn_id.sendline(cmd)
+        index = self.spawn_id.expect(prompt)
+        if index == 0:
+            return
+        else:
+            raise("%s command execute error" % cmd)
+    
+    

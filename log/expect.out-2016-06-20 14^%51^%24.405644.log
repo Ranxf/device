@@ -1,0 +1,108 @@
+
+[!p[?3;4l[4l>[0m(B[?1h=[H[2J[?12l[?25h
+Welcome to minicom 2.7
+
+OPTIONS: I18n 
+Compiled on Jan  1 2014, 17:13:19.
+Port /dev/ttyUSB3, 14:48:48
+
+Press CTRL-A Z for help on special keys
+
+
+root@dm814x:~#
+ 
+root@dm814x:~#killall -9 xz_nvs_exe.bin
+ killall -9 xz_nvs_exe.bin
+root@dm814x:~# [xz_wdg_read]-271: retVal = 0 errno = 0, errstr = Success
+[wdg_cli_session_thr_cb]-386: wdg client:[8] select err[0] , tmpLen = -214643505[14;80H1[14;80H.[14;80H
+[wdg_cli_session_thr_cb]-387: errno 0 ,Success .
+[wdg_cli_session_thr_cb]-392: wdg client fd[8] close or err .
+[wdg_cli_session_thr_cb]-393: +++++++++++++wdg_cli_session_thr_cb,393will _exit [17;80Ht[17;80Hh[17;80He[17;80H [17;80Hs[17;80Hy[17;80Hs[17;80Ht[17;80He[17;80Hm[17;80H+[17;80H+[17;80H+[17;80H+[17;80H+[17;80H+[17;80H+[17;80H+[17;80H+[17;80H+[17;80H+[17;80H+[17;80H+[17;80H
+[wdg_cli_session_thr_cb]-448: +++++++++++++++++++++++wdg_cli_session_thr_cb,448+[18;80H+[18;80H+[18;80H+[18;80H+[18;80H+[18;80H+[18;80H+[18;80H+[18;80H+[18;80H+[18;80H+[18;80H+[18;80H+[18;80H+[18;80H+[18;80H+[18;80H+[18;80H+[18;80H+[18;80H+[18;80H+[18;80H+[18;80H+[18;80H
+[wdg_cli_session_thr_cb]-452: +++++++++++++wdg_cli_session_thr_cb,452will _exit [19;80Ht[19;80Hh[19;80He[19;80H [19;80Hs[19;80Hy[19;80Hs[19;80Ht[19;80He[19;80Hm[19;80H+[19;80H+[19;80H+[19;80H+[19;80H+[19;80H+[19;80H+[19;80H+[19;80H+[19;80H+[19;80H+[19;80H+[19;80H+[19;80H
+
+
+U-Boot 2010.06 (Jun 13 2016 - 16:57:23)
+
+TI8148-GP rev 1.0
+[23;80H [24;1H
+[23;80H [24;1HDRAM:  1 GiB
+[23;80H [24;1HNAND:  HW ECC BCH8 Selected
+[23;80H [24;1H256 MiB
+[23;80H [24;1HUsing default environment
+[23;80H [24;1H
+[23;80H [24;1HThe 2nd stage U-Boot will now be auto-loaded
+[23;80H [24;1HPlease do not interrupt the countdown till TI8148_EVM prompt if 2nd stage is al[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80Hd[24;1HEricDebug uboot WDT timeout is 600 seconds 
+[23;80H [24;1HHit any key to stop autoboot:  1  0 
+[23;80H [24;1H
+[23;80H [24;1HNAND read: device 0 offset 0x20000, size 0x40000
+[23;80H [24;1H 262144 bytes read: OK
+[23;80H [24;1H## Starting application at 0x81000000 ...
+[23;80H [24;1H
+[23;80H [24;1H
+[23;80H [24;1HU-Boot 2010.06 (Jun 13 2016 - 16:57:50)
+[23;80H [24;1H
+[23;80H [24;1HTI8148-GP rev 1.0
+[23;80H [24;1H
+[23;80H [24;1HI2C:   ready
+[23;80H [24;1HDRAM:  1 GiB
+[23;80H [24;1HNAND:  HW ECC BCH8 Selected
+[23;80H [24;1H256 MiB
+[23;80H [24;1HMMC:   OMAP SD/MMC: 0
+[23;80H [24;1H                          .:;rrr;;.                   
+[23;80H [24;1H                    ,5#@@@@#####@@@@@@#2,             
+[23;80H [24;1H                 ,A@@@hi;;;r5;;;;r;rrSG@@@A,          
+[23;80H [24;1H               r@@#i;:;s222hG;rrsrrrrrr;ri#@@r        
+[23;80H [24;1H             :@@hr:r;SG3ssrr2r;rrsrsrsrsrr;rh@@:      
+[23;80H [24;1H            B@H;;rr;3Hs;rrr;sr;;rrsrsrsrsrsr;;H@B     
+[23;80H [24;1H           @@s:rrs;5#;;rrrr;r#@H:;;rrsrsrsrsrr:s@@    
+[23;80H [24;1H          @@;;srs&X#9;r;r;;,2@@@rrr:;;rrsrsrsrr;;@@   
+[23;80H [24;1H         @@;;rrsrrs@MB#@@@@@###@@@@@@#rsrsrsrsrr;;@@  
+[23;80H [24;1H        G@r;rrsrsr;#X;SX25Ss#@@#M@#9H9rrsrsrsrsrs;r@G 
+[23;80H [24;1H        @9:srsrsrs;2@;:;;:.X@@@@@H::;rrsrsrsrsrsrr:3@ 
+[23;80H [24;1H       X@;rrsrsrsrr;XAi;;:&@@#@Bs:rrsrsrsrsrsrsrsrr;@X
+[23;80H [24;1H       @#;rsrsrsrsrr;r2ir@@@###::rrsrsrsrsrsrsrsrsr:@@
+[23;80H [24;1H       @A:rrsrsrsrr;:2@29@@M@@@;:;rrrrsrsrsrsrsrsrs;H@
+[23;80H [24;1H       @&;rsrsrsrr;A@@@@@@###@@@s::;:;;rrsrsrsrsrsr;G@
+[23;80H [24;1H       @#:rrsrsrsr;G@5Hr25@@@#@@@#9XG9s:rrrrsrsrsrs:#@
+[23;80H [24;1H       M@;rsrsrsrs;r@&#;::S@@@@@@@M@@@@Grr:;rsrsrsr;@#
+[23;80H [24;1H       :@s;rsrsrsrr:M#Msrr;;&#@@@@@@@@@@H@@5;rsrsr;s@,
+[23;80H [24;1H        @@:rrsrsrsr;S@rrrsr;:;r3MH@@#@M5,S@@irrsrr:@@ 
+[23;80H [24;1H         @A:rrsrsrsrrrrrsrsrrr;::;@##@r:;rH@h;srr:H@  
+[23;80H [24;1H         ;@9:rrsrsrsrrrsrsrsrsr;,S@Hi@i:;s;MX;rr:h@;  
+[23;80H [24;1H          r@B:rrrrsrsrsrsrsrr;;sA@#i,i@h;r;S5;r:H@r   
+[23;80H [24;1H           ,@@r;rrrsrsrsrsrr;2BM3r:;r:G@:rrr;;r@@,    
+[23;80H [24;1H             B@Mr;rrrrsrsrsr@@S;;;rrr:5M;rr;rM@H      
+[23;80H [24;1H              .@@@i;;rrrrsrs2i;rrrrr;r@M:;i@@@.       
+[23;80H [24;1H                .A@@#5r;;;r;;;rrr;r:r#AsM@@H.         
+[23;80H [24;1H                   ;&@@@@MhXS5i5SX9B@@@@G;            
+[23;80H [24;1H                       :ihM#@@@@@##hs,                
+[23;80H [24;1H
+[23;80H [24;1HEricDebug uboot WDT timeout is 600 seconds 
+[23;80H [24;1HNet:   set mac addr : 8c:e6: 0:27:aa:44
+[23;80H [24;1Hset mac addr1 : 8d:e6: 0:27:aa:44
+[23;80H [24;1HDetected MACID:44:aa:27:0:e6:8c
+[23;80H [24;1Hcpsw
+[23;80H [24;1HHit any key to stop autoboot:
+
+  3  0 
+[23;80H [24;1HTI8148_EVM#setenv ipaddr 192.168.1.146
+
+[23;80H [24;1HTI8148_EVM#setenv ipaddr 192.168.1.146setenv gatewayip 192.168.1.9
+
+[23;80H [24;1HTI8148_EVM#setenv gatewayip 192.168.1.9setenv netmask 255.255.255.0
+
+[23;80H [24;1HTI8148_EVM#setenv netmask 255.255.255.0setenv serverip 192.168.1.9
+
+[23;80H [24;1HTI8148_EVM#setenv serverip 192.168.1.9setenv bootcmd 'nand read 0x81000000 0x00580000 0x300000; bootm 0x81000000';
+
+[23;80H [24;1HTI8148_EVM#setenv bootcmd 'nand read 0x81000000 0x00580000 0x300000; bootm 0x81[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80Hsetenv bootargs 'console=ttyO0,115200n8 noinitrd mem=128M rootwait=1 rw ubi.mtd=5,2048 rootfstype=ubifs root=ubi0:rootfs init=/init notifyk.vpssm3_sva=0xBFD00000 earlyprintk ddr_mem=512M vram=20M';
+
+[23;80H;[24;1HTI8148_EVM#setenv bootargs 'console=ttyO0,115200n8 noinitrd mem=128M rootwait=1[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80Hping 192.168.1.9
+
+[23;80H;[24;1HTI8148_EVM#ping 192.168.1.9
+[23;80H [24;1Hlink up on port 0, speed 100, full duplex
+[23;80H [24;1HUsing cpsw device
+[23;80H [24;1Hping failed; host 192.168.1.9 is not alive
+[23;80H [24;1HTI8148_EVM#

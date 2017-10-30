@@ -1,0 +1,282 @@
+
+Lockfile is stale. Overriding it..
+
+[!p[?3;4l[4l>[0m(B[?1h=[H[2J[?12l[?25h
+Welcome to minicom 2.7
+
+OPTIONS: I18n 
+Compiled on Jan  1 2014, 17:13:19.
+Port /dev/ttyUSB1, 13:41:28
+
+Press CTRL-A Z for help on special keys
+
+
+
+U-Boot 2010.06 (Jul 29 2016 - 10:17:06)
+
+CDXZRS-GP rev 1.0
+
+I2C:   ready
+DRAM:  2 GiB
+NAND:  HW ECC BCH8 Selected
+256 MiB
+MMC:   OMAP SD/MMC: 0
+:,;;:;:;;;;;;;;r;;:,;;:;:;;;;;;;;:,;;:;:;;;;;;;;:,;;:;:;;;;;;;;:;;;;;;;;:,;;:;:
+;,;:::;;;;r;;;rssiSiS552X5252525259GX2X9hX9X9XX2325S55252i5:,;;:;:;;;;;;;;:,;;:
+;:;;;;;;;rrssSsS52S22h52299GGAAMHMM#BBH#B#HMM#HMBA&&XX2255S2S5Si:,;;:;:;;;;;;;;
+;:;;r;;rsrrriiXS5S329&A&MH#BMB#A&9XXA252GXiSXX39AAMMMBB&G22S5i2SSiiiisi:,;;:;:;
+[23;80H [24;1H;;;;;r;rr2iisiih393HB#B#AA99i22irrrX3X52AGsisss2Xii2299HBMA&X2S5S5iSiisSsi:,;;:
+[23;80H [24;1Hr:r;rrsrsihXSi2&##MHB&Ahh3AGHGA9G9h&#H##@@@##MAMMXXX9SSS29&&HGGX2i5iisiiisisi:,
+[23;80H [24;1H;;rrrrsSiiiA&ABH&A9GAGhAhBAMHA9HM@@@@@@@@@@@@@@@@@@@HHhAh2S2SX9&Gh22SSiisiiisii
+[23;80H [24;1Hr:rrssisiS2XM##&h3AGAX&3GG3Ssr5H@M#HM2; ;2X&&&MHMB###GBB#B&XXSSs529XX55iSsisisi
+[23;80H [24;1Hr;rsrisSi2XHAhX99A3XXG&&XS;:,rH#HGhAS   @@@@3rs2XBM@@A552&&AHA2XiisSS252SSsisSs
+[23;80H [24;1Hr;issi5S22&&3iSSX292&hXsr;;:;h@&G339&S9@@@@2@MA&9&HB##Xris29ABMAAX2ir;rsSi5iss5
+[23;80H [24;1HrrsSi2XhG&9GXh399&X99i;;;;;;r#H&293H9X#@@@@@@@B&9GhAH@XrrsrsiXABHB&HG2rr;rrSiSi
+[23;80H [24;1H;:rsisS599&AA9XG&3A35r;:::;,;BMh&&2iX5A@@@@@@@&392X5GB2;;;r;iSX393A##A&Xi:::rsi
+[23;80H [24;1H;:rss552222X553&XHMhir;;::,:,h#HhGSXhG3#@@@@#AXXS2XAHA;::;;;;ss55XShBA3239r:,;;
+[23;80H [24;1Hr;ii2S5SSi2i53hirsh2srr::,,,,;MMXX359&Ah3h&Si59SX99A#i:,::::;;sri2,.2r;:SGAr;,:
+[23;80H [24;1H;:;rrrrssiriXGSi::shs;;;,,,:,,rBBA9h5s5h5iS5isi2SAHB5:,,,:::;rrs5&SrisSX5Srrr:,
+[23;80H [24;1H;,r;;;;rsriSSrrrr;;5Xrr;;,:,,.,;9AA2SsisS5323XXXG9&i:.,,::;;r;;;srrrrrr;;:;::::
+[23;80H [24;1H:,;r;r;rrissrrr;:;::;s;;;;,:,,..,r293h222hXXAAGGGX;:,,,:,:,::;:;::,:,,,,...,,,,
+[23;80H [24;1H;,;;;;rrrrrrrrirr;,.,,:::::::,,,,.,;SX&ABAB2hhXir:,,.,,.,,:,,,,..,,,..,..,,,..:
+[23;80H [24;1H:.:;:;;;:;;;;r;rrs;:.. ,,:::::,:,:,,.::rrsrr;;,,.......,..,....,,,,,,,...,.,,:,
+[23;80H [24;1H:.:::,::::::;;r;rrr;:.......,.,.,,:::,,...............,,::.,,,,:,::,,:,:,,,:,;:
+[23;80H [24;1H,.::,:,,,,,;;;;;;;;r;;::,..............................;;;:;::::,:::::::,:,:,,,
+[23;80H [24;1H: ,,:,,,,,,,,,,,,,:;rrr;;:;,,,,,,,::,.,.:.,.,;s,:;;;;:;:;;;;;::::,:::,:::,:,:,:
+[23;80H [24;1H,.,,,,,,,...,,.,,....................................:,............:,,,:,:,,,,,
+[23;80H [24;1H
+[23;80H [24;1HEricDebug uboot WDT timeout is 600 seconds 
+[23;80H [24;1HNet:   set mac addr : 1c:c9: 0:27:aa:44
+[23;80H [24;1Hset mac addr1 : 1d:c9: 0:27:aa:44
+[23;80H [24;1HEthernet PHY: GENERIC @ 0x01
+[23;80H [24;1Hreg 0x1B value = 9 
+[23;80H [24;1HDaVinci EMAC
+[23;80H [24;1HHit any key to stop autoboot:  1  0 
+[23;80H [24;1H
+[23;80H [24;1HNAND read: device 0 offset 0x580000, size 0x300000
+[23;80H [24;1H 3145728 bytes read: OK
+[23;80H [24;1H## Booting kernel from Legacy Image at 81000000 ...
+[23;80H [24;1H   Image Name:   Linux-2.6.37
+[23;80H [24;1H   Created:      2016-07-29   2:18:17 UTC
+[23;80H [24;1H   Image Type:   ARM Linux Kernel Image (uncompressed)
+[23;80H [24;1H   Data Size:    2351648 Bytes = 2.2 MiB
+[23;80H [24;1H   Load Address: c0008000
+[23;80H [24;1H   Entry Point:  c0008000
+[23;80H [24;1H   Verifying Checksum ... OK
+[23;80H [24;1H   Loading Kernel Image ... OK
+[23;80H [24;1HOK
+[23;80H [24;1H
+[23;80H [24;1HStarting kernel ...
+[23;80H [24;1H
+[23;80H [24;1HLinux version 2.6.37 (hsw@ubuntu) (gcc version 4.5.3 20110311 (prerelease) (GCC[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H6[24;1HCPU: ARMv7 Processor [413fc082] revision 2 (ARMv7), cr=10c53c7f
+[23;80H [24;1HCPU: VIPT nonaliasing data cache, VIPT aliasing instruction cache
+[23;80H [24;1HMachine: xzrs_ipnc
+[23;80H [24;1Hvram size = 20971520 at 0x0
+[23;80H [24;1Hti81xx_reserve: ### Reserved DDR region @dff00000
+[23;80H [24;1Hreserved size = 20971520 at 0x0
+[23;80H [24;1HFB: Reserving 20971520 bytes SDRAM for VRAM
+[23;80H [24;1HMemory policy: ECC disabled, Data cache writeback
+[23;80H [24;1HOMAP chip is TI8168 2.1
+[23;80H [24;1HBuilt 1 zonelists in Zone order, mobility grouping on.  Total pages: 124672
+[23;80H [24;1HKernel command line: mem=512M console=ttyO2,115200n8 rootwait=1 rw ubi.mtd=4,20[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80HM[24;1HPID hash table entries: 2048 (order: 1, 8192 bytes)
+[23;80H [24;1HDentry cache hash table entries: 65536 (order: 6, 262144 bytes)
+[23;80H [24;1HInode-cache hash table entries: 32768 (order: 5, 131072 bytes)
+[23;80H [24;1HMemory: 490MB 1MB = 491MB total
+[23;80H [24;1HMemory: 493200k/493200k available, 31088k reserved, 72704K highmem
+[23;80H [24;1HVirtual kernel memory layout:
+[23;80H [24;1H    vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+[23;80H [24;1H    fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+[23;80H [24;1H    DMA     : 0xffc00000 - 0xffe00000   (   2 MB)
+[23;80H [24;1H    vmalloc : 0xda800000 - 0xf8000000   ( 472 MB)
+[23;80H [24;1H    lowmem  : 0xc0000000 - 0xda400000   ( 420 MB)
+[23;80H [24;1H    pkmap   : 0xbfe00000 - 0xc0000000   (   2 MB)
+[23;80H [24;1H    modules : 0xbf000000 - 0xbfe00000   (  14 MB)
+[23;80H [24;1H      .init : 0xc0008000 - 0xc003c000   ( 208 kB)
+[23;80H [24;1H      .text : 0xc003c000 - 0xc0472000   (4312 kB)
+[23;80H [24;1H      .data : 0xc0472000 - 0xc04b5980   ( 271 kB)
+[23;80H [24;1HSLUB: Genslabs=11, HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+[23;80H [24;1HNR_IRQS:375
+[23;80H [24;1HIRQ: Found an INTC at 0xfa200000 (revision 5.0) with 128 interrupts
+[23;80H [24;1HTotal of 128 interrupts on 1 active controller
+[23;80H [24;1HGPMC revision 6.0
+[23;80H [24;1HTrying to install interrupt handler for IRQ368
+[23;80H [24;1HTrying to install interrupt handler for IRQ369
+[23;80H [24;1HTrying to install interrupt handler for IRQ370
+[23;80H [24;1HTrying to install interrupt handler for IRQ371
+[23;80H [24;1HTrying to install interrupt handler for IRQ372
+[23;80H [24;1HTrying to install interrupt handler for IRQ373
+[23;80H [24;1HTrying to install interrupt handler for IRQ374
+[23;80H [24;1HTrying to install type control for IRQ375
+[23;80H [24;1HTrying to set irq flags for IRQ375
+[23;80H [24;1HOMAP clockevent source: GPTIMER1 at 27000000 Hz
+[23;80H [24;1HConsole: colour dummy device 80x30
+[23;80H [24;1HCalibrating delay loop... 986.31 BogoMIPS (lpj=4931584)
+[23;80H [24;1Hpid_max: default: 32768 minimum: 301
+[23;80H [24;1HSecurity Framework initialized
+[23;80H [24;1HMount-cache hash table entries: 512
+[23;80H [24;1HCPU: Testing write buffer coherency: ok
+[23;80H [24;1Hdevtmpfs: initialized
+[23;80H [24;1HTI81XX: Map 0xdff00000 to 0xfe500000 for dram barrier
+[23;80H [24;1HTI81XX: Map 0x40300000 to 0xfe600000 for sram barrier
+[23;80H [24;1Homap_voltage_early_init: voltage driver support not added
+[23;80H [24;1Hregulator: core version 0.5
+[23;80H [24;1Hregulator: dummy: 
+[23;80H [24;1HNET: Registered protocol family 16
+[23;80H [24;1Homap_voltage_domain_lookup: Voltage driver init not yet happened.Faulting!
+[23;80H [24;1Homap_voltage_add_dev: VDD specified does not exist!
+[23;80H [24;1HOMAP GPIO hardware version 0.1
+[23;80H [24;1HOMAP GPIO hardware version 0.1
+[23;80H [24;1Homap_mux_init: Add partition: #1: core, flags: 0
+[23;80H [24;1H_omap_mux_get_by_name: Could not find signal i2c2_scl.i2c2_scl
+[23;80H [24;1H_omap_mux_get_by_name: Could not find signal i2c2_sda.i2c2_sda
+[23;80H [24;1Hpm_dbg_init: only OMAP3 supported
+[23;80H [24;1Hregistered ti81xx_vpss device
+[23;80H [24;1Hregistered ti81xx_vidout device
+[23;80H [24;1Hregistered ti81xx on-chip HDMI device
+[23;80H [24;1Hregistered ti81xx_fb device
+[23;80H [24;1HNSS Crypto DMA hardware revision 1.9 @ IRQ 116
+[23;80H [24;1Hbio: create slab <bio-0> at 0
+[23;80H [24;1HSCSI subsystem initialized
+[23;80H [24;1Homap_i2c omap_i2c.1: bus 1 rev4.0 at 100 kHz
+[23;80H [24;1Homap_i2c omap_i2c.2: bus 2 rev4.0 at 100 kHz
+[23;80H [24;1HSwitching to clocksource gp timer
+[23;80H [24;1HNET: Registered protocol family 2
+[23;80H [24;1HIP route cache hash table entries: 4096 (order: 2, 16384 bytes)
+[23;80H [24;1HTCP established hash table entries: 16384 (order: 5, 131072 bytes)
+[23;80H [24;1HTCP bind hash table entries: 16384 (order: 4, 65536 bytes)
+[23;80H [24;1HTCP: Hash tables configured (established 16384 bind 16384)
+[23;80H [24;1HTCP reno registered
+[23;80H [24;1HUDP hash table entries: 256 (order: 0, 4096 bytes)
+[23;80H [24;1HUDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+[23;80H [24;1HNET: Registered protocol family 1
+[23;80H [24;1HRPC: Registered udp transport module.
+[23;80H [24;1HRPC: Registered tcp transport module.
+[23;80H [24;1HRPC: Registered tcp NFSv4.1 backchannel transport module.
+[23;80H [24;1HNetWinder Floating Point Emulator V0.97 (double precision)
+[23;80H [24;1HPMU: registered new PMU device of type 0
+[23;80H [24;1Homap-iommu omap-iommu.0: ducati registered
+[23;80H [24;1Homap-iommu omap-iommu.1: sys registered
+[23;80H [24;1Hhighmem bounce pool size: 64 pages
+[23;80H [24;1HJFFS2 version 2.2. (NAND) ÂÂ© 2001-2006 Red Hat, Inc.
+[23;80H [24;1Hmsgmni has been set to 821
+[23;80H [24;1Halg: No test for stdrng (krng)
+[23;80H [24;1Hio scheduler noop registered
+[23;80H [24;1Hio scheduler deadline registered
+[23;80H [24;1Hio scheduler cfq registered (default)
+[23;80H [24;1Hnss_rng nss_rng: NSS Random Number Generator ver. 2.0
+[23;80H [24;1HSerial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+[23;80H [24;1Homap_uart.0: ttyO0 at MMIO 0x48020000 (irq = 72) is a OMAP UART0
+[23;80H [24;1Homap_uart.1: ttyO1 at MMIO 0x48022000 (irq = 73) is a OMAP UART1
+[23;80H [24;1Homap_uart.2: ttyO2 at MMIO 0x48024000 (irq = 74) is a OMAP UART2
+[23;80H [24;1Hconsole [ttyO2] enabled
+[23;80H [24;1Hbrd: module loaded
+[23;80H [24;1Hloop: module loaded
+[23;80H [24;1Homap2-nand driver initializing
+[23;80H [24;1HNAND device: Maf ID: 0xec, Chip ID: 0xda (Samsung, )
+[23;80H [24;1H erasesize: 0x20000, writesize: 2048, oobsize: 64
+[23;80H [24;1Homap2-nand: detected x8 NAND flash 
+[23;80H [24;1HCreating 6 MTD partitions on "omap2-nand.0":
+[23;80H [24;1H0x000000000000-0x000000240000 : "U-Boot"
+[23;80H [24;1H0x000000240000-0x000000280000 : "U-Boot Env"
+[23;80H [24;1H0x000000280000-0x000000580000 : "U-Boot Logo"
+[23;80H [24;1H0x000000580000-0x0000009c0000 : "Kernel"
+[23;80H [24;1H0x0000009c0000-0x00000d1e0000 : "File System"
+[23;80H [24;1H0x00000d1e0000-0x000010000000 : "Reserved"
+[23;80H [24;1HUBI: attaching mtd4 to ubi0
+[23;80H [24;1HUBI: physical eraseblock size:   131072 bytes (128 KiB)
+[23;80H [24;1HUBI: logical eraseblock size:    126976 bytes
+[23;80H [24;1HUBI: smallest flash I/O unit:    2048
+[23;80H [24;1HUBI: sub-page size:              512
+[23;80H [24;1HUBI: VID header offset:          2048 (aligned 2048)
+[23;80H [24;1HUBI: data offset:                4096
+[23;80H [24;1HUBI: max. sequence number:       2
+[23;80H [24;1HUBI: attached mtd4 to ubi0
+[23;80H [24;1HUBI: MTD device name:            "File System"
+[23;80H [24;1HUBI: MTD device size:            200 MiB
+[23;80H [24;1HUBI: number of good PEBs:        1601
+[23;80H [24;1HUBI: number of bad PEBs:         0
+[23;80H [24;1HUBI: number of corrupted PEBs:   0
+[23;80H [24;1HUBI: max. allowed volumes:       128
+[23;80H [24;1HUBI: wear-leveling threshold:    4096
+[23;80H [24;1HUBI: number of internal volumes: 1
+[23;80H [24;1HUBI: number of user volumes:     0
+[23;80H [24;1HUBI: available PEBs:             1581
+[23;80H [24;1HUBI: total number of reserved PEBs: 20
+[23;80H [24;1HUBI: number of PEBs reserved for bad PEB handling: 16
+[23;80H [24;1HUBI: max/mean erase counter: 2/1
+[23;80H [24;1HUBI: image sequence number:  -2025665042
+[23;80H [24;1HUBI: background thread "ubi_bgt0d" started, PID 39
+[23;80H [24;1Hdavinci_mdio davinci_mdio.0: davinci mdio revision 1.6
+[23;80H [24;1Hdavinci_mdio davinci_mdio.0: detected phy mask fffffffd
+[23;80H [24;1Hdavinci_mdio.0: probed
+[23;80H [24;1Hdavinci_mdio davinci_mdio.0: phy[1]: device 0:01, driver ET1011C
+[23;80H [24;1Hmice: PS/2 mouse device common for all mice
+[23;80H [24;1Hrtc-ds1307 1-0068: rtc core: registered ds1337 as rtc0
+[23;80H [24;1Homap_rtc omap_rtc: rtc core: registered omap_rtc as rtc1
+[23;80H [24;1Hi2c /dev entries driver
+[23;80H [24;1HLinux video capture interface: v2.00
+[23;80H [24;1HOMAP Watchdog Timer Rev 0x00: initial timeout 0 sec
+[23;80H [24;1Hnss_aes_mod_init: loading NSS AES driver
+[23;80H [24;1Hnss-aes nss-aes: NSS AES hw accel rev: 3.2 (context 0 @0x41140000)
+[23;80H [24;1Hnss-aes nss-aes: NSS AES hw accel rev: 3.2 (context 1 @0x41141000)
+[23;80H [24;1Hnss-aes nss-aes: NSS AES hw accel rev: 3.2 (context 2 @0x411a0000)
+[23;80H [24;1Hnss-aes nss-aes: NSS AES hw accel rev: 3.2 (context 3 @0x411a1000)
+[23;80H [24;1Hnss_aes_probe: probe() done
+[23;80H [24;1Hnss_des_mod_init: loading NSS DES driver
+[23;80H [24;1Hnss-des nss-des: NSS DES hw accel rev: 2.2 (context 0 @0x41160000)
+[23;80H [24;1Hnss-des nss-des: NSS DES hw accel rev: 2.2 (context 1 @0x41161000)
+[23;80H [24;1Hnss_des_probe: probe() done
+[23;80H [24;1Hnss_sham_mod_init: loading NSS SHA/MD5 driver
+[23;80H [24;1Hnss-sham nss-sham: NSS SHA/MD5 hw accel rev: 4.03 (context 0 @0x41100000)
+[23;80H [24;1Hnss-sham nss-sham: NSS SHA/MD5 hw accel rev: 4.03 (context 1 @0x41101000)
+[23;80H [24;1Hnss-sham nss-sham: NSS SHA/MD5 hw accel rev: 4.03 (context 2 @0x411c0000)
+[23;80H [24;1Hnss-sham nss-sham: NSS SHA/MD5 hw accel rev: 4.03 (context 3 @0x411c1000)
+[23;80H [24;1Hnss_sham_probe: probe() done
+[23;80H [24;1Hnotify_init : notify drivercreated  for  remote proc id 2 at physical Address 0[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H0[24;1Hoprofile: hardware counters not available
+[23;80H [24;1Hoprofile: using timer interrupt.
+[23;80H [24;1HTCP cubic registered
+[23;80H [24;1HNET: Registered protocol family 17
+[23;80H [24;1HVFP support v0.3: implementor 41 architecture 3 part 30 variant c rev 3
+[23;80H [24;1Homap_voltage_late_init: Voltage driver support not added
+[23;80H [24;1HPower Management for TI81XX.
+[23;80H [24;1Hrtc-ds1307 1-0068: setting system clock to 2016-08-23 13:43:38 UTC (1471959818)
+[23;80H [24;1Hmmc0: new high speed SDHC card at address 1234
+[23;80H [24;1Hmmcblk0: mmc0:1234 SA08G 7.21 GiB 
+[23;80H [24;1H mmcblk0: p1
+[23;80H [24;1Hdavinci_mdio davinci_mdio.0: resetting idled controller
+[23;80H [24;1HDaVinci EMAC: EricDebug Kernel EMAC add LED configure
+[23;80H [24;1HEricDebug  Kernel EMAC: davinci_mdio_write, 217, data = 0xffff
+[23;80H [24;1HDaVinci EMAC: EricDebug Kernel EMAC add LED configure ret= 0
+[23;80H [24;1Hnet eth0: attached PHY driver [ET1011C] (mii_bus:phy_addr=0:01, id=282f014)
+[23;80H [24;1HIP-Config: Guessing netmask 255.255.255.0
+[23;80H [24;1HIP-Config: Complete:
+[23;80H [24;1H     device=eth0, addr=192.168.1.146, mask=255.255.255.0, gw=255.255.255.255,
+[23;80H [24;1H     host=192.168.1.146, domain=, nis-domain=(none),
+[23;80H [24;1H     bootserver=255.255.255.255, rootserver=255.255.255.255, rootpath=
+[23;80H [24;1HVFS: Cannot open root device "ubi0:rootfs" or unknown-block(0,0)
+[23;80H [24;1HPlease append a correct "root=" boot option; here are the available partitions:
+[23;80H [24;1H1f00            2304 mtdblock0  (driver?)
+[23;80H [24;1H1f01             256 mtdblock1  (driver?)
+[23;80H [24;1H1f02            3072 mtdblock2  (driver?)
+[23;80H [24;1H1f03            4352 mtdblock3  (driver?)
+[23;80H [24;1H1f04          204928 mtdblock4  (driver?)
+[23;80H [24;1H1f05           47232 mtdblock5  (driver?)
+[23;80H [24;1Hb300         7563264 mmcblk0  driver: mmcblk
+[23;80H [24;1H  b301         7558582 mmcblk0p1 00000000-0000-0000-0000-000000000mmcblk0p1
+[23;80H [24;1HKernel panic - not syncing: VFS: Unable to mount root fs on unknown-block(0,0)
+[23;80H [24;1HBacktrace: 
+[23;80H [24;1H[<c0049fac>] (dump_backtrace+0x0/0x110) from [<c0354f44>] (dump_stack+0x18/0x1c[24;80H
+[23;80H)[24;1H r6:00008000 r5:d9c11000 r4:c04b6518 r3:60000013
+[23;80H [24;1H[<c0354f2c>] (dump_stack+0x0/0x1c) from [<c0354fa4>] (panic+0x5c/0x178)
+[23;80H [24;1H[<c0354f48>] (panic+0x0/0x178) from [<c0008f08>] (mount_block_root+0x1c4/0x204)
+[23;80H [24;1H r3:00000004 r2:00000000 r1:d9c3bf78 r0:c0400da5
+[23;80H [24;1H r7:c002bc5c
+[23;80H [24;1H[<c0008d44>] (mount_block_root+0x0/0x204) from [<c0009190>] (prepare_namespace+[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H)[24;1H[<c00090fc>] (prepare_namespace+0x0/0x1cc) from [<c0008af4>] (kernel_init+0x114[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H)[24;1H r5:c002b228 r4:c002b228
+[23;80H [24;1H[<c00089e0>] (kernel_init+0x0/0x154) from [<c006ffc8>] (do_exit+0x0/0x5d8)
+[23;80H [24;1H r5:c00089e0 r4:00000000
+[23;80H [24;1H

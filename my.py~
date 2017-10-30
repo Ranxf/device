@@ -1,0 +1,18 @@
+#! /usr/bin/python
+
+import xin300
+
+x = xin300.xin300()
+
+spawn_id = x.connect()
+#x.enter_uboot_mode()
+x.reset_to_uboot()
+#x.reset_to_system()
+def upgrade_firmware(ip,date):
+x.config_uboot_env("192.168.1.194")
+x.nand_scrub()
+x.write_uboot_bin("2015-4-27/xzrs_uboot.bin")
+x.config_uboot_env("192.168.1.194")
+x.write_kernel_bin("2015-4-27/xzrs_uimage.bin")
+x.write_fs_bin("2015-4-27/xzrs_fs.bin")
+x.reset_to_system()

@@ -1,0 +1,881 @@
+
+[!p[?3;4l[4l>[0m(B[?1h=[H[2J[?12l[?25h
+Welcome to minicom 2.7
+
+OPTIONS: I18n 
+Compiled on Jan  1 2014, 17:13:19.
+Port /dev/ttyUSB1, 10:28:16
+
+Press CTRL-A Z for help on special keys
+
+
+Loaded file ../firmware/dvr_rdk_fw_m3vpss_512M_128M.xem3 on slave procId 2.
+Started slave procId 2.
+After Ipc_loadcallback status [0x00000000]
+ [m3vpss ] [14;17HISS Freq  : 480 MHz
+After Ipc_startcallback status [0x00000000]
+Attached to slave procId 1.
+ [m3vpss ] ***** VPSS Firmware build time 09:52:39 May 26 2016  EDG gcc 3.0 mode[17;80H
+ [m3vpss ] ***** SYSTEM  : Frequency <ORG> - 200000000, <NEW> - 240000000
+ [m3vpss ] notify_attach  rtnVal  0
+ [m3vpss ] initProxyServer  rtnVal  0
+ [m3vpss ]  
+ [m3vpss ]  *** UTILS: CPU KHz = 480000 Khz ***
+ [m3vpss ]  
+ [m3vpss ]  44: SYSTEM  : System Common Init in progress !!!
+[23;80H [24;1H [m3vpss ]  44: SYSTEM: IPC init in progress !!!
+[23;80H [24;1H [m3vpss ]  44: SYSTEM: Attaching to [HOST] ... 
+[23;80H [24;1H [m3vpss ]  47: SYSTEM: Attaching to [HOST] ... SUCCESS !!!
+[23;80H [24;1HLoaded file ../firmware/dvr_rdk_fw_m3video_512M_128M.xem3 on slave procId 1.
+[23;80H [24;1HStarted slave procId 1.
+[23;80H [24;1HAfter Ipc_loadcallback status [0x00000000]
+[23;80H [24;1HAfter Ipc_startcallback status [0x00000000]
+[23;80H [24;1H [m3video] [24;17HISS Freq  : 480 MHz
+[23;80H [24;1H [m3video] ***** VIDEO Firmware build time 09:53:14 May 26 2016  EDG gcc 3.0 mo[24;80H[24;80H
+[23;80He[24;1H [m3video] ***** SYSTEM  : Frequency <ORG> - 200000000, <NEW> - 240000000
+[23;80H [24;1H [m3video]  
+[23;80H [24;1H [m3video]  *** UTILS: CPU KHz = 480000 Khz ***
+[23;80H [24;1H [m3video]  
+[23;80H [24;1H [m3video]  774: SYSTEM  : System Common Init in progress !!!
+[23;80H [24;1H [m3video]  774: SYSTEM: IPC init in progress !!!
+[23;80H [24;1H [m3video]  775: SYSTEM: Attaching to [HOST] ... 
+[23;80H [24;1H [m3video]  778: SYSTEM: Attaching to [HOST] ... SUCCESS !!!
+[23;80H [24;1HAttached to slave procId 0.
+[23;80H [24;1H [m3vpss ]  1046: SYSTEM: Attaching to [DSP] ... 
+[23;80H [24;1HLoaded file ../firmware/dvr_rdk_fw_c6xdsp_512M_128M.xe674 on slave procId 0.
+[23;80H [24;1HStarted slave procId 0.
+[23;80H [24;1HAfter Ipc_loadcallback status [0x00000000]
+[23;80H [24;1H [c6xdsp ] [24;17HDSP Freq  : 750 MHz
+[23;80H [24;1HAfter Ipc_startcallback status [0x00000000]
+[23;80H [24;1H [m3video]  1608: SYSTEM: Attaching to [DSP] ... SUCCESS !!!
+[23;80H [24;1H [m3vpss ]  1609: SYSTEM: Attaching to [DSP] ... SUCCESS !!!
+[23;80H [24;1H [c6xdsp ] ***** VIDEO Firmware build time 09:51:51 May 26 2016  EDG gcc 3.0 mo[24;80H[24;80H
+[23;80He[24;1H [m3video]  1610: SYSTEM: Attaching to [VPSS-M3] ... SUCCESS !!!
+[23;80H [24;1H [m3vpss ]  1610: SYSTEM: Attaching to [VIDEO-M3] ... SUCCESS !!!
+[23;80H [24;1H [c6xdsp ] *DMA: Module install successful, device major num = 250 
+[23;80H [24;1H**** SYSTEM  : FDRV: Module install successful
+[23;80H [24;1Hrequency <ORG> -DRV: Module built on May 24 2016 19:05:25 
+[23;80H [24;1H 500000000, <NEW> - 750000000
+[23;80H [24;1H [m3video]  1610: SYSTEM: Creating MsgQ Heap [IPC_MSGQ_MSG_HEAP_1] ...
+[23;80H [24;1H [m3vpss ]  1610: SYSTEM: Creating MsgQ Heap [IPC_MSGQ_MSG_HEAP_2] ...
+[23;80H [24;1H [c6xdsp ]  
+[23;80H [24;1H [m3video]  1611: SYSTEM: Creating MsgQ [VIDEO-M3_MSGQ] ...
+[23;80H [24;1H [m3vpss ]  1611: SYSTEM: Creating MsgQ [VPSS-M3_MSGQ] ...
+[23;80H [24;1H [c6xdsp ]  *** UTILS: CPU KHz = 750000 Khz ***
+[23;80H [24;1H [m3video]  1611: SYSTEM: Creating MsgQ [VIDEO-M3_ACK_MSGQ] ...
+[23;80H [24;1H [m3vpss ]  1611: SYSTEM: Creating MsgQ [VPSS-M3_ACK_MSGQ] ...
+[23;80H [24;1H [c6xdsp ]  
+[23;80H [24;1H [m3video]  1613: SYSTEM: Notify register to [HOST] line 0, event 15 ... 
+[23;80H [24;1H [m3vpss ]  1613: SYSTEM: Notify register to [HOST] line 0, event 15 ... 
+[23;80H [24;1H [c6xdsp ]  1: SYSTEM  : System Common Init in progress !!!
+[23;80H [24;1H [m3video]  1613: SYSTEM: Notify register to [DSP] line 0, event 15 ... 
+[23;80H [24;1H [m3vpss ]  1613: SYSTEM: Notify register to [DSP] line 0, event 15 ... 
+[23;80H [24;1H [c6xdsp ]  1: SYSTEM: IPC init in progress !!!
+[23;80H [24;1H [m3video]  1613: SYSTEM: Notify register to [VPSS-M3] line 0, event 15 ... 
+[23;80H [24;1H [m3vpss ]  1613: SYSTEM: Notify register to [VIDEO-M3] line 0, event 15 ... 
+[23;80H [24;1H [c6xdsp ]  1: SYSTEM: Attaching to [HOST] ... 
+[23;80H [24;1H [m3video]  1614: SYSTEM: IPC init DONE !!!
+[23;80H [24;1H [m3vpss ]  1613: SYSTEM: IPC init DONE !!!
+[23;80H [24;1H [c6xdsp ]  4: SYSTEM: Attaching to [HOST] ... SUCCESS !!!
+[23;80H [24;1H [m3video]  1621: MEM: Shared Region 2: Base = 0xb8000000, Length = 0x07000000 [24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H [24;1H [m3vpss ]  1621: MEM: Shared Region 2: Base = 0xb8000000, Length = 0x07000000 [24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H [24;1H [c6xdsp ]  6: SYSTEM: Attaching to [VIDEO-M3] ... SUCCESS !!!
+[23;80H [24;1H [m3video]  1621: MEM: Shared Region 1: Base = 0x88000000, Length = 0x05bfa000 [24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H [24;1H [m3vpss ]  1621: MEM: Shared Region 1: Base = 0x88000000, Length = 0x05bfa000 [24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H [24;1H [c6xdsp ]  7: SYSTEM: Attaching to [VPSS-M3] ... SUCCESS !!!
+[23;80H [24;1H [m3video]  1623: SYSTEM  : System Common Init Done !!!
+[23;80H [24;1H [m3vpss ]  1623: SYSTEM  : System Common Init Done !!!
+[23;80H [24;1H [c6xdsp ]  7: SYSTEM: Creating MsgQ Heap [IPC_MSGQ_MSG_HEAP_0] ...
+[23;80H [24;1H [m3video]  1623: SYSTEM  : System Video Init in progress !!!
+[23;80H [24;1H [m3vpss ]  1623: SYSTEM  : System VPSS Init in progress !!!
+[23;80H [24;1H [c6xdsp ]  7: SYSTEM: Creating MsgQ [DSP_MSGQ] ...
+[23;80H [24;1H [m3video]  1623: SYSTEM  : System Video Init Done !!!
+[23;80H [24;1H [c6xdsp ]  7: SYSTEM: Creating MsgQ [DSP_ACK_MSGQ] ...
+[23;80H [24;1H [m3video]  1624: SYSTEM: Creating ListMP [VIDEO-M3_IPC_OUT_0] in region 0 ...
+[23;80H [24;1H [c6xdsp ]  8: SYSTEM: Notify register to [HOST] line 0, event 15 ... 
+[23;80H [24;1H [m3video]  1624: SYSTEM: Creating ListMP [VIDEO-M3_IPC_IN_0] in region 0 ...
+[23;80H [24;1H [c6xdsp ]  8: SYSTEM: Notify register to [VIDEO-M3] line 0, event 15 ... 
+[23;80H [24;1H [m3video]  1625: SYSTEM: ListElem Shared Addr = 0xbf221b00
+[23;80H [24;1H [c6xdsp ]  8: SYSTEM: Notify register to [VPSS-M3] line 0, event 15 ... 
+[23;80H [24;1H [m3video]  1627: SYSTEM: Creating ListMP [VIDEO-M3_IPC_OUT_1] in region 0 ...
+[23;80H [24;1H [c6xdsp ]  8: SYSTEM: IPC init DONE !!!
+[23;80H [24;1H [c6xdsp ]  11: MEM: Shared Region 2: Base = 0xb8000000, Length = 0x07000000 (1[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H [24;1H [c6xdsp ]  11: MEM: Shared Region 1: Base = 0x88000000, Length = 0x05bfa000 (9[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H [24;1H [c6xdsp ]  11: SYSTEM  : System Common Init Done !!!
+[23;80H [24;1H [c6xdsp ]  10: SYSTEM  : System DSP Init in progress !!!
+[23;80H [24;1H [c6xdsp ]  11: SYSTEM  : RpeServer_init() done... Ret Val 0!!!
+[23;80H [24;1H [c6xdsp ]  15: SYSTEM: Creating ListMP [DSP_IPC_OUT_19] in region 0 ...
+[23;80H [24;1H [m3video]  1628: SYSTEM: Creating ListMP [VIDEO-M3_IPC_IN_1] in region 0 ...
+[23;80H [24;1H [c6xdsp ]  15: SYSTEM: Creating ListMP [DSP_IPC_IN_19] in region 0 ...
+[23;80H [24;1H [c6xdsp ]  15: SYSTEM: ListElem Shared Addr = 0xbf173e00
+[23;80H [24;1H [c6xdsp ]  16: SYSTEM: Creating ListMP [DSP_IPC_OUT_20] in region 0 ...
+[23;80H [24;1H [c6xdsp ]  16: SYSTEM: Creating ListMP [DSP_IPC_IN_20] in region 0 ...
+[23;80H [24;1H [c6xdsp ]  17: SYSTEM: ListElem Shared Addr = 0xbf199600
+[23;80H [24;1H [c6xdsp ]  17: SYSTEM: Creating ListMP [DSP_IPC_OUT_21] in region 0 ...
+[23;80H [24;1H [c6xdsp ]  18: SYSTEM: Creating ListMP [DSP_IPC_IN_21] in region 0 ...
+[23;80H [24;1H [m3video]  1628: SYSTEM: ListElem Shared Addr = 0xbf225000
+[23;80H [24;1H [c6xdsp ]  18: SYSTEM: ListElem Shared Addr = 0xbf1bee00
+[23;80H [24;1H [m3video]  1635: SYSTEM: Creating ListMP [VIDEO-M3_IPC_OUT_19] in region 0 ...
+[23;80H [24;1H [m3vpss ] === I2C0/2 Clk is active ===
+[23;80H [24;1H [c6xdsp ]  18: SYSTEM: Creating ListMP [DSP_IPC_OUT_24] in region 0 ...
+[23;80H [24;1H [m3video]  1635: SYSTEM: Creating ListMP [VIDEO-M3_IPC_IN_19] in region 0 ...
+[23;80H [24;1H [m3vpss ] PLATFORM: UNKNOWN CPU detected, defaulting to VPS_PLATFORM_CPU_REV_2[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H4[24;1H [c6xdsp ]  19: SYSTEM: Creating ListMP [DSP_IPC_IN_24] in region 0 ...
+[23;80H [24;1H [m3video]  1635: SYSTEM: ListElem Shared Addr = 0xbf228500
+[23;80H [24;1H [m3vpss ]  1647: SYSTEM: Creating ListMP [VPSS-M3_IPC_OUT_0] in region 0 ...
+[23;80H [24;1H [c6xdsp ]  19: SYSTEM: ListElem Shared Addr = 0xbf1e4600
+[23;80H [24;1H [m3video]  1638: SYSTEM: Creating ListMP [VIDEO-M3_IPC_OUT_20] in region 0 ...
+[23;80H [24;1H [m3vpss ]  1647: SYSTEM: Creating ListMP [VPSS-M3_IPC_IN_0] in region 0 ...
+[23;80H [24;1H [c6xdsp ] Remote Debug Shared Memory @ 0xbff00000
+[23;80H [24;1H [m3video] Remote Debug Shared Memory @ 0xbff10820
+[23;80H [24;1H [m3vpss ] Remote Debug Shared Memory @ 0xbff21040
+[23;80H [24;1H [c6xdsp ]  19: SYSTEM: Creating ListMP [DSP_IPC_OUT_25] in region 0 ...
+[23;80H [24;1H [m3video]  1639: SYSTEM: Creating ListMP [VIDEO-M3_IPC_IN_20] in region 0 ...
+[23;80H [24;1H [m3vpss ]  1647: SYSTEM: ListElem Shared Addr = 0xbf298d00
+[23;80H [24;1H [c6xdsp ]  20: SYSTEM: Creating ListMP [DSP_IPC_IN_25] in region 0 ...
+[23;80H [24;1H [m3video]  1639: SYSTEM: ListElem Shared Addr = 0xbf24dd00
+[23;80H [24;1H [m3vpss ]  1650: SYSTEM: Creating ListMP [VPSS-M3_IPC_OUT_1] in region 0 ...
+[23;80H [24;1H [c6xdsp ]  20: SYSTEM: ListElem Shared Addr = 0xbf203080
+[23;80H [24;1H [m3video]  1642: SYSTEM: Creating ListMP [VIDEO-M3_IPC_OUT_21] in region 0 ...
+[23;80H [24;1H [m3vpss ]  1650: SYSTEM: Creating ListMP [VPSS-M3_IPC_IN_1] in region 0 ...
+[23;80H [24;1H [c6xdsp ] !!WARNING.Resource already registered:2
+[23;80H [24;1H [c6xdsp ]  19: SYSTEM  : Initializing Links !!! 
+[23;80H [24;1H [m3video]  1642: SYSTEM: Creating ListMP [VIDEO-M3_IPC_IN_21] in region 0 ...
+[23;80H [24;1H [m3vpss ]  1651: SYSTEM: ListElem Shared Addr = 0xbf29c200
+[23;80H [24;1H [m3video]  1642: SYSTEM: ListElem Shared Addr = 0xbf273500
+[23;80H [24;1H [m3vpss ]  1668: SYSTEM: Creating ListMP [VPSS-M3_IPC_OUT_19] in region 0 ...
+[23;80H [24;1H [c6xdsp ]  20: SYSTEM  : FREE SPACE : System Heap      = 50310784 B, Mbx = 102[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H [24;1H [m3video]  1659: SYSTEM: Creating ListMP [VIDEO-M3_IPC_OUT_24] in region 0 ...
+[23;80H [24;1H [m3vpss ]  1669: SYSTEM: Creating ListMP [VPSS-M3_IPC_IN_19] in region 0 ...
+[23;80H [24;1H [m3video]  1660: SYSTEM: Creating ListMP [VIDEO-M3_IPC_IN_24] in region 0 ...
+[23;80H [24;1H [m3vpss ]  1669: SYSTEM: ListElem Shared Addr = 0xbf2dcc00
+[23;80H [24;1H [c6xdsp ]  22: SYSTEM  : Initializing Links ... DONE !!! 
+[23;80H [24;1H [m3video]  1660: SYSTEM: ListElem Shared Addr = 0xbf29f700
+[23;80H [24;1H [m3vpss ]  1672: SYSTEM: Creating ListMP [VPSS-M3_IPC_OUT_20] in region 0 ...
+[23;80H [24;1H [m3video]  1663: SYSTEM: Creating ListMP [VIDEO-M3_IPC_OUT_25] in region 0 ...
+[23;80H [24;1H [m3vpss ]  1672: SYSTEM: Creating ListMP [VPSS-M3_IPC_IN_20] in region 0 ...
+[23;80H [24;1H [c6xdsp ]  22: SYSTEM  : System DSP Init Done !!!
+[23;80H [24;1H [m3video]  1663: SYSTEM: Creating ListMP [VIDEO-M3_IPC_IN_25] in region 0 ...
+[23;80H [24;1H [m3vpss ]  1672: SYSTEM: ListElem Shared Addr = 0xbf302400
+[23;80H [24;1H [m3video]  1663: SYSTEM: ListElem Shared Addr = 0xbf2be180
+[23;80H [24;1H [m3vpss ]  1675: SYSTEM: Creating ListMP [VPSS-M3_IPC_OUT_21] in region 0 ...
+[23;80H [24;1H [m3video]  1665: HDVICP: Doing PRCM for IVAHD[0] ... 
+[23;80H [24;1H [m3vpss ]  1676: SYSTEM: Creating ListMP [VPSS-M3_IPC_IN_21] in region 0 ...
+[23;80H [24;1H [m3video]  1666: HDVICP: PRCM for IVAHD[0] ... DONE.
+[23;80H [24;1H [m3vpss ]  1676: SYSTEM: ListElem Shared Addr = 0xbf327c00
+[23;80H [24;1H [m3video]  1667: UTILS: DMA: HWI Create for INT62 !!!
+[23;80H [24;1H [m3vpss ]  1678: SYSTEM : HDVPSS Drivers Version: HDVPSS_01_00_01_37
+[23;80H [24;1H [m3video]  1667: SYSTEM  : ISS Init in progress !!!
+[23;80H [24;1H [m3vpss ]  1678: SYSTEM  : FVID2 Init in progress !!!
+[23;80H [24;1H [m3video]  1668: SYSTEM  : ISS Power-ON in progress !!!
+[23;80H [24;1H [m3video]  1677: SYSTEM  : ISS Power-ON in progress DONE !!!
+[23;80H [24;1H [m3video]  1678: SYSTEM  : ISS Init in progress DONE !!!
+[23;80H [24;1H [m3video]  1678: VCOP BOOST BIT is Set
+[23;80H [24;1H [m3video]  1678: SYSTEM  : VCOP Init in progress !!!
+[23;80H [24;1H [m3vpss ] Received character 's'
+[23;80H [24;1H [m3vpss ] TILER_STATS: CNT :8BIT
+[23;80H [24;1H [m3video]  1678: SYSTEM  : VCOP needs 172 B of memory !!!
+[23;80H [24;1H [m3video]  1680: SYSTEM  : VCOP Init in progress DONE !!!
+[23;80H [24;1H [m3vpss ] TILER_STATS: CNT RESOLUTION:    16384 x 2688
+[23;80H [24;1H [m3video]  1680: SYSTEM  : Initializing Links !!! 
+[23;80H [24;1H [m3vpss ] TILER_STATS: BUCKET RESOLUTION: 16384 x 2684
+[23;80H [24;1H [m3video]  1680: SYSTEM  : FREE SPACE : System Heap      = 6263296 B, Mbx = 10[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H [24;1H [m3vpss ] TILER_STATS: NUM FREE BUCKETS:  1
+[23;80H [24;1H [m3video]  1680: SYSTEM  : FREE SPACE : SR0 Heap         = 5714432 B (5 MB) 
+[23;80H [24;1H [m3vpss ] TILER_STATS: NUM USED BUCKETS:  0
+[23;80H [24;1H [m3video[module] vpss probe done.
+[23;80H [24;1H]  1680: SYSTEM  : FREE SPACE : Frame Buffer     = 117440384 B (111 MB) 
+[23;80H [24;1H [m3vpss ] TILER_STATS: TOTAL FREE AREA:   43974656 (99 %)
+[23;80H [24;1H [m3video]  1680: SYSTEM  : FREE SPACE : Bitstream Buffer = 96444288 B (91 MB) 
+[23;80H [24;1H [m3vpss ] TILER_STATS: TOTAL USED AREA:   0 (0 %)
+[23;80H [24;1H [m3video]  1680: SYS[module] ti81xxfb probe done.
+[23;80H [24;1HTEM: Opening MsgQ [VPSS-M3_MSGQ] ...
+[23;80H [24;1H [m3video]  1683: SYSTEM  : FREE SPACE : Tiler 8-bit      = 43974656 B (41 MB) [24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H [24;1H [c6xdsp ] Remote Debug Shared Memory @ 0xbff00000
+[23;80H [24;1H [m3video] Remote Debug Shared Memory @ 0xbff10820
+[23;80H [24;1H [m3vpss ] Remote Debug Shared Memory @ 0xbff21040
+[23;80H [24;1H HDMI W1 rev 4.0
+[23;80H [24;1H[m3video] ReceivHDMI CEC Spec version 1.2
+[23;80H [24;1Hed character 's'
+[23;80H [24;1H [m3video]  1683: SYSTEM  : FREE SPACE : Tiler 16-bit     = 22020096 B (21 MB) [24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H [24;1H [c6xdsp ] Remote Debug Shared Memory @ 0xbff00000
+[23;80H [24;1H [m3video] Remote Debug Shared Memory @ 0xbff10820
+[23;80H [24;1H [m3vpss ] Remote Debug Shared Memory @ 0xbff21040
+[23;80H [24;1H [c6xdsp ] Received character 's'
+[23;80H [24;1H/opt/dvr_rdk/ti814x
+[23;80H [24;1H [m3video]  1743: SYSTEM  : Initializing Links ... DONE !!! 
+[23;80H [24;1H [m3vpss ] TILER_STATS: CNT :16BIT
+[23;80H [24;1H [m3vpss ] TILER_STATS: CNT RESOLUTION:    32768 x 672
+[23;80H [24;1H [m3vpss ] TILER_STATS: BUCKET RESOLUTION: 32768 x 672
+[23;80H [24;1H [m3vpss ] TILER_STATS: NUM FREE BUCKETS:  1
+[23;80H [24;1H [m3vpss ] TILER_STATS: NUM USED BUCKETS:  0
+[23;80H [24;1H [m3vpss ] TILER_STATS: TOTAL FREE AREA:   22020096 (100 %)
+[23;80H [24;1H [m3vpss ] TILER_STATS: TOTAL USED AREA:   0 (0 %)
+[23;80H [24;1H [m3vpss ] PLATFORM: UNKNOWN CPU detected, defaulting to VPS_PLATFORM_CPU_REV_2[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H4[24;1H [m3vpss ]  1760: SYSTEM  : FVID2 Init in progress DONE !!!
+[23;80H [24;1H [m3vpss ]  1760: SYSTEM  : Device Init in progress !!!
+[23;80H [24;1H [m3vpss ]  Vps_deviceInit Daughter card not detected/connected!
+[23;80H [24;1H [m3vpss ]                     
+[23;80H [24;1H [m3vpss ]  1929: SYSTEM  : Device Init in progress DONE !!!
+[23;80H [24;1H [m3vpss ] [24;17HHDVPSS Freq  : 220 MHz
+[23;80H [24;1H [m3vpss ]  1975: SYSTEM  : System VPSS Init Done !!!
+[23;80H [24;1H [m3vpss ]  1976: UTILS: DMA: HWI Create for INT63 !!!
+[23;80H [24;1H [m3vpss ]  1977: SYSTEM  : Initializing Links !!! 
+[23;80H [24;1H [m3vpss ]  1977: SYSTEM  : FREE SPACE : System Heap      = 249808 B, Mbx = 102[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H [24;1H [m3vpss ]  1977: SYSTEM  : FREE SPACE : SR0 Heap         = 5714432 B (5 MB) 
+[23;80H [24;1H [m3vpss ]  1977: SYSTEM  : FREE SPACE : Frame Buffer     = 113130368 B (107 MB[24;80H[24;80H
+[23;80H [24;1H [m3vpss ]  1977: SYSTEM  : FREE SPACE : Bitstream Buffer = 96444288 B (91 MB) 
+[23;80H [24;1H [m3vpss ] TILER_STATS: CNT :8BIT
+[23;80H [24;1H [m3vpss ] TILER_STATS: CNT RESOLUTION:    16384 x 2688
+[23;80H [24;1H [m3vpss ] TILER_STATS: BUCKET RESOLUTION: 16384 x 2684
+[23;80H [24;1H [m3vpss ] TILER_STATS: NUM FREE BUCKETS:  1
+[23;80H [24;1H [m3vpss ] TILER_STATS: NUM USED BUCKETS:  0
+[23;80H [24;1H [m3vpss ] TILER_STATS: TOTAL FREE AREA:   43974656 (99 %)
+[23;80H [24;1H [m3vpss ] TILER_STATS: TOTAL USED AREA:   0 (0 %)
+[23;80H [24;1H [m3vpss ] TILER_STATS: CNT :16BIT
+[23;80H [24;1H [m3vpss ] TILER_STATS: CNT RESOLUTION:    32768 x 672
+[23;80H [24;1H [m3vpss ] TILER_STATS: BUCKET RESOLUTION: 32768 x 672
+[23;80H [24;1HI2C No Ack
+[23;80H [24;1H
+[23;80H [24;1HHDMI failed to read E-EDID
+[23;80H [24;1H [m3vpss ] TILER_STATS: NUM FREE BUCKETS:  1
+[23;80H [24;1H [m3vpss ] TILER_STATS: NUM USED BUCKETS:  0
+[23;80H [24;1H [m3vpss ] TILER_STATS: TOTAL FREE AREA:   22020096 (100 %)
+[23;80H [24;1H [m3vpss ] TILER_STATS: TOTAL USED AREA:   0 (0 %)
+[23;80H [24;1H [m3vpss ]  1979: SYSTEM  : FREE SPACE : Tiler 8-bit      = 43974656 B (41 MB) [24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H [24;1H [m3vpss ]  1979: SYSTEM  : FREE SPACE : Tiler 16-bit     = 22020096 B (21 MB) [24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H [24;1H [m3vpss ]  2130: SYSTEM  : Initializing Links ... DONE !!! 
+[23;80H [24;1H [m3vpss ]  2130: SYSTEM  : Set Static L3 pressure for HDVPSS as High
+[23;80H [24;1H 
+[23;80H [24;1H ORG 0x46c00524: 0
+[23;80H [24;1H NEW 0x46c00524: 2
+[23;80H [24;1H 
+[23;80H [24;1H[msg_open]-66: Creat queue id:0
+[23;80H [24;32H[msg_open]-68: queue id:0
+[23;80H [24;57H----------------fopen u[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H-[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H8[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80Hs[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H0[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H1[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H [24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H6[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H0[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H9[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80HC[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H0[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H0[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H [24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H6[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H0[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H9[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80HC[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H0[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H0[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H0[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H [24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H0[24;80H
+[23;80H [24;1H _____                    _____           _         _   
+[23;80H [24;1H|  _  |___ ___ ___ ___   |  _  |___ ___  |_|___ ___| |_ 
+[23;80H [24;1H|     |  _| .'| . | . |  |   __|  _| . | | | -_|  _|  _|
+[23;80H [24;1H|__|__|_| |__,|_  |___|  |__|  |_| |___|_| |___|___|_|  
+[23;80H [24;1H              |___|                    |___|            
+[23;80H [24;1H
+[23;80H [24;1HArago Project http://arago-project.org dm814x ttyO0
+[23;80H [24;1H
+[23;80H [24;1HArago 2012.10 dm814x ttyO0
+[23;80H [24;1H
+[23;80H [24;1Hdm814x login: 
+
+[23;80H [24;1H _____                    _____           _         _   
+[23;80H [24;1H|  _  |___ ___ ___ ___   |  _  |___ ___  |_|___ ___| |_ 
+[23;80H [24;1H|     |  _| .'| . | . |  |   __|  _| . | | | -_|  _|  _|
+[23;80H [24;1H|__|__|_| |__,|_  |___|  |__|  |_| |___|_| |___|___|_|  
+[23;80H [24;1H              |___|                    |___|            
+[23;80H [24;1H
+[23;80H [24;1HArago Project http://arago-project.org dm814x ttyO0
+[23;80H [24;1H
+[23;80H [24;1HArago 2012.10 dm814x ttyO0
+[23;80H [24;1H
+[23;80H [24;1Hdm814x login: root
+root
+[23;80H [24;19HPassword: xzrsP@ssw0rd
+
+[23;80H [24;1H[system_monitor_run]-1033: Create system_monitor_thr_cb thread sucess .
+[23;80H [24;1H[xz_authorize_check]-503: **************check ret = 0 ****************
+[23;80H [24;1H[xz_authorize_check]-516: authorizeBuf.len = 66, authorizeBuf.message = 12b38eb[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H6[24;1Hroot@dm814x:~# 
+[xz_connect]-1739: xz_connect, 1739
+[23;80H [24;1H[create_wdg_server]-555: create_wdg_server, clientFd = 8
+[23;80H [24;1H[create_wdg_server]-556: -------wdg accept--------
+[23;80H [24;1H[create_wdg_server]-571: Data:accept clientFd:8 ,pos[0]succeed g_wdg_c_con_inf_[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H.[24;1H[create_wdg_server]-579: Create client thread sucess .
+[23;80H [24;1H[create_wdg_server]-596: 
+[23;80H [24;1HCurrent timeout value is : 30 seconds
+[23;80H [24;1H[create_wdg_server]-606: 
+[23;80H [24;1HNew timeout value is : 30 seconds[create_wdg_server]-614: 
+[23;80H [24;1HCurrent timeout value is : 30 seconds
+[23;80H [24;1H[send_sys_inf_to_wdg]-560: process path /opt/dvr_rdk/ti814x/xz_nvs_exe.bin
+[23;80H [24;1Hfile:{xz_system_monitor.c},func:[system_monitor_thr_cb],line:-787.
+[23;80H [24;1H[wdg_get_client_resp]-223: +++++++++++++++++++++++wdg_get_client_resp,223++++++[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H+[24;1H[wdg_get_client_resp]-234: proc path ,pid 621.
+[23;80H [24;1H
+[23;80H [24;1Hroot@dm814x:~# reboot
+reboot
+[23;80H [24;1H
+[23;80H [24;1HBroadcast message from root@dm814x (ttyO0) (Mon May 30 03:17:40 2016):
+[23;80H [24;1H
+[23;80H [24;1HThe system is going down for reboot NOW!
+[23;80H [24;1HINIT:DINIT: Sending processes the TERM signal
+[23;80H [24;1Hroot@dm814x:~# decodeBuf = D2050016A5C29B2341DFEF154F127468 ,serialBuf = D20500[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H [24;1H[xz_authorize_check]-559: **************check ret = 1 ****************
+[23;80H [24;1H1111111111111111111111111111111111111111111111111111111111111111111111111111111[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H [24;1Hfile:{xz_platform_gb_start.c},func:[xz_platform_gb_start],line:-209.
+[23;80H [24;1H[xz_priv_sdk_init]-626: xz_priv_sdk_init, 626 
+[23;80H [24;1H[xz_priv_sdk_init]-632: xz_priv_sdk_init, 632 
+[23;80H [24;1H[msg_open]-66: Creat queue id:32769
+[23;80H [24;1H[msg_open]-68: queue id:32769
+[23;80H [24;1H[xz_sdk_thread]-477: xz_sdk_thread, 477 
+[23;80H [24;1H[xz_sdk_thread]-503: xz_sdk_thread, 503 
+[23;80H [24;1H[xz_sdk_thread]-503: xz_sdk_thread, 503 
+[23;80H [24;1H[xz_sdk_thread]-503: xz_sdk_thread, 503 
+[23;80H [24;1H[xz_sdk_thread]-503: xz_sdk_thread, 503 
+[23;80H [24;1H[xz_sdk_thread]-515: xz_sdk_thread, 515 
+[23;80H [24;1H 0: SYSTEM: System Common Init in progress !!!
+[23;80H [24;1H 0: SYSTEM: IPC init in progress !!!
+[23;80H [24;1H 52: SYSTEM: CPU [DSP] syslink proc ID is [0] !!!
+[23;80H [24;1H 52: SYSTEM: CPU [VIDEO-M3] syslink proc ID is [1] !!!
+[23;80H [24;1H 52: SYSTEM: CPU [VPSS-M3] syslink proc ID is [2] !!!
+[23;80H [24;1H 52: SYSTEM: CPU [HOST] syslink proc ID is [3] !!!
+[23;80H [24;1H 55: SYSTEM: Creating MsgQ Heap [IPC_MSGQ_MSG_HEAP_3] ...
+[23;80H [24;1H 63: SYSTEM: Creating MsgQ [HOST_MSGQ] ...
+[23;80H [24;1H 65: SYSTEM: Creating MsgQ [HOST_ACK_MSGQ] ...
+[23;80H [24;1H 67: SYSTEM: Opening MsgQ [DSP_MSGQ] ...
+[23;80H [24;1H 67: SYSTEM: Opening MsgQ [VIDEO-M3_MSGQ] ...
+[23;80H [24;1H 67: SYSTEM: Opening MsgQ [VPSS-M3_MSGQ] ...
+[23;80H [24;1H 70: SYSTEM: Notify register to [DSP] line 0, event 15 ... 
+[23;80H [24;1H 72: SYSTEM: Notify register to [VIDEO-M3] line 0, event 15 ... 
+[23;80H [24;1H 72: SYSTEM: Notify register to [VPSS-M3] line 0, event 15 ... 
+[23;80H [24;1H 73: SYSTEM: IPC init DONE !!!
+[23;80H [24;1H 80: SYSTEM: Creating ListMP [HOST_IPC_OUT_24] in region 0 ...
+[23;80H [24;1H 81: SYSTEM: Creating ListMP [HOST_IPC_IN_24] in region 0 ...
+[23;80H [24;1H 83: SYSTEM: ListElem Shared Addr = 0x48a25680
+[23;80H [24;1H 84: SYSTEM: Creating ListMP [HOST_IPC_OUT_25] in region 0 ...
+[23;80H [24;1H 85: SYSTEM: Creating ListMP [HOST_IPC_IN_25] in region 0 ...
+[23;80H [24;1H 87: SYSTEM: ListElem Shared Addr = 0x48a5c480
+[23;80H [24;1H 90: SYSTEM: Creating ListMP [HOST_IPC_OUT_19] in region 0 ...
+[23;80H [24;1H 92: SYSTEM: Creating ListMP [HOST_IPC_IN_19] in region 0 ...
+[23;80H [24;1H 93: SYSTEM: ListElem Shared Addr = 0x48a93280
+[23;80H [24;1H 94: SYSTEM: Creating ListMP [HOST_IPC_OUT_20] in region 0 ...
+[23;80H [24;1H 96: SYSTEM: Creating ListMP [HOST_IPC_IN_20] in region 0 ...
+[23;80H [24;1H 97: SYSTEM: ListElem Shared Addr = 0x48ad6580
+[23;80H [24;1H 98: SYSTEM: Creating ListMP [HOST_IPC_OUT_21] in region 0 ...
+[23;80H [24;1H 100: SYSTEM: Creating ListMP [HOST_IPC_IN_21] in region 0 ...
+[23;80H [24;1H 101: SYSTEM: ListElem Shared Addr = 0x48b19880
+[23;80H [24;1H 121: SYSTEM: System Common Init Done !!!
+[23;80H [24;1HCreat queue id:65538
+[23;80H [24;1Hqueue id:65538
+[23;80H [24;1HStream Debug:  Init_Msg_Func 
+[23;80H [24;1HOpening connection to 192.168.1.65, port 554...
+[23;80H [24;1H
+[23;80H [24;1H [host] XZ_IPNC_WAC_IPC  Xzrs_IpncWacIpcCreateChain
+[23;80H [24;1H 206: MCFW  : CPU Revision [ES2.1] !!! 
+[23;80H [24;1H[HOST] 
+[23;80H [24;1HThreadName:IpcBitsOutLink_tskMain_30000018,ThreadID:655
+[23;80H [24;1H
+[23;80H [24;1H [host]  213: IPC_BITS_OUT   : Create in progress !!!
+[23;80H [24;1H
+[23;80H [24;1H [host] IPC_BITSOUT:BitBuffer Alloc.ChID:0,Size:0x9E3400
+[23;80H [24;1H [host] 
+[23;80H [24;1H******* RingBuf 0 created ********
+[23;80H [24;1H
+[23;80H [24;1H [host] IPCBITSOUTLINK:Translated Addr Virt:0x4b3d1b00 To Phy:0x8a40eb00
+[23;80H [24;1H [host] 
+[23;80H [24;1H###Bit buff of size from the SR # 1 : 10368000 / bufsize 2073600, maxQueueDepth[24;80H[24;80H[24;80H[24;80H
+[23;80H [24;1H
+[23;80H [24;1H [host] ###Bit buff BasePtr: 4B3D1B00 / PhyAddr 8A40EB00
+[23;80H [24;1H
+[23;80H [24;1H [host]  216: IPC_BITS_OUT   : Create Done !!!
+[23;80H [24;1H[HOST] 
+[23;80H [24;1HThreadName:IpcBitsOutLink_periodicTaskFxn_30000018,ThreadID:665
+[23;80H [24;1H [m3video]  9698: IPC_BITS_IN   : Create in progress !!!
+[23;80H [24;1H [m3video]  9698: SYSTEM: Opening ListMP [HOST_IPC_OUT_24] ...
+[23;80H [24;1H [m3video]  9698: SYSTEM: Opening ListMP [HOST_IPC_IN_24] ...
+[23;80H [24;1H [m3video]  9699: SYSTEM: Opening MsgQ [HOST_MSGQ] ...
+[23;80H [24;1H [m3video]  9701: IPC_BITS_IN   : Create Done !!!
+[23;80H [24;1H [m3video]  9702: DECODE: Create in progress ... !!!
+[23;80H [24;1H [m3video] DECLINK_H264:HEAPID:0[24;41HUSED:4264
+[23;80H [24;1H [m3video] DECLINK_H264:HEAPID:3[24;41HUSED:8937472
+[23;80H [24;1H [m3video]  9829: DECODE: Creating CH0 of 1920 x 1080 [PROGRESSIVE] [NON-TILED [24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H [24;1H [m3vpss ]  9836: IPC_IN_M3   : Create in progress !!!
+[23;80H [24;1H [m3video]  9831: DECODE: All CH Create ... DONE !!!
+[23;80H [24;1H [m3vpss ]  9836: SYSTEM: Opening ListMP [VIDEO-M3_IPC_OUT_0] ...
+[23;80H [24;1H [m3vpss ]  9837: SYSTEM: Opening ListMP [VIDEO-M3_IPC_IN_0] ...
+[23;80H [24;1H [m3vpss ]  9837: SYSTEM: Opening MsgQ [VIDEO-M3_MSGQ] ...
+[23;80H [24;1H [m3video] DECLINK:HEAPID:0[24;33HUSED:4304
+[23;80H [24;1H [m3video] DECLINK:HEAPID:3[24;33HUSED:23388160
+[23;80H [24;1H [m3video]  9834: DECODE: Create ... DONE !!!
+[23;80H [24;1H [m3video]  9835: IPC_OUT_M3   : Create in progress !!!
+[23;80H [24;1H [m3video]  9836: IPC_OUT_M3   : Create Done !!!
+[23;80H [24;1H [m3vpss ]  9840: IPC_IN_M3   : Create Done !!!
+[23;80H [24;1H [m3vpss ]  9844: DUP:  0: Format: PROGRESSIVE, 1920 x 1080
+[23;80H [24;1H [m3vpss ]  9846: DUP   : Create Done !!!
+[23;80H [24;1H [m3vpss ]  9846: DEI    : Create in progress !!!
+[23;80H [24;1H [m3vpss ] DEI: Ch 0, Outformat is PROGRESSIVE
+[23;80H [24;1H [m3vpss ]  9855: DEI: OUT1:  0: Format: PROGRESSIVE, 0xb9a6a480, 640 x 360, 4 [24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80Hs[24;1H [m3vpss ]  9856: DEI     : Loading Down-scaling Co-effs
+[23;80H [24;1H [m3vpss ]  9856: DEI     : Co-effs Loading ... DONE !!!
+[23;80H [24;1H [m3vpss ] DEI:HEAPID:0[24;25HUSED:64
+[23;80H [24;1H [m3vpss ] DEI:HEAPID:1[24;25HUSED:4528
+[23;80H [24;1H [m3vpss ] DEI:HEAPID:4[24;25HUSED:1382400
+[23;80H [24;1H [m3vpss ]  9857: DEI    : Create Done !!!
+[23;80H [24;1H [m3vpss ]  9857: DEI    : Create in progress !!!
+[23;80H [24;1H [m3vpss ] DEI: Ch 0, Outformat is PROGRESSIVE
+[23;80H [24;1H [m3vpss ]  9871: DEI: OUT1:  0: Format: PROGRESSIVE, 0xb9bbbc80, 704 x 576, 4 [24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80Hs[24;1H [m3vpss ]  9873: DEI     : Loading Down-scaling Co-effs
+[23;80H [24;1H [m3vpss ]  9873: DEI     : Co-effs Loading ... DONE !!!
+[23;80H [24;1H [m3vpss ] DEI:HEAPID:0[24;25HUSED:64
+[23;80H [24;1H [m3vpss ] DEI:HEAPID:1[24;25HUSED:4752
+[23;80H [24;1H [m3vpss ] DEI:HEAPID:4[24;25HUSED:2433024
+[23;80H [24;1H [m3vpss ]  9873: DEI    : Create Done !!!
+[23;80H [24;1H [m3vpss ]  9874: DEI    : Create in progress !!!
+[23;80H [24;1H [m3vpss ] DEI: Ch 0, Outformat is PROGRESSIVE
+[23;80H [24;1H [c6xdsp ]  8345: IPC_FRAMES_IN   : Create in progress !!!
+[23;80H [24;1H [m3vpss ]  9942: DEI: OUT1:  0: Format: PROGRESSIVE, 0xb9e0dc80, 1920 x 1080, [24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80Hs[24;1H [c6xdsp ]  8345: SYSTEM: Opening ListMP [VPSS-M3_IPC_OUT_19] ...
+[23;80H [24;1H [m3vpss ]  9943: DEI     : Loading Down-scaling Co-effs
+[23;80H [24;1H [c6xdsp ]  8345: SYSTEM: Opening ListMP [VPSS-M3_IPC_IN_19] ...
+[23;80H [24;1H [m3vpss ]  9943: DEI     : Co-effs Loading ... DONE !!!
+[23;80H [24;1H [c6xdsp ]  8346: SYSTEM: Opening MsgQ [VPSS-M3_MSGQ] ...
+[23;80H [24;1H [m3vpss ] DEI:HEAPID:0[24;25HUSED:64
+[23;80H [24;1H [c6xdsp ] IPC_FRAMES_IN:HEAPID:0[24;41HUSED:304
+[23;80H [24;1H [m3vpss ] DEI:HEAPID:1[24;25HUSED:1232
+[23;80H [24;1H [c6xdsp ]  8348: IPC_FRAMES_IN   : Create Done !!!
+[23;80H [24;1H [m3vpss ] DEI:HEAPID:4[24;25HUSED:12441600
+[23;80H [24;1H [c6xdsp ]  8348: XZRSMOT : Create in progress !!!
+[23;80H [24;1H [m3vpss ]  9944: DEI    : Create Done !!!
+[23;80H [24;1H [c6xdsp ]  8348: XZRSMOT    : Algorithm Create in progress !!!
+[23;80H [24;1H [m3vpss ]  9944: IPC_FRAMES_OUT   : Create in progress !!!
+[23;80H [24;1H [c6xdsp ] XzrsMotLink_algCreate , calling DSKT2_createAlg ... 
+[23;80H [24;1H [c6xdsp ] MOTALG_XZRS_numAlloc
+[23;80H [24;1H [c6xdsp ] MOTALG_XZRS_alloc
+[23;80H [24;1H [m3vpss ]  9947: IPC_FRAMES_OUT   : Create Done !!!
+[23;80H [24;1H [c6xdsp ] MOTALG_XZRS_alloc, memTab[0].size = 8
+[23;80H [24;1H [c6xdsp ] MOTALG_XZRS_initObj
+[23;80H [24;1H [c6xdsp ] VIBE global memory needed : 13151744 bytes == 12843.5 Kbytes == 12.5[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80Hs[24;1H [c6xdsp ] VIBE tmp    memory needed : 267616 bytes == 261.3 Kbytes == 0.3 Mbyt[24;80H[24;80H
+[23;80Hs[24;1H [c6xdsp ] XzrsMotLink_algCreate , calling DSKT2_createAlg Done 
+[23;80H [24;1H [c6xdsp ]  8447: XZRSMOT    : Algorithm Create Done !!!
+[23;80H [24;1H [c6xdsp ]  8447: XZRSMOT :Start Create createOutObj  !!!
+[23;80H [24;1H [c6xdsp ]  8580: XZRSMOT : Create Done !!!
+[23;80H [24;1H [c6xdsp ]  8580: IPC_BITS_OUT   : Create in progress !!!
+[23;80H [24;1H
+[23;80H [24;1H [host] IpcBitsInLink_tskMain:Entered[HOST] 
+[23;80H [24;1HThreadName:IpcBitsInLink_tskMain_3000001a,ThreadID:653
+[23;80H [24;1H
+[23;80H [24;1H [host]  704: IPC_BITS_IN   : Create in progress !!!
+[23;80H [24;1H
+[23;80H [24;1H [host]  704: IPC_BITS_IN   : ListMPOpen start !!!
+[23;80H [24;1H
+[23;80H [24;1H [host]  704: SYSTEM: Opening ListMP [DSP_IPC_OUT_24] ...
+[23;80H [24;1H 705: SYSTEM: Opening ListMP [DSP_IPC_IN_24] ...
+[23;80H [24;1H
+[23;80H [24;1H [host]  707: IPC_BITS_IN   : ListMPOpen done !!!
+[23;80H [24;1H
+[23;80H [24;1H [host]  708: IPC_BITS_IN   : System_linkGetInfo done !!!
+[23;80H [24;1H
+[23;80H [24;1H [host]  708: IPC_BITS_IN   : Create Done !!!
+[23;80H [24;1H[HOST] 
+[23;80H [24;1HThreadName:IpcBitsInLink_periodicTaskFxn_3000001a,ThreadID:666
+[23;80H [24;1H [m3vpss ]  10190: MERGE:  0: Format: PROGRESSIVE, 1920 x 1080
+[23;80H [24;1H [m3vpss ]  10191: MERGE:  1: Format: PROGRESSIVE, 704 x 576
+[23;80H [24;1H [c6xdsp ]  8581: IPC_BITS_OUT   : Create Done !!!
+[23;80H [24;1H [m3vpss ]  10191: MERGE   : Create Done !!!
+[23;80H [24;1H [m3vpss ]  10191: IPC_FRAMES_OUT   : Create in progress !!!
+[23;80H [24;1H [c6xdsp ]  8592: IPC_FRAMES_IN   : Create in progress !!!
+[23;80H [24;1H [c6xdsp ]  8592: SYSTEM: Opening ListMP [VPSS-M3_IPC_OUT_20] ...
+[23;80H [24;1H [c6xdsp ]  8592: SYSTEM: Opening ListMP [VPSS-M3_IPC_IN_20] ...
+[23;80H [24;1H [m3vpss ]  10194: IPC_FRAMES_OUT   : Create Done !!!
+[23;80H [24;1H [m3video]  10209: IPC_IN_M3   : Create in progress !!!
+[23;80H [24;1H [m3vpss ]  10208: IPC_OUT_M3   : Create in progress !!!
+[23;80H [24;1H [c6xdsp ] IPC_FRAMES_IN:HEAPID:0[24;41HUSED:304
+[23;80H [24;1H [m3video]  10209: SYSTEM: Opening ListMP [VPSS-M3_IPC_OUT_0] ...
+[23;80H [24;1H [m3vpss ]  10209: IPC_OUT_M3   : Create Done !!!
+[23;80H [24;1H [c6xdsp ]  8594: IPC_FRAMES_IN   : Create Done !!!
+[23;80H [24;1H [m3video]  10210: SYSTEM: Opening ListMP [VPSS-M3_IPC_IN_0] ...
+[23;80H [24;1H [c6xdsp ] $$$$$$$$$$$$$$$$$$$$$$$$$$$$$XzrsOsdLink_tskMain, 2
+[23;80H [24;1H [m3video]  10213: IPC_IN_M3   : Create Done !!!
+[23;80H [24;1H [c6xdsp ]  8595: XZRSOSD : Create in progress !!!
+[23;80H [24;1H [m3video]  10213: ENCODE: Create in progress ... !!!
+[23;80H [24;1H [c6xdsp ]  8595: XZRSOSD    : Algorithm Create in progress !!!
+[23;80H [24;1H [c6xdsp ] OSDALG_XZRS_alloc, memTab[0].size = 8
+[23;80H [24;1H [c6xdsp ]  8605: XZRSOSD    : Algorithm Create Done !!!
+[23;80H [24;1H [c6xdsp ] XzrsOsdLink_create, pObj->memUsed[0] = 2098256,freeMemStart[0] = 282[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H4[24;1H [c6xdsp ] XzrsOsdLink_create, pObj->memUsed[1] = 0,freeMemStart[1] = 0
+[23;80H [24;1H [c6xdsp ] XzrsOsdLink_create, pObj->memUsed[2] = 0,freeMemStart[2] = 2129920
+[23;80H [24;1H [c6xdsp ] XzrsOsdLink_create, pObj->memUsed[3] = 0,freeMemStart[3] = 14717056
+[23;80H [24;1H [c6xdsp ] XzrsOsdLink_create, pObj->memUsed[4] = 0,freeMemStart[4] = 73485184
+[23;80H [24;1H [c6xdsp ]  8605: XZRSOSD : Create Done !!!
+[23;80H [24;1H [m3video]  10257: ENCODE: Creating CH0 of 1920 x 1080, pitch = (1920, 1920) [P[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H [24;1H
+[23;80H [24;1H [host] IpcBitsInLink_tskMain:Entered[HOST] 
+[23;80H [24;1HThreadName:IpcBitsInLink_tskMain_3000001b,ThreadID:654
+[23;80H [24;1H
+[23;80H [24;1H [host]  830: IPC_BITS_IN   : Create in progress !!!
+[23;80H [24;1H
+[23;80H [24;1H [host]  830: IPC_BITS_IN   : ListMPOpen start !!!
+[23;80H [24;1H
+[23;80H [24;1H [host]  830: SYSTEM: Opening ListMP [VIDEO-M3_IPC_OUT_24] ...
+[23;80H [24;1H 832: SYSTEM: Opening ListMP [VIDEO-M3_IPC_IN_24] ...
+[23;80H [24;1H
+[23;80H [24;1H [host]  833: IPC_BITS_IN   : ListMPOpen done !!!
+[23;80H [24;1H
+[23;80H [24;1H [host]  834: IPC_BITS_IN   : System_linkGetInfo done !!!
+[23;80H [24;1H
+[23;80H [24;1H [host]  835: IPC_BITS_IN   : Create Done !!!
+[23;80H [24;1H[HOST] 
+[23;80H [24;1HThreadName:IpcBitsInLink_periodicTaskFxn_3000001b,ThreadID:667
+[23;80H [24;1H
+[23;80H [24;1HVENC_FRAMERATE  Channel Selected: 0, frameRate = 25
+[23;80H [24;1H
+[23;80H [24;1HVENC_FRAMERATE  Channel Selected: 1, frameRate = 25
+[23;80H [24;1H [m3video] ENCLINK_H264:HEAPID:0[24;41HUSED:11912
+[23;80H [24;1H [m3video] ENCLINK_H264:HEAPID:3[24;41HUSED:7176192
+[23;80H [24;1H [m3video]  10297: ENCODE: Creating CH1 of 704 x 576, pitch = (704, 704) [PROGR[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H [24;1H [m3video] ENCLINK_H264:HEAPID:0[24;41HUSED:11912
+[23;80H [24;1H [m3video] ENCLINK_H264:HEAPID:3[24;41HUSED:1769472
+[23;80H [24;1H [m3video]  10308: ENCODE: All CH Create ... DONE !!!
+[23;80H [24;1H [m3video] ENCLINK:HEAPID:0[24;33HUSED:23864
+[23;80H [24;1H [m3video] ENCLINK:HEAPID:2[24;33HUSED:7464960
+[23;80H [24;1H [m3video] ENCLINK:HEAPID:3[24;33HUSED:8945664
+[23;80H [24;1H [m3video]  10309: ENCODE: Create ... DONE !!!
+[23;80H [24;1H [m3video]  10309: IPC_BITS_OUT   : Create in progress !!!
+[23;80H [24;1H [m3video]  10312: IPC_BITS_OUT   : Create Done !!!
+[23;80H [24;1H--------------------xz_load_blob  success ----------------
+[23;80H [24;1HrtspEnabledFlag = 1
+[23;80H [24;1HuserAuthenticationFlag = 0
+[23;80H [24;1Hhdport = 8551
+[23;80H [24;1Hsdport = 8552
+[23;80H [24;1HRTSP audio sampling Frequency = 16000
+[23;80H [24;1HEricDeug share_memory_init msg_type = 6
+[23;80H [24;1HNetraDrvInit: 6
+[23;80H [24;1HEricDeug share_memory_init msg_type = 2
+[23;80H [24;1HNetraDrvInit: 2
+[23;80H [24;1HEricDebug: GetPhyMem, qid = 65538
+[23;80H [24;1HCMEM_MMAP mmapMemAddr = 0x88001000, phy = 0x88001000 ,size = 29360128, memOffse[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H [24;1HInitializing...
+[23;80H [24;1HEricDebug: GetPhyMem, qid = 65538
+[23;80H [24;1H...done initializing 
+[23;80H [24;1HCMEM_MMAP mmapMemAddr = 0x88001000, phy = 0x88001000 ,size = 29360128, memOffse[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H [24;1HInitializing...
+[23;80H [24;1H...done initializing 
+[23;80H [24;1HPlay this stream using the URL:[24;33Hrtsp://192.168.1.186:8552/wac_sub
+[23;80H [24;1HPlay this stream using the URL:[24;33Hrtsp://192.168.1.186:8551/wac_main
+[23;80H [24;1HINIT: Stopping telnet daemon.
+[23;80H [24;1HStopping system message bus: dbus.
+[23;80H [24;1HStopping syslogd/klogd: stopped syslogd (pid 519)
+[23;80H [24;1Hstopped klogd (pid 521)
+[23;80H [24;1Hdone
+[23;80H [24;1HALSA: Storing mixer settings...
+[23;80H [24;1H/usr/sbin/alsactl: save_state:1580: No soundcards found...
+[23;80H [24;1H [c6xdsp ] 10822,XZRSMOT_LINK_CMD_SET_TRIPWIRE
+[23;80H [24;1H [c6xdsp ] OSDALG_XZRS_control  get mask data ,type = 0 
+[23;80H [24;1H [c6xdsp ] xz_enc_osd_algorithm_set_char_parameter, type_char = 0,width = 386,m[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H0[24;1H [c6xdsp ] OSDALG_XZRS_control  get mask data ,type = 7 
+[23;80H [24;1H [c6xdsp ] xz_enc_osd_algorithm_set_char_parameter, type_char = 7,width = 162,m[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H0[24;1HDeconfiguring network interfaces... done.
+[23;80H [24;1HSending all processes the TERM signal...
+[23;80H [24;1H[xz_sig_exit_cb]-14: Ctrl +C received---------------------------------
+[23;80H [24;1H[wdg_main_exit_cb]-59: wdg module, wdg_main_exit_cb , signo = 15,SIGINT = 2,SIG[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H5[24;1H[main]-187: +++++++++++++++++++++++main,187++++++++++++++++++++++++
+[23;80H [24;1H[main]-188: +++++++++++++++++++++++main,188++++++++++++++++++++++++
+[23;80H [24;1H[xz_release_watchdog_service]-678: +++++++++++++++++++++++xz_release_watchdog_s[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H+[24;1H[xz_sig_exit_cb]-14: Ctrl +C received---------------------------------
+[23;80H [24;1H[create_wdg_server]-618: +++++++++++++++++++++++create_wdg_server,618++++++++++[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H+[24;1H[main]-190: +++++++++++++++++++++++main,190++++++++++++++++++++++++
+[23;80H [24;1HSending all processes the KILL signal...
+[23;80H [24;1HUnmounting remote filesystems...
+[23;80H [24;1HDeactivating swap...
+[23;80H [24;1HUnmounting local filesystems...
+[23;80H [24;1HRebooting... Restarting system.
+[23;80H [24;1H
+[23;80H [24;1H
+[23;80H [24;1HU-Boot 2010.06 (Apr 26 2016 - 15:57:57)
+[23;80H [24;1H
+[23;80H [24;1HTI8148-GP rev 3.0
+[23;80H [24;1H
+[23;80H [24;1HL3 clk         : 200MHz
+[23;80H [24;1HIVA clk        : 410MHz
+[23;80H [24;1HISS clk        : 480MHz
+[23;80H [24;1HDSP clk        : 750MHz
+[23;80H [24;1HDSS clk        : 200MHz
+[23;80H [24;1HARM clk        : 720MHz
+[23;80H [24;1HDDR clk        : 480MHz
+[23;80H [24;1H
+[23;80H [24;1H------------ PLL Settings --------------
+[23;80H [24;1HOSC_0_FREQ    : 20MHz
+[23;80H [24;1H
+[23;80H [24;1HMODENA_N      : 1
+[23;80H [24;1HMODENA_M      : 72
+[23;80H [24;1HMODENA_M2     : 1
+[23;80H [24;1H
+[23;80H [24;1HL3_N          : 19
+[23;80H [24;1HL3_M          : 800
+[23;80H [24;1HL3_M2         : 4
+[23;80H [24;1H
+[23;80H [24;1HDSP_N         : 19
+[23;80H [24;1HDSP_M         : 750
+[23;80H [24;1HDSP_M2        : 1
+[23;80H [24;1H
+[23;80H [24;1HDSS_N         : 19
+[23;80H [24;1HDSS_M         : 800
+[23;80H [24;1HDSS_M2        : 4
+[23;80H [24;1H
+[23;80H [24;1HIVA_N         : 19
+[23;80H [24;1HIVA_M         : 820
+[23;80H [24;1HIVA_M2        : 2
+[23;80H [24;1H
+[23;80H [24;1HISS_N         : 19
+[23;80H [24;1HISS_M         : 960
+[23;80H [24;1HISS_M2        : 2
+[23;80H [24;1H
+[23;80H [24;1HUSB_N         : 19
+[23;80H [24;1HUSB_M         : 960
+[23;80H [24;1HUSB_M2        : 5
+[23;80H [24;1H
+[23;80H [24;1HDCO_HS2_MIN   : 500
+[23;80H [24;1HDCO_HS2_MAX   : 1000
+[23;80H [24;1HDCO_HS1_MIN   : 1000
+[23;80H [24;1HDCO_HS1_MAX   : 2000
+[23;80H [24;1HSELFREQDCO_HS2   : 2049
+[23;80H [24;1HSELFREQDCO_HS1   : 4097
+[23;80H [24;1H
+[23;80H [24;1H--------- DDR PLL ----------
+[23;80H [24;1HDDR_N             : 0x13
+[23;80H [24;1HDDR_M             : 0x3C0
+[23;80H [24;1HDDR_M2            : 0x2
+[23;80H [24;1H
+[23;80H [24;1H----------EMIF Timings (identical for 0 & 1)-------
+[23;80H [24;1HDDR3_EMIF_READ_LATENCY : 0x170209
+[23;80H [24;1HDDR3_EMIF_TIM1         : 0xAAAD4DB
+[23;80H [24;1HDDR3_EMIF_TIM2         : 0x682F7FDA
+[23;80H [24;1HDDR3_EMIF_TIM3         : 0x501F857F
+[23;80H [24;1HDDR3_EMIF_REF_CTRL     : 0xC30
+[23;80H [24;1HDDR3_EMIF_SDRAM_CONFIG : 0x61C011B2
+[23;80H [24;1HDDR3_EMIF_SDRAM_ZQCR   : 0x50074BE1
+[23;80H [24;1H
+[23;80H [24;1H----------SW LEVEL Info (EMIF 0) -------
+[23;80H [24;1HDDR3_PHY_RD_DQS_CS0_BYTE0: 0x00000038
+[23;80H [24;1HDDR3_PHY_RD_DQS_CS0_BYTE1: 0x00000037
+[23;80H [24;1HDDR3_PHY_RD_DQS_CS0_BYTE2: 0x00000032
+[23;80H [24;1HDDR3_PHY_RD_DQS_CS0_BYTE3: 0x00000031
+[23;80H [24;1H
+[23;80H [24;1HDDR3_PHY_WR_DQS_CS0_BYTE0: 0x00000043
+[23;80H [24;1HDDR3_PHY_WR_DQS_CS0_BYTE1: 0x00000044
+[23;80H [24;1HDDR3_PHY_WR_DQS_CS0_BYTE2: 0x00000053
+[23;80H [24;1HDDR3_PHY_WR_DQS_CS0_BYTE3: 0x00000050
+[23;80H [24;1H
+[23;80H [24;1HDDR3_PHY_RD_DQS_GATE_CS0_BYTE0: 0x000000E4
+[23;80H [24;1HDDR3_PHY_RD_DQS_GATE_CS0_BYTE1: 0x00000111
+[23;80H [24;1HDDR3_PHY_RD_DQS_GATE_CS0_BYTE2: 0x00000112
+[23;80H [24;1HDDR3_PHY_RD_DQS_GATE_CS0_BYTE3: 0x0000013D
+[23;80H [24;1H
+[23;80H [24;1HDDR3_PHY_WR_DATA_CS0_BYTE0: 0x00000085
+[23;80H [24;1HDDR3_PHY_WR_DATA_CS0_BYTE1: 0x00000083
+[23;80H [24;1HDDR3_PHY_WR_DATA_CS0_BYTE2: 0x00000085
+[23;80H [24;1HDDR3_PHY_WR_DATA_CS0_BYTE3: 0x0000007F
+[23;80H [24;1H
+[23;80H [24;1H----------SW LEVEL Info (EMIF 1) -------
+[23;80H [24;1HDDR3_PHY_RD_DQS_CS0_BYTE0: 0x0000003A
+[23;80H [24;1HDDR3_PHY_RD_DQS_CS0_BYTE1: 0x00000036
+[23;80H [24;1HDDR3_PHY_RD_DQS_CS0_BYTE2: 0x00000037
+[23;80H [24;1HDDR3_PHY_RD_DQS_CS0_BYTE3: 0x00000033
+[23;80H [24;1H
+[23;80H [24;1HDDR3_PHY_WR_DQS_CS0_BYTE0: 0x00000049
+[23;80H [24;1HDDR3_PHY_WR_DQS_CS0_BYTE1: 0x0000004E
+[23;80H [24;1HDDR3_PHY_WR_DQS_CS0_BYTE2: 0x00000054
+[23;80H [24;1HDDR3_PHY_WR_DQS_CS0_BYTE3: 0x00000050
+[23;80H [24;1H
+[23;80H [24;1HDDR3_PHY_RD_DQS_GATE_CS0_BYTE0: 0x000000D3
+[23;80H [24;1HDDR3_PHY_RD_DQS_GATE_CS0_BYTE1: 0x000000F7
+[23;80H [24;1HDDR3_PHY_RD_DQS_GATE_CS0_BYTE2: 0x00000109
+[23;80H [24;1HDDR3_PHY_RD_DQS_GATE_CS0_BYTE3: 0x00000135
+[23;80H [24;1H
+[23;80H [24;1HDDR3_PHY_WR_DATA_CS0_BYTE0: 0x0000008A
+[23;80H [24;1HDDR3_PHY_WR_DATA_CS0_BYTE1: 0x00000080
+[23;80H [24;1HDDR3_PHY_WR_DATA_CS0_BYTE2: 0x0000007F
+[23;80H [24;1HDDR3_PHY_WR_DATA_CS0_BYTE3: 0x00000085
+[23;80H [24;1H
+[23;80H [24;1HDRAM:  1 GiB
+[23;80H [24;1HNAND:  HW ECC BCH8 Selected
+[23;80H [24;1H256 MiB
+[23;80H [24;1HUsing default environment
+[23;80H [24;1H
+[23;80H [24;1HThe 2nd stage U-Boot will now be auto-loaded
+[23;80H [24;1HPlease do not interrupt the countdown till TI8148_EVM prompt if 2nd stage is al[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80Hd[24;1HHit any key to stop autoboot:  3  2  1  0 
+[23;80H [24;1H
+[23;80H [24;1HNAND read: device 0 offset 0x20000, size 0x40000
+[23;80H [24;1H 262144 bytes read: OK
+[23;80H [24;1H## Starting application at 0x81000000 ...
+[23;80H [24;1H
+[23;80H [24;1H
+[23;80H [24;1HU-Boot 2010.06 (May 26 2016 - 10:33:19)
+[23;80H [24;1H
+[23;80H [24;1HTI8148-GP rev 1.0
+[23;80H [24;1H
+[23;80H [24;1HI2C:   ready
+[23;80H [24;1HDRAM:  1 GiB
+[23;80H [24;1HNAND:  HW ECC BCH8 Selected
+[23;80H [24;1H256 MiB
+[23;80H [24;1HMMC:   OMAP SD/MMC: 0
+[23;80H [24;1H                          .:;rrr;;.                   
+[23;80H [24;1H                    ,5#@@@@#####@@@@@@#2,             
+[23;80H [24;1H                 ,A@@@hi;;;r5;;;;r;rrSG@@@A,          
+[23;80H [24;1H               r@@#i;:;s222hG;rrsrrrrrr;ri#@@r        
+[23;80H [24;1H             :@@hr:r;SG3ssrr2r;rrsrsrsrsrr;rh@@:      
+[23;80H [24;1H            B@H;;rr;3Hs;rrr;sr;;rrsrsrsrsrsr;;H@B     
+[23;80H [24;1H           @@s:rrs;5#;;rrrr;r#@H:;;rrsrsrsrsrr:s@@    
+[23;80H [24;1H          @@;;srs&X#9;r;r;;,2@@@rrr:;;rrsrsrsrr;;@@   
+[23;80H [24;1H         @@;;rrsrrs@MB#@@@@@###@@@@@@#rsrsrsrsrr;;@@  
+[23;80H [24;1H        G@r;rrsrsr;#X;SX25Ss#@@#M@#9H9rrsrsrsrsrs;r@G 
+[23;80H [24;1H        @9:srsrsrs;2@;:;;:.X@@@@@H::;rrsrsrsrsrsrr:3@ 
+[23;80H [24;1H       X@;rrsrsrsrr;XAi;;:&@@#@Bs:rrsrsrsrsrsrsrsrr;@X
+[23;80H [24;1H       @#;rsrsrsrsrr;r2ir@@@###::rrsrsrsrsrsrsrsrsr:@@
+[23;80H [24;1H       @A:rrsrsrsrr;:2@29@@M@@@;:;rrrrsrsrsrsrsrsrs;H@
+[23;80H [24;1H       @&;rsrsrsrr;A@@@@@@###@@@s::;:;;rrsrsrsrsrsr;G@
+[23;80H [24;1H       @#:rrsrsrsr;G@5Hr25@@@#@@@#9XG9s:rrrrsrsrsrs:#@
+[23;80H [24;1H       M@;rsrsrsrs;r@&#;::S@@@@@@@M@@@@Grr:;rsrsrsr;@#
+[23;80H [24;1H       :@s;rsrsrsrr:M#Msrr;;&#@@@@@@@@@@H@@5;rsrsr;s@,
+[23;80H [24;1H        @@:rrsrsrsr;S@rrrsr;:;r3MH@@#@M5,S@@irrsrr:@@ 
+[23;80H [24;1H         @A:rrsrsrsrrrrrsrsrrr;::;@##@r:;rH@h;srr:H@  
+[23;80H [24;1H         ;@9:rrsrsrsrrrsrsrsrsr;,S@Hi@i:;s;MX;rr:h@;  
+[23;80H [24;1H          r@B:rrrrsrsrsrsrsrr;;sA@#i,i@h;r;S5;r:H@r   
+[23;80H [24;1H           ,@@r;rrrsrsrsrsrr;2BM3r:;r:G@:rrr;;r@@,    
+[23;80H [24;1H             B@Mr;rrrrsrsrsr@@S;;;rrr:5M;rr;rM@H      
+[23;80H [24;1H              .@@@i;;rrrrsrs2i;rrrrr;r@M:;i@@@.       
+[23;80H [24;1H                .A@@#5r;;;r;;;rrr;r:r#AsM@@H.         
+[23;80H [24;1H                   ;&@@@@MhXS5i5SX9B@@@@G;            
+[23;80H [24;1H                       :ihM#@@@@@##hs,                
+[23;80H [24;1H
+[23;80H [24;1HEricDebug uboot WDT timeout is 600 seconds 
+[23;80H [24;1HNet:   set mac addr : 8c:e6: 0:27:aa:44
+[23;80H [24;1Hset mac addr1 : 8d:e6: 0:27:aa:44
+[23;80H [24;1HDetected MACID:44:aa:27:0:e6:8c
+[23;80H [24;1Hcpsw
+[23;80H [24;1HHit any key to stop autoboot:
+
+  1  0 
+[23;80H [24;1HTI8148_EVM#setenv ipaddr 192.168.1.146
+
+[23;80H [24;1HTI8148_EVM#setenv ipaddr 192.168.1.146setenv gatewayip 192.168.1.9
+
+[23;80H [24;1HTI8148_EVM#setenv gatewayip 192.168.1.9setenv netmask 255.255.255.0
+
+[23;80H [24;1HTI8148_EVM#setenv netmask 255.255.255.0setenv serverip 192.168.1.9
+
+[23;80H [24;1HTI8148_EVM#setenv serverip 192.168.1.9setenv bootcmd 'nand read 0x81000000 0x00580000 0x300000; bootm 0x81000000';
+
+[23;80H [24;1HTI8148_EVM#setenv bootcmd 'nand read 0x81000000 0x00580000 0x300000; bootm 0x81[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80Hsetenv bootargs 'console=ttyO0,115200n8 noinitrd mem=128M rootwait=1 rw ubi.mtd=5,2048 rootfstype=ubifs root=ubi0:rootfs init=/init notifyk.vpssm3_sva=0xBFD00000 earlyprintk ddr_mem=512M vram=20M';
+
+[23;80H;[24;1HTI8148_EVM#setenv bootargs 'console=ttyO0,115200n8 noinitrd mem=128M rootwait=1[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80Hping 192.168.1.9
+
+[23;80H;[24;1HTI8148_EVM#ping 192.168.1.9
+[23;80H [24;1Hlink up on port 0, speed 100, full duplex
+[23;80H [24;1HUsing cpsw device
+[23;80H [24;1Hhost 192.168.1.9 is alive
+[23;80H [24;1HTI8148_EVM#setenv 'noinitrd rw ubi.mtd'
+setenv 'noinitrd rw ubi.mtd'
+[23;80H [24;1HTI8148_EVM#setenv ip
+setenv ip
+[23;80H [24;1HTI8148_EVM#saveenv
+saveenv
+[23;80H [24;1HSaving Environment to NAND...
+[23;80H [24;1HErasing Nand...
+[23;80H [24;1HErasing at 0x260000 -- 100% complete.
+[23;80H [24;1HWriting to Nand... done
+[23;80H [24;1HTI8148_EVM#setenv ipaddr 192.168.1.146
+setenv ipaddr 192.168.1.146
+[23;80H [24;1HTI8148_EVM#setenv gatewayip 192.168.1.9
+setenv gatewayip 192.168.1.9
+[23;80H [24;1HTI8148_EVM#setenv netmask 255.255.255.0
+setenv netmask 255.255.255.0
+[23;80H [24;1HTI8148_EVM#setenv serverip 192.168.1.9
+setenv serverip 192.168.1.9
+[23;80H [24;1HTI8148_EVM#setenv bootcmd 'nand read 0x81000000 0x00580000 0x300000; bootm 0x81000000';
+setenv bootcmd 'nand read 0x81000000 0x00580000 0x300000; bootm 0x81[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H;[24;1HTI8148_EVM#setenv bootargs 'console=ttyO0,115200n8 noinitrd mem=128M rootwait=1 rw ubi.mtd=5,2048 rootfstype=ubifs root=ubi0:rootfs init=/init notifyk.vpssm3_sva=0xBFD00000 earlyprintk ddr_mem=512M vram=20M';
+setenv bootargs 'console=ttyO0,115200n8 noinitrd mem=128M rootwait=1[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H;[24;1HTI8148_EVM#ping 192.168.1.9
+ping 192.168.1.9
+[23;80H [24;1Hlink up on port 0, speed 100, full duplex
+[23;80H [24;1HUsing cpsw device
+[23;80H [24;1Hhost 192.168.1.9 is alive
+[23;80H [24;1HTI8148_EVM#setenv 'noinitrd rw ubi.mtd'
+setenv 'noinitrd rw ubi.mtd'
+[23;80H [24;1HTI8148_EVM#setenv ip
+setenv ip
+[23;80H [24;1HTI8148_EVM#saveenv
+saveenv
+[23;80H [24;1HSaving Environment to NAND...
+[23;80H [24;1HErasing Nand...
+[23;80H [24;1HErasing at 0x260000 -- 100% complete.
+[23;80H [24;1HWriting to Nand... done
+[23;80H [24;1HTI8148_EVM#ls
+ls
+[23;80H [24;1HUnknown command 'ls' - try 'help'
+[23;80H [24;1HTI8148_EVM#mw.b 0x81000000 0xFF 0x20000;
+mw.b 0x81000000 0xFF 0x20000;
+[23;80H [24;1HTI8148_EVM#nand erase 0x0 0x20000;
+nand erase 0x0 0x20000;
+[23;80H [24;1H
+[23;80H [24;1HNAND erase: device 0 offset 0x0, size 0x20000
+[23;80H [24;1HErasing at 0x0 -- 100% complete.
+[23;80H [24;1HOK
+[23;80H [24;1HTI8148_EVM#tftp 0x81000000 2016-5-26/dm8148/xzrs_uboot_nand_dm8148
+tftp 0x81000000 2016-5-26/dm8148/xzrs_uboot_nand_dm8148
+[23;80H [24;1Hlink up on port 0, speed 100, full duplex
+[23;80H [24;1HUsing cpsw device
+[23;80H [24;1HTFTP from server 192.168.1.9; our IP address is 192.168.1.146
+[23;80H [24;1HFilename '2016-5-26/dm8148/xzrs_uboot_nand_dm8148'.
+[23;80H [24;1HLoad address: 0x81000000
+[23;80H [24;1HLoading: *######################
+[23;80H [24;1Hdonenandecc hw 2
+
+[23;80H [24;1HBytes transferred = 110104 (0x1ae18)
+[23;80H [24;1HTI8148_EVM#nand write.i 0x81000000 0x0 0x20000
+nandecc hw 2
+[23;80H [24;1HHW ECC BCH8 Selected
+[23;80H [24;1HTI8148_EVM#nand write.i 0x81000000 0x0 0x20000
+[23;80H [24;1H
+[23;80H [24;1HNAND write: device 0 offset 0x0, size 0x20000
+[23;80H [24;1H 131072 bytes written: OKls
+
+[23;80H [24;1HTI8148_EVM#lsmw.b 0x81000000 0xFF 0x40000
+
+[23;80H [24;1HUnknown command 'ls' - try 'help'
+[23;80H [24;1HTI8148_EVM#mw.b 0x81000000 0xFF 0x40000nand erase 0x20000 0x60000;
+
+[23;80H [24;1HTI8148_EVM#nand erase 0x20000 0x60000;tftp 0x81000000 2016-5-26/dm8148/xzrs_uboot_dm8148
+
+[23;80H [24;1H
+[23;80H [24;1HNAND erase: device 0 offset 0x20000, size 0x60000
+[23;80H [24;1HErasing at 0x20000 --  33% complete.Erasing at 0x40000 --  66% complete.Erasing at 0x60000 -- 100% complete.
+[23;80H [24;1HOK
+[23;80H [24;1HTI8148_EVM#tftp 0x81000000 2016-5-26/dm8148/xzrs_uboot_dm8148
+[23;80H [24;1Hlink up on port 0, speed 100, full duplex
+[23;80H [24;1HUsing cpsw device
+[23;80H [24;1HTFTP from server 192.168.1.9; our IP address is 192.168.1.146
+[23;80H [24;1HFilename '2016-5-26/dm8148/xzrs_uboot_dm8148'.
+[23;80H [24;1HLoad address: 0x81000000
+[23;80H [24;1HLoading: *########################################
+[23;80H [24;1Hdonenandecc hw 2
+
+[23;80H [24;1HBytes transferred = 202180 (0x315c4)
+[23;80H [24;1HTI8148_EVM#nand write.i 0x81000000 0x60000;
+nandecc hw 2
+[23;80H [24;1HHW ECC BCH8 Selected
+[23;80H [24;1HTI8148_EVM#nand write.i 0x81000000 0x60000;
+[23;80H [24;1H
+[23;80H [24;1HNAND write: device 0 offset 0x60000, size 0xffa0000
+[23;80H [24;1H

@@ -1,0 +1,502 @@
+
+[!p[?3;4l[4l>[0m(B[?1h=[H[2J[?12l[?25h
+Welcome to minicom 2.7
+
+OPTIONS: I18n 
+Compiled on Jan  1 2014, 17:13:19.
+Port /dev/ttyUSB1, 11:16:24
+
+Press CTRL-A Z for help on special keys
+
+ 3145728 bytes read: OK
+## Booting kernel from Legacy Image at 81000000 ...
+   Image Name:   Linux-2.6.37
+   Created:      2015-07-13   5:38:35 UTC
+   Image Type:   ARM Linux Kernel Image (uncompressed)
+   Data Size:    2520876 Bytes = 2.4 MiB
+   Load Address: 80008000
+   Entry Point:  80008000
+   Verifying Checksum ... OK
+   Loading Kernel Image ... OK
+OK
+
+Starting kernel ...
+
+Uncompressing Linux... done, booting the kernel.
+[23;80H [24;1HLinux version 2.6.37 (mxf@ubuntu) (gcc version 4.5.3 20110311 (prerelease) (GCC[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H5[24;1HCPU: ARMv7 Processor [413fc082] revision 2 (ARMv7), cr=10c53c7f
+[23;80H [24;1HCPU: VIPT nonaliasing data cache, VIPT aliasing instruction cache
+[23;80H [24;1HMachine: ti8168evm
+[23;80H [24;1Hvram size = 20971520 at 0x0
+[23;80H [24;1Hti81xx_reserve: ### Reserved DDR region @8ff00000
+[23;80H [24;1Hreserved size = 20971520 at 0x0
+[23;80H [24;1HFB: Reserving 20971520 bytes SDRAM for VRAM
+[23;80H [24;1HMemory policy: ECC disabled, Data cache writeback
+[23;80H [24;1HOMAP chip is TI8168 2.1
+[23;80H [24;1HBuilt 1 zonelists in Zone order, mobility grouping on.  Total pages: 59648
+[23;80H [24;1HKernel command line: console=ttyO2,115200n8 noinitrd ip=192.168.1.198 mem=256M [24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80HM[24;1HPID hash table entries: 1024 (order: 0, 4096 bytes)
+[23;80H [24;1HDentry cache hash table entries: 32768 (order: 5, 131072 bytes)
+[23;80H [24;1HInode-cache hash table entries: 16384 (order: 4, 65536 bytes)
+[23;80H [24;1HMemory: 234MB 1MB = 235MB total
+[23;80H [24;1HMemory: 232936k/232936k available, 29208k reserved, 0K highmem
+[23;80H [24;1HVirtual kernel memory layout:
+[23;80H [24;1H    vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+[23;80H [24;1H    fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+[23;80H [24;1H    DMA     : 0xffc00000 - 0xffe00000   (   2 MB)
+[23;80H [24;1H    vmalloc : 0xd0800000 - 0xf8000000   ( 632 MB)
+[23;80H [24;1H    lowmem  : 0xc0000000 - 0xd0000000   ( 256 MB)
+[23;80H [24;1H    pkmap   : 0xbfe00000 - 0xc0000000   (   2 MB)
+[23;80H [24;1H    modules : 0xbf000000 - 0xbfe00000   (  14 MB)
+[23;80H [24;1H      .init : 0xc0008000 - 0xc003f000   ( 220 kB)
+[23;80H [24;1H      .text : 0xc003f000 - 0xc04c2000   (4620 kB)
+[23;80H [24;1H      .data : 0xc04c2000 - 0xc0510fc0   ( 316 kB)
+[23;80H [24;1HSLUB: Genslabs=11, HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+[23;80H [24;1HNR_IRQS:375
+[23;80H [24;1HIRQ: Found an INTC at 0xfa200000 (revision 5.0) with 128 interrupts
+[23;80H [24;1HTotal of 128 interrupts on 1 active controller
+[23;80H [24;1HGPMC revision 6.0
+[23;80H [24;1HTrying to install interrupt handler for IRQ368
+[23;80H [24;1HTrying to install interrupt handler for IRQ369
+[23;80H [24;1HTrying to install interrupt handler for IRQ370
+[23;80H [24;1HTrying to install interrupt handler for IRQ371
+[23;80H [24;1HTrying to install interrupt handler for IRQ372
+[23;80H [24;1HTrying to install interrupt handler for IRQ373
+[23;80H [24;1HTrying to install interrupt handler for IRQ374
+[23;80H [24;1HTrying to install type control for IRQ375
+[23;80H [24;1HTrying to set irq flags for IRQ375
+[23;80H [24;1HOMAP clockevent source: GPTIMER1 at 27000000 Hz
+[23;80H [24;1HConsole: colour dummy device 80x30
+[23;80H [24;1HCalibrating delay loop... 986.31 BogoMIPS (lpj=4931584)
+[23;80H [24;1Hpid_max: default: 32768 minimum: 301
+[23;80H [24;1HSecurity Framework initialized
+[23;80H [24;1HMount-cache hash table entries: 512
+[23;80H [24;1HCPU: Testing write buffer coherency: ok
+[23;80H [24;1Hdevtmpfs: initialized
+[23;80H [24;1HTI81XX: Map 0x8ff00000 to 0xfe500000 for dram barrier
+[23;80H [24;1HTI81XX: Map 0x40300000 to 0xfe600000 for sram barrier
+[23;80H [24;1Homap_voltage_early_init: voltage driver support not added
+[23;80H [24;1Hregulator: core version 0.5
+[23;80H [24;1Hregulator: dummy: 
+[23;80H [24;1HNET: Registered protocol family 16
+[23;80H [24;1Homap_voltage_domain_lookup: Voltage driver init not yet happened.Faulting!
+[23;80H [24;1Homap_voltage_add_dev: VDD specified does not exist!
+[23;80H [24;1HOMAP GPIO hardware version 0.1
+[23;80H [24;1HOMAP GPIO hardware version 0.1
+[23;80H [24;1Homap_mux_init: Add partition: #1: core, flags: 0
+[23;80H [24;1H_omap_mux_get_by_name: Could not find signal i2c2_scl.i2c2_scl
+[23;80H [24;1H_omap_mux_get_by_name: Could not find signal i2c2_sda.i2c2_sda
+[23;80H [24;1HNOR: Can't request GPMC CS
+[23;80H [24;1Hregistered ti816x_gpio_vr device
+[23;80H [24;1Hregistered ti816x_sr device
+[23;80H [24;1HCannot clk_get ck_32
+[23;80H [24;1Hpm_dbg_init: only OMAP3 supported
+[23;80H [24;1Hregistered ti81xx_vpss device
+[23;80H [24;1Hregistered ti81xx_vidout device
+[23;80H [24;1Hregistered ti81xx_fb device
+[23;80H [24;1Hregistered ti81xx_vin device
+[23;80H [24;1HNSS Crypto DMA hardware revision 1.9 @ IRQ 116
+[23;80H [24;1Hbio: create slab <bio-0> at 0
+[23;80H [24;1Hregulator: VFB: 800 <--> 1025 mV at 800 mV 
+[23;80H [24;1HSCSI subsystem initialized
+[23;80H [24;1Husbcore: registered new interface driver usbfs
+[23;80H [24;1Husbcore: registered new interface driver hub
+[23;80H [24;1Husbcore: registered new device driver usb
+[23;80H [24;1HUSBSS revision 4ea20809
+[23;80H [24;1Hregisterd cppi-dma Intr @ IRQ 17
+[23;80H [24;1HCppi41 Init Done
+[23;80H [24;1Homap_i2c omap_i2c.1: bus 1 rev4.0 at 100 kHz
+[23;80H [24;1HI2C: Read failed at pcf8575_cir_enable 673 with error code: -121
+[23;80H [24;1HI2C: Transfer failed at pcf8575_cir_enable 679 with error code: -121
+[23;80H [24;1Homap_i2c omap_i2c.2: bus 2 rev4.0 at 100 kHz
+[23;80H [24;1HAdvanced Linux Sound Architecture Driver Version 1.0.23.
+[23;80H [24;1HSwitching to clocksource gp timer
+[23;80H [24;1Hmusb-hdrc: version 6.0, host, debug=0
+[23;80H [24;1Hmusb-hdrc musb-hdrc.0: dma type: dma-cppi41
+[23;80H [24;1HMUSB controller-0 revision 4ea20800
+[23;80H [24;1Hmusb-hdrc musb-hdrc.0: MUSB HDRC host driver
+[23;80H [24;1Hmusb-hdrc musb-hdrc.0: new USB bus registered, assigned bus number 1
+[23;80H [24;1Husb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+[23;80H [24;1Husb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[23;80H [24;1Husb usb1: Product: MUSB HDRC host driver
+[23;80H [24;1Husb usb1: Manufacturer: Linux 2.6.37 musb-hcd
+[23;80H [24;1Husb usb1: SerialNumber: musb-hdrc.0
+[23;80H [24;1Hhub 1-0:1.0: USB hub found
+[23;80H [24;1Hhub 1-0:1.0: 1 port detected
+[23;80H [24;1Hmusb-hdrc musb-hdrc.0: USB Host mode controller at d081e000 using DMA, IRQ 18
+[23;80H [24;1Hmusb-hdrc musb-hdrc.1: dma type: dma-cppi41
+[23;80H [24;1HMUSB controller-1 revision 4ea20800
+[23;80H [24;1Hmusb-hdrc musb-hdrc.1: MUSB HDRC host driver
+[23;80H [24;1Hmusb-hdrc musb-hdrc.1: new USB bus registered, assigned bus number 2
+[23;80H [24;1Husb usb2: New USB device found, idVendor=1d6b, idProduct=0002
+[23;80H [24;1Husb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[23;80H [24;1Husb usb2: Product: MUSB HDRC host driver
+[23;80H [24;1Husb usb2: Manufacturer: Linux 2.6.37 musb-hcd
+[23;80H [24;1Husb usb2: SerialNumber: musb-hdrc.1
+[23;80H [24;1Hhub 2-0:1.0: USB hub found
+[23;80H [24;1Hhub 2-0:1.0: 1 port detected
+[23;80H [24;1Hmusb-hdrc musb-hdrc.1: USB Host mode controller at d082a800 using DMA, IRQ 19
+[23;80H [24;1HNET: Registered protocol family 2
+[23;80H [24;1HIP route cache hash table entries: 2048 (order: 1, 8192 bytes)
+[23;80H [24;1HTCP established hash table entries: 8192 (order: 4, 65536 bytes)
+[23;80H [24;1HTCP bind hash table entries: 8192 (order: 3, 32768 bytes)
+[23;80H [24;1HTCP: Hash tables configured (established 8192 bind 8192)
+[23;80H [24;1HTCP reno registered
+[23;80H [24;1HUDP hash table entries: 256 (order: 0, 4096 bytes)
+[23;80H [24;1HUDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+[23;80H [24;1HNET: Registered protocol family 1
+[23;80H [24;1HRPC: Registered udp transport module.
+[23;80H [24;1HRPC: Registered tcp transport module.
+[23;80H [24;1HRPC: Registered tcp NFSv4.1 backchannel transport module.
+[23;80H [24;1HNetWinder Floating Point Emulator V0.97 (double precision)
+[23;80H [24;1HPMU: registered new PMU device of type 0
+[23;80H [24;1Homap-iommu omap-iommu.0: ducati registered
+[23;80H [24;1Homap-iommu omap-iommu.1: sys registered
+[23;80H [24;1HJFFS2 version 2.2. (NAND) ÂÂ© 2001-2006 Red Hat, Inc.
+[23;80H [24;1Hmsgmni has been set to 454
+[23;80H [24;1Halg: No test for stdrng (krng)
+[23;80H [24;1Hio scheduler noop registered
+[23;80H [24;1Hio scheduler deadline registered
+[23;80H [24;1Hio scheduler cfq registered (default)
+[23;80H [24;1Hnss_rng nss_rng: NSS Random Number Generator ver. 2.0
+[23;80H [24;1HSerial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+[23;80H [24;1Homap_uart.0: ttyO0 at MMIO 0x48020000 (irq = 72) is a OMAP UART0
+[23;80H [24;1Homap_uart.1: ttyO1 at MMIO 0x48022000 (irq = 73) is a OMAP UART1
+[23;80H [24;1Homap_uart.2: ttyO2 at MMIO 0x48024000 (irq = 74) is a OMAP UART2
+[23;80H [24;1Hconsole [ttyO2] enabled
+[23;80H [24;1Hbrd: module loaded
+[23;80H [24;1Hloop: module loaded
+[23;80H [24;1Hm25p80 spi1.0: found m25p05-nonjedec, expected m25p80
+[23;80H [24;1Hm25p80 spi1.0: m25p05-nonjedec (64 Kbytes)
+[23;80H [24;1HCreating 4 MTD partitions on "spi_flash":
+[23;80H [24;1H0x000000000000-0x000000040000 : "U-Boot"
+[23;80H [24;1Hmtd: partition "U-Boot" extends beyond the end of device "spi_flash" -- size tr[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H0[24;1H0x000000010000-0x000000012000 : "U-Boot Env"
+[23;80H [24;1Hmtd: partition "U-Boot Env" is out of reach -- disabled
+[23;80H [24;1H0x000000000000-0x000000280000 : "Kernel"
+[23;80H [24;1Hmtd: partition "Kernel" extends beyond the end of device "spi_flash" -- size tr[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H0[24;1H0x000000010000-0x000000010000 : "File System"
+[23;80H [24;1Hmtd: partition "File System" is out of reach -- disabled
+[23;80H [24;1Homap2-nand driver initializing
+[23;80H [24;1HNAND device: Maf ID: 0xec, Chip ID: 0xda (Samsung, )
+[23;80H [24;1H erasesize: 0x20000, writesize: 2048, oobsize: 64
+[23;80H [24;1Homap2-nand: detected x8 NAND flash 
+[23;80H [24;1HCreating 6 MTD partitions on "omap2-nand.0":
+[23;80H [24;1H0x000000000000-0x000000260000 : "U-Boot"
+[23;80H [24;1H0x000000260000-0x000000280000 : "U-Boot Env"
+[23;80H [24;1H0x000000280000-0x000000580000 : "U-Boot Logo"
+[23;80H [24;1H0x000000580000-0x0000009c0000 : "Kernel"
+[23;80H [24;1H0x0000009c0000-0x00000d1e0000 : "File System"
+[23;80H [24;1H0x00000d1e0000-0x000010000000 : "Reserved"
+[23;80H [24;1HUBI: attaching mtd8 to ubi0
+[23;80H [24;1HUBI: physical eraseblock size:   131072 bytes (128 KiB)
+[23;80H [24;1HUBI: logical eraseblock size:    126976 bytes
+[23;80H [24;1HUBI: smallest flash I/O unit:    2048
+[23;80H [24;1HUBI: sub-page size:              512
+[23;80H [24;1HUBI: VID header offset:          2048 (aligned 2048)
+[23;80H [24;1HUBI: data offset:                4096
+[23;80H [24;1Hhub 2-0:1.0: over-current change on port 1
+[23;80H [24;1HUBI: max. sequence number:       343
+[23;80H [24;1HUBI warning: print_rsvd_warning: cannot reserve enough PEBs for bad PEB handlin[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H6[24;1HUBI: attached mtd8 to ubi0
+[23;80H [24;1HUBI: MTD device name:            "File System"
+[23;80H [24;1HUBI: MTD device size:            200 MiB
+[23;80H [24;1HUBI: number of good PEBs:        1601
+[23;80H [24;1HUBI: number of bad PEBs:         0
+[23;80H [24;1HUBI: number of corrupted PEBs:   0
+[23;80H [24;1HUBI: max. allowed volumes:       128
+[23;80H [24;1HUBI: wear-leveling threshold:    4096
+[23;80H [24;1HUBI: number of internal volumes: 1
+[23;80H [24;1HUBI: number of user volumes:     1
+[23;80H [24;1HUBI: available PEBs:             0
+[23;80H [24;1HUBI: total number of reserved PEBs: 1601
+[23;80H [24;1HUBI: number of PEBs reserved for bad PEB handling: 11
+[23;80H [24;1HUBI: max/mean erase counter: 2/0
+[23;80H [24;1HUBI: image sequence number:  1599854731
+[23;80H [24;1HUBI: background thread "ubi_bgt0d" started, PID 48
+[23;80H [24;1Hdavinci_mdio davinci_mdio.0: davinci mdio revision 1.6
+[23;80H [24;1Hdavinci_mdio davinci_mdio.0: detected phy mask fffffffd
+[23;80H [24;1Hdavinci_mdio.0: probed
+[23;80H [24;1Hdavinci_mdio davinci_mdio.0: phy[1]: device 0:01, driver unknown
+[23;80H [24;1Husbcore: registered new interface driver cdc_ether
+[23;80H [24;1Husbcore: registered new interface driver dm9601
+[23;80H [24;1HInitializing USB Mass Storage driver...
+[23;80H [24;1Husbcore: registered new interface driver usb-storage
+[23;80H [24;1HUSB Mass Storage support registered.
+[23;80H [24;1Hmice: PS/2 mouse device common for all mice
+[23;80H [24;1Hrtc-ds1307 1-0068: rtc core: registered ds1337 as rtc0
+[23;80H [24;1Homap_rtc omap_rtc: rtc core: registered omap_rtc as rtc1
+[23;80H [24;1Hi2c /dev entries driver
+[23;80H [24;1HLinux video capture interface: v2.00
+[23;80H [24;1Husbcore: registered new interface driver uvcvideo
+[23;80H [24;1HUSB Video Class driver (v1.0.0)
+[23;80H [24;1HOMAP Watchdog Timer Rev 0x00: initial timeout 60 sec
+[23;80H [24;1Hnss_aes_mod_init: loading NSS AES driver
+[23;80H [24;1Hnss-aes nss-aes: NSS AES hw accel rev: 3.2 (context 0 @0x41140000)
+[23;80H [24;1Hnss-aes nss-aes: NSS AES hw accel rev: 3.2 (context 1 @0x41141000)
+[23;80H [24;1Hnss-aes nss-aes: NSS AES hw accel rev: 3.2 (context 2 @0x411a0000)
+[23;80H [24;1Hnss-aes nss-aes: NSS AES hw accel rev: 3.2 (context 3 @0x411a1000)
+[23;80H [24;1Hnss_aes_probe: probe() done
+[23;80H [24;1Hnss_des_mod_init: loading NSS DES driver
+[23;80H [24;1Hnss-des nss-des: NSS DES hw accel rev: 2.2 (context 0 @0x41160000)
+[23;80H [24;1Hnss-des nss-des: NSS DES hw accel rev: 2.2 (context 1 @0x41161000)
+[23;80H [24;1Hnss_des_probe: probe() done
+[23;80H [24;1Hnss_sham_mod_init: loading NSS SHA/MD5 driver
+[23;80H [24;1Hnss-sham nss-sham: NSS SHA/MD5 hw accel rev: 4.03 (context 0 @0x41100000)
+[23;80H [24;1Hnss-sham nss-sham: NSS SHA/MD5 hw accel rev: 4.03 (context 1 @0x41101000)
+[23;80H [24;1Hnss-sham nss-sham: NSS SHA/MD5 hw accel rev: 4.03 (context 2 @0x411c0000)
+[23;80H [24;1Hnss-sham nss-sham: NSS SHA/MD5 hw accel rev: 4.03 (context 3 @0x411c1000)
+[23;80H [24;1Hnss_sham_probe: probe() done
+[23;80H [24;1Husbcore: registered new interface driver usbhid
+[23;80H [24;1Husbhid: USB HID core driver
+[23;80H [24;1Hnotify_init : notify drivercreated  for  remote proc id 2 at physical Address 0[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H0[24;1Husbcore: registered new interface driver snd-usb-audio
+[23;80H [24;1HRegistered tvp5158 audio codec
+[23;80H [24;1Hasoc: tvp5158-hifi <-> davinci-mcasp.0 mapping ok
+[23;80H [24;1Hasoc: tlv320aic3x-hifi <-> davinci-mcasp.2 mapping ok
+[23;80H [24;1Hasoc: HDMI-DAI-CODEC <-> hdmi-dai mapping ok
+[23;80H [24;1HALSA device list:
+[23;80H [24;1H  #0: TI81XX SOUND0
+[23;80H [24;1H  #1: TI81XX SOUND1
+[23;80H [24;1HTCP cubic registered
+[23;80H [24;1HNET: Registered protocol family 17
+[23;80H [24;1HVFP support v0.3: implementor 41 architecture 3 part 30 variant c rev 3
+[23;80H [24;1Homap_voltage_late_init: Voltage driver support not added
+[23;80H [24;1HPower Management for TI81XX.
+[23;80H [24;1Hsmartreflex smartreflex: Driver initialized
+[23;80H [24;1Hrtc-ds1307 1-0068: setting system clock to 2015-08-13 03:18:20 UTC (1439435900)
+[23;80H [24;1Hdavinci_mdio davinci_mdio.0: resetting idled controller
+[23;80H [24;1Hnet eth0: attached PHY driver [Generic PHY] (mii_bus:phy_addr=0:01, id=282f014)
+[23;80H [24;1HIP-Config: Guessing netmask 255.255.255.0
+[23;80H [24;1HIP-Config: Complete:
+[23;80H [24;1H     device=eth0, addr=192.168.1.198, mask=255.255.255.0, gw=255.255.255.255,
+[23;80H [24;1H     host=192.168.1.198, domain=, nis-domain=(none),
+[23;80H [24;1H     bootserver=255.255.255.255, rootserver=255.255.255.255, rootpath=
+[23;80H [24;1HUBIFS: recovery needed
+[23;80H [24;1HUBIFS: recovery completed
+[23;80H [24;1HUBIFS: mounted UBI device 0, volume 0, name "rootfs"
+[23;80H [24;1HUBIFS: file system size:   199225344 bytes (194556 KiB, 189 MiB, 1569 LEBs)
+[23;80H [24;1HUBIFS: journal size:       9023488 bytes (8812 KiB, 8 MiB, 72 LEBs)
+[23;80H [24;1HUBIFS: media format:       w4/r0 (latest is w4/r0)
+[23;80H [24;1HUBIFS: default compressor: lzo
+[23;80H [24;1HUBIFS: reserved for root:  0 bytes (0 KiB)
+[23;80H [24;1HVFS: Mounted root (ubifs filesystem) on device 0:15.
+[23;80H [24;1Hdevtmpfs: mounted
+[23;80H [24;1HFreeing init memory: 220K
+[23;80H [24;1HFailed to execute /init.  Attempting defaults...
+[23;80H [24;1HINIT: version 2.88 booting
+[23;80H [24;1H Mounting /dev/shm              :  Mounting /dev/pts          :  Mounting other[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80Hy[24;1H Mounting /dev/sda2              : mkdir: can't create directory '/media': File[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80Hs[24;1Hmkdir: can't create directory '/media/sda2': File exists
+[23;80H [24;1Hmount: mounting /dev/sda2 on /media/sda2 failed: No such file or directory
+[23;80H [24;1HSync command ...Error opening /dev/fb0: No such file or directory
+[23;80H [24;1HStarting udev
+[23;80H [24;1Hudev[112]: starting version 164
+[23;80H [24;1Hudevd-work[115]: error changing net interface name eth0 to eth5: Device or reso[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80Hy[24;1H
+[23;80H [24;1HPHY: 0:01 - Link is Up - 100/Full
+[23;80H [24;1HStarting Bootlog daemon: bootlogd.
+[23;80H [24;1HApplying sync command
+[23;80H [24;1H-------------------Start XZRS application-------------
+[23;80H [24;1H*** Bootargs Validated for mem param ***
+[23;80H [24;1H*** Bootargs Validated for notifyk.vpssm3 params ***
+[23;80H [24;1H*** Kernel Base address validated ***
+[23;80H [24;1HKernel bootargs validated
+[23;80H [24;1H+++++++++++++++++++++++main,195++++++++++++++++++++++++
+[23;80H [24;1H+++++++++++++++++++++++main,198++++++++++++++++++++++++
+[23;80H [24;1H
+[23;80H [24;1HCurrent timeout value is : 60 seconds
+[23;80H [24;1H
+[23;80H [24;1HNew timeout value is : 60 seconds
+[23;80H [24;1HCurrent timeout value is : 60 seconds
+[23;80H [24;1HCreate init_net_wdg_sess thread sucess .
+[23;80H [24;1H[create_wdg_server]-606: create_wdg_server, fd = 5
+[23;80H [24;1Hnumid=101,iface=MIXER,name='Left DAC Mux'
+[23;80H [24;1H  ; type=ENUMERATED,access=rw------,values=1,items=3
+[23;80H [24;1H  ; Item #0 'DAC_L1'
+[23;80H [24;1H  ; Item #1 'DAC_L3'
+[23;80H [24;1H  ; Item #2 'DAC_L2'
+[23;80H [24;1H  : values=2
+[23;80H [24;1Hnumid=99,iface=MIXER,name='Right DAC Mux'
+[23;80H [24;1H  ; type=ENUMERATED,access=rw------,values=1,items=3
+[23;80H [24;1H  ; Item #0 'DAC_R1'
+[23;80H [24;1H  ; Item #1 'DAC_R3'
+[23;80H [24;1H  ; Item #2 'DAC_R2'
+[23;80H [24;1H  : values=2
+[23;80H [24;1H [c6xdsp ] Remote Debug Shared Memory @ 0xbf000000
+[23;80H [24;1H [m3video] Remote Debug Shared Memory @ 0xbf010820
+[23;80H [24;1H [m3vpss ] Remote Debug Shared Memory @ 0xbf021040
+[23;80H [24;1HSysLink version : 2.20.02.20
+[23;80H [24;1HSysLink module created on Date:Jul  9 2015 Time:10:02:29
+[23;80H [24;1HTrace enabled
+[23;80H [24;1HTrace SetFailureReason enabled
+[23;80H [24;1H Setting DMM priority for [DUCATI  ] to [0] ( 0x4e000624 = 0x08000000 )
+[23;80H [24;1H Setting DMM priority for [HDVICP0 ] to [2] ( 0x4e000634 = 0x0000000a )
+[23;80H [24;1H Setting DMM priority for [HDVICP1 ] to [2] ( 0x4e000634 = 0x000a0000 )
+[23;80H [24;1H Setting DMM priority for [HDVICP2 ] to [2] ( 0x4e000634 = 0x00a00000 )
+[23;80H [24;1Htag  1725215731
+[23;80H [24;1HCreate server pthread sus
+[23;80H [24;1Hsetsockopt IP_ADD_MEMBERSHIP: No such device
+[23;80H [24;1HUnhandled fault: external abort on non-linefetch (0x1808) at 0xf9020000
+[23;80H [24;1HInternal error: : 1808 [#1]
+[23;80H [24;1Hlast sysfs file: /sys/devices/virtual/syslinkipc/syslinkipc_Osal/uevent
+[23;80H [24;1HModules linked in: syslink
+[23;80H [24;1HCPU: 0    Not tainted  (2.6.37 #9)
+[23;80H [24;1HPC is at DM8168DUCATIMMU_enable+0x5c/0xa0 [syslink]
+[23;80H [24;1HLR is at DM8168DUCATIMMU_enable+0x28/0xa0 [syslink]
+[23;80H [24;1Hpc : [<bf016cec>]    lr : [<bf016cb8>]    psr: 00000013
+[23;80H [24;1Hsp : cd5deff0  ip : 00000000  fp : cd5df004
+[23;80H [24;1Hr10: 00000000  r9 : fffff230  r8 : bf07b1dc
+[23;80H [24;1Hr7 : d2d58000  r6 : bf0add34  r5 : d2d55000  r4 : d2d55000
+[23;80H [24;1Hr3 : d2d58000  r2 : f9020000  r1 : 00010000  r0 : bf05fea2
+[23;80H [24;1HFlags: nzcv  IRQs on  FIQs on  Mode SVC_32  ISA ARM  Segment user
+[23;80H [24;1HControl: 10c5387d  Table: 8d50c019  DAC: 00000015
+[23;80H [24;1HProcess fw_load.out (pid: 621, stack limit = 0xcd5de2e8)
+[23;80H [24;1HStack: (0xcd5deff0 to 0xcd5e0000)
+[23;80H [24;1Hefe0:                                     bf00e3d8 00000000 cd5df034 cd5df008
+[23;80H [24;1Hf000: bf016430 bf016c9c 00000008 f9020000 00000000 d2d55000 cd5dfe34 cd5df078
+[23;80H [24;1Hf020: 00000008 00000000 cd5df054 cd5df038 bf004654 bf016344 cd5dfe34 bf01b99c
+[23;80H [24;1Hf040: d2d5e000 cd5dfeac cd5dfe64 cd5df058 bf003dd0 bf0045f8 cd5dfeac 00000000
+[23;80H [24;1Hf060: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[23;80H [24;1Hf080: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[23;80H [24;1Hf0a0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[23;80H [24;1Hf0c0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[23;80H [24;1Hf0e0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[23;80H [24;1Hf100: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[23;80H [24;1Hf120: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[23;80H [24;1Hf140: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[23;80H [24;1Hf160: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[23;80H [24;1Hf180: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[23;80H [24;1Hf1a0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[23;80H [24;1Hf1c0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[23;80H [24;1Hf1e0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[23;80H [24;1Hf200: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[23;80H [24;1Hf220: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[23;80H [24;1Hf240: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[23;80H [24;1Hf260: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[23;80H [24;1Hf280: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[23;80H [24;1Hf2a0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[23;80H [24;1Hf2c0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[23;80H [24;1Hf2e0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[23;80H [24;1Hf300: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[23;80H [24;1Hf320: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[23;80H [24;1Hf340: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[23;80H [24;1Hf360: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[23;80H [24;1Hf380: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[23;80H [24;1Hf3a0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[23;80H [24;1Hf3c0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[23;80H [24;1Hf3e0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[23;80H [24;1Hf400: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[23;80H [24;1Hf420: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[23;80H [24;1Hf440: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[23;80H [24;1Hf460: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[23;80H [24;1Hf480: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[23;80H [24;1Hf4a0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[23;80H [24;1Hf4c0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[23;80H [24;1Hf4e0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[23;80H [24;1Hf500: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[23;80H [24;1Hf520: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[23;80H [24;1Hf540: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[23;80H [24;1Hf560: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[23;80H [24;1Hf580: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[23;80H [24;1Hf5a0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[23;80H [24;1Hf5c0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[23;80H [24;1Hf5e0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[23;80H [24;1Hf600: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[23;80H [24;1Hf620: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[23;80H [24;1Hf640: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[23;80H [24;1Hf660: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[23;80H [24;1Hf680: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[23;80H [24;1Hf6a0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[23;80H [24;1Hf6c0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[23;80H [24;1Hf6e0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[23;80H [24;1Hf700: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[23;80H [24;1Hf720: 00000000 00000000 00000000 00000000 00000000 00000000 cd5df754 cd5df748
+[23;80H [24;1Hf740: 00989680 00000000 cdeccdf0 6128d300 cd5df784 cd5df760 c006d2b8 c006d1b8
+[23;80H [24;1Hf760: c006d3c0 cdeccdc0 c04dd268 cdeccdf0 c038e178 c038e17d cd5df7a4 cd5df788
+[23;80H [24;1Hf780: c04dd0fc 00000000 cd5df7b4 cd5df798 c006a1a0 c0069f20 c051138c 0d6393a5
+[23;80H [24;1Hf7a0: 0000000a c04c87d0 cd5df7c4 cd5df7b8 c00564b8 c006a100 cd5df7e4 cd5df7c8
+[23;80H [24;1Hf7c0: c00933bc c00564a4 0000000a 0d1d3327 0000000a bf0ade08 00000001 00000001
+[23;80H [24;1Hf7e0: cd5df82c cd5df7f0 bf02adc4 bf01b99c bf0ade08 0000000c cd5df854 bf0add34
+[23;80H [24;1Hf800: 00000000 cd5df854 cd5df82c bf0add34 00000001 00000012 00000000 bf0add34
+[23;80H [24;1Hf820: cd5dfefc cd5df830 bf04f97c bf01b99c c024f352 bea126a8 00000001 0d63ac87
+[23;80H [24;1Hf840: c04dd0fc 00000000 cd5df874 bea126a8 c006a1a0 00000000 00000000 00000000
+[23;80H [24;1Hf860: 0000000a c04c87d0 cd5df884 cd5df878 c00564b8 c006a100 cd5df8a4 cd5df888
+[23;80H [24;1Hf880: c00933bc c00564a4 0000000a 0d63c5b4 00000000 fca5d1fe 00000000 cdfbfb80
+[23;80H [24;1Hf8a0: 00000001 0e02b6f0 c04dd0fc 00000000 cd5df8dc cd5df8c0 c006a1a0 c0069f20
+[23;80H [24;1Hf8c0: c051138c 0e4e1c00 0000000a c04c87d0 cd5df8ec cd5df8e0 c00564b8 c006a100
+[23;80H [24;1Hf8e0: cd5df90c cd5df8f0 c00933bc c00564a4 0000000a 0e02e2c6 0000000a c04c87d0
+[23;80H [24;1Hf900: cd5df94c cd5df910 c0093a24 c00932ec 0e02e2c6 0000000a 0e02e2c6 0000000a
+[23;80H [24;1Hf920: cd5df93c 0e4e1c00 0000000a c04def60 c04def60 c04def60 0000000a 00000000
+[23;80H [24;1Hf940: cd5df96c cd5df950 c0093b64 c00939ec 00000000 c04def90 c04def90 3b9ac9ff
+[23;80H [24;1Hf960: cd5df9c4 cd5df970 c008bcf8 c0093b40 0000000e ce64ccac 0e02b6f0 0000000a
+[23;80H [24;1Hf980: 0e02b6f0 0000000a 0e4e1c00 0000000a 0e02b6f0 0000000a ce562810 c04c8828
+[23;80H [24;1Hf9a0: 00000000 00000000 00000043 000066b4 ce562bf4 00000001 cd5df9d4 cd5df9c8
+[23;80H [24;1Hf9c0: c00564e8 c008bb90 cd5df9f4 cd5df9d8 c04e0ca8 00000043 cd5df9f4 cd5df9e8
+[23;80H [24;1Hf9e0: c009f1ac c0056e38 cd5dfa0c cd5df9f8 cd5dfa0c ce64c02a 0000000e ce64ccac
+[23;80H [24;1Hfa00: 0000000c 0000000c cd5dfa44 cd5dfa18 c0232de4 c00557e8 00000000 ce562a00
+[23;80H [24;1Hfa20: ce562810 0000002a 00000001 ce64ca80 ce64c000 0000000e cd5dfa94 cd5dfa48
+[23;80H [24;1Hfa40: c02325c8 c02330e8 000066b4 000066b5 ce64c480 ce64cc80 c0542454 0000083a
+[23;80H [24;1Hfa60: 00000038 00000200 c022e1a4 ce562a00 ce562810 00000239 ce64c480 ce562810
+[23;80H [24;1Hfa80: 00000239 00000000 00000001 ce6e0780 ce562a00 c022dc14 00000000 009c0000
+[23;80H [24;1Hfaa0: 00000000 60000113 00000000 60000113 ce562810 0335a080 00000000 00000000
+[23;80H [24;1Hfac0: 00000000 00000000 cd5dfaf4 cd5dfad8 c006babc c006ba28 00000000 cd5dfae8
+[23;80H [24;1Hfae0: c022c83c ce562a00 cd5dfb0c cd5dfaf8 c022cf0c c006baa4 cd5dfb9c ce562a00
+[23;80H [24;1Hfb00: cd5dfb3c cd5dfb10 c022f70c c022ced8 ce562bf4 ce630400 00000000 ce630400
+[23;80H [24;1Hfb20: 00000000 009c0000 00000000 0299aa39 cd5dfb7c cd5dfb40 c0225904 c022f680
+[23;80H [24;1Hfb40: 000009b9 cd5dfb9c ce6e0000 ce563000 ce563000 ce563000 ce563000 00000000
+[23;80H [24;1Hfb60: ce6e0000 0000014c 000009b9 0001a080 cd5dfbcc cd5dfb80 c023b2b0 c0225898
+[23;80H [24;1Hfb80: 000009b9 cd5dfb9c ce6e0000 ce563000 ce563000 cd625440 00000000 ce563000
+[23;80H [24;1Hfba0: ce563000 cd625440 cd5dfbcc cd5dfbb8 c0239748 c00c4a64 ce563000 00000000
+[23;80H [24;1Hfbc0: cd5dfc14 cd5dfbd0 c0239a40 c0239704 000009b9 ffffffff 0000014a ce6e0000
+[23;80H [24;1Hfbe0: 0000014a 00000000 00000000 ce64b800 00000000 ce6e0000 00019a39 00000003
+[23;80H [24;1Hfc00: 000009b9 00000001 cd5dfc4c cd5dfc18 c0239038 c02397d4 00019080 000009b9
+[23;80H [24;1Hfc20: 00000000 ce6e0000 00000000 ce6e0000 00019080 0000014a 000009b9 00019080
+[23;80H [24;1Hfc40: cd5dfc7c cd5dfc50 c017b768 c0238f58 000009b9 00000000 bf029388 bf01b99c
+[23;80H [24;1Hfc60: ce6e0000 00000000 cd5dfd38 0000014a cd5dfcc4 cd5dfc80 cd04bdd9 cd04bff5
+[23;80H [24;1Hfc80: 000009b9 cd5dfd44 00000989 ce6e0030 00000001 cd5dfd44 00000fff cd04b000
+[23;80H [24;1Hfca0: cd5dfccc cd5dfcb0 c01b2768 c01d5978 00000000 00001000 cd5dfd14 c04ea60c
+[23;80H [24;1Hfcc0: cd5dfce4 cd5dfcd0 c01a1220 c01b2740 cd5dfd44 c06ea960 cd5dfcfc cd5dfce8
+[23;80H [24;1Hfce0: c00501a4 c00b4720 c06ea960 ce1726c4 cd5dfd14 cd5dfd00 c0050224 c0050108
+[23;80H [24;1Hfd00: ce6e0000 c06ea960 cd5dfd74 cd5dfd18 c0174084 c0051ebc 00000001 000201da
+[23;80H [24;1Hfd20: 00000000 00000020 00041ed0 00000000 00000002 00000042 00000f3d 20000020
+[23;80H [24;1Hfd40: c00a77f4 00001000 c06ea960 00000000 cd5dfd74 cd5dfd60 c00a1db8 c00880e4
+[23;80H [24;1Hfd60: 00000000 00000020 cd5dfdcc cd5dfd78 c017544c c00a1d80 00000000 ce1726c8
+[23;80H [24;1Hfd80: 00000020 00000020 cd5dfda4 cd5dfd98 c01c7b94 c01c7ae0 cd5dfdcc cd5dfda8
+[23;80H [24;1Hfda0: c00a1aec c01c7b8c 00000000 cd4c4800 ce1726c4 00000020 ce1726c4 00000004
+[23;80H [24;1Hfdc0: cd5dfe14 cd5dfdd0 8d04b30f 0008d04b cd5dfdec cd5dfde0 c00c16e0 c00c0c40
+[23;80H [24;1Hfde0: cd5dfdfc cd5dfdf0 c06ea960 00000000 cd5dfe14 cd5dfe00 c00a1db8 c00880e4
+[23;80H [24;1Hfe00: 8d04b82e c06ea960 cd5dfe64 cd5dfe18 c00b5804 c00a1d80 00000000 cca2a8a0
+[23;80H [24;1Hfe20: 00000000 00028000 00000000 cd5dfeac cd5dfe64 cd5dfeac bf002d10 bea12a74
+[23;80H [24;1Hfe40: cd5de000 c00ce0a0 00000008 00000000 cd5de000 00000000 cd5dfefc cd5dfe68
+[23;80H [24;1Hfe60: bf00504c bf003d3c c00ce0a0 bea12a74 00000000 00000000 d2d5e000 bea12ac0
+[23;80H [24;1Hfe80: 00000028 ce4285b8 cd5dfebc cd5dfe98 c01c8f30 c01c8e3c 00000000 fca5d1fe
+[23;80H [24;1Hfea0: 00000000 ce428580 00000000 00000000 00000000 cd5dfec0 c006d8a0 c01c8eb8
+[23;80H [24;1Hfec0: cd5dff04 00000001 c03894b8 ce428580 c04dd268 00000000 c006d2e8 ce183880
+[23;80H [24;1Hfee0: 00000008 bea12a74 00000008 00000000 cd5dff74 cd5dff00 c00d5de8 bf00492c
+[23;80H [24;1Hff00: ce428580 00000001 cd5dff34 cd5dff18 c006ccc4 c006bdf4 20000193 c04dd268
+[23;80H [24;1Hff20: cd5de000 00000000 00000002 00000000 fffffffe 00000000 cd5dff6c cd5dff48
+[23;80H [24;1Hff40: c038963c c00449ec ffffffff cddb6980 cddb6980 bea12a74 c00ce0a0 00000008
+[23;80H [24;1Hff60: 00000000 cd5de000 cd5dffa4 cd5dff78 c00d5eb4 c00d5924 cd5dffac 00000001
+[23;80H [24;1Hff80: c0385ed0 00000000 0007eadc 00051978 00000036 c0049568 00000000 cd5dffa8
+[23;80H [24;1Hffa0: c00493c0 c00d5e68 00000000 0007eadc 00000008 c00ce0a0 bea12a74 00000001
+[23;80H [24;1Hffc0: 00000000 0007eadc 00051978 00000036 bea12a74 c00ce0a0 00000000 bea12ad4
+[23;80H [24;1Hffe0: 0007edf4 bea12a40 0002b2d4 402331cc 60000010 00000008 00000000 00000000
+[23;80H [24;1HBacktrace: 
+[23;80H [24;1H[<bf016c90>] (DM8168DUCATIMMU_enable+0x0/0xa0 [syslink]) from [<bf016430>] (DM8[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H)[24;1H r4:00000000 r3:bf00e3d8
+[23;80H [24;1H[<bf016338>] (DM8168DUCATIPWR_on+0x0/0x14c [syslink]) from [<bf004654>] (PwrMgr[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H)[24;1H r8:00000000 r7:00000008 r6:cd5df078 r5:cd5dfe34 r4:d2d55000
+[23;80H [24;1H[<bf0045ec>] (PwrMgr_attach+0x0/0xa0 [syslink]) from [<bf003dd0>] (ProcMgr_atta[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H)[24;1H r5:cd5dfeac r4:d2d5e000
+[23;80H [24;1H[<bf003d30>] (ProcMgr_attach+0x0/0x1bc [syslink]) from [<bf00504c>] (ProcMgrDrv[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H)[24;1H[<bf004920>] (ProcMgrDrv_ioctl+0x0/0x14d4 [syslink]) from [<c00d5de8>] (do_vfs_[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H)[24;1H r8:00000000 r7:00000008 r6:bea12a74 r5:00000008 r4:ce183880
+[23;80H [24;1H[<c00d5918>] (do_vfs_ioctl+0x0/0x544) from [<c00d5eb4>] (sys_ioctl+0x58/0x7c)
+[23;80H [24;1H r9:cd5de000 r8:00000000 r7:00000008 r6:c00ce0a0 r5:bea12a74
+[23;80H [24;1Hr4:cddb6980
+[23;80H [24;1H[<c00d5e5c>] (sys_ioctl+0x0/0x7c) from [<c00493c0>] (ret_fast_syscall+0x0/0x30)
+[23;80H [24;1H r8:c0049568 r7:00000036 r6:00051978 r5:0007eadc r4:00000000
+[23;80H [24;1HCode: e3110010 0afffffc e5932010 e3a01801 (e5821000) 
+[23;80H [24;1H---[ end trace 2776fcfb5a61132f ]---
+[23;80H [24;1H

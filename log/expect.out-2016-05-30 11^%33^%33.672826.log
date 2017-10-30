@@ -1,0 +1,53 @@
+
+[!p[?3;4l[4l>[0m(B[?1h=[H[2J[?12l[?25h
+Welcome to minicom 2.7
+
+OPTIONS: I18n 
+Compiled on Jan  1 2014, 17:13:19.
+Port /dev/ttyUSB1, 11:33:12
+
+Press CTRL-A Z for help on special keys
+
+
+root@dm814x:~#
+ 
+root@dm814x:~#killall -9 xz_nvs_exe.bin
+ killall -9 xz_nvs_exe.bin
+root@dm814x:~# [xz_wdg_read]-271: retVal = 0 errno = 0, errstr = Success
+[wdg_cli_session_thr_cb]-386: wdg client:[8] select err[0] , tmpLen = -214643505[14;80H1[14;80H.[14;80H
+[wdg_cli_session_thr_cb]-387: errno 0 ,Success .
+[wdg_cli_session_thr_cb]-392: wdg client fd[8] close or err .
+[wdg_cli_session_thr_cb]-393: +++++++++++++wdg_cli_session_thr_cb,393will _exit [17;80Ht[17;80Hh[17;80He[17;80H [17;80Hs[17;80Hy[17;80Hs[17;80Ht[17;80He[17;80Hm[17;80H+[17;80H+[17;80H+[17;80H+[17;80H+[17;80H+[17;80H+[17;80H+[17;80H+[17;80H+[17;80H+[17;80H+[17;80H+[17;80H
+[wdg_cli_session_thr_cb]-448: +++++++++++++++++++++++wdg_cli_session_thr_cb,448+[18;80H+[18;80H+[18;80H+[18;80H+[18;80H+[18;80H+[18;80H+[18;80H+[18;80H+[18;80H+[18;80H+[18;80H+[18;80H+[18;80H+[18;80H+[18;80H+[18;80H+[18;80H+[18;80H+[18;80H+[18;80H+[18;80H+[18;80H+[18;80H
+[wdg_cli_session_thr_cb]-452: +++++++++++++wdg_cli_session_thr_cb,452will _exit [19;80Ht[19;80Hh[19;80He[19;80H [19;80Hs[19;80Hy[19;80Hs[19;80Ht[19;80He[19;80Hm[19;80H+[19;80H+[19;80H+[19;80H+[19;80H+[19;80H+[19;80H+[19;80H+[19;80H+[19;80H+[19;80H+[19;80H+[19;80H+[19;80H
+
+
+U-Boot 2010.06 (May 26 2016 - 17:32:45)
+
+TI8148-GP rev 1.0
+[23;80H [24;1H
+[23;80H [24;1HDRAM:  1 GiB
+[23;80H [24;1HNAND:  HW ECC BCH8 Selected
+[23;80H [24;1H256 MiB
+[23;80H [24;1HUsing default environment
+[23;80H [24;1H
+[23;80H [24;1HThe 2nd stage U-Boot will now be auto-loaded
+[23;80H [24;1HPlease do not interrupt the countdown till TI8148_EVM prompt if 2nd stage is al[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80Hd[24;1HEricDebug uboot WDT timeout is 600 seconds 
+[23;80H [24;1HHit any key to stop autoboot:  1  0 
+[23;80H [24;1H
+[23;80H [24;1HNAND read: device 0 offset 0x20000, size 0x40000
+[23;80H [24;1H 262144 bytes read: OK
+[23;80H [24;1H## Starting application at 0x81000000 ...
+[23;80H [24;1H
+[23;80H [24;1H
+[23;80H [24;1HU-Boot 2010.06 (May 26 2016 - 17:33:14)
+[23;80H [24;1H
+[23;80H [24;1HTI8148-GP rev 1.0
+[23;80H [24;1H
+[23;80H [24;1HI2C:   ready
+[23;80H [24;1HDRAM:  1 GiB
+[23;80H [24;1HNAND:  HW ECC BCH8 Selected
+[23;80H [24;1H256 MiB
+[23;80H [24;1HMMC:   OMAP SD/MMC: 0
+[23;80H [24;1H

@@ -1,0 +1,17 @@
+
+[0m(B)0[?1h=[H[J
+Welcome to minicom 2.7
+
+OPTIONS: I18n 
+Compiled on Jan  1 2014, 17:13:19.
+Port /dev/ttyUSB0, 10:36:48
+
+Press CTRL-A Z for help on special keys
+
+
+root@dm814x:~#
+ 
+root@dm814x:~# killall -9 xz_nvs_exe.bin
+killall -9 xz_nvs_exe.bin
+killall: xz_nvs_exe.bin: no process killed
+root@dm814x:~# 

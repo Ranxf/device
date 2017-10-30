@@ -1,0 +1,28 @@
+setenv ipaddr 192.168.1.198
+[!p[?3;4l[4l>[0m(B[?1h=[H[2J[?12l[?25h
+Welcome to minicom 2.7
+
+OPTIONS: I18n 
+Compiled on Jan  1 2014, 17:13:19.
+Port /dev/ttyUSB1, 11:24:16
+
+Press CTRL-A Z for help on special keys
+
+setenv ipaddr 192.168.1.198
+YX-UBOOT # setenv gatewayip 192.168.1.1
+setenv gatewayip 192.168.1.1
+YX-UBOOT # setenv netmask 255.255.255.0
+setenv netmask 255.255.255.0
+YX-UBOOT # setenv serverip 192.168.1.9
+setenv serverip 192.168.1.9
+YX-UBOOT # setenv bootargs 'console=ttyO2,115200n8 noinitrd ip=192.168.1.198 mem=256M rootwait=1 rw ubi.mtd=8,2048 rootfstype=ubifs root=ubi0:rootfs init=/init vram=20M notifyk.vpssm3_sva=0xBEE00000 stdin=serial ddr_mem=1024M'
+setenv bootargs 'console=ttyO2,115200n8 noinitrd ip=192.168.1.198 mem[14;80H=[14;80H2[14;80H5[14;80H6[14;80HM[14;80H [14;80Hr[14;80Ho[14;80Ho[14;80Ht[14;80Hw[14;80Ha[14;80Hi[14;80Ht[14;80H=[14;80H1[14;80H [14;80Hr[14;80Hw[14;80H [14;80Hu[14;80Hb[14;80Hi[14;80H.[14;80Hm[14;80Ht[14;80Hd[14;80H=[14;80H8[14;80H,[14;80H2[14;80H0[14;80H4[14;80H8[14;80H [14;80Hr[14;80Ho[14;80Ho[14;80Ht[14;80Hf[14;80Hs[14;80Ht[14;80Hy[14;80Hp[14;80He[14;80H=[14;80Hu[14;80Hb[14;80Hi[14;80Hf[14;80Hs[14;80H [14;80Hr[14;80Ho[14;80Ho[14;80Ht[14;80H=[14;80Hu[14;80Hb[14;80Hi[14;80H0[14;80H:[14;80Hr[14;80Ho[14;80Ho[14;80Ht[14;80Hf[14;80Hs[14;80H [14;80Hi[14;80Hn[14;80Hi[14;80Ht[14;80H=[14;80H/[14;80Hi[14;80Hn[14;80Hi[14;80Ht[14;80H [14;80Hv[14;80Hr[14;80Ha[14;80Hm[14;80H=[14;80H2[14;80H0[14;80HM[14;80H [14;80Hn[14;80Ho[14;80Ht[14;80Hi[14;80Hf[14;80Hy[14;80Hk[14;80H.[14;80Hv[14;80Hp[14;80Hs[14;80Hs[14;80Hm[14;80H3[14;80H_[14;80Hs[14;80Hv[14;80Ha[14;80H=[14;80H0[14;80Hx[14;80HB[14;80HE[14;80HE[14;80H0[14;80H0[14;80H0[14;80H0[14;80H0[14;80H [14;80Hs[14;80Ht[14;80Hd[14;80Hi[14;80Hn[14;80H=[14;80Hs[14;80He[14;80Hr[14;80Hi[14;80Ha[14;80Hl[14;80H [14;80Hd[14;80Hd[14;80Hr[14;80H_[14;80Hm[14;80He[14;80Hm[14;80H=[14;80H1[14;80H0[14;80H2[14;80H4[14;80HM[14;80H'[14;80H
+YX-UBOOT # saveenv
+saveenv
+Saving Environment to NAND...
+Erasing Nand...
+Warning: Erase size 0x00002000 smaller than one erase block 0x00020000
+         Erasing 0x00020000 instead
+Erasing at 0x240000 -- 100% complete.
+Writing to Nand... done
+YX-UBOOT # 

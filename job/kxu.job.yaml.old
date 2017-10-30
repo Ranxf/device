@@ -1,0 +1,5 @@
+firmware:
+    date: 2017-3-27
+    reimage: true 
+calibrate: true
+model: dm8148

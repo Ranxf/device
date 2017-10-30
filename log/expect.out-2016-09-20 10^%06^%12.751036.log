@@ -1,0 +1,53 @@
+
+[!p[?3;4l[4l>[0m(B[?1h=[H[2J[?12l[?25h
+Welcome to minicom 2.7
+
+OPTIONS: I18n 
+Compiled on Jan  1 2014, 17:13:19.
+Port /dev/ttyUSB4, 10:06:08
+
+Press CTRL-A Z for help on special keys
+
+
+root@dm814x:~# 
+
+root@dm814x:~#reboot
+ reboot
+INIT: Sw”INIT: Sending processes the TERM signal
+
+Broadcast message from root@dm814x (ttyO0) (Tue Jul 12 15:06:57 2016):
+
+The system is going down for reboot NOW!
+root@dm814x:~# INIT: Stopping telnet daemon.
+Stopping system message bus: dbus.
+Stopping syslogd/klogd: stopped syslogd (pid 553)
+stopped klogd (pid 555)
+done
+ALSA: Storing mixer settings...
+/usr/sbin/alsactl: save_state:1580: No soundcards found...
+[23;80H [24;1HDeconfiguring network interfaces... test1test2done.
+[23;80H [24;1HSending all processes the TERM signal...
+[23;80H [24;1HSending all processes the KILL signal...
+[23;80H [24;1HUnmounting remote filesystems...
+[23;80H [24;1HDeactivating swap...
+[23;80H [24;1HUnmounting local filesystems...
+[23;80H [24;1HRebooting... Restarting system.
+[23;80H [24;1H
+[23;80H [24;1H
+[23;80H [24;1HU-Boot 2010.06 (Jul 13 2016 - 09:42:19)
+[23;80H [24;1H
+[23;80H [24;1HTI8148-GP rev 1.0
+[23;80H [24;1H
+[23;80H [24;1HDRAM:  1 GiB
+[23;80H [24;1HNAND:  HW ECC BCH8 Selected
+[23;80H [24;1H256 MiB
+[23;80H [24;1HUsing default environment
+[23;80H [24;1H
+[23;80H [24;1HThe 2nd stage U-Boot will now be auto-loaded
+[23;80H [24;1HPlease do not interrupt the countdown till TI8148_EVM prompt if 2nd stage is al[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80Hd[24;1HEricDebug uboot WDT timeout is 600 seconds 
+[23;80H [24;1HHit any key to stop autoboot
+
+:  1  0 
+[23;80H [24;1HTI-MIN#
+[23;80H [24;1HTI-MIN#

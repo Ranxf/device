@@ -1,0 +1,298 @@
+
+[!p[?3;4l[4l>[0m(B[?1h=[H[2J[?12l[?25h
+Welcome to minicom 2.7
+
+OPTIONS: I18n 
+Compiled on Jan  1 2014, 17:13:19.
+Port /dev/ttyUSB3, 09:23:04
+
+Press CTRL-A Z for help on special keys
+
+
+TI8148_IPNC#
+
+TI8148_IPNC#reset
+reset
+resetting ...
+
+
+U-Boot 2010.06 (Mar 02 2016 - 09:36:51) DM8127_IPNC_3.80.00
+
+TI8148-GP rev 3.0
+
+ARM clk: 720MHz
+DDR clk: 480MHz
+L3 clk:  200MHz
+IVA clk: 410MHz
+ISS clk: 480MHz
+[23;80H [24;1HDSP Default OFF
+[23;80H [24;1HDSS Default OFF
+[23;80H [24;1H
+[23;80H [24;1HDRAM:  512 MiB
+[23;80H [24;1HDCACHE:  Off
+[23;80H [24;1HMMC:   OMAP SD/MMC: 0, ON-BOARD SDIO: 1
+[23;80H [24;1HUsing default environment
+[23;80H [24;1H
+[23;80H [24;1HThe 2nd stage U-Boot will now be auto-loaded
+[23;80H [24;1HPlease do not interrupt the countdown till TI8148_EVM prompt if 2nd stage is al[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80Hd[24;1HHit any key to stop autoboot:  0 
+[23;80H [24;1Hreading u-boot.bin
+[23;80H [24;1H
+[23;80H [24;1H198076 bytes read
+[23;80H [24;1H## Starting application at 0x80800000 ...
+[23;80H [24;1H
+[23;80H [24;1H
+[23;80H [24;1HU-Boot 2010.06 (Mar 02 2016 - 09:37:22) DM8127_IPNC_3.80.00
+[23;80H [24;1H
+[23;80H [24;1HTI8148-GP rev 3.0
+[23;80H [24;1H
+[23;80H [24;1HARM clk: 720MHz
+[23;80H [24;1HDDR clk: 480MHz
+[23;80H [24;1HL3 clk:  200MHz
+[23;80H [24;1HIVA clk: 410MHz
+[23;80H [24;1HISS clk: 480MHz
+[23;80H [24;1HDSP Default OFF
+[23;80H [24;1HDSS Default OFF
+[23;80H [24;1H
+[23;80H [24;1HI2C:   ready
+[23;80H [24;1HDRAM:  512 MiB
+[23;80H [24;1HDCACHE:  On
+[23;80H [24;1HNAND:  HW ECC BCH8 Selected
+[23;80H [24;1H256 MiB
+[23;80H [24;1HMMC:   OMAP SD/MMC: 0, ON-BOARD SDIO: 1
+[23;80H [24;1H                          .:;rrr;;.                   
+[23;80H [24;1H                    ,5#@@@@#####@@@@@@#2,             
+[23;80H [24;1H                 ,A@@@hi;;;r5;;;;r;rrSG@@@A,          
+[23;80H [24;1H               r@@#i;:;s222hG;rrsrrrrrr;ri#@@r        
+[23;80H [24;1H             :@@hr:r;SG3ssrr2r;rrsrsrsrsrr;rh@@:      
+[23;80H [24;1H            B@H;;rr;3Hs;rrr;sr;;rrsrsrsrsrsr;;H@B     
+[23;80H [24;1H           @@s:rrs;5#;;rrrr;r#@H:;;rrsrsrsrsrr:s@@    
+[23;80H [24;1H          @@;;srs&X#9;r;r;;,2@@@rrr:;;rrsrsrsrr;;@@   
+[23;80H [24;1H         @@;;rrsrrs@MB#@@@@@###@@@@@@#rsrsrsrsrr;;@@  
+[23;80H [24;1H        G@r;rrsrsr;#X;SX25Ss#@@#M@#9H9rrsrsrsrsrs;r@G 
+[23;80H [24;1H        @9:srsrsrs;2@;:;;:.X@@@@@H::;rrsrsrsrsrsrr:3@ 
+[23;80H [24;1H       X@;rrsrsrsrr;XAi;;:&@@#@Bs:rrsrsrsrsrsrsrsrr;@X
+[23;80H [24;1H       @#;rsrsrsrsrr;r2ir@@@###::rrsrsrsrsrsrsrsrsr:@@
+[23;80H [24;1H       @A:rrsrsrsrr;:2@29@@M@@@;:;rrrrsrsrsrsrsrsrs;H@
+[23;80H [24;1H       @&;rsrsrsrr;A@@@@@@###@@@s::;:;;rrsrsrsrsrsr;G@
+[23;80H [24;1H       @#:rrsrsrsr;G@5Hr25@@@#@@@#9XG9s:rrrrsrsrsrs:#@
+[23;80H [24;1H       M@;rsrsrsrs;r@&#;::S@@@@@@@M@@@@Grr:;rsrsrsr;@#
+[23;80H [24;1H       :@s;rsrsrsrr:M#Msrr;;&#@@@@@@@@@@H@@5;rsrsr;s@,
+[23;80H [24;1H        @@:rrsrsrsr;S@rrrsr;:;r3MH@@#@M5,S@@irrsrr:@@ 
+[23;80H [24;1H         @A:rrsrsrsrrrrrsrsrrr;::;@##@r:;rH@h;srr:H@  
+[23;80H [24;1H         ;@9:rrsrsrsrrrsrsrsrsr;,S@Hi@i:;s;MX;rr:h@;  
+[23;80H [24;1H          r@B:rrrrsrsrsrsrsrr;;sA@#i,i@h;r;S5;r:H@r   
+[23;80H [24;1H           ,@@r;rrrsrsrsrsrr;2BM3r:;r:G@:rrr;;r@@,    
+[23;80H [24;1H             B@Mr;rrrrsrsrsr@@S;;;rrr:5M;rr;rM@H      
+[23;80H [24;1H              .@@@i;;rrrrsrs2i;rrrrr;r@M:;i@@@.       
+[23;80H [24;1H                .A@@#5r;;;r;;;rrr;r:r#AsM@@H.         
+[23;80H [24;1H                   ;&@@@@MhXS5i5SX9B@@@@G;            
+[23;80H [24;1H                       :ihM#@@@@@##hs,                
+[23;80H [24;1H
+[23;80H [24;1HNet:   Detected MACID:a0:f6:fd:a2:3:5e
+[23;80H [24;1Hcpsw
+[23;80H [24;1HHit any key to stop autoboot:
+  1  0 
+[23;80H [24;1HTI8148_IPNC#setenv ipaddr 192.168.1.146
+setenv ipaddr 192.168.1.146
+[23;80H [24;1HTI8148_IPNC#setenv gatewayip 192.168.1.9
+setenv gatewayip 192.168.1.9
+[23;80H [24;1HTI8148_IPNC#setenv netmask 255.255.255.0
+setenv netmask 255.255.255.0
+[23;80H [24;1HTI8148_IPNC#setenv serverip 192.168.1.9
+setenv serverip 192.168.1.9
+[23;80H [24;1HTI8148_IPNC#setenv bootcmd 'nand read 0x81000000 0x00580000 0x300000; bootm 0x81000000';
+setenv bootcmd 'nand read 0x81000000 0x00580000 0x300000; bootm 0x8[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H;[24;1HTI8148_IPNC#setenv bootargs 'console=ttyO0,115200n8 noinitrd mem=128M rootwait=1 rw ubi.mtd=5,2048 rootfstype=ubifs root=ubi0:rootfs init=/init notifyk.vpssm3_sva=0xBFD00000 earlyprintk ddr_mem=512M vram=20M';
+setenv bootargs 'console=ttyO0,115200n8 noinitrd mem=128M rootwait=[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H;[24;1HTI8148_IPNC#ping 192.168.1.9
+ping 192.168.1.9
+[23;80H [24;1Hlink up on port 0, speed 100, full duplex
+[23;80H [24;1HUsing cpsw device
+[23;80H [24;1Hhost 192.168.1.9 is alive
+[23;80H [24;1HTI8148_IPNC#setenv 'noinitrd rw ubi.mtd'
+setenv 'noinitrd rw ubi.mtd'
+[23;80H [24;1HTI8148_IPNC#setenv ip
+setenv ip
+[23;80H [24;1HTI8148_IPNC#saveenv
+saveenv
+[23;80H [24;1HSaving Environment to MMC...
+[23;80H [24;1HWriting to MMC(0)... done
+[23;80H [24;1HTI8148_IPNC#nand scrub
+nand scrub
+[23;80H [24;1H
+[23;80H [24;1HNAND scrub: device 0 whole chip
+[23;80H [24;1HWarning: scrub option will erase all factory set bad blocks!
+[23;80H [24;1H         There is no reliable way to recover them.
+[23;80H [24;1H         Use this command only for testing purposes if you
+[23;80H [24;1H         are sure of what you are doing!
+[23;80H [24;1H
+[23;80H [24;1HReally scrub this NAND flash? <y/N>y
+[23;80H [24;1HyErasing at 0x0 --   0% complete.Erasing at 0x280000 --   1% complete.Erasing at 0x500000 --   2% complete.Erasing at 0x7a0000 --   3% complete.Erasing at 0xa20000 --   4% complete.Erasing at 0xcc0000 --   5% complete.Erasing at 0xf40000 --   6% complete.Erasing at 0x11e0000 --   7% complete.Erasing at 0x1460000 --   8% complete.Erasing at 0x1700000 --   9% complete.Erasing at 0x1980000 --  10% complete.Erasing at 0x1c20000 --  11% complete.Erasing at 0x1ea0000 --  12% complete.Erasing at 0x2140000 --  13% complete.Erasing at 0x23c0000 --  14% complete.Erasing at 0x2660000 --  15% complete.Erasing at 0x28e0000 --  16% complete.Erasing at 0x2b80000 --  17% complete.Erasing at 0x2e00000 --  18% complete.Erasing at 0x30a0000 --  19% complete.Erasing at 0x3320000 --  20% complete.Erasing at 0x35c0000 --  21% complete.Erasing at 0x3840000 --  22% complete.Erasing at 0x3ae0000 --  23% complete.Erasing at 0x3d60000 --  24% complete.Erasing at 0x3fe0000 --  25% complete.Erasing at 0x4280000 --  26% complete.Erasing at 0x4500000 --  27% complete.Erasing at 0x47a0000 --  28% complete.Erasing at 0x4a20000 --  29% complete.Erasing at 0x4cc0000 --  30% complete.Erasing at 0x4f40000 --  31% complete.Erasing at 0x51e0000 --  32% complete.Erasing at 0x5460000 --  33% complete.Erasing at 0x5700000 --  34% complete.Erasing at 0x5980000 --  35% complete.Erasing at 0x5c20000 --  36% complete.Erasing at 0x5ea0000 --  37% complete.Erasing at 0x6140000 --  38% complete.Erasing at 0x63c0000 --  39% complete.Erasing at 0x6660000 --  40% complete.Erasing at 0x68e0000 --  41% complete.Erasing at 0x6b80000 --  42% complete.Erasing at 0x6e00000 --  43% complete.Erasing at 0x70a0000 --  44% complete.Erasing at 0x7320000 --  45% complete.Erasing at 0x75c0000 --  46% complete.Erasing at 0x7840000 --  47% complete.Erasing at 0x7ae0000 --  48% complete.Erasing at 0x7d60000 --  49% complete.Erasing at 0x7fe0000 --  50% complete.Erasing at 0x8280000 --  51% complete.Erasing at 0x8500000 --  52% complete.Erasing at 0x87a0000 --  53% complete.Erasing at 0x8a20000 --  54% complete.Erasing at 0x8cc0000 --  55% complete.Erasing at 0x8f40000 --  56% complete.Erasing at 0x91e0000 --  57% complete.Erasing at 0x9460000 --  58% complete.Erasing at 0x9700000 --  59% complete.Erasing at 0x9980000 --  60% complete.Erasing at 0x9c20000 --  61% complete.Erasing at 0x9ea0000 --  62% complete.Erasing at 0xa140000 --  63% complete.Erasing at 0xa3c0000 --  64% complete.Erasing at 0xa660000 --  65% complete.Erasing at 0xa8e0000 --  66% complete.Erasing at 0xab80000 --  67% complete.Erasing at 0xae00000 --  68% complete.Erasing at 0xb0a0000 --  69% complete.Erasing at 0xb320000 --  70% complete.Erasing at 0xb5c0000 --  71% complete.Erasing at 0xb840000 --  72% complete.Erasing at 0xbae0000 --  73% complete.Erasing at 0xbd60000 --  74% complete.Erasing at 0xbfe0000 --  75% complete.Erasing at 0xc280000 --  76% complete.Erasing at 0xc500000 --  77% complete.Erasing at 0xc7a0000 --  78% complete.Erasing at 0xca20000 --  79% complete.Erasing at 0xccc0000 --  80% complete.Erasing at 0xcf40000 --  81% complete.Erasing at 0xd1e0000 --  82% complete.Erasing at 0xd460000 --  83% complete.Erasing at 0xd700000 --  84% complete.Erasing at 0xd980000 --  85% complete.Erasing at 0xdc20000 --  86% complete.Erasing at 0xdea0000 --  87% complete.Erasing at 0xe140000 --  88% complete.Erasing at 0xe3c0000 --  89% complete.Erasing at 0xe660000 --  90% complete.Erasing at 0xe8e0000 --  91% complete.Erasing at 0xeb80000 --  92% complete.Erasing at 0xee00000 --  93% complete.Erasing at 0xf0a0000 --  94% complete.Erasing at 0xf320000 --  95% complete.Erasing at 0xf5c0000 --  96% complete.Erasing at 0xf840000 --  97% complete.Erasing at 0xfae0000 --  98% complete.Erasing at 0xfd60000 --  99% complete.Erasing at 0xffe0000 -- 100% complete.
+[23;80H [24;1HOKls
+
+[23;80H [24;1HTI8148_IPNC#lsmw.b 0x81000000 0xFF 0x20000;
+
+[23;80H [24;1HUnknown command 'ls' - try 'help'
+[23;80H [24;1HTI8148_IPNC#mw.b 0x81000000 0xFF 0x20000;nand erase 0x0 0x20000;
+
+[23;80H [24;1HTI8148_IPNC#nand erase 0x0 0x20000;tftp 0x81000000 2017-2-28/dm8148/xzrs_uboot_nand_dm8148
+
+[23;80H [24;1H
+[23;80H [24;1HNAND erase: device 0 offset 0x0, size 0x20000
+[23;80H [24;1HErasing at 0x0 -- 100% complete.
+[23;80H [24;1HOK
+[23;80H [24;1HTI8148_IPNC#tftp 0x81000000 2017-2-28/dm8148/xzrs_uboot_nand_dm8148
+[23;80H [24;1Hlink up on port 0, speed 100, full duplex
+[23;80H [24;1HUsing cpsw device
+[23;80H [24;1HTFTP from server 192.168.1.9; our IP address is 192.168.1.146
+[23;80H [24;1HFilename '2017-2-28/dm8148/xzrs_uboot_nand_dm8148'.
+[23;80H [24;1HLoad address: 0x81000000
+[23;80H [24;1HLoading: *######################
+[23;80H [24;1Hdonenandecc hw 2
+
+[23;80H [24;1HBytes transferred = 110136 (1ae38 hex)
+[23;80H [24;1HTI8148_IPNC#nandecc hw 2nand write.i 0x81000000 0x0 0x20000
+
+[23;80H [24;1HHW ECC BCH8 Selected
+[23;80H [24;1HTI8148_IPNC#nand write.i 0x81000000 0x0 0x20000
+[23;80H [24;1H
+[23;80H [24;1HNAND write: device 0 offset 0x0, size 0x20000
+[23;80H [24;1H 131072 bytes written: OKls
+
+[23;80H [24;1HTI8148_IPNC#lsmw.b 0x81000000 0xFF 0x40000
+
+[23;80H [24;1HUnknown command 'ls' - try 'help'
+[23;80H [24;1HTI8148_IPNC#mw.b 0x81000000 0xFF 0x40000nand erase 0x20000 0x60000;
+
+[23;80H [24;1HTI8148_IPNC#nand erase 0x20000 0x60000;tftp 0x81000000 2017-2-28/dm8148/xzrs_uboot_dm8148
+
+[23;80H [24;1H
+[23;80H [24;1HNAND erase: device 0 offset 0x20000, size 0x60000
+[23;80H [24;1HErasing at 0x20000 --  33% complete.Erasing at 0x40000 --  66% complete.Erasing at 0x60000 -- 100% complete.
+[23;80H [24;1HOK
+[23;80H [24;1HTI8148_IPNC#tftp 0x81000000 2017-2-28/dm8148/xzrs_uboot_dm8148
+[23;80H [24;1Hlink up on port 0, speed 100, full duplex
+[23;80H [24;1HUsing cpsw device
+[23;80H [24;1HTFTP from server 192.168.1.9; our IP address is 192.168.1.146
+[23;80H [24;1HFilename '2017-2-28/dm8148/xzrs_uboot_dm8148'.
+[23;80H [24;1HLoad address: 0x81000000
+[23;80H [24;1HLoading: *########################################
+[23;80H [24;1Hdone
+[23;80H [24;1Hnandecc hw 2
+Bytes transferred = 202212 (315e4 hex)
+[23;80H [24;1HTI8148_IPNC#nandecc hw 2nand write.i 0x81000000 0x20000 0x60000
+
+[23;80H [24;1HHW ECC BCH8 Selected
+[23;80H [24;1HTI8148_IPNC#nand write.i 0x81000000 0x20000 0x60000
+[23;80H [24;1H
+[23;80H [24;1HNAND write: device 0 offset 0x20000, size 0x60000
+[23;80H [24;1H 393216 bytes written: OKsetenv ipaddr 192.168.1.146
+
+[23;80H [24;1HTI8148_IPNC#setenv ipaddr 192.168.1.146setenv gatewayip 192.168.1.9
+
+[23;80H [24;1HTI8148_IPNC#setenv gatewayip 192.168.1.9setenv netmask 255.255.255.0
+
+[23;80H [24;1HTI8148_IPNC#setenv netmask 255.255.255.0setenv serverip 192.168.1.9
+
+[23;80H [24;1HTI8148_IPNC#setenv serverip 192.168.1.9setenv bootcmd 'nand read 0x81000000 0x00580000 0x300000; bootm 0x81000000';
+
+[23;80H [24;1HTI8148_IPNC#setenv bootcmd 'nand read 0x81000000 0x00580000 0x300000; bootm 0x8[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80Hsetenv bootargs 'console=ttyO0,115200n8 noinitrd mem=128M rootwait=1 rw ubi.mtd=5,2048 rootfstype=ubifs root=ubi0:rootfs init=/init notifyk.vpssm3_sva=0xBFD00000 earlyprintk ddr_mem=512M vram=20M';
+
+[23;80H;[24;1HTI8148_IPNC#setenv bootargs 'console=ttyO0,115200n8 noinitrd mem=128M rootwait=[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80Hping 192.168.1.9
+
+[23;80H;[24;1HTI8148_IPNC#ping 192.168.1.9
+[23;80H [24;1Hlink up on port 0, speed 100, full duplex
+[23;80H [24;1HUsing cpsw device
+[23;80H [24;1Hhost 192.168.1.9 is alive
+[23;80H [24;1HTI8148_IPNC#setenv 'noinitrd rw ubi.mtd'
+setenv 'noinitrd rw ubi.mtd'
+[23;80H [24;1HTI8148_IPNC#setenv ip
+setenv ip
+[23;80H [24;1HTI8148_IPNC#saveenv
+saveenv
+[23;80H [24;1HSaving Environment to MMC...
+[23;80H [24;1HWriting to MMC(0)... done
+[23;80H [24;1HTI8148_IPNC#
+
+[23;80H [24;1HTI8148_IPNC#reset
+reset
+[23;80H [24;1Hresetting ...
+[23;80H [24;1H
+[23;80H [24;1H
+[23;80H [24;1HU-Boot 2010.06 (Feb 28 2017 - 16:49:03)
+[23;80H [24;1H
+[23;80H [24;1HTI8148-GP rev 1.0
+[23;80H [24;1H
+[23;80H [24;1HDRAM:  1 GiB
+[23;80H [24;1HNAND:  HW ECC BCH8 Selected
+[23;80H [24;1H256 MiB
+[23;80H [24;1HUsing default environment
+[23;80H [24;1H
+[23;80H [24;1HThe 2nd stage U-Boot will now be auto-loaded
+[23;80H [24;1HPlease do not interrupt the countdown till TI8148_EVM prompt if 2nd stage is al[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80Hd[24;1HEricDebug uboot WDT timeout is 600 seconds 
+[23;80H [24;1HHit any key to stop autoboot:  1  0 
+[23;80H [24;1H
+[23;80H [24;1HNAND read: device 0 offset 0x20000, size 0x40000
+[23;80H [24;1H 262144 bytes read: OK
+[23;80H [24;1H## Starting application at 0x81000000 ...
+[23;80H [24;1H
+[23;80H [24;1H
+[23;80H [24;1HU-Boot 2010.06 (Feb 28 2017 - 16:49:32)
+[23;80H [24;1H
+[23;80H [24;1HTI8148-GP rev 1.0
+[23;80H [24;1H
+[23;80H [24;1HI2C:   ready
+[23;80H [24;1HDRAM:  1 GiB
+[23;80H [24;1HNAND:  HW ECC BCH8 Selected
+[23;80H [24;1H256 MiB
+[23;80H [24;1HMMC:   OMAP SD/MMC: 0
+[23;80H [24;1H*** Warning - bad CRC or NAND, using default environment
+[23;80H [24;1H
+[23;80H [24;1H                          .:;rrr;;.                   
+[23;80H [24;1H                    ,5#@@@@#####@@@@@@#2,             
+[23;80H [24;1H                 ,A@@@hi;;;r5;;;;r;rrSG@@@A,          
+[23;80H [24;1H               r@@#i;:;s222hG;rrsrrrrrr;ri#@@r        
+[23;80H [24;1H             :@@hr:r;SG3ssrr2r;rrsrsrsrsrr;rh@@:      
+[23;80H [24;1H            B@H;;rr;3Hs;rrr;sr;;rrsrsrsrsrsr;;H@B     
+[23;80H [24;1H           @@s:rrs;5#;;rrrr;r#@H:;;rrsrsrsrsrr:s@@    
+[23;80H [24;1H          @@;;srs&X#9;r;r;;,2@@@rrr:;;rrsrsrsrr;;@@   
+[23;80H [24;1H         @@;;rrsrrs@MB#@@@@@###@@@@@@#rsrsrsrsrr;;@@  
+[23;80H [24;1H        G@r;rrsrsr;#X;SX25Ss#@@#M@#9H9rrsrsrsrsrs;r@G 
+[23;80H [24;1H        @9:srsrsrs;2@;:;;:.X@@@@@H::;rrsrsrsrsrsrr:3@ 
+[23;80H [24;1H       X@;rrsrsrsrr;XAi;;:&@@#@Bs:rrsrsrsrsrsrsrsrr;@X
+[23;80H [24;1H       @#;rsrsrsrsrr;r2ir@@@###::rrsrsrsrsrsrsrsrsr:@@
+[23;80H [24;1H       @A:rrsrsrsrr;:2@29@@M@@@;:;rrrrsrsrsrsrsrsrs;H@
+[23;80H [24;1H       @&;rsrsrsrr;A@@@@@@###@@@s::;:;;rrsrsrsrsrsr;G@
+[23;80H [24;1H       @#:rrsrsrsr;G@5Hr25@@@#@@@#9XG9s:rrrrsrsrsrs:#@
+[23;80H [24;1H       M@;rsrsrsrs;r@&#;::S@@@@@@@M@@@@Grr:;rsrsrsr;@#
+[23;80H [24;1H       :@s;rsrsrsrr:M#Msrr;;&#@@@@@@@@@@H@@5;rsrsr;s@,
+[23;80H [24;1H        @@:rrsrsrsr;S@rrrsr;:;r3MH@@#@M5,S@@irrsrr:@@ 
+[23;80H [24;1H         @A:rrsrsrsrrrrrsrsrrr;::;@##@r:;rH@h;srr:H@  
+[23;80H [24;1H         ;@9:rrsrsrsrrrsrsrsrsr;,S@Hi@i:;s;MX;rr:h@;  
+[23;80H [24;1H          r@B:rrrrsrsrsrsrsrr;;sA@#i,i@h;r;S5;r:H@r   
+[23;80H [24;1H           ,@@r;rrrsrsrsrsrr;2BM3r:;r:G@:rrr;;r@@,    
+[23;80H [24;1H             B@Mr;rrrrsrsrsr@@S;;;rrr:5M;rr;rM@H      
+[23;80H [24;1H              .@@@i;;rrrrsrs2i;rrrrr;r@M:;i@@@.       
+[23;80H [24;1H                .A@@#5r;;;r;;;rrr;r:r#AsM@@H.         
+[23;80H [24;1H                   ;&@@@@MhXS5i5SX9B@@@@G;            
+[23;80H [24;1H                       :ihM#@@@@@##hs,                
+[23;80H [24;1H
+[23;80H [24;1HEricDebug uboot WDT timeout is 600 seconds 
+[23;80H [24;1HNet:   set mac addr : fe:c3: 0:27:aa:44
+[23;80H [24;1Hset mac addr1 : ff:c3: 0:27:aa:44
+[23;80H [24;1HDetected MACID:44:aa:27:0:c3:fe
+[23;80H [24;1Hcpsw
+[23;80H [24;1HHit any key to stop autoboot
+:  3  0 
+[23;80H [24;1HTI8148_EVM#ls
+ls
+[23;80H [24;1HUnknown command 'ls' - try 'help'
+[23;80H [24;1HTI8148_EVM#mw.b 0x81000000 0xFF 0x300000;
+mw.b 0x81000000 0xFF 0x300000;
+[23;80H [24;1HTI8148_EVM#tftp 0x81000000 2017-2-28/dm8148/xzrs_uimage_dm8148
+tftp 0x81000000 2017-2-28/dm8148/xzrs_uimage_dm8148
+[23;80H [24;1Hlink up on port 0, speed 100, full duplex
+[23;80H [24;1H*** ERROR: `serverip' not set
+[23;80H [24;1HTI8148_EVM#

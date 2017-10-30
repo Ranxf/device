@@ -1,0 +1,21 @@
+xin300:
+    ip: 192.168.1.180
+    slot: 2
+    user: admin
+    passwd: admin
+    sn: 0fa78e6012fd734133d68e4516b9dda866048d202c1551d4ff45300d3e1159ae
+    console:
+           port: ttyUSB1
+           user: root
+           passwd: xzrsP@ssw0rd
+wac:
+    ip: 192.168.1.183
+    slot: 3
+    user: admin
+    passwd: admin12345
+ptz:
+    ip: 192.168.184
+    slot: 4
+    user: admin
+    passwd: admin12345
+model: dm8148

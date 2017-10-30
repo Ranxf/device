@@ -1,0 +1,63 @@
+Trying 192.168.1.90...
+Connected to 192.168.1.90.
+Escape character is '^]'.
+
+User Name : apap
+Password  : ap**
+
+
+American Power Conversion               Network Management Card AOS      v3.5.8
+(c) Copyright 2007 All Rights Reserved  Rack PDU APP                     v3.5.7
+-------------------------------------------------------------------------------
+Name      : RackPDU                                   Date : 02/24/2007
+Contact   : XXL                                       Time : 01:35:57
+Location  : TestLab                                   User : Outlet User
+Up Time   : 0 Days 1 Hour 8 Minutes                   Stat : P+ N+ A+
+
+Switched Rack PDU: Communication Established
+
+------- Control Console -------------------------------------------------------
+
+     1- Device Manager
+     2- Network
+     3- System
+     4- Logout
+
+     <ESC>- Main Menu, <ENTER>- Refresh
+> 
+
+------- Control Console -------------------------------------------------------
+
+     1- Device Manager
+     2- Network
+     3- System
+     4- Logout
+
+     <ESC>- Main Menu, <ENTER>- Refresh
+> 1
+
+------- Control Console -------------------------------------------------------
+
+     1- Device Manager
+     2- Network
+     3- System
+     4- Logout
+
+     <ESC>- Main Menu, <ENTER>- Refresh
+> 21
+
+------- Device Manager --------------------------------------------------------
+
+     1- Phase Monitor
+     2- Outlet Management
+     3- Power Supply Status
+
+     <ESC>- Back, <ENTER>- Refresh
+> 12
+
+------- Outlet Management -----------------------------------------------------
+
+     1- Outlet Control/Configuration
+
+     <ESC>- Back, <ENTER>- Refresh
+> 

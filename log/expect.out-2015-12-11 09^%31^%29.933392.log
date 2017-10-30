@@ -1,0 +1,70 @@
+
+[!p[?3;4l[4l>[0m(B[?1h=[H[2J[?12l[?25h
+Welcome to minicom 2.7
+
+OPTIONS: I18n 
+Compiled on Jan  1 2014, 17:13:19.
+Port /dev/ttyUSB1, 15:59:36
+
+Press CTRL-A Z for help on special keys
+
+
+root@dm816x:~# reboot
+reboot
+INIT: INIT: Sending processes the TERM signal
+[xz_sig_exit_cb]-13: Ctrl +C received---------------------------------
+wdg module, wdg_main_exit_cb , signo = 15,SIGINT = 2,SIGTERM = 15
+[main]-193: +++++++++++++++++++++++main,193++++++++++++++++++++++++
+SIGTERM Signal number = 15, Signal errno = 0
+[xz_sig_exit_cb]-13: Ctrl +C received---------------------------------
+SIGTERM Signal number = 15, Signal errno = 0
+-------------Begin exit xz_nvs_exe.bin  ----------------------
+1-------------------------------------------
+[web_msg_module_session]-882: msgnum = 109
+[web_msg_module_session]-883: src = 665
+[web_msg_module_session]-884: cmd = 38
+[web_msg_module_session]-1654: Get message WEBEXIT
+[23;80H [24;1H[xz_release_timer_list]-346: Have release resource.
+[23;80H [24;1H[main]-199: +++++++++++++++++++++++main,199++++++++++++++++++++++++
+[23;80H [24;1H[xz_release_watchdog_service]-724: +++++++++++++++++++++++xz_release_watchdog_s[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H+[24;1H2-------------------------------------------
+[23;80H [24;1H3-------------------------------------------
+[23;80H [24;1HKill queue id:65538
+[23;80H [24;1Hroot@dm816x:~# [wdg_cli_session_thr_cb]-488: +++++++++++++++++++++++wdg_cli_ses[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H+[24;1H[wdg_cli_session_thr_cb]-492: +++++++++++++wdg_cli_session_thr_cb,492will _exit[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H+[24;1Hkillall: wis-streamer: no process killed
+[23;80H [24;1H
+[23;80H [24;1H [host]  170241874: IPC_BITS_IN   : Stop Done !!!
+[23;80H [24;1H
+[23;80H [24;1H [host] 170241895: IPCBITSIN:Link[3000001a]:
+[23;80H [24;1H [host] RECV:4243976[24;25HFREE:4243971,DROPPED:0,AVGLATENCY:10,AVG_APP_CB_TIME:0
+[23;80H [24;1H [host]  170241895: IPC_BITS_IN   : Delete in progress !!!
+[23;80H [24;1H
+[23;80H [24;1H [host]  170241896: IPC_BITS_IN   : Delete Done !!!
+[23;80H [24;1H
+[23;80H [24;1H [host] 170241904: IPCBITSIN:Link[3000001b]:
+[23;80H [24;1H [host] RECV:8487787[24;25HFREE:8487773,DROPPED:0,AVGLATENCY:11,AVG_APP_CB_TIME:0
+[23;80H [24;1H [host]  170241904: IPC_BITS_IN   : Delete in progress !!!
+[23;80H [24;1H
+[23;80H [24;1H [host]  170241905: IPC_BITS_IN   : Delete Done !!!
+[23;80H [24;1H 170241908: SYSTEM: System Common De-Init in progress !!!
+[23;80H [24;1H
+[23;80H [24;1H [host] OSA_tskDelete:In progress...
+[23;80H [24;1H [host] OSA_tskDelete:In progress...
+[23;80H [24;1H [host] OSA_tskDelete:In progress...
+[23;80H [24;1H [host] OSA_tskDelete:In progress...
+[23;80H [24;1H [host] OSA_tskDelete:In progress...
+[23;80H [24;1H [host] OSA_tskDelete:In progress...
+[23;80H [24;1H [host] OSA_tskDelete:In progress...
+[23;80H [24;1H [host] OSA_tskDelete:In progress...
+[23;80H [24;1H [host] OSA_tskDelete:In progress...
+[23;80H [24;1H [host] OSA_tskDelete:In progress... 170241914: SYSTEM: IPC de-init in progress[24;80H[24;80H[24;80H[24;80H
+[23;80H![24;1H 170241933: SYSTEM: IPC de-init DONE !!!
+[23;80H [24;1H 170241933: SYSTEM: System Common De-Init Done !!!
+[23;80H [24;1H[xz_app_mgt_thr]-449: file:{xz_enc_priv.c},func:[xz_app_mgt_thr],line:-449.
+[23;80H [24;1H4-------------------------------------------
+[23;80H [24;1H5-------------------------------------------
+[23;80H [24;1H6-------------------------------------------
+[23;80H [24;1H7-------------------------------------------
+[23;80H [24;1H8-------------------------------------------
+[23;80H [24;1H

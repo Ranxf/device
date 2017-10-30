@@ -1,0 +1,111 @@
+
+[!p[?3;4l[4l>[0m(B[?1h=[H[2J[?12l[?25h
+Welcome to minicom 2.7
+
+OPTIONS: I18n 
+Compiled on Jan  1 2014, 17:13:19.
+Port /dev/ttyUSB0, 14:36:00
+
+Press CTRL-A Z for help on special keys
+
+ [m3vpss ]  276188: CAPTURE: Overflow detected on VIP0, Total Resets = 2980
+
+ [m3vpss ]  276252: CAPTURE: Overflow detected on VIP0, Total Resets = 2981
+ [m3vpss ]  276524: CAPTURE: Overflow detected on VIP0, Total Resets = 2982
+ [m3vpss ]  276700: CAPTURE: Overflow detected on VIP0, Total Resets = 2983
+ [m3vpss ]  276844: CAPTURE: Overflow detected on VIP0, Total Resets = 2984
+ [m3vpss ]  276860: CAPTURE: Overflow detected on VIP0, Total Resets = 2985
+ [m3vpss ]  277164: CAPTURE: Overflow detected on VIP0, Total Resets = 2986
+ [m3vpss ]  277228: CAPTURE: Overflow detected on VIP0, Total Resets = 2987
+ [m3vpss ]  277292: CAPTURE: Overflow detected on VIP0, Total Resets = 2988
+ [m3vpss ]  277388: CAPTURE: Overflow detected on VIP0, Total Resets = 2989
+ [m3vpss ]  277676: CAPTURE: Overflow detected on VIP0, Total Resets = 2990
+ [m3vpss ]  277708: CAPTURE: Overflow detected on VIP0, Total Resets = 2991
+ [m3vpss ]  277740: CAPTURE: Overflow detected on VIP0, Total Resets = 2992
+ [m3vpss ]  278252: CAPTURE: Overflow detected on VIP0, Total Resets = 2993
+[23;80H [24;1H [m3vpss ]  278380: CAPTURE: Overflow detected on VIP0, Total Resets = 2994
+[23;80H [24;1H [m3vpss ]  278428: CAPTURE: Overflow detected on VIP0, Total Resets = 2995
+[23;80H [24;1H [m3vpss ]  278572: CAPTURE: Overflow detected on VIP0, Total Resets = 2996
+[23;80H [24;1H [m3vpss ]  278620: CAPTURE: Overflow detected on VIP0, Total Resets = 2997
+[23;80H [24;1H [m3vpss ]  278636: CAPTURE: Overflow detected on VIP0, Total Resets = 2998
+[23;80H [24;1H [m3vpss ]  278764: CAPTURE: Overflow detected on VIP0, Total Resets = 2999
+[23;80H [24;1H [m3vpss ]  279004: CAPTURE: Overflow detected on VIP0, Total Resets = 3000
+[23;80H [24;1H [m3vpss ]  279020: CAPTURE: Overflow detected on VIP0, Total Resets = 3001
+[23;80H [24;1H [m3vpss ]  279068: CAPTURE: Overflow detected on VIP0, Total Resets = 3002
+[23;80H [24;1H [m3vpss ]  279100: CAPTURE: Overflow detected on VIP0, Total Resets = 3003
+[23;80H [24;1H [m3vpss ]  279212: CAPTURE: Overflow detected on VIP0, Total Resets = 3004
+[23;80H [24;1H [m3vpss ]  279436: CAPTURE: Overflow detected on VIP0, Total Resets = 3005
+[23;80H [24;1H [m3vpss ]  279564: CAPTURE: Overflow detected on VIP0, Total Resets = 3006
+[23;80H [24;1H [m3vpss ]  279628: CAPTURE: Overflow detected on VIP0, Total Resets = 3007
+[23;80H [24;1H [m3vpss ]  279964: CAPTURE: Overflow detected on VIP0, Total Resets = 3008
+[23;80H [24;1H [m3vpss ]  280380: CAPTURE: Overflow detected on VIP0, Total Resets = 3009
+[23;80H [24;1H [m3vpss ]  280412: CAPTURE: Overflow detected on VIP0, Total Resets = 3010
+[23;80H [24;1H [m3vpss ]  280508: CAPTURE: Overflow detected on VIP0, Total Resets = 3011
+[23;80H [24;1H [m3vpss ]  280700: CAPTURE: Overflow detected on VIP0, Total Resets = 3012
+[23;80H [24;1H [m3vpss ]  280764: CAPTURE: Overflow detected on VIP0, Total Resets = 3013
+[23;80H [24;1H [m3vpss ]  281004: CAPTURE: Overflow detected on VIP0, Total Resets = 3014
+[23;80H [24;1H [m3vpss ]  281132: CAPTURE: Overflow detected on VIP0, Total Resets = 3015
+[23;80H [24;1H [m3vpss ]  281276: CAPTURE: Overflow detected on VIP0, Total Resets = 3016
+[23;80H [24;1H [m3vpss ]  281436: CAPTURE: Overflow detected on VIP0, Total Resets = 3017
+[23;80H [24;1H [m3vpss ]  281564: CAPTURE: Overflow detected on VIP0, Total Resets = 3018
+[23;80H [24;1H [m3vpss ]  281676: CAPTURE: Overflow detected on VIP0, Total Resets = 3019
+[23;80H [24;1H [m3vpss ]  281740: CAPTURE: Overflow detected on VIP0, Total Resets = 3020
+[23;80H [24;1H [m3vpss ]  281916: CAPTURE: Overflow detected on VIP0, Total Resets = 3021
+[23;80H [24;1H [m3vpss ]  282492: CAPTURE: Overflow detected on VIP0, Total Resets = 3022
+[23;80H [24;1H [m3vpss ]  282716: CAPTURE: Overflow detected on VIP0, Total Resets = 3023
+[23;80H [24;1H [m3vpss ]  282780: CAPTURE: Overflow detected on VIP0, Total Resets = 3024
+[23;80H [24;1H [m3vpss ]  282844: CAPTURE: Overflow detected on VIP0, Total Resets = 3025
+[23;80H [24;1H [m3vpss ]  282924: CAPTURE: Overflow detected on VIP0, Total Resets = 3026
+[23;80H [24;1H [m3vpss ]  283020: CAPTURE: Overflow detected on VIP0, Total Resets = 3027
+[23;80H [24;1H [m3vpss ]  283148: CAPTURE: Overflow detected on VIP0, Total Resets = 3028
+[23;80H [24;1H [m3vpss ]  283180: CAPTURE: Overflow detected on VIP0, Total Resets = 3029
+[23;80H [24;1H [m3vpss ]  283308: CAPTURE: Overflow detected on VIP0, Total Resets = 3030
+[23;80H [24;1H [m3vpss ]  283452: CAPTURE: Overflow detected on VIP0, Total Resets = 3031
+[23;80H [24;1H [m3vpss ]  283484: CAPTURE: Overflow detected on VIP0, Total Resets = 3032
+[23;80H [24;1H [m3vpss ]  283532: CAPTURE: Overflow detected on VIP0, Total Resets = 3033
+[23;80H [24;1H [m3vpss ]  284220: CAPTURE: Overflow detected on VIP0, Total Resets = 3034
+[23;80H [24;1H [m3vpss ]  284316: CAPTURE: Overflow detected on VIP0, Total Resets = 3035
+[23;80H [24;1H [m3vpss ]  284572: CAPTURE: Overflow detected on VIP0, Total Resets = 3036
+[23;80H [24;1H [m3vpss ]  284780: CAPTURE: Overflow detected on VIP0, Total Resets = 3037
+[23;80H [24;1H[system_monitor_timer_cb]-262: inside system_monitor_timer_cb  release keeplive[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H [24;1H [m3vpss ]  285052: CAPTURE: Overflow detected on VIP0, Total Resets = 3038
+[23;80H [24;1H [m3vpss ]  285372: CAPTURE: Overflow detected on VIP0, Total Resets = 3039
+[23;80H [24;1H [m3vpss ]  285740: CAPTURE: Overflow detected on VIP0, Total Resets = 3040
+[23;80H [24;1H [m3vpss ]  285996: CAPTURE: Overflow detected on VIP0, Total Resets = 3041
+[23;80H [24;1H [m3vpss ]  286156: CAPTURE: Overflow detected on VIP0, Total Resets = 3042
+[23;80H [24;1H [m3vpss ]  286348: CAPTURE: Overflow detected on VIP0, Total Resets = 3043
+[23;80H [24;1H [m3vpss ]  286460: CAPTURE: Overflow detected on VIP0, Total Resets = 3044
+[23;80H [24;1H [m3vpss ]  286828: CAPTURE: Overflow detected on VIP0, Total Resets = 3045
+[23;80H [24;1H [m3vpss ]  286940: CAPTURE: Overflow detected on VIP0, Total Resets = 3046
+[23;80H [24;1H [m3vpss ]  286988: CAPTURE: Overflow detected on VIP0, Total Resets = 3047
+[23;80H [24;1H [m3vpss ]  287084: CAPTURE: Overflow detected on VIP0, Total Resets = 3048
+[23;80H [24;1H [m3vpss ]  287116: CAPTURE: Overflow detected on VIP0, Total Resets = 3049
+[23;80H [24;1H [m3vpss ]  287148: CAPTURE: Overflow detected on VIP0, Total Resets = 3050
+[23;80H [24;1H [m3vpss ]  287180: CAPTURE: Overflow detected on VIP0, Total Resets = 3051
+[23;80H [24;1H [m3vpss ]  287564: CAPTURE: Overflow detected on VIP0, Total Resets = 3052
+[23;80H [24;1H [m3vpss ]  287660: CAPTURE: Overflow detected on VIP0, Total Resets = 3053
+[23;80H [24;1H [m3vpss ]  287740: CAPTURE: Overflow detected on VIP0, Total Resets = 3054
+[23;80H [24;1H [m3vpss ]  287772: CAPTURE: Overflow detected on VIP0, Total Resets = 3055
+[23;80H [24;1H [m3vpss ]  287964: CAPTURE: Overflow detected on VIP0, Total Resets = 3056
+[23;80H [24;1H [m3vpss ]  288572: CAPTURE: Overflow detected on VIP0, Total Resets = 3057
+[23;80H [24;1H [m3vpss ]  288604: CAPTURE: Overflow detected on VIP0, Total Resets = 3058
+[23;80H [24;1H [m3vpss ]  288764: CAPTURE: Overflow detected on VIP0, Total Resets = 3059
+[23;80H [24;1H [m3vpss ]  288828: CAPTURE: Overflow detected on VIP0, Total Resets = 3060
+[23;80H [24;1H [m3vpss ]  288876: CAPTURE: Overflow detected on VIP0, Total Resets = 3061
+[23;80H [24;1H [m3vpss ]  288940: CAPTURE: Overflow detected on VIP0, Total Resets = 3062
+[23;80H [24;1H [m3vpss ]  289068: CAPTURE: Overflow detected on VIP0, Total Resets = 3063
+[23;80H [24;1H [m3vpss ]  289180: CAPTURE: Overflow detected on VIP0, Total Resets = 3064
+[23;80H [24;1H [m3vpss ]  289340: CAPTURE: Overflow detected on VIP0, Total Resets = 3065
+[23;80H [24;1H [m3vpss ]  289516: CAPTURE: Overflow detected on VIP0, Total Resets = 3066
+[23;80H [24;1H [m3vpss ]  289548: CAPTURE: Overflow detected on VIP0, Total Resets = 3067
+[23;80H [24;1H [m3vpss ]  289676: CAPTURE: Overflow detected on VIP0, Total Resets = 3068
+[23;80H [24;1H [m3vpss ]  289964: CAPTURE: Overflow detected on VIP0, Total Resets = 3069
+[23;80H [24;1H [m3vpss ]  289996: CAPTURE: Overflow detected on VIP0, Total Resets = 3070
+[23;80H [24;1H [m3vpss ]  290380: CAPTURE: Overflow detected on VIP0, Total Resets = 3071
+[23;80H [24;1H [m3vpss ]  290540: CAPTURE: Overflow detected on VIP0, Total Resets = 3072
+[23;80H [24;1H [m3vpss ]  290828: CAPTURE: Overflow detected on VIP0, Total Resets = 3073
+[23;80H [24;1H [m3vpss ]  291036: CAPTURE: Overflow detected on VIP0, Total Resets = 3074
+[23;80H [24;1H [m3vpss ]  291292: CAPTURE: Overflow detected on VIP0, Total Resets = 3075
+[23;80H [24;1H [m3vpss ]  291532: CAPTURE: Overflow detected on VIP0, Total Resets = 3076
+[23;80H [24;1H [m3vpss ]  291612: CAPTURE: Overflow detected on VIP0, Total Resets = 3077
+[23;80H [24;1H

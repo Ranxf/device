@@ -1,0 +1,84 @@
+
+Lockfile is stale. Overriding it..
+
+[!p[?3;4l[4l>[0m(B[?1h=[H[2J[?12l[?25h
+Welcome to minicom 2.7
+
+OPTIONS: I18n 
+Compiled on Jan  1 2014, 17:13:19.
+Port /dev/ttyUSB2, 10:14:00
+
+Press CTRL-A Z for help on special keys
+
+
+Connect speed 100M Full
+Timeout
+SNTP failed: host 192.168.1.9 not responding
+XZ-UBOOT #
+ 
+Connect speed 100M Full
+Timeout
+SNTP failed: host 192.168.1.9 not responding
+XZ-UBOOT #reset
+ reset
+resetting ...
+
+
+U-Boot 2010.06 (Feb 25 2016 - 01:51:26)
+
+CDXZRS-GP rev 1.0
+[23;80H [24;1H
+[23;80H [24;1HI2C:   ready
+[23;80H [24;1HDRAM:  2 GiB
+[23;80H [24;1HNAND:  HW ECC BCH8 Selected
+[23;80H [24;1H256 MiB
+[23;80H [24;1HMMC:   OMAP SD/MMC: 0
+[23;80H [24;1H:,;;:;:;;;;;;;;r;;:,;;:;:;;;;;;;;:,;;:;:;;;;;;;;:,;;:;:;;;;;;;;:;;;;;;;;:,;;:;:
+[23;80H [24;1H;,;:::;;;;r;;;rssiSiS552X5252525259GX2X9hX9X9XX2325S55252i5:,;;:;:;;;;;;;;:,;;:
+[23;80H [24;1H;:;;;;;;;rrssSsS52S22h52299GGAAMHMM#BBH#B#HMM#HMBA&&XX2255S2S5Si:,;;:;:;;;;;;;;
+[23;80H [24;1H;:;;r;;rsrrriiXS5S329&A&MH#BMB#A&9XXA252GXiSXX39AAMMMBB&G22S5i2SSiiiisi:,;;:;:;
+[23;80H [24;1H;;;;;r;rr2iisiih393HB#B#AA99i22irrrX3X52AGsisss2Xii2299HBMA&X2S5S5iSiisSsi:,;;:
+[23;80H [24;1Hr:r;rrsrsihXSi2&##MHB&Ahh3AGHGA9G9h&#H##@@@##MAMMXXX9SSS29&&HGGX2i5iisiiisisi:,
+[23;80H [24;1H;;rrrrsSiiiA&ABH&A9GAGhAhBAMHA9HM@@@@@@@@@@@@@@@@@@@HHhAh2S2SX9&Gh22SSiisiiisii
+[23;80H [24;1Hr:rrssisiS2XM##&h3AGAX&3GG3Ssr5H@M#HM2; ;2X&&&MHMB###GBB#B&XXSSs529XX55iSsisisi
+[23;80H [24;1Hr;rsrisSi2XHAhX99A3XXG&&XS;:,rH#HGhAS   @@@@3rs2XBM@@A552&&AHA2XiisSS252SSsisSs
+[23;80H [24;1Hr;issi5S22&&3iSSX292&hXsr;;:;h@&G339&S9@@@@2@MA&9&HB##Xris29ABMAAX2ir;rsSi5iss5
+[23;80H [24;1HrrsSi2XhG&9GXh399&X99i;;;;;;r#H&293H9X#@@@@@@@B&9GhAH@XrrsrsiXABHB&HG2rr;rrSiSi
+[23;80H [24;1H;:rsisS599&AA9XG&3A35r;:::;,;BMh&&2iX5A@@@@@@@&392X5GB2;;;r;iSX393A##A&Xi:::rsi
+[23;80H [24;1H;:rss552222X553&XHMhir;;::,:,h#HhGSXhG3#@@@@#AXXS2XAHA;::;;;;ss55XShBA3239r:,;;
+[23;80H [24;1Hr;ii2S5SSi2i53hirsh2srr::,,,,;MMXX359&Ah3h&Si59SX99A#i:,::::;;sri2,.2r;:SGAr;,:
+[23;80H [24;1H;:;rrrrssiriXGSi::shs;;;,,,:,,rBBA9h5s5h5iS5isi2SAHB5:,,,:::;rrs5&SrisSX5Srrr:,
+[23;80H [24;1H;,r;;;;rsriSSrrrr;;5Xrr;;,:,,.,;9AA2SsisS5323XXXG9&i:.,,::;;r;;;srrrrrr;;:;::::
+[23;80H [24;1H:,;r;r;rrissrrr;:;::;s;;;;,:,,..,r293h222hXXAAGGGX;:,,,:,:,::;:;::,:,,,,...,,,,
+[23;80H [24;1H;,;;;;rrrrrrrrirr;,.,,:::::::,,,,.,;SX&ABAB2hhXir:,,.,,.,,:,,,,..,,,..,..,,,..:
+[23;80H [24;1H:.:;:;;;:;;;;r;rrs;:.. ,,:::::,:,:,,.::rrsrr;;,,.......,..,....,,,,,,,...,.,,:,
+[23;80H [24;1H:.:::,::::::;;r;rrr;:.......,.,.,,:::,,...............,,::.,,,,:,::,,:,:,,,:,;:
+[23;80H [24;1H,.::,:,,,,,;;;;;;;;r;;::,..............................;;;:;::::,:::::::,:,:,,,
+[23;80H [24;1H: ,,:,,,,,,,,,,,,,:;rrr;;:;,,,,,,,::,.,.:.,.,;s,:;;;;:;:;;;;;::::,:::,:::,:,:,:
+[23;80H [24;1H,.,,,,,,,...,,.,,....................................:,............:,,,:,:,,,,,
+[23;80H [24;1H
+[23;80H [24;1HEricDebug uboot WDT timeout is 600 seconds 
+[23;80H [24;1HNet:   set mac addr : ee:c2: 0:27:aa:44
+[23;80H [24;1Hset mac addr1 : ef:c2: 0:27:aa:44
+[23;80H [24;1HEthernet PHY: GENERIC @ 0x01
+[23;80H [24;1HDaVinci EMAC
+[23;80H [24;1HHit any key to stop autoboot:
+  1  0 
+[23;80H [24;1HXZ-UBOOT # setenv ipaddr 192.168.1.210
+setenv ipaddr 192.168.1.210
+[23;80H [24;1HXZ-UBOOT #setenv gatewayip 192.168.1.9
+ setenv gatewayip 192.168.1.9
+[23;80H [24;1HXZ-UBOOT # setenv netmask 255.255.255.0
+setenv netmask 255.255.255.0
+[23;80H [24;1HXZ-UBOOT # setenv serverip 192.168.1.9
+setenv serverip 192.168.1.9
+[23;80H [24;1HXZ-UBOOT # setenv bootargs 'mem=512M console=ttyO2,115200n8 rootwait=1 rw ubi.mtd=4,2048 rootfstype=ubifs root=ubi0:rootfs ip=192.168.1.210 vram=20M notifyk.vpssm3_sva=0xbfb00000 vmalloc=476M ddr_mem=2048M'
+setenv bootargs 'mem=512M console=ttyO2,115200n8 rootwait=1 rw ubi.m[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H'[24;1HXZ-UBOOT # setenv bootcmd 'nand read 0x81000000 0x00580000 0x300000; bootm 0x81000000'
+setenv bootcmd 'nand read 0x81000000 0x00580000 0x300000; bootm 0x81[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H'[24;1HXZ-UBOOT # sntp 192.168.1.9
+sntp 192.168.1.9
+[23;80H [24;1HConnect speed 100M Full
+[23;80H [24;1HTimeout
+[23;80H [24;1HSNTP failed: host 192.168.1.9 not responding
+[23;80H [24;1HXZ-UBOOT # 

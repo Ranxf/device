@@ -1,0 +1,30 @@
+#! /usr/bin/python
+
+from socket import *
+import time
+import struct
+video_fmt = '>I32s2I'
+HOST = '192.168.1.144'  
+client = '192.168.2.200'
+PORT = 6000
+BUFSIZE = 10240
+ADDR = (HOST, PORT)  
+tcpClientSock = socket(AF_INET, SOCK_STREAM)  
+tcpClientSock.connect(ADDR)  
+
+rtp=[0x00, 0x00, 0x00, 0x00, '192.168.2.200',
+0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
+0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
+0x00, 0x00, 0x00, 0x00, 0x70, 0x17, 0x00, 0x00, 
+0x00, 0x00, 0x00, 0x00]
+nego = struct.pack(video_fmt,0,client,PORT,0)
+
+tcpClientSock.send(nego)
+
+while True:  
+    data = tcpClientSock.recv(BUFSIZE)  
+    if not data:  
+        break  
+    print("." _ )
+
+tcpClientSock.close()  

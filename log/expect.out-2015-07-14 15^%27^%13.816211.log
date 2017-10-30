@@ -1,0 +1,64 @@
+
+Lockfile is stale. Overriding it..
+
+[!p[?3;4l[4l>[0m(B[?1h=[H[2J[?12l[?25h
+Welcome to minicom 2.7
+
+OPTIONS: I18n 
+Compiled on Jan  1 2014, 17:13:19.
+Port /dev/ttyUSB0, 15:25:20
+
+Press CTRL-A Z for help on special keys
+
+
+
+Broadcast message from root@dm816x (console) (INIT: Sending processes the TERM signal
+Ctrl +C received---------------------------------
+SIGTERM Signal number = 15, Signal errno = 0
+-------------Begin exit xz_nvs_exe.bin  ----------------------
+1-------------------------------------------
+msgnum = 1
+src = 704
+cmd = 38
+Get message WEBEXIT
+root@dm816x:~# reboot
+3-------------------------------------------
+xz_stop_rtsp Exit Completed 
+EricDebug: success release rtsp
+
+[23;80H [24;1H [host]  AVSERVER UI: Stopping Streaming Server...
+[23;80H [24;1Hkillall: wis-streamer: no process killed
+[23;80H [24;1Hreboot
+[23;80H [24;1HStopping telnet daemon.
+[23;80H [24;1HStopping system message bus: dbus.
+[23;80H [24;1HStopping syslogd/klogd: stopped syslogd (pid 588)
+[23;80H [24;1Hstopped klogd (pid 590)
+[23;80H [24;1Hdone
+[23;80H [24;1HALSA: Storing mixer settings...
+[23;80H [24;1HDeconfiguring network interfaces... done.
+[23;80H [24;1HSending all processes the TERM signal...
+[23;80H [24;1HCtrl +C received---------------------------------
+[23;80H [24;1HSIGTERM Signal number = 15, Signal errno = 0
+[23;80H [24;1Hroot@dm816x:~# 
+[23;80H [24;1H [host]  AVSERVER UI: Stopping Streaming Server...DONE
+[23;80H [24;1Hxz_stop_rtsp AVSERVER_rtspServerStop finish
+[23;80H [24;1Hxz_stop_rtsp AVSERVER_stop finish
+[23;80H [24;1H
+[23;80H [24;1H [host] OSA_tskDelete:In progress...xz_stop_rtsp AVSERVER_exit finish
+[23;80H [24;1Hxz_stop_rtsp Exit Completed 
+[23;80H [24;1HEricDebug: repeat release rtsp
+[23;80H [24;1H
+[23;80H [24;1H [host]  417758: IPC_BITS_IN   : Stop Done !!!
+[23;80H [24;1H
+[23;80H [24;1H [host] 417778: IPCBITSIN:Link[3000001a]:
+[23;80H [24;1H [host] RECV:10328[24;25HFREE:10323,DROPPED:0,AVGLATENCY:10,AVG_APP_CB_TIME:0
+[23;80H [24;1H [host]  417778: IPC_BITS_IN   : Delete in progress !!!
+[23;80H [24;1H
+[23;80H [24;1H [host]  417778: IPC_BITS_IN   : Delete Done !!!
+[23;80H [24;1H
+[23;80H [24;1H [host] 417786: IPCBITSIN:Link[3000001b]:
+[23;80H [24;1H [host] RECV:20667[24;25HFREE:20653,DROPPED:0,AVGLATENCY:10,AVG_APP_CB_TIME:0
+[23;80H [24;1H [host]  417786: IPC_BITS_IN   : Delete in progress !!!
+[23;80H [24;1H
+[23;80H [24;1H [host]  417786: IPC_BITS_IN   : Delete Done !!!
+[23;80H [24;1H 417794: SYSTEM: System Common De-Init in progress !!!

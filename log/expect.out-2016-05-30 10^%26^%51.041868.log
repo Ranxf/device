@@ -1,0 +1,55 @@
+
+[!p[?3;4l[4l>[0m(B[?1h=[H[2J[?12l[?25h
+Welcome to minicom 2.7
+
+OPTIONS: I18n 
+Compiled on Jan  1 2014, 17:13:19.
+Port /dev/ttyUSB1, 10:26:40
+
+Press CTRL-A Z for help on special keys
+
+
+ _____                    _____           _         _   
+|  _  |___ ___ ___ ___   |  _  |___ ___  |_|___ ___| |_ 
+|     |  _| .'| . | . |  |   __|  _| . | | | -_|  _|  _|
+|__|__|_| |__,|_  |___|  |__|  |_| |___|_| |___|___|_|  
+              |___|                    |___|            
+
+Arago Project http://arago-project.org dm814x ttyO0
+
+Arago 2012.10 dm814x ttyO0
+
+dm814x login:
+ 
+ _____                    _____           _         _   
+|  _  |___ ___ ___ ___   |  _  |___ ___  |_|___ ___| |_ 
+|     |  _| .'| . | . |  |   __|  _| . | | | -_|  _|  _|
+[23;80H [24;1H|__|__|_| |__,|_  |___|  |__|  |_| |___|_| |___|___|_|  
+[23;80H [24;1H              |___|                    |___|            
+[23;80H [24;1H
+[23;80H [24;1HArago Project http://arago-project.org dm814x ttyO0
+[23;80H [24;1H
+[23;80H [24;1HArago 2012.10 dm814x ttyO0
+[23;80H [24;1H
+[23;80H [24;1Hdm814x login:root
+ ...Connection to server failed: No route to host
+[23;80H [24;63HrootOpening conne[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H.[24;80H
+[23;80H [24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80Ht[24;1HOpening connection to 192.168.1.65, port 554...
+[23;80H [24;1HEricDebug  Kernel EMAC: davinci_mdio_write, 217, data = 0xa4ff
+[23;80H [24;1H...Connection to server failed: No route to host
+[23;80H [24;1HOpening connection to 192.168.1.65, port 554...
+[23;80H [24;1H...Connection to server failed: No route to host
+[23;80H [24;1HOpening connection to 192.168.1.65, port 554...
+[23;80H [24;1H...Connection to server failed: No route to host
+[23;80H [24;1HOpening connection to 192.168.1.65, port 554...
+[23;80H [24;1H...Connection to server failed: No route to host
+[23;80H [24;1HOpening connection to 192.168.1.65, port 554...
+[23;80H [24;1H...Connection to server failed: No route to host
+[23;80H [24;1HOpening connection to 192.168.1.65, port 554...
+[23;80H [24;1H...Connection to server failed: No route to host
+[23;80H [24;1HOpening connection to 192.168.1.65, port 554...
+[23;80H [24;1H...Connection to server failed: No route to host
+[23;80H [24;1HOpening connection to 192.168.1.65, port 554...
+[23;80H [24;1H

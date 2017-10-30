@@ -1,0 +1,22 @@
+xin300:
+    ip: 192.168.1.144
+    slot: 2
+    user: admin
+    passwd: admin
+    sn: 017fdcc91a1c767bf57b35df8c4277f0067bb577169756eb0f1de0b9049db020
+    console:
+           port: /dev/ttyUSB0
+           user: root
+           passwd: xzrsP@ssw0rd
+           prompt: UBOOT.*#
+wac:
+    ip: sdi
+    slot: 3
+    user: admin
+    passwd: admin12345
+ptz:
+    ip: 192.168.145
+    slot: 4
+    user: admin
+    passwd: admin12345
+model: dm8168

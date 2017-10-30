@@ -1,0 +1,57 @@
+
+Lockfile is stale. Overriding it..
+
+[!p[?3;4l[4l>[0m(B[?1h=[H[2J[?12l[?25h
+Welcome to minicom 2.7
+
+OPTIONS: I18n 
+Compiled on Jan  1 2014, 17:13:19.
+Port /dev/ttyUSB1, 15:07:20
+
+Press CTRL-A Z for help on special keys
+
+
+root@dm814x:~#
+ 
+root@dm814x:~# 
+
+root@dm814x:~#passwd root
+ passwd root
+Changing password for root
+Enter the new password (minimum of 5, maximum of 8 characters)
+Please use a combination of upper and lower case letters and numbers.
+New password: xzrsP@ssw0rd
+
+Re-enter new password: xzrsP@ssw0rd
+
+passwd: password changed.
+
+root@dm814x:~# sed -i '{27 s/#\(.*\)//g}' /home/format-sd-ext3.sh
+
+root@dm814x:~# [0m(B[7m[24;1H[K[?12l[?25h[?25lCTRL-A Z for help | 115200 8N1 | NOR | Minicom 2.7 | VT102 | Offline | ttyUSB1 [?12l[?25h[21;16H[?12l[?25h[24;1H[0m(B                                                                               [21;16Hsed -i '{27 s/#\(.*\)/g}' /homsed -i '{28 s/\(.*\)/#/g}' /home/format-sd-ext3.sh
+
+sed: unmatched '/'
+root@dm814x:~# [0m(B[7m[24;1H[K[?12l[?25h[?25lCTRL-A Z for help | 115200 8N1 | NOR | Minicom 2.7 | VT102 | Offline | ttyUSB1 [?12l[?25h[23;16H[?12l[?25h[24;1H[0m(B                                                                               [23;16Hsed -i '{28 s/\(.*\)/#g}' /homchmod +x /home/format-sd-ext3.sh
+
+sed: unmatched '/'
+[23;80H [24;1Hroot@dm814x:~# chmod +x /home/format-sd-ext3.sh/home/format-sd-ext3.sh /dev/mmcblk0
+
+[23;80H [24;1Hroot@dm814x:~# /home/format-sd-ext3.sh /dev/mmcblk0
+[23;80H [24;1HAll data on /dev/mmcblk0 now will be destroyed! Continue? [y/n]y
+
+[23;80H [24;1Hy
+[23;80H [24;1H[Partitioning /dev/mmcblk0...]
+[23;80H [24;1H1024+0 records in
+[23;80H [24;1H1024+0 records out
+[23;80H [24;1HDisk /dev/mmcblk0 doesn't contain a valid partition table
+[23;80H [24;1HDISK SIZE - 7948206080 bytes
+[23;80H [24;1HCYLINDERS - 966
+[23;80H [24;1HChecking that no-one is using this disk right now ...
+[23;80H [24;1HBLKRRPART: Device or resource busy
+[23;80H [24;1H
+[23;80H [24;1HThis disk is currently in use - repartitioning is probably a bad idea.
+[23;80H [24;1HUmount all file systems, and swapoff all swap partitions on this disk.
+[23;80H [24;1HUse the --no-reread flag to suppress this check.
+[23;80H [24;1HUse the --force flag to overrule all checks.
+[23;80H [24;1H[Making filesystems...]
+[23;80H [24;1H[Done]

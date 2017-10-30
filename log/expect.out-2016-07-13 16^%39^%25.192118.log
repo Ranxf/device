@@ -1,0 +1,33 @@
+
+[!p[?3;4l[4l>[0m(B[?1h=[H[2J[?12l[?25h
+Welcome to minicom 2.7
+
+OPTIONS: I18n 
+Compiled on Jan  1 2014, 17:13:19.
+Port /dev/ttyUSB1, 16:37:12
+
+Press CTRL-A Z for help on special keys
+
+
+link up on port 0, speed 100, full duplex
+Using cpsw device
+TFTP from server 192.168.1.9; our IP address is 192.168.1.146
+Filename '2016-7-13/dm8148/xzrs_uboot_nand_dm8148'.
+Load address: 0x81000000
+Loading: *######################
+done
+Bytes transferred = 110136 (0x1ae38)
+TI8148_EVM#
+
+link up on port 0, speed 100, full duplex
+Using cpsw device
+TFTP from server 192.168.1.9; our IP address is 192.168.1.146
+Filename '2016-7-13/dm8148/xzrs_uboot_nand_dm8148'.
+Load address: 0x81000000
+[23;80H [24;1HLoading: *######################
+[23;80H [24;1Hdone
+[23;80H [24;1HBytes transferred = 110136 (0x1ae38)
+[23;80H [24;1HTI8148_EVM#reset
+reset
+[23;80H [24;1Hresetting ...
+[23;80H [24;1H

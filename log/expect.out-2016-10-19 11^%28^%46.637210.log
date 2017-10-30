@@ -1,0 +1,203 @@
+
+[!p[?3;4l[4l>[0m(B[?1h=[H[2J[?12l[?25h
+Welcome to minicom 2.7
+
+OPTIONS: I18n 
+Compiled on Jan  1 2014, 17:13:19.
+Port /dev/ttyUSB0, 11:26:56
+
+Press CTRL-A Z for help on special keys
+
+omap_i2c omap_i2c.3: controller timed out
+omap_i2c omap_i2c.3: controller timed out
+omap_i2c omap_i2c.3: controller timed out
+omap_i2c omap_i2c.3: controller timed out
+omap_i2c omap_i2c.3: controller timed out
+omap_i2c omap_i2c.3: controller timed out
+omap_i2c omap_i2c.3: controller timed out
+OMAP Watchdog Timer Rev 0x00: initial timeout 0 sec
+nss_aes_mod_init: loading NSS AES driver
+nss-aes nss-aes: NSS AES hw accel rev: 3.2 (context 0 @0x41140000)
+nss-aes nss-aes: NSS AES hw accel rev: 3.2 (context 1 @0x41141000)
+nss-aes nss-aes: NSS AES hw accel rev: 3.2 (context 2 @0x411a0000)
+nss-aes nss-aes: NSS AES hw accel rev: 3.2 (context 3 @0x411a1000)
+nss_aes_probe: probe() done
+nss_des_mod_init: loading NSS DES driver
+[23;80H [24;1Hnss-des nss-des: NSS DES hw accel rev: 2.2 (context 0 @0x41160000)
+[23;80H [24;1Hnss-des nss-des: NSS DES hw accel rev: 2.2 (context 1 @0x41161000)
+[23;80H [24;1Hnss_des_probe: probe() done
+[23;80H [24;1Hnss_sham_mod_init: loading NSS SHA/MD5 driver
+[23;80H [24;1Hnss-sham nss-sham: NSS SHA/MD5 hw accel rev: 4.03 (context 0 @0x41100000)
+[23;80H [24;1Hnss-sham nss-sham: NSS SHA/MD5 hw accel rev: 4.03 (context 1 @0x41101000)
+[23;80H [24;1Hnss-sham nss-sham: NSS SHA/MD5 hw accel rev: 4.03 (context 2 @0x411c0000)
+[23;80H [24;1Hnss-sham nss-sham: NSS SHA/MD5 hw accel rev: 4.03 (context 3 @0x411c1000)
+[23;80H [24;1Hnss_sham_probe: probe() done
+[23;80H [24;1Husbcore: registered new interface driver usbhid
+[23;80H [24;1Husbhid: USB HID core driver
+[23;80H [24;1Hnotify_init : notify drivercreated  for  remote proc id 2 at physical Address 0[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H0[24;1Husbcore: registered new interface driver snd-usb-audio
+[23;80H [24;1HALSA device list:
+[23;80H [24;1H  No soundcards found.
+[23;80H [24;1HTCP cubic registered
+[23;80H [24;1HNET: Registered protocol family 17
+[23;80H [24;1HRegistering the dns_resolver key type
+[23;80H [24;1HVFP support v0.3: implementor 41 architecture 3 part 30 variant c rev 3
+[23;80H [24;1Homap_voltage_late_init: Voltage driver support not added
+[23;80H [24;1HPower Management for TI81XX.
+[23;80H [24;1HDetected MACID=a0:f6:fd:9f:3b:f6
+[23;80H [24;1Hrtc-ds1307 1-0068: setting system clock to 2016-07-21 20:17:08 UTC (1469132228)
+[23;80H [24;1HUBIFS: recovery needed
+[23;80H [24;1HUBIFS: recovery completed
+[23;80H [24;1HUBIFS: mounted UBI device 0, volume 0, name "rootfs"
+[23;80H [24;1HUBIFS: file system size:   199225344 bytes (194556 KiB, 189 MiB, 1569 LEBs)
+[23;80H [24;1HUBIFS: journal size:       9023488 bytes (8812 KiB, 8 MiB, 72 LEBs)
+[23;80H [24;1HUBIFS: media format:       w4/r0 (latest is w4/r0)
+[23;80H [24;1HUBIFS: default compressor: lzo
+[23;80H [24;1HUBIFS: reserved for root:  0 bytes (0 KiB)
+[23;80H [24;1HVFS: Mounted root (ubifs filesystem) on device 0:13.
+[23;80H [24;1Hdevtmpfs: mounted
+[23;80H [24;1HFreeing init memory: 216K
+[23;80H [24;1HFailed to execute /init.  Attempting defaults...
+[23;80H [24;1Hmmc0: host does not support reading read-only switch. assuming write-enable.
+[23;80H [24;1Hmmc0: new high speed SDHC card at address 1234
+[23;80H [24;1Hmmcblk0: mmc0:1234 SA08G 7.21 GiB 
+[23;80H [24;1H mmcblk0: p1
+[23;80H [24;1HINIT: version 2.88 booting
+[23;80H [24;1H Mounting /dev/shm              :  Mounting /dev/pts          :  Mounting other[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80Hy[24;1HSync command ...Error opening /dev/fb0: No such file or directory
+[23;80H [24;1HStarting udev
+[23;80H [24;1Hudev[110]: starting version 164
+[23;80H [24;1HEXT3-fs: barriers not enabled
+[23;80H [24;1Hkjournald starting.  Commit interval 5 seconds
+[23;80H [24;1HEXT3-fs (mmcblk0p1): using internal journal
+[23;80H [24;1HEXT3-fs (mmcblk0p1): recovery complete
+[23;80H [24;1HEXT3-fs (mmcblk0p1): mounted filesystem with writeback data mode
+[23;80H [24;1HStarting Bootlog daemon: 
+[23;80H [24;1HCPSW phy found : id is : 0x4dd074
+[23;80H [24;1HPHY 0:01 not found
+[23;80H [24;1Hbootlogd.
+[23;80H [24;1HApplying sync command
+[23;80H [24;1H/dev/mmcblk0p1 on /media/mmcblk0p1 type ext3 (rw,relatime,errors=continue,user_[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H)[24;1Hsystem SDcard exist !
+[23;80H [24;1H-------------------Start XZRS application-------------
+[23;80H [24;1H*** Bootargs Validated for mem param ***
+[23;80H [24;1H*** Bootargs Validated for notifyk.vpssm3 params ***
+[23;80H [24;1HKernel bootargs validated
+[23;80H [24;1H+++++++++++++++++++++++main,122++++++++++++++++++++++++
+[23;80H [24;1HPHY: 0:00 - Link is Up - 100/Full
+[23;80H [24;1HSysLink version : 2.20.02.20
+[23;80H [24;1HSysLink module created on Date:Jul 14 2016 Time:09:14:01
+[23;80H [24;1HTrace enabled
+[23;80H [24;1HTrace SetFailureReason enabled
+[23;80H [24;1H Setting DMM priority for [DUCATI  ] to [0] ( 0x4e000624 = 0x08000000 )
+[23;80H [24;1H Setting DMM priority for [HDVICP0 ] to [2] ( 0x4e000634 = 0x0000000a )
+[23;80H [24;1H/dev/mmcblk0p1 on /media/mmcblk0p1 type ext3 (rw,relatime,errors=continue,user_[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H)[24;1HAttached to slave procId 2.
+[23;80H [24;1HLoaded file ../firmware/dvr_rdk_fw_m3vpss_512M_128M.xem3 on slave procId 2.
+[23;80H [24;1HStarted slave procId 2.
+[23;80H [24;1HAfter Ipc_loadcallback status [0x00000000]
+[23;80H [24;1HAfter Ipc_startcallback status [0x00000000]
+[23;80H [24;1HAttached to slave procId 1.
+[23;80H [24;1HLoaded file ../firmware/dvr_rdk_fw_m3video_512M_128M.xem3 on slave procId 1.
+[23;80H [24;1HStarted slave procId 1.
+[23;80H [24;1HAfter Ipc_loadcallback status [0x00000000]
+[23;80H [24;1HAfter Ipc_startcallback status [0x00000000]
+[23;80H [24;1HAttached to slave procId 0.
+[23;80H [24;1HLoaded file ../firmware/dvr_rdk_fw_c6xdsp_512M_128M.xe674 on slave procId 0.
+[23;80H [24;1HStarted slave procId 0.
+[23;80H [24;1HAfter Ipc_loadcallback status [0x00000000]
+[23;80H [24;1HAfter Ipc_startcallback status [0x00000000]
+[23;80H [24;1HDMA: Module install successful, device major num = 250 
+[23;80H [24;1HDRV: Module install successful
+[23;80H [24;1HDRV: Module built on Jul 14 2016 09:14:17 
+[23;80H [24;1H [c6xdsp ] Remote Debug Shared Memory @ 0xbff00000
+[23;80H [24;1H [m3video] Remote Debug Shared Memory @ 0xbff10820
+[23;80H [24;1H [m3vpss ] Remote Debug Shared Memory @ 0xbff21040
+[23;80H [24;1H [m3vpss ] Received character 's'
+[23;80H [24;1H [c6xdsp ] Remote Debug Shared Memory @ 0xbff00000
+[23;80H [24;1H [m3video] Remote Debug Shared Memory @ 0xbff10820
+[23;80H [24;1H [m3vpss ] Remote Debug Shared Memory @ 0xbff21040
+[23;80H [24;1H [m3video] Received character 's'
+[23;80H [24;1H [c6xdsp ] Remote Debug Shared Memory @ 0xbff00000
+[23;80H [24;1H [m3video] Remote Debug Shared Memory @ 0xbff10820
+[23;80H [24;1H [m3vpss ] Remote Debug Shared Memory @ 0xbff21040
+[23;80H [24;1H [c6xdsp ] Received character 's'
+[23;80H [24;1H/opt/dvr_rdk/ti814x
+[23;80H [24;1H[module] vpss probe done.
+[23;80H [24;1H[module] ti81xxfb probe done.
+[23;80H [24;1HHDMI W1 rev 4.0
+[23;80H [24;1HHDMI CEC Spec version 1.2
+[23;80H [24;1HI2C No Ack
+[23;80H [24;1H
+[23;80H [24;1HHDMI failed to read E-EDID
+[23;80H [24;1H 
+[23;80H [24;1H ORG 0x46c00524: 0
+[23;80H [24;1H NEW 0x46c00524: 2
+[23;80H [24;1H 
+[23;80H [24;1H
+[23;80H [24;1H _____                    _____           _         _   
+[23;80H [24;1H|  _  |___ ___ ___ ___   |  _  |___ ___  |_|___ ___| |_ 
+[23;80H [24;1H|     |  _| .'| . | . |  |   __|  _| . | | | -_|  _|  _|
+[23;80H [24;1H|__|__|_| |__,|_  |___|  |__|  |_| |___|_| |___|___|_|  
+[23;80H [24;1H              |___|                    |___|            
+[23;80H [24;1H
+[23;80H [24;1HArago Project http://arago-project.org dm814x ttyO0
+[23;80H [24;1H
+[23;80H [24;1HArago 2012.10 dm814x ttyO0
+[23;80H [24;1H
+[23;80H [24;1Hdm814x login:
+ 
+[23;80H [24;1H _____                    _____           _         _   
+[23;80H [24;1H|  _  |___ ___ ___ ___   |  _  |___ ___  |_|___ ___| |_ 
+[23;80H [24;1H|     |  _| .'| . | . |  |   __|  _| . | | | -_|  _|  _|
+[23;80H [24;1H|__|__|_| |__,|_  |___|  |__|  |_| |___|_| |___|___|_|  
+[23;80H [24;1H              |___|                    |___|            
+[23;80H [24;1H
+[23;80H [24;1HArago Project http://arago-project.org dm814x ttyO0
+[23;80H [24;1H
+[23;80H [24;1HArago 2012.10 dm814x ttyO0
+[23;80H [24;1H
+[23;80H [24;1Hdm814x login: root
+root
+[23;80H [24;19HPassword: xzrsP@ssw0rd
+
+[23;80H [24;1Hroot@dm814x:~#
+ 
+[23;80H [24;1Hroot@dm814x:~# killall -9 xz_nvs_exe.bin
+ 0: SYSTEM: System Common Init in progress !!!
+[23;80H [24;1H 0: SYSTEM: IPC init in progress !!!
+[23;80H [24;1Hkillall -9 xz_nvs_exe.bin
+[23;80H [24;1H 51: SYSTEM: CPU [DSP] syslink proc ID is [0] !!!
+[23;80H [24;1H 51: SYSTEM: CPU [VIDEO-M3] syslink proc ID is [1] !!!
+[23;80H [24;1H 51: SYSTEM: CPU [VPSS-M3] syslink proc ID is [2] !!!
+[23;80H [24;1H 51: SYSTEM: CPU [HOST] syslink proc ID is [3] !!!
+[23;80H [24;1H 55: SYSTEM: Creating MsgQ Heap [IPC_MSGQ_MSG_HEAP_3] ...
+[23;80H [24;1H 61: SYSTEM: Creating MsgQ [HOST_MSGQ] ...
+[23;80H [24;1H 63: SYSTEM: Creating MsgQ [HOST_ACK_MSGQ] ...
+[23;80H [24;1H 64: SYSTEM: Opening MsgQ [DSP_MSGQ] ...
+[23;80H [24;1H 64: SYSTEM: Opening MsgQ [VIDEO-M3_MSGQ] ...
+[23;80H [24;1H 65: SYSTEM: Opening MsgQ [VPSS-M3_MSGQ] ...
+[23;80H [24;1H 66: SYSTEM: Notify register to [DSP] line 0, event 15 ... 
+[23;80H [24;1H 67: SYSTEM: Notify register to [VIDEO-M3] line 0, event 15 ... 
+[23;80H [24;1H 69: SYSTEM: Notify register to [VPSS-M3] line 0, event 15 ... 
+[23;80H [24;1H 69: SYSTEM: IPC init DONE !!!
+[23;80H [24;1H 80: SYSTEM: Creating ListMP [HOST_IPC_OUT_24] in region 0 ...
+[23;80H [24;1H 82: SYSTEM: Creating ListMP [HOST_IPC_IN_24] in region 0 ...
+[23;80H [24;1H 83: SYSTEM: ListElem Shared Addr = 0x48a25680
+[23;80H [24;1H 84: SYSTEM: Creating ListMP [HOST_IPC_OUT_25] in region 0 ...
+[23;80H [24;1H 86: SYSTEM: Creating ListMP [HOST_IPC_IN_25] in region 0 ...
+[23;80H [24;1H 87: SYSTEM: ListElem Shared Addr = 0x48a5c480
+[23;80H [24;1H 90: SYSTEM: Creating ListMP [HOST_IPC_OUT_19] in region 0 ...
+[23;80H [24;1H 92: SYSTEM: Creating ListMP [HOST_IPC_IN_19] in region 0 ...
+[23;80H [24;1H 93: SYSTEM: ListElem Shared Addr = 0x48a93280
+[23;80H [24;1H 94: SYSTEM: Creating ListMP [HOST_IPC_OUT_20] in region 0 ...
+[23;80H [24;1H 95: SYSTEM: Creating ListMP [HOST_IPC_IN_20] in region 0 ...
+[23;80H [24;1H 97: SYSTEM: ListElem Shared Addr = 0x48ad6580
+[23;80H [24;1H 97: SYSTEM: Creating ListMP [HOST_IPC_OUT_21] in region 0 ...
+[23;80H [24;1H 99: SYSTEM: Creating ListMP [HOST_IPC_IN_21] in region 0 ...
+[23;80H [24;1H 101: SYSTEM: ListElem Shared Addr = 0x48b19880
+[23;80H [24;1H 122: SYSTEM: System Common Init Done !!!
+[23;80H [24;1HCreat queue id:65538
+[23;80H [24;1Hqueue id:65538
+[23;80H [24;1HStream Debug:  Init_Msg_Func 
+[23;80H [24;1Hroot@dm814x:~# 

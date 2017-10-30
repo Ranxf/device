@@ -1,0 +1,115 @@
+
+Lockfile is stale. Overriding it..
+
+[!p[?3;4l[4l>[0m(B[?1h=[H[2J[?12l[?25h
+Welcome to minicom 2.7
+
+OPTIONS: I18n 
+Compiled on Jan  1 2014, 17:13:19.
+Port /dev/ttyUSB0, 14:46:56
+
+Press CTRL-A Z for help on special keys
+
+ 3145728 bytes read: OK
+## Booting kernel from Legacy Image at 81000000 ...
+   Image Name:   Linux-2.6.37
+   Created:      2016-04-29   1:09:54 UTC
+   Image Type:   ARM Linux Kernel Image (uncompressed)
+   Data Size:    2352120 Bytes = 2.2 MiB
+   Load Address: c0008000
+   Entry Point:  c0008000
+   Verifying Checksum ... OK
+   Loading Kernel Image ... OK
+OK
+
+Starting kernel ...
+
+Linux version 2.6.37 (xin300@ubuntu) (gcc version 4.5.3 20110311 (prerelease) ([24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80H6[24;1HCPU: ARMv7 Processor [413fc082] revision 2 (ARMv7), cr=10c53c7f
+[23;80H [24;1HCPU: VIPT nonaliasing data cache, VIPT aliasing instruction cache
+[23;80H [24;1HMachine: xzrs_ipnc
+[23;80H [24;1Hvram size = 20971520 at 0x0
+[23;80H [24;1Hti81xx_reserve: ### Reserved DDR region @dff00000
+[23;80H [24;1Hreserved size = 20971520 at 0x0
+[23;80H [24;1HFB: Reserving 20971520 bytes SDRAM for VRAM
+[23;80H [24;1HMemory policy: ECC disabled, Data cache writeback
+[23;80H [24;1HOMAP chip is TI8168 2.1
+[23;80H [24;1HBuilt 1 zonelists in Zone order, mobility grouping on.  Total pages: 124672
+[23;80H [24;1HKernel command line: mem=512M console=ttyO2,115200n8 rootwait=1 rw ubi.mtd=4,20[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
+[23;80HM[24;1HPID hash table entries: 2048 (order: 1, 8192 bytes)
+[23;80H [24;1HDentry cache hash table entries: 65536 (order: 6, 262144 bytes)
+[23;80H [24;1HInode-cache hash table entries: 32768 (order: 5, 131072 bytes)
+[23;80H [24;1HMemory: 490MB 1MB = 491MB total
+[23;80H [24;1HMemory: 493200k/493200k available, 31088k reserved, 72704K highmem
+[23;80H [24;1HVirtual kernel memory layout:
+[23;80H [24;1H    vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+[23;80H [24;1H    fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+[23;80H [24;1H    DMA     : 0xffc00000 - 0xffe00000   (   2 MB)
+[23;80H [24;1H    vmalloc : 0xda800000 - 0xf8000000   ( 472 MB)
+[23;80H [24;1H    lowmem  : 0xc0000000 - 0xda400000   ( 420 MB)
+[23;80H [24;1H    pkmap   : 0xbfe00000 - 0xc0000000   (   2 MB)
+[23;80H [24;1H    modules : 0xbf000000 - 0xbfe00000   (  14 MB)
+[23;80H [24;1H      .init : 0xc0008000 - 0xc003c000   ( 208 kB)
+[23;80H [24;1H      .text : 0xc003c000 - 0xc0472000   (4312 kB)
+[23;80H [24;1H      .data : 0xc0472000 - 0xc04b5a00   ( 271 kB)
+[23;80H [24;1HSLUB: Genslabs=11, HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+[23;80H [24;1HNR_IRQS:375
+[23;80H [24;1HIRQ: Found an INTC at 0xfa200000 (revision 5.0) with 128 interrupts
+[23;80H [24;1HTotal of 128 interrupts on 1 active controller
+[23;80H [24;1HGPMC revision 6.0
+[23;80H [24;1HTrying to install interrupt handler for IRQ368
+[23;80H [24;1HTrying to install interrupt handler for IRQ369
+[23;80H [24;1HTrying to install interrupt handler for IRQ370
+[23;80H [24;1HTrying to install interrupt handler for IRQ371
+[23;80H [24;1HTrying to install interrupt handler for IRQ372
+[23;80H [24;1HTrying to install interrupt handler for IRQ373
+[23;80H [24;1HTrying to install interrupt handler for IRQ374
+[23;80H [24;1HTrying to install type control for IRQ375
+[23;80H [24;1HTrying to set irq flags for IRQ375
+[23;80H [24;1HOMAP clockevent source: GPTIMER1 at 27000000 Hz
+[23;80H [24;1HConsole: colour dummy device 80x30
+[23;80H [24;1HCalibrating delay loop... 986.31 BogoMIPS (lpj=4931584)
+[23;80H [24;1Hpid_max: default: 32768 minimum: 301
+[23;80H [24;1HSecurity Framework initialized
+[23;80H [24;1HMount-cache hash table entries: 512
+[23;80H [24;1HCPU: Testing write buffer coherency: ok
+[23;80H [24;1Hdevtmpfs: initialized
+[23;80H [24;1HTI81XX: Map 0xdff00000 to 0xfe500000 for dram barrier
+[23;80H [24;1HTI81XX: Map 0x40300000 to 0xfe600000 for sram barrier
+[23;80H [24;1Homap_voltage_early_init: voltage driver support not added
+[23;80H [24;1Hregulator: core version 0.5
+[23;80H [24;1Hregulator: dummy: 
+[23;80H [24;1HNET: Registered protocol family 16
+[23;80H [24;1Homap_voltage_domain_lookup: Voltage driver init not yet happened.Faulting!
+[23;80H [24;1Homap_voltage_add_dev: VDD specified does not exist!
+[23;80H [24;1HOMAP GPIO hardware version 0.1
+[23;80H [24;1HOMAP GPIO hardware version 0.1
+[23;80H [24;1Homap_mux_init: Add partition: #1: core, flags: 0
+[23;80H [24;1H_omap_mux_get_by_name: Could not find signal i2c2_scl.i2c2_scl
+[23;80H [24;1H_omap_mux_get_by_name: Could not find signal i2c2_sda.i2c2_sda
+[23;80H [24;1HCannot clk_get ck_32
+[23;80H [24;1Hpm_dbg_init: only OMAP3 supported
+[23;80H [24;1Hregistered ti81xx_vpss device
+[23;80H [24;1Hregistered ti81xx_vidout device
+[23;80H [24;1Hregistered ti81xx on-chip HDMI device
+[23;80H [24;1Hregistered ti81xx_fb device
+[23;80H [24;1HNSS Crypto DMA hardware revision 1.9 @ IRQ 116
+[23;80H [24;1Hbio: create slab <bio-0> at 0
+[23;80H [24;1HSCSI subsystem initialized
+[23;80H [24;1Homap_i2c omap_i2c.1: bus 1 rev4.0 at 100 kHz
+[23;80H [24;1Homap_i2c omap_i2c.2: bus 2 rev4.0 at 100 kHz
+[23;80H [24;1HSwitching to clocksource gp timer
+[23;80H [24;1HNET: Registered protocol family 2
+[23;80H [24;1HIP route cache hash table entries: 4096 (order: 2, 16384 bytes)
+[23;80H [24;1HTCP established hash table entries: 16384 (order: 5, 131072 bytes)
+[23;80H [24;1HTCP bind hash table entries: 16384 (order: 4, 65536 bytes)
+[23;80H [24;1HTCP: Hash tables configured (established 16384 bind 16384)
+[23;80H [24;1HTCP reno registered
+[23;80H [24;1HUDP hash table entries: 256 (order: 0, 4096 bytes)
+[23;80H [24;1HUDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+[23;80H [24;1HNET: Registered protocol family 1
+[23;80H [24;1HRPC: Registered udp transport module.
+[23;80H [24;1HRPC: Registered tcp transport module.
+[23;80H [24;1HRPC: Registered tcp NFSv4.1 backchannel transport module.
+[23;80H [24;1HNetWinder Floating Point Emulator V0.97 (double precision)
+[23;80H [24;1HP
