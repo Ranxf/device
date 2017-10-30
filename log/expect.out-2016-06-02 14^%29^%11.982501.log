@@ -1,1135 +1,0 @@
-
-[!p[?3;4l[4l>[0m(B[?1h=[H[2J[?12l[?25h
-Welcome to minicom 2.7
-
-OPTIONS: I18n 
-Compiled on Jan  1 2014, 17:13:19.
-Port /dev/ttyUSB1, 14:28:56
-
-Press CTRL-A Z for help on special keys
-
-
-root@xzrs:~# 
-
-root@xzrs:~# reboot
-reboot
-
-Broadcast message from root@xzrs (ttyO2) (Sat Apr 23 12:49:47 2016):NIT: Sending processes the TERM signal
-root@xzrs:~# chnId = 0, captureFrameCount = 0 
-chnId = 1, captureFrameCount = 0 
-
- [host] -----collection error-----
-
- [host] msgsnd 1 ok
- [m3vpss ] CaptureLink_tskRun,Get CAPTURE_LINK_CMD_GET_CH_STATUS
- [m3vpss ] channelNum = 0,lChannelNum=0,instId=0,streamId=0,chId=0
- [m3vpss ] pObj->instanceId = 0,pObj->numCh=1,pObj->numStream=2
- [m3vpss ] curTime = 108067, lastFrameTimestamp = 0,chStatus->captureFrameCount[24;80H[24;80H
-[23;80H0[24;1H [m3vpss ] CaptureLink_tskRun,Get CAPTURE_LINK_CMD_GET_CAP_STATUS
-[23;80H [24;1HINIT: Stopping telnet daemon.
-[23;80H [24;1HStopping system message bus: dbus.
-[23;80H [24;1HStopping syslogd/klogd: stopped syslogd (pid 531)
-[23;80H [24;1Hstopped klogd (pid 533)
-[23;80H [24;1Hdone
-[23;80H [24;1HALSA: Storing mixer settings...
-[23;80H [24;1H/usr/sbin/alsactl: save_state:1580: No soundcards found...
-[23;80H [24;1HDeconfiguring network interfaces... done.
-[23;80H [24;1HSending all processes the TERM signal...
-[23;80H [24;1H[xz_sig_exit_cb]-18: Ctrl +C received---------------------------------
-[23;80H [24;1HSIGTERM Signal number = 15, Signal errno = 0
-[23;80H [24;1HStream Debug: qid = 65538,Receive msg fail 
-[23;80H [24;1Hwdg module, wdg_main_exit_cb , signo = 15,SIGINT = 2,SIGTERM = 15
-[23;80H [24;1H[main]-242: +++++++++++++++++++++++main,242++++++++++++++++++++++++
-[23;80H [24;1H[main]-252: +++++++++++++++++++++++main,252++++++++++++++++++++++++
-[23;80H [24;1H[xz_release_watchdog_service]-735: +++++++++++++++++++++++xz_release_watchdog_s[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80H+[24;1H-------------Begin exit xz_nvs_exe.bin  ----------------------
-[23;80H [24;1H1-------------------------------------------
-[23;80H [24;1H[web_msg_module_session]-1006: msgnum = 1
-[23;80H [24;1H[web_msg_module_session]-1007: src = 640
-[23;80H [24;1H[web_msg_module_session]-1008: cmd = 42
-[23;80H [24;1H[web_msg_module_session]-1787: Get message WEBEXIT
-[23;80H [24;1H[xz_sig_exit_cb]-18: Ctrl +C received---------------------------------
-[23;80H [24;1HSIGTERM Signal number = 15, Signal errno = 0
-[23;80H [24;1H2-------------------------------------------
-[23;80H [24;1H3-------------------------------------------
-[23;80H [24;1HKill queue id:65538
-[23;80H [24;1H[create_wdg_server]-675: +++++++++++++++++++++++create_wdg_server,675++++++++++[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80H+[24;1H
-[23;80H [24;1H [host]  102669: IPC_BITS_IN   : Stop Done !!!
-[23;80H [24;1H
-[23;80H [24;1H [host] 102689: IPCBITSIN:Link[3000001a]:
-[23;80H [24;1H [host] RECV:0[24;17HFREE:0,DROPPED:0,AVGLATENCY:0,AVG_APP_CB_TIME:0
-[23;80H [24;1H [host]  102689: IPC_BITS_IN   : Delete in progress !!!
-[23;80H [24;1H
-[23;80H [24;1H [host]  102690: IPC_BITS_IN   : Delete Done !!!
-[23;80H [24;1H
-[23;80H [24;1H [host] 102698: IPCBITSIN:Link[3000001b]:
-[23;80H [24;1H [host] RECV:0[24;17HFREE:0,DROPPED:0,AVGLATENCY:0,AVG_APP_CB_TIME:0
-[23;80H [24;1H [host]  102698: IPC_BITS_IN   : Delete in progress !!!
-[23;80H [24;1H
-[23;80H [24;1H [host]  102698: IPC_BITS_IN   : Delete Done !!!
-[23;80H [24;1H 102701: SYSTEM: System Common De-Init in progress !!!
-[23;80H [24;1H
-[23;80H [24;1H [host] OSA_tskDelete:In progress...
-[23;80H [24;1H [host] OSA_tskDelete:In progress...
-[23;80H [24;1H [host] OSA_tskDelete:In progress...
-[23;80H [24;1H [host] OSA_tskDelete:In progress...
-[23;80H [24;1H [host] OSA_tskDelete:In progress...
-[23;80H [24;1H [host] OSA_tskDelete:In progress...
-[23;80H [24;1H [host] OSA_tskDelete:In progress...
-[23;80H [24;1H [host] OSA_tskDelete:In progress...
-[23;80H [24;1H [host] OSA_tskDelete:In progress...
-[23;80H [24;1H [host] OSA_tskDelete:In progress... 102707: SYSTEM: IPC de-init in progress !![24;80H
-[23;80H![24;1H 102724: SYSTEM: IPC de-init DONE !!!
-[23;80H [24;1H 102724: SYSTEM: System Common De-Init Done !!!
-[23;80H [24;1H[xz_app_mgt_thr]-468: file:{xz_enc_priv.c},func:[xz_app_mgt_thr],line:-468.
-[23;80H [24;1H4-------------------------------------------
-[23;80H [24;1H5-------------------------------------------
-[23;80H [24;1H6-------------------------------------------
-[23;80H [24;1H7-------------------------------------------
-[23;80H [24;1H8-------------------------------------------
-[23;80H [24;1H[main]-254: +++++++++++++++++++++++main,254++++++++++++++++++++++++
-[23;80H [24;1HSending all processes the KILL signal...
-[23;80H [24;1HUnmounting remote filesystems...
-[23;80H [24;1HDeactivating swap...
-[23;80H [24;1HUnmounting local filesystems...
-[23;80H [24;1HRebooting... Restarting system.
-[23;80H [24;1H
-[23;80H [24;1H
-[23;80H [24;1HU-Boot 2010.06 (Jan 06 2016 - 09:51:51)
-[23;80H [24;1H
-[23;80H [24;1HCDXZRS-GP rev 1.0
-[23;80H [24;1H
-[23;80H [24;1HI2C:   ready
-[23;80H [24;1HDRAM:  2 GiB
-[23;80H [24;1HNAND:  HW ECC BCH8 Selected
-[23;80H [24;1H256 MiB
-[23;80H [24;1HMMC:   OMAP SD/MMC: 0
-[23;80H [24;1H:,;;:;:;;;;;;;;r;;:,;;:;:;;;;;;;;:,;;:;:;;;;;;;;:,;;:;:;;;;;;;;:;;;;;;;;:,;;:;:
-[23;80H [24;1H;,;:::;;;;r;;;rssiSiS552X5252525259GX2X9hX9X9XX2325S55252i5:,;;:;:;;;;;;;;:,;;:
-[23;80H [24;1H;:;;;;;;;rrssSsS52S22h52299GGAAMHMM#BBH#B#HMM#HMBA&&XX2255S2S5Si:,;;:;:;;;;;;;;
-[23;80H [24;1H;:;;r;;rsrrriiXS5S329&A&MH#BMB#A&9XXA252GXiSXX39AAMMMBB&G22S5i2SSiiiisi:,;;:;:;
-[23;80H [24;1H;;;;;r;rr2iisiih393HB#B#AA99i22irrrX3X52AGsisss2Xii2299HBMA&X2S5S5iSiisSsi:,;;:
-[23;80H [24;1Hr:r;rrsrsihXSi2&##MHB&Ahh3AGHGA9G9h&#H##@@@##MAMMXXX9SSS29&&HGGX2i5iisiiisisi:,
-[23;80H [24;1H;;rrrrsSiiiA&ABH&A9GAGhAhBAMHA9HM@@@@@@@@@@@@@@@@@@@HHhAh2S2SX9&Gh22SSiisiiisii
-[23;80H [24;1Hr:rrssisiS2XM##&h3AGAX&3GG3Ssr5H@M#HM2; ;2X&&&MHMB###GBB#B&XXSSs529XX55iSsisisi
-[23;80H [24;1Hr;rsrisSi2XHAhX99A3XXG&&XS;:,rH#HGhAS   @@@@3rs2XBM@@A552&&AHA2XiisSS252SSsisSs
-[23;80H [24;1Hr;issi5S22&&3iSSX292&hXsr;;:;h@&G339&S9@@@@2@MA&9&HB##Xris29ABMAAX2ir;rsSi5iss5
-[23;80H [24;1HrrsSi2XhG&9GXh399&X99i;;;;;;r#H&293H9X#@@@@@@@B&9GhAH@XrrsrsiXABHB&HG2rr;rrSiSi
-[23;80H [24;1H;:rsisS599&AA9XG&3A35r;:::;,;BMh&&2iX5A@@@@@@@&392X5GB2;;;r;iSX393A##A&Xi:::rsi
-[23;80H [24;1H;:rss552222X553&XHMhir;;::,:,h#HhGSXhG3#@@@@#AXXS2XAHA;::;;;;ss55XShBA3239r:,;;
-[23;80H [24;1Hr;ii2S5SSi2i53hirsh2srr::,,,,;MMXX359&Ah3h&Si59SX99A#i:,::::;;sri2,.2r;:SGAr;,:
-[23;80H [24;1H;:;rrrrssiriXGSi::shs;;;,,,:,,rBBA9h5s5h5iS5isi2SAHB5:,,,:::;rrs5&SrisSX5Srrr:,
-[23;80H [24;1H;,r;;;;rsriSSrrrr;;5Xrr;;,:,,.,;9AA2SsisS5323XXXG9&i:.,,::;;r;;;srrrrrr;;:;::::
-[23;80H [24;1H:,;r;r;rrissrrr;:;::;s;;;;,:,,..,r293h222hXXAAGGGX;:,,,:,:,::;:;::,:,,,,...,,,,
-[23;80H [24;1H;,;;;;rrrrrrrrirr;,.,,:::::::,,,,.,;SX&ABAB2hhXir:,,.,,.,,:,,,,..,,,..,..,,,..:
-[23;80H [24;1H:.:;:;;;:;;;;r;rrs;:.. ,,:::::,:,:,,.::rrsrr;;,,.......,..,....,,,,,,,...,.,,:,
-[23;80H [24;1H:.:::,::::::;;r;rrr;:.......,.,.,,:::,,...............,,::.,,,,:,::,,:,:,,,:,;:
-[23;80H [24;1H,.::,:,,,,,;;;;;;;;r;;::,..............................;;;:;::::,:::::::,:,:,,,
-[23;80H [24;1H: ,,:,,,,,,,,,,,,,:;rrr;;:;,,,,,,,::,.,.:.,.,;s,:;;;;:;:;;;;;::::,:::,:::,:,:,:
-[23;80H [24;1H,.,,,,,,,...,,.,,....................................:,............:,,,:,:,,,,,
-[23;80H [24;1H
-[23;80H [24;1HEricDebug uboot WDT timeout is 600 seconds 
-[23;80H [24;1HNet:   set mac addr : 80:f3: 0:27:aa:44
-[23;80H [24;1Hset mac addr1 : 81:f3: 0:27:aa:44
-[23;80H [24;1HEthernet PHY: GENERIC @ 0x01
-[23;80H [24;1HDaVinci EMAC
-[23;80H [24;1HHit any key to stop autoboot
-
-:  1  0 
-[23;80H [24;1HXZ-UBOOT # setenv ipaddr 192.168.1.210
-
-[23;80H [24;1HXZ-UBOOT # setenv ipaddr 192.168.1.210setenv gatewayip 192.168.1.9
-
-[23;80H [24;1HXZ-UBOOT # setenv gatewayip 192.168.1.9setenv netmask 255.255.255.0
-
-[23;80H [24;1HXZ-UBOOT # setenv netmask 255.255.255.0setenv serverip 192.168.1.9
-
-[23;80H [24;1HXZ-UBOOT # setenv serverip 192.168.1.9setenv bootargs 'mem=512M console=ttyO2,115200n8 rootwait=1 rw ubi.mtd=4,2048 rootfstype=ubifs root=ubi0:rootfs ip=192.168.1.210 vram=20M notifyk.vpssm3_sva=0xbfb00000 vmalloc=476M ddr_mem=2048M'
-
-[23;80H [24;1HXZ-UBOOT # setenv bootargs 'mem=512M console=ttyO2,115200n8 rootwait=1 rw ubi.m[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80Hsetenv bootcmd 'nand read 0x81000000 0x00580000 0x300000; bootm 0x81000000'
-
-[23;80H'[24;1HXZ-UBOOT # setenv bootcmd 'nand read 0x81000000 0x00580000 0x300000; bootm 0x81[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80Hsntp 192.168.1.9
-
-[23;80H'[24;1HXZ-UBOOT # sntp 192.168.1.9
-[23;80H [24;1HConnect speed 100M Full
-[23;80H [24;1HDate: 2016-06-02 Time: 15:29:29
-[23;80H [24;1HXZ-UBOOT #setenv 'noinitrd rw ubi.mtd'
- setenv 'noinitrd rw ubi.mtd'
-[23;80H [24;1HXZ-UBOOT # setenv ip
-setenv ip
-[23;80H [24;1HXZ-UBOOT # saveenv
-saveenv
-[23;80H [24;1HSaving Environment to NAND...
-[23;80H [24;1HErasing Nand...
-[23;80H [24;1HWarning: Erase size 0x00002000 smaller than one erase block 0x00020000
-[23;80H [24;1H         Erasing 0x00020000 instead
-[23;80H [24;1HErasing at 0x240000 -- 100% complete.
-[23;80H [24;1HWriting to Nand... done
-[23;80H [24;1HXZ-UBOOT #nand scrub
- nand scrub
-[23;80H [24;1H
-[23;80H [24;1HNAND scrub: device 0 whole chip
-[23;80H [24;1HWarning: scrub option will erase all factory set bad blocks!
-[23;80H [24;1H         There is no reliable way to recover them.
-[23;80H [24;1H         Use this command only for testing purposes if you
-[23;80H [24;1H         are sure of what you are doing!
-[23;80H [24;1H
-[23;80H [24;1HReally scrub this NAND flash? <y/N>y
-[23;80H [24;1HyErasing at 0x0 --   0% complete.Erasing at 0x280000 --   1% complete.Erasing at 0x500000 --   2% complete.Erasing at 0x7a0000 --   3% complete.Erasing at 0xa20000 --   4% complete.Erasing at 0xcc0000 --   5% complete.Erasing at 0xf40000 --   6% complete.Erasing at 0x11e0000 --   7% complete.Erasing at 0x1460000 --   8% complete.Erasing at 0x1700000 --   9% complete.Erasing at 0x1980000 --  10% complete.Erasing at 0x1c20000 --  11% complete.Erasing at 0x1ea0000 --  12% complete.Erasing at 0x2140000 --  13% complete.Erasing at 0x23c0000 --  14% complete.Erasing at 0x2660000 --  15% complete.Erasing at 0x28e0000 --  16% complete.Erasing at 0x2b80000 --  17% complete.Erasing at 0x2e00000 --  18% complete.Erasing at 0x30a0000 --  19% complete.Erasing at 0x3320000 --  20% complete.Erasing at 0x35c0000 --  21% complete.Erasing at 0x3840000 --  22% complete.Erasing at 0x3ae0000 --  23% complete.Erasing at 0x3d60000 --  24% complete.Erasing at 0x3fe0000 --  25% complete.Erasing at 0x4280000 --  26% complete.Erasing at 0x4500000 --  27% complete.Erasing at 0x47a0000 --  28% complete.Erasing at 0x4a20000 --  29% complete.Erasing at 0x4cc0000 --  30% complete.Erasing at 0x4f40000 --  31% complete.Erasing at 0x51e0000 --  32% complete.Erasing at 0x5460000 --  33% complete.Erasing at 0x5700000 --  34% complete.Erasing at 0x5980000 --  35% complete.Erasing at 0x5c20000 --  36% complete.Erasing at 0x5ea0000 --  37% complete.Erasing at 0x6140000 --  38% complete.Erasing at 0x63c0000 --  39% complete.Erasing at 0x6660000 --  40% complete.Erasing at 0x68e0000 --  41% complete.Erasing at 0x6b80000 --  42% complete.Erasing at 0x6e00000 --  43% complete.Erasing at 0x70a0000 --  44% complete.Erasing at 0x7320000 --  45% complete.Erasing at 0x75c0000 --  46% complete.Erasing at 0x7840000 --  47% complete.Erasing at 0x7ae0000 --  48% complete.Erasing at 0x7d60000 --  49% complete.Erasing at 0x7fe0000 --  50% complete.Erasing at 0x8280000 --  51% complete.Erasing at 0x8500000 --  52% complete.Erasing at 0x87a0000 --  53% complete.Erasing at 0x8a20000 --  54% complete.Erasing at 0x8cc0000 --  55% complete.Erasing at 0x8f40000 --  56% complete.Erasing at 0x91e0000 --  57% complete.Erasing at 0x9460000 --  58% complete.Erasing at 0x9700000 --  59% complete.Erasing at 0x9980000 --  60% complete.Erasing at 0x9c20000 --  61% complete.Erasing at 0x9ea0000 --  62% complete.Erasing at 0xa140000 --  63% complete.Erasing at 0xa3c0000 --  64% complete.Erasing at 0xa660000 --  65% complete.Erasing at 0xa8e0000 --  66% complete.Erasing at 0xab80000 --  67% complete.Erasing at 0xae00000 --  68% complete.Erasing at 0xb0a0000 --  69% complete.Erasing at 0xb320000 --  70% complete.Erasing at 0xb5c0000 --  71% complete.Erasing at 0xb840000 --  72% complete.Erasing at 0xbae0000 --  73% complete.Erasing at 0xbd60000 --  74% complete.Erasing at 0xbfe0000 --  75% complete.Erasing at 0xc280000 --  76% complete.Erasing at 0xc500000 --  77% complete.Erasing at 0xc7a0000 --  78% complete.Erasing at 0xca20000 --  79% complete.Erasing at 0xccc0000 --  80% complete.Erasing at 0xcf40000 --  81% complete.Erasing at 0xd1e0000 --  82% complete.Erasing at 0xd460000 --  83% complete.Erasing at 0xd700000 --  84% complete.Erasing at 0xd980000 --  85% complete.Erasing at 0xdc20000 --  86% complete.Erasing at 0xdea0000 --  87% complete.Erasing at 0xe140000 --  88% complete.Erasing at 0xe3c0000 --  89% complete.Erasing at 0xe660000 --  90% complete.Erasing at 0xe8e0000 --  91% complete.Erasing at 0xeb80000 --  92% complete.Erasing at 0xee00000 --  93% complete.Erasing at 0xf0a0000 --  94% complete.Erasing at 0xf320000 --  95% complete.Erasing at 0xf5c0000 --  96% complete.Erasing at 0xf840000 --  97% complete.Erasing at 0xfae0000 --  98% complete.Erasing at 0xfd60000 --  99% complete.Erasing at 0xffe0000 -- 100% complete.
-[23;80H [24;1HOK
-[23;80H [24;1Hls
-XZ-UBOOT # lsmw.b 0x81000000 0xFF 0x260000
-
-[23;80H [24;1HUnknown command 'ls' - try 'help'
-[23;80H [24;1HXZ-UBOOT # mw.b 0x81000000 0xFF 0x260000tftp 0x81000000 2016-5-26/xzrs_uboot.bin
-
-[23;80H [24;1HXZ-UBOOT # tftp 0x81000000 2016-5-26/xzrs_uboot.bin
-[23;80H [24;1HConnect speed 100M Full
-[23;80H [24;1HUsing DaVinci EMAC device
-[23;80H [24;1HTFTP from server 192.168.1.9; our IP address is 192.168.1.210
-[23;80H [24;1HFilename '2016-5-26/xzrs_uboot.bin'.
-[23;80H [24;1HLoad address: 0x81000000
-[23;80H [24;1HLoading: *###############
-[23;80H [24;1Hdone
-[23;80H [24;1HBytes transferred = 209980 (0x3343c)nandecc hw 2
-
-[23;80H [24;1HXZ-UBOOT # nandecc hw 2nand erase 0x0 0x34000
-
-[23;80H [24;1HHW ECC BCH8 Selected
-[23;80H [24;1HXZ-UBOOT # nand erase 0x0 0x34000nand write.i 0x81000000  0x0 0x34000
-
-[23;80H [24;1H
-[23;80H [24;1HNAND erase: device 0 offset 0x0, size 0x34000
-[23;80H [24;1HErasing at 0x0 --  61% complete.Erasing at 0x20000 -- 123% complete.
-[23;80H [24;1HOK
-[23;80H [24;1HXZ-UBOOT # nand write.i 0x81000000  0x0 0x34000
-[23;80H [24;1H
-[23;80H [24;1HNAND write: device 0 offset 0x0, size 0x34000
-[23;80H [24;1H 212992 bytes written: OKsetenv ipaddr 192.168.1.210
-
-[23;80H [24;1HXZ-UBOOT # setenv ipaddr 192.168.1.210setenv gatewayip 192.168.1.9
-
-[23;80H [24;1HXZ-UBOOT # setenv gatewayip 192.168.1.9setenv netmask 255.255.255.0
-
-[23;80H [24;1HXZ-UBOOT # setenv netmask 255.255.255.0setenv serverip 192.168.1.9
-
-[23;80H [24;1HXZ-UBOOT # setenv serverip 192.168.1.9setenv bootargs 'mem=512M console=ttyO2,115200n8 rootwait=1 rw ubi.mtd=4,2048 rootfstype=ubifs root=ubi0:rootfs ip=192.168.1.210 vram=20M notifyk.vpssm3_sva=0xbfb00000 vmalloc=476M ddr_mem=2048M'
-
-[23;80H [24;1HXZ-UBOOT # setenv bootargs 'mem=512M console=ttyO2,115200n8 rootwait=1 rw ubi.m[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80Hsetenv bootcmd 'nand read 0x81000000 0x00580000 0x300000; bootm 0x81000000'
-
-[23;80H'[24;1HXZ-UBOOT # setenv bootcmd 'nand read 0x81000000 0x00580000 0x300000; bootm 0x81[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80Hsntp 192.168.1.9
-
-[23;80H'[24;1HXZ-UBOOT # sntp 192.168.1.9
-[23;80H [24;1HConnect speed 100M Full
-[23;80H [24;1HDate: 2016-06-02 Time: 15:29:39
-[23;80H [24;1HXZ-UBOOT #setenv 'noinitrd rw ubi.mtd'
- setenv 'noinitrd rw ubi.mtd'
-[23;80H [24;1HXZ-UBOOT #setenv ip
- setenv ip
-[23;80H [24;1HXZ-UBOOT # saveenv
-saveenv
-[23;80H [24;1HSaving Environment to NAND...
-[23;80H [24;1HErasing Nand...
-[23;80H [24;1HWarning: Erase size 0x00002000 smaller than one erase block 0x00020000
-[23;80H [24;1H         Erasing 0x00020000 instead
-[23;80H [24;1HErasing at 0x240000 -- 100% complete.
-[23;80H [24;1HWriting to Nand... done
-[23;80H [24;1HXZ-UBOOT # 
-
-[23;80H [24;1HXZ-UBOOT # reset
-reset
-[23;80H [24;1Hresetting ...
-[23;80H [24;1H
-[23;80H [24;1H
-[23;80H [24;1HU-Boot 2010.06 (May 26 2016 - 18:03:30)
-[23;80H [24;1H
-[23;80H [24;1HCDXZRS-GP rev 1.0
-[23;80H [24;1H
-[23;80H [24;1HI2C:   ready
-[23;80H [24;1HDRAM:  2 GiB
-[23;80H [24;1HNAND:  HW ECC BCH8 Selected
-[23;80H [24;1H256 MiB
-[23;80H [24;1HMMC:   OMAP SD/MMC: 0
-[23;80H [24;1H:,;;:;:;;;;;;;;r;;:,;;:;:;;;;;;;;:,;;:;:;;;;;;;;:,;;:;:;;;;;;;;:;;;;;;;;:,;;:;:
-[23;80H [24;1H;,;:::;;;;r;;;rssiSiS552X5252525259GX2X9hX9X9XX2325S55252i5:,;;:;:;;;;;;;;:,;;:
-[23;80H [24;1H;:;;;;;;;rrssSsS52S22h52299GGAAMHMM#BBH#B#HMM#HMBA&&XX2255S2S5Si:,;;:;:;;;;;;;;
-[23;80H [24;1H;:;;r;;rsrrriiXS5S329&A&MH#BMB#A&9XXA252GXiSXX39AAMMMBB&G22S5i2SSiiiisi:,;;:;:;
-[23;80H [24;1H;;;;;r;rr2iisiih393HB#B#AA99i22irrrX3X52AGsisss2Xii2299HBMA&X2S5S5iSiisSsi:,;;:
-[23;80H [24;1Hr:r;rrsrsihXSi2&##MHB&Ahh3AGHGA9G9h&#H##@@@##MAMMXXX9SSS29&&HGGX2i5iisiiisisi:,
-[23;80H [24;1H;;rrrrsSiiiA&ABH&A9GAGhAhBAMHA9HM@@@@@@@@@@@@@@@@@@@HHhAh2S2SX9&Gh22SSiisiiisii
-[23;80H [24;1Hr:rrssisiS2XM##&h3AGAX&3GG3Ssr5H@M#HM2; ;2X&&&MHMB###GBB#B&XXSSs529XX55iSsisisi
-[23;80H [24;1Hr;rsrisSi2XHAhX99A3XXG&&XS;:,rH#HGhAS   @@@@3rs2XBM@@A552&&AHA2XiisSS252SSsisSs
-[23;80H [24;1Hr;issi5S22&&3iSSX292&hXsr;;:;h@&G339&S9@@@@2@MA&9&HB##Xris29ABMAAX2ir;rsSi5iss5
-[23;80H [24;1HrrsSi2XhG&9GXh399&X99i;;;;;;r#H&293H9X#@@@@@@@B&9GhAH@XrrsrsiXABHB&HG2rr;rrSiSi
-[23;80H [24;1H;:rsisS599&AA9XG&3A35r;:::;,;BMh&&2iX5A@@@@@@@&392X5GB2;;;r;iSX393A##A&Xi:::rsi
-[23;80H [24;1H;:rss552222X553&XHMhir;;::,:,h#HhGSXhG3#@@@@#AXXS2XAHA;::;;;;ss55XShBA3239r:,;;
-[23;80H [24;1Hr;ii2S5SSi2i53hirsh2srr::,,,,;MMXX359&Ah3h&Si59SX99A#i:,::::;;sri2,.2r;:SGAr;,:
-[23;80H [24;1H;:;rrrrssiriXGSi::shs;;;,,,:,,rBBA9h5s5h5iS5isi2SAHB5:,,,:::;rrs5&SrisSX5Srrr:,
-[23;80H [24;1H;,r;;;;rsriSSrrrr;;5Xrr;;,:,,.,;9AA2SsisS5323XXXG9&i:.,,::;;r;;;srrrrrr;;:;::::
-[23;80H [24;1H:,;r;r;rrissrrr;:;::;s;;;;,:,,..,r293h222hXXAAGGGX;:,,,:,:,::;:;::,:,,,,...,,,,
-[23;80H [24;1H;,;;;;rrrrrrrrirr;,.,,:::::::,,,,.,;SX&ABAB2hhXir:,,.,,.,,:,,,,..,,,..,..,,,..:
-[23;80H [24;1H:.:;:;;;:;;;;r;rrs;:.. ,,:::::,:,:,,.::rrsrr;;,,.......,..,....,,,,,,,...,.,,:,
-[23;80H [24;1H:.:::,::::::;;r;rrr;:.......,.,.,,:::,,...............,,::.,,,,:,::,,:,:,,,:,;:
-[23;80H [24;1H,.::,:,,,,,;;;;;;;;r;;::,..............................;;;:;::::,:::::::,:,:,,,
-[23;80H [24;1H: ,,:,,,,,,,,,,,,,:;rrr;;:;,,,,,,,::,.,.:.,.,;s,:;;;;:;:;;;;;::::,:::,:::,:,:,:
-[23;80H [24;1H,.,,,,,,,...,,.,,....................................:,............:,,,:,:,,,,,
-[23;80H [24;1H
-[23;80H [24;1HEricDebug uboot WDT timeout is 600 seconds 
-[23;80H [24;1HNet:   set mac addr : 80:f3: 0:27:aa:44
-[23;80H [24;1Hset mac addr1 : 81:f3: 0:27:aa:44
-[23;80H [24;1HEthernet PHY: GENERIC @ 0x01
-[23;80H [24;1HDaVinci EMAC
-[23;80H [24;1HHit any key to stop autoboot:
-  1  0 
-[23;80H [24;1HXZ-UBOOT # ls
-ls
-[23;80H [24;1HUnknown command 'ls' - try 'help'
-[23;80H [24;1HXZ-UBOOT #mw.b 0x81000000 0xFF 0x300000
- mw.b 0x81000000 0xFF 0x300000
-[23;80H [24;1HXZ-UBOOT # tftp 0x81000000 2016-5-26/xzrs_uimage.bin
-tftp 0x81000000 2016-5-26/xzrs_uimage.bin
-[23;80H [24;1HConnect speed 100M Full
-[23;80H [24;1HUsing DaVinci EMAC device
-[23;80H [24;1HTFTP from server 192.168.1.9; our IP address is 192.168.1.210
-[23;80H [24;1HFilename '2016-5-26/xzrs_uimage.bin'.
-[23;80H [24;1HLoad address: 0x81000000
-[23;80H [24;1HLoading: *#################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H ###############################
-[23;80H [24;1Hdone
-[23;80H [24;1HBytes transferred = 2352240 (0x23e470)nand erase 0x00580000 0x23f000
-
-[23;80H [24;1HXZ-UBOOT # nand erase 0x00580000 0x23f000nand write.i 0x81000000  0x00580000 0x23f000
-
-[23;80H [24;1H
-[23;80H [24;1HNAND erase: device 0 offset 0x580000, size 0x23f000
-[23;80H [24;1HErasing at 0x580000 --   5% complete.Erasing at 0x5a0000 --  11% complete.Erasing at 0x5c0000 --  16% complete.Erasing at 0x5e0000 --  22% complete.Erasing at 0x600000 --  27% complete.Erasing at 0x620000 --  33% complete.Erasing at 0x640000 --  38% complete.Erasing at 0x660000 --  44% complete.Erasing at 0x680000 --  50% complete.Erasing at 0x6a0000 --  55% complete.Erasing at 0x6c0000 --  61% complete.Erasing at 0x6e0000 --  66% complete.Erasing at 0x700000 --  72% complete.Erasing at 0x720000 --  77% complete.Erasing at 0x740000 --  83% complete.Erasing at 0x760000 --  89% complete.Erasing at 0x780000 --  94% complete.Erasing at 0x7a0000 -- 100% complete.
-[23;80H [24;1HOK
-[23;80H [24;1HXZ-UBOOT # nand write.i 0x81000000  0x00580000 0x23f000
-[23;80H [24;1H
-[23;80H [24;1HNAND write: device 0 offset 0x580000, size 0x23f000
-[23;80H [24;1H 2355200 bytes written: OKls
-
-[23;80H [24;1HXZ-UBOOT # lsmw.b 0x81000000 0xFF 0xB420000
-
-[23;80H [24;1HUnknown command 'ls' - try 'help'
-[23;80H [24;1HXZ-UBOOT # mw.b 0x81000000 0xFF 0xB420000tftp 0x81000000 2016-5-26/xzrs_fs.bin
-
-[23;80H [24;1HXZ-UBOOT # tftp 0x81000000 2016-5-26/xzrs_fs.bin
-[23;80H [24;1HConnect speed 100M Full
-[23;80H [24;1HUsing DaVinci EMAC device
-[23;80H [24;1HTFTP from server 192.168.1.9; our IP address is 192.168.1.210
-[23;80H [24;1HFilename '2016-5-26/xzrs_fs.bin'.
-[23;80H [24;1HLoad address: 0x81000000
-[23;80H [24;1HLoading: *#################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H ############################
-[23;80H [24;1Hdone
-[23;80H [24;1HBytes transferred = 92012544 (0x57c0000)
-[23;80H [24;1Hnand erase 0x009c0000 0x57d0000
-XZ-UBOOT # nand erase 0x009c0000 0x57d0000nand write 0x81000000 0x009c0000 0x57d0000
-
-[23;80H [24;1H
-[23;80H [24;1HNAND erase: device 0 offset 0x9c0000, size 0x57d0000
-[23;80H [24;1HErasing at 0x9c0000 --   0% complete.Erasing at 0xaa0000 --   1% complete.Erasing at 0xb80000 --   2% complete.Erasing at 0xc60000 --   3% complete.Erasing at 0xd40000 --   4% complete.Erasing at 0xe20000 --   5% complete.Erasing at 0xf00000 --   6% complete.Erasing at 0xfe0000 --   7% complete.Erasing at 0x10c0000 --   8% complete.Erasing at 0x11a0000 --   9% complete.Erasing at 0x1280000 --  10% complete.Erasing at 0x1360000 --  11% complete.Erasing at 0x1440000 --  12% complete.Erasing at 0x1520000 --  13% complete.Erasing at 0x1600000 --  14% complete.Erasing at 0x16e0000 --  15% complete.Erasing at 0x17c0000 --  16% complete.Erasing at 0x18a0000 --  17% complete.Erasing at 0x1980000 --  18% complete.Erasing at 0x1a60000 --  19% complete.Erasing at 0x1b40000 --  20% complete.Erasing at 0x1c20000 --  21% complete.Erasing at 0x1d00000 --  22% complete.Erasing at 0x1de0000 --  23% complete.Erasing at 0x1ec0000 --  24% complete.Erasing at 0x1fa0000 --  25% complete.Erasing at 0x2080000 --  26% complete.Erasing at 0x2160000 --  27% complete.Erasing at 0x2240000 --  28% complete.Erasing at 0x2320000 --  29% complete.Erasing at 0x2400000 --  30% complete.Erasing at 0x24e0000 --  31% complete.Erasing at 0x25c0000 --  32% complete.Erasing at 0x26a0000 --  33% complete.Erasing at 0x2780000 --  34% complete.Erasing at 0x2860000 --  35% complete.Erasing at 0x2940000 --  36% complete.Erasing at 0x2a20000 --  37% complete.Erasing at 0x2b00000 --  38% complete.Erasing at 0x2be0000 --  39% complete.Erasing at 0x2cc0000 --  40% complete.Erasing at 0x2dc0000 --  41% complete.Erasing at 0x2ea0000 --  42% complete.Erasing at 0x2f80000 --  43% complete.Erasing at 0x3060000 --  44% complete.Erasing at 0x3140000 --  45% complete.Erasing at 0x3220000 --  46% complete.Erasing at 0x3300000 --  47% complete.Erasing at 0x33e0000 --  48% complete.Erasing at 0x34c0000 --  49% complete.Erasing at 0x35a0000 --  50% complete.Erasing at 0x3680000 --  51% complete.Erasing at 0x3760000 --  52% complete.Erasing at 0x3840000 --  53% complete.Erasing at 0x3920000 --  54% complete.Erasing at 0x3a00000 --  55% complete.Erasing at 0x3ae0000 --  56% complete.Erasing at 0x3bc0000 --  57% complete.Erasing at 0x3ca0000 --  58% complete.Erasing at 0x3d80000 --  59% complete.Erasing at 0x3e60000 --  60% complete.Erasing at 0x3f40000 --  61% complete.Erasing at 0x4020000 --  62% complete.Erasing at 0x4100000 --  63% complete.Erasing at 0x41e0000 --  64% complete.Erasing at 0x42c0000 --  65% complete.Erasing at 0x43a0000 --  66% complete.Erasing at 0x4480000 --  67% complete.Erasing at 0x4560000 --  68% complete.Erasing at 0x4640000 --  69% complete.Erasing at 0x4720000 --  70% complete.Erasing at 0x4800000 --  71% complete.Erasing at 0x48e0000 --  72% complete.Erasing at 0x49c0000 --  73% complete.Erasing at 0x4aa0000 --  74% complete.Erasing at 0x4b80000 --  75% complete.Erasing at 0x4c60000 --  76% complete.Erasing at 0x4d40000 --  77% complete.Erasing at 0x4e20000 --  78% complete.Erasing at 0x4f00000 --  79% complete.Erasing at 0x4fe0000 --  80% complete.Erasing at 0x50e0000 --  81% complete.Erasing at 0x51c0000 --  82% complete.Erasing at 0x52a0000 --  83% complete.Erasing at 0x5380000 --  84% complete.Erasing at 0x5460000 --  85% complete.Erasing at 0x5540000 --  86% complete.Erasing at 0x5620000 --  87% complete.Erasing at 0x5700000 --  88% complete.Erasing at 0x57e0000 --  89% complete.Erasing at 0x58c0000 --  90% complete.Erasing at 0x59a0000 --  91% complete.Erasing at 0x5a80000 --  92% complete.Erasing at 0x5b60000 --  93% complete.Erasing at 0x5c40000 --  94% complete.Erasing at 0x5d20000 --  95% complete.Erasing at 0x5e00000 --  96% complete.Erasing at 0x5ee0000 --  97% complete.Erasing at 0x5fc0000 --  98% complete.Erasing at 0x60a0000 --  99% complete.Erasing at 0x6180000 -- 100% complete.
-[23;80H [24;1HOK
-[23;80H [24;1HXZ-UBOOT # nand write 0x81000000 0x009c0000 0x57d0000
-[23;80H [24;1H
-[23;80H [24;1HNAND write: device 0 offset 0x9c0000, size 0x57d0000
-[23;80H [24;1H 92078080 bytes written: OK
-[23;80H [24;1Hls
-
-XZ-UBOOT # ls
-[23;80H [24;1HUnknown command 'ls' - try 'help'
-[23;80H [24;1HXZ-UBOOT # reset
-
-[23;80H [24;1HXZ-UBOOT # reset
-[23;80H [24;1Hresetting ...
-[23;80H [24;1H
-[23;80H [24;1H
-[23;80H [24;1HU-Boot 2010.06 (May 26 2016 - 18:03:30)
-[23;80H [24;1H
-[23;80H [24;1HCDXZRS-GP rev 1.0
-[23;80H [24;1H
-[23;80H [24;1HI2C:   ready
-[23;80H [24;1HDRAM:  2 GiB
-[23;80H [24;1HNAND:  HW ECC BCH8 Selected
-[23;80H [24;1H256 MiB
-[23;80H [24;1HMMC:   OMAP SD/MMC: 0
-[23;80H [24;1H:,;;:;:;;;;;;;;r;;:,;;:;:;;;;;;;;:,;;:;:;;;;;;;;:,;;:;:;;;;;;;;:;;;;;;;;:,;;:;:
-[23;80H [24;1H;,;:::;;;;r;;;rssiSiS552X5252525259GX2X9hX9X9XX2325S55252i5:,;;:;:;;;;;;;;:,;;:
-[23;80H [24;1H;:;;;;;;;rrssSsS52S22h52299GGAAMHMM#BBH#B#HMM#HMBA&&XX2255S2S5Si:,;;:;:;;;;;;;;
-[23;80H [24;1H;:;;r;;rsrrriiXS5S329&A&MH#BMB#A&9XXA252GXiSXX39AAMMMBB&G22S5i2SSiiiisi:,;;:;:;
-[23;80H [24;1H;;;;;r;rr2iisiih393HB#B#AA99i22irrrX3X52AGsisss2Xii2299HBMA&X2S5S5iSiisSsi:,;;:
-[23;80H [24;1Hr:r;rrsrsihXSi2&##MHB&Ahh3AGHGA9G9h&#H##@@@##MAMMXXX9SSS29&&HGGX2i5iisiiisisi:,
-[23;80H [24;1H;;rrrrsSiiiA&ABH&A9GAGhAhBAMHA9HM@@@@@@@@@@@@@@@@@@@HHhAh2S2SX9&Gh22SSiisiiisii
-[23;80H [24;1Hr:rrssisiS2XM##&h3AGAX&3GG3Ssr5H@M#HM2; ;2X&&&MHMB###GBB#B&XXSSs529XX55iSsisisi
-[23;80H [24;1Hr;rsrisSi2XHAhX99A3XXG&&XS;:,rH#HGhAS   @@@@3rs2XBM@@A552&&AHA2XiisSS252SSsisSs
-[23;80H [24;1Hr;issi5S22&&3iSSX292&hXsr;;:;h@&G339&S9@@@@2@MA&9&HB##Xris29ABMAAX2ir;rsSi5iss5
-[23;80H [24;1HrrsSi2XhG&9GXh399&X99i;;;;;;r#H&293H9X#@@@@@@@B&9GhAH@XrrsrsiXABHB&HG2rr;rrSiSi
-[23;80H [24;1H;:rsisS599&AA9XG&3A35r;:::;,;BMh&&2iX5A@@@@@@@&392X5GB2;;;r;iSX393A##A&Xi:::rsi
-[23;80H [24;1H;:rss552222X553&XHMhir;;::,:,h#HhGSXhG3#@@@@#AXXS2XAHA;::;;;;ss55XShBA3239r:,;;
-[23;80H [24;1Hr;ii2S5SSi2i53hirsh2srr::,,,,;MMXX359&Ah3h&Si59SX99A#i:,::::;;sri2,.2r;:SGAr;,:
-[23;80H [24;1H;:;rrrrssiriXGSi::shs;;;,,,:,,rBBA9h5s5h5iS5isi2SAHB5:,,,:::;rrs5&SrisSX5Srrr:,
-[23;80H [24;1H;,r;;;;rsriSSrrrr;;5Xrr;;,:,,.,;9AA2SsisS5323XXXG9&i:.,,::;;r;;;srrrrrr;;:;::::
-[23;80H [24;1H:,;r;r;rrissrrr;:;::;s;;;;,:,,..,r293h222hXXAAGGGX;:,,,:,:,::;:;::,:,,,,...,,,,
-[23;80H [24;1H;,;;;;rrrrrrrrirr;,.,,:::::::,,,,.,;SX&ABAB2hhXir:,,.,,.,,:,,,,..,,,..,..,,,..:
-[23;80H [24;1H:.:;:;;;:;;;;r;rrs;:.. ,,:::::,:,:,,.::rrsrr;;,,.......,..,....,,,,,,,...,.,,:,
-[23;80H [24;1H:.:::,::::::;;r;rrr;:.......,.,.,,:::,,...............,,::.,,,,:,::,,:,:,,,:,;:
-[23;80H [24;1H,.::,:,,,,,;;;;;;;;r;;::,..............................;;;:;::::,:::::::,:,:,,,
-[23;80H [24;1H: ,,:,,,,,,,,,,,,,:;rrr;;:;,,,,,,,::,.,.:.,.,;s,:;;;;:;:;;;;;::::,:::,:::,:,:,:
-[23;80H [24;1H,.,,,,,,,...,,.,,....................................:,............:,,,:,:,,,,,
-[23;80H [24;1H
-[23;80H [24;1HEricDebug uboot WDT timeout is 600 seconds 
-[23;80H [24;1HNet:   set mac addr : 80:f3: 0:27:aa:44
-[23;80H [24;1Hset mac addr1 : 81:f3: 0:27:aa:44
-[23;80H [24;1HEthernet PHY: GENERIC @ 0x01
-[23;80H [24;1HDaVinci EMAC
-[23;80H [24;1HHit any key to stop autoboot:  1  0 
-[23;80H [24;1H
-[23;80H [24;1HNAND read:
- device 0 offset 0x580000, size 0x300000
-[23;80H [24;1H 3145728 bytes read: OK
-[23;80H [24;1H## Booting kernel from Legacy Image at 81000000 ...
-[23;80H [24;1H   Image Name:   Linux-2.6.37
-[23;80H [24;1H   Created:      2016-05-23   7:08:08 UTC
-[23;80H [24;1H   Image Type:   ARM Linux Kernel Image (uncompressed)
-[23;80H [24;1H   Data Size:    2352176 Bytes = 2.2 MiB
-[23;80H [24;1H   Load Address: c0008000
-[23;80H [24;1H   Entry Point:  c0008000
-[23;80H [24;1H   Verifying Checksum ... OK
-[23;80H [24;1H   Loading Kernel Image ... OK
-[23;80H [24;1HOK
-[23;80H [24;1H
-[23;80H [24;1HStarting kernel ...
-[23;80H [24;1H
-[23;80H [24;1HLinux version 2.6.37 (hsw@ubuntu) (gcc version 4.5.3 20110311 (prerelease) (GCC[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80H6[24;1HCPU: ARMv7 Processor [413fc082] revision 2 (ARMv7), cr=10c53c7f
-[23;80H [24;1HCPU: VIPT nonaliasing data cache, VIPT aliasing instruction cache
-[23;80H [24;1HMachine: xzrs_ipnc
-[23;80H [24;1Hvram size = 20971520 at 0x0
-[23;80H [24;1Hti81xx_reserve: ### Reserved DDR region @dff00000
-[23;80H [24;1Hreserved size = 20971520 at 0x0
-[23;80H [24;1HFB: Reserving 20971520 bytes SDRAM for VRAM
-[23;80H [24;1HMemory policy: ECC disabled, Data cache writeback
-[23;80H [24;1HOMAP chip is TI8168 2.0
-[23;80H [24;1HBuilt 1 zonelists in Zone order, mobility grouping on.  Total pages: 124672
-[23;80H [24;1HKernel command line: mem=512M console=ttyO2,115200n8 rootwait=1 rw ubi.mtd=4,20[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80HM[24;1HPID hash table entries: 2048 (order: 1, 8192 bytes)
-[23;80H [24;1HDentry cache hash table entries: 65536 (order: 6, 262144 bytes)
-[23;80H [24;1HInode-cache hash table entries: 32768 (order: 5, 131072 bytes)
-[23;80H [24;1HMemory: 490MB 1MB = 491MB total
-[23;80H [24;1HMemory: 493200k/493200k available, 31088k reserved, 72704K highmem
-[23;80H [24;1HVirtual kernel memory layout:
-[23;80H [24;1H    vector  : 0xffff0000 - 0xffff1000   (   4 kB)
-[23;80H [24;1H    fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
-[23;80H [24;1H    DMA     : 0xffc00000 - 0xffe00000   (   2 MB)
-[23;80H [24;1H    vmalloc : 0xda800000 - 0xf8000000   ( 472 MB)
-[23;80H [24;1H    lowmem  : 0xc0000000 - 0xda400000   ( 420 MB)
-[23;80H [24;1H    pkmap   : 0xbfe00000 - 0xc0000000   (   2 MB)
-[23;80H [24;1H    modules : 0xbf000000 - 0xbfe00000   (  14 MB)
-[23;80H [24;1H      .init : 0xc0008000 - 0xc003c000   ( 208 kB)
-[23;80H [24;1H      .text : 0xc003c000 - 0xc0472000   (4312 kB)
-[23;80H [24;1H      .data : 0xc0472000 - 0xc04b5a00   ( 271 kB)
-[23;80H [24;1HSLUB: Genslabs=11, HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
-[23;80H [24;1HNR_IRQS:375
-[23;80H [24;1HIRQ: Found an INTC at 0xfa200000 (revision 5.0) with 128 interrupts
-[23;80H [24;1HTotal of 128 interrupts on 1 active controller
-[23;80H [24;1HGPMC revision 6.0
-[23;80H [24;1HTrying to install interrupt handler for IRQ368
-[23;80H [24;1HTrying to install interrupt handler for IRQ369
-[23;80H [24;1HTrying to install interrupt handler for IRQ370
-[23;80H [24;1HTrying to install interrupt handler for IRQ371
-[23;80H [24;1HTrying to install interrupt handler for IRQ372
-[23;80H [24;1HTrying to install interrupt handler for IRQ373
-[23;80H [24;1HTrying to install interrupt handler for IRQ374
-[23;80H [24;1HTrying to install type control for IRQ375
-[23;80H [24;1HTrying to set irq flags for IRQ375
-[23;80H [24;1HOMAP clockevent source: GPTIMER1 at 27000000 Hz
-[23;80H [24;1HConsole: colour dummy device 80x30
-[23;80H [24;1HCalibrating delay loop... 986.31 BogoMIPS (lpj=4931584)
-[23;80H [24;1Hpid_max: default: 32768 minimum: 301
-[23;80H [24;1HSecurity Framework initialized
-[23;80H [24;1HMount-cache hash table entries: 512
-[23;80H [24;1HCPU: Testing write buffer coherency: ok
-[23;80H [24;1Hdevtmpfs: initialized
-[23;80H [24;1HTI81XX: Map 0xdff00000 to 0xfe500000 for dram barrier
-[23;80H [24;1HTI81XX: Map 0x40300000 to 0xfe600000 for sram barrier
-[23;80H [24;1Homap_voltage_early_init: voltage driver support not added
-[23;80H [24;1Hregulator: core version 0.5
-[23;80H [24;1Hregulator: dummy: 
-[23;80H [24;1HNET: Registered protocol family 16
-[23;80H [24;1Homap_voltage_domain_lookup: Voltage driver init not yet happened.Faulting!
-[23;80H [24;1Homap_voltage_add_dev: VDD specified does not exist!
-[23;80H [24;1HOMAP GPIO hardware version 0.1
-[23;80H [24;1HOMAP GPIO hardware version 0.1
-[23;80H [24;1Homap_mux_init: Add partition: #1: core, flags: 0
-[23;80H [24;1H_omap_mux_get_by_name: Could not find signal i2c2_scl.i2c2_scl
-[23;80H [24;1H_omap_mux_get_by_name: Could not find signal i2c2_sda.i2c2_sda
-[23;80H [24;1HCannot clk_get ck_32
-[23;80H [24;1Hpm_dbg_init: only OMAP3 supported
-[23;80H [24;1Hregistered ti81xx_vpss device
-[23;80H [24;1Hregistered ti81xx_vidout device
-[23;80H [24;1Hregistered ti81xx on-chip HDMI device
-[23;80H [24;1Hregistered ti81xx_fb device
-[23;80H [24;1HNSS Crypto DMA hardware revision 1.9 @ IRQ 116
-[23;80H [24;1Hbio: create slab <bio-0> at 0
-[23;80H [24;1HSCSI subsystem initialized
-[23;80H [24;1Homap_i2c omap_i2c.1: bus 1 rev4.0 at 100 kHz
-[23;80H [24;1Homap_i2c omap_i2c.2: bus 2 rev4.0 at 100 kHz
-[23;80H [24;1HSwitching to clocksource gp timer
-[23;80H [24;1HNET: Registered protocol family 2
-[23;80H [24;1HIP route cache hash table entries: 4096 (order: 2, 16384 bytes)
-[23;80H [24;1HTCP established hash table entries: 16384 (order: 5, 131072 bytes)
-[23;80H [24;1HTCP bind hash table entries: 16384 (order: 4, 65536 bytes)
-[23;80H [24;1HTCP: Hash tables configured (established 16384 bind 16384)
-[23;80H [24;1HTCP reno registered
-[23;80H [24;1HUDP hash table entries: 256 (order: 0, 4096 bytes)
-[23;80H [24;1HUDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
-[23;80H [24;1HNET: Registered protocol family 1
-[23;80H [24;1HRPC: Registered udp transport module.
-[23;80H [24;1HRPC: Registered tcp transport module.
-[23;80H [24;1HRPC: Registered tcp NFSv4.1 backchannel transport module.
-[23;80H [24;1HNetWinder Floating Point Emulator V0.97 (double precision)
-[23;80H [24;1HPMU: registered new PMU device of type 0
-[23;80H [24;1Homap-iommu omap-iommu.0: ducati registered
-[23;80H [24;1Homap-iommu omap-iommu.1: sys registered
-[23;80H [24;1Hhighmem bounce pool size: 64 pages
-[23;80H [24;1HJFFS2 version 2.2. (NAND) ÂÂ© 2001-2006 Red Hat, Inc.
-[23;80H [24;1Hmsgmni has been set to 821
-[23;80H [24;1Halg: No test for stdrng (krng)
-[23;80H [24;1Hio scheduler noop registered
-[23;80H [24;1Hio scheduler deadline registered
-[23;80H [24;1Hio scheduler cfq registered (default)
-[23;80H [24;1Hnss_rng nss_rng: NSS Random Number Generator ver. 2.0
-[23;80H [24;1HSerial: 8250/16550 driver, 4 ports, IRQ sharing enabled
-[23;80H [24;1Homap_uart.0: ttyO0 at MMIO 0x48020000 (irq = 72) is a OMAP UART0
-[23;80H [24;1Homap_uart.1: ttyO1 at MMIO 0x48022000 (irq = 73) is a OMAP UART1
-[23;80H [24;1Homap_uart.2: ttyO2 at MMIO 0x48024000 (irq = 74) is a OMAP UART2
-[23;80H [24;1Hconsole [ttyO2] enabled
-[23;80H [24;1Hbrd: module loaded
-[23;80H [24;1Hloop: module loaded
-[23;80H [24;1Homap2-nand driver initializing
-[23;80H [24;1HNAND device: Maf ID: 0xec, Chip ID: 0xda (Samsung, )
-[23;80H [24;1H erasesize: 0x20000, writesize: 2048, oobsize: 64
-[23;80H [24;1Homap2-nand: detected x8 NAND flash 
-[23;80H [24;1HCreating 6 MTD partitions on "omap2-nand.0":
-[23;80H [24;1H0x000000000000-0x000000240000 : "U-Boot"
-[23;80H [24;1H0x000000240000-0x000000280000 : "U-Boot Env"
-[23;80H [24;1H0x000000280000-0x000000580000 : "U-Boot Logo"
-[23;80H [24;1H0x000000580000-0x0000009c0000 : "Kernel"
-[23;80H [24;1H0x0000009c0000-0x00000d1e0000 : "File System"
-[23;80H [24;1H0x00000d1e0000-0x000010000000 : "Reserved"
-[23;80H [24;1HUBI: attaching mtd4 to ubi0
-[23;80H [24;1HUBI: physical eraseblock size:   131072 bytes (128 KiB)
-[23;80H [24;1HUBI: logical eraseblock size:    126976 bytes
-[23;80H [24;1HUBI: smallest flash I/O unit:    2048
-[23;80H [24;1HUBI: sub-page size:              512
-[23;80H [24;1HUBI: VID header offset:          2048 (aligned 2048)
-[23;80H [24;1HUBI: data offset:                4096
-[23;80H [24;1HUBI: max. sequence number:       0
-[23;80H [24;1HUBI warning: print_rsvd_warning: cannot reserve enough PEBs for bad PEB handlin[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80H6[24;1HUBI: volume 0 ("rootfs") re-sized from 1586 to 1586 LEBs
-[23;80H [24;1HUBI: attached mtd4 to ubi0
-[23;80H [24;1HUBI: MTD device name:            "File System"
-[23;80H [24;1HUBI: MTD device size:            200 MiB
-[23;80H [24;1HUBI: number of good PEBs:        1601
-[23;80H [24;1HUBI: number of bad PEBs:         0
-[23;80H [24;1HUBI: number of corrupted PEBs:   0
-[23;80H [24;1HUBI: max. allowed volumes:       128
-[23;80H [24;1HUBI: wear-leveling threshold:    4096
-[23;80H [24;1HUBI: number of internal volumes: 1
-[23;80H [24;1HUBI: number of user volumes:     1
-[23;80H [24;1HUBI: available PEBs:             0
-[23;80H [24;1HUBI: total number of reserved PEBs: 1601
-[23;80H [24;1HUBI: number of PEBs reserved for bad PEB handling: 11
-[23;80H [24;1HUBI: max/mean erase counter: 1/0
-[23;80H [24;1HUBI: image sequence number:  392793026
-[23;80H [24;1HUBI: background thread "ubi_bgt0d" started, PID 39
-[23;80H [24;1Hdavinci_mdio davinci_mdio.0: davinci mdio revision 1.6
-[23;80H [24;1Hdavinci_mdio davinci_mdio.0: detected phy mask fffffffd
-[23;80H [24;1Hdavinci_mdio.0: probed
-[23;80H [24;1Hdavinci_mdio davinci_mdio.0: phy[1]: device 0:01, driver ET1011C
-[23;80H [24;1Hmice: PS/2 mouse device common for all mice
-[23;80H [24;1Hrtc-ds1307: probe of 1-0068 failed with error -5
-[23;80H [24;1Homap_rtc omap_rtc: rtc core: registered omap_rtc as rtc0
-[23;80H [24;1Hi2c /dev entries driver
-[23;80H [24;1HLinux video capture interface: v2.00
-[23;80H [24;1HOMAP Watchdog Timer Rev 0x00: initial timeout 0 sec
-[23;80H [24;1Hnss_aes_mod_init: loading NSS AES driver
-[23;80H [24;1Hnss-aes nss-aes: NSS AES hw accel rev: 3.2 (context 0 @0x41140000)
-[23;80H [24;1Hnss-aes nss-aes: NSS AES hw accel rev: 3.2 (context 1 @0x41141000)
-[23;80H [24;1Hnss-aes nss-aes: NSS AES hw accel rev: 3.2 (context 2 @0x411a0000)
-[23;80H [24;1Hnss-aes nss-aes: NSS AES hw accel rev: 3.2 (context 3 @0x411a1000)
-[23;80H [24;1Hnss_aes_probe: probe() done
-[23;80H [24;1Hnss_des_mod_init: loading NSS DES driver
-[23;80H [24;1Hnss-des nss-des: NSS DES hw accel rev: 2.2 (context 0 @0x41160000)
-[23;80H [24;1Hnss-des nss-des: NSS DES hw accel rev: 2.2 (context 1 @0x41161000)
-[23;80H [24;1Hnss_des_probe: probe() done
-[23;80H [24;1Hnss_sham_mod_init: loading NSS SHA/MD5 driver
-[23;80H [24;1Hnss-sham nss-sham: NSS SHA/MD5 hw accel rev: 4.03 (context 0 @0x41100000)
-[23;80H [24;1Hnss-sham nss-sham: NSS SHA/MD5 hw accel rev: 4.03 (context 1 @0x41101000)
-[23;80H [24;1Hnss-sham nss-sham: NSS SHA/MD5 hw accel rev: 4.03 (context 2 @0x411c0000)
-[23;80H [24;1Hnss-sham nss-sham: NSS SHA/MD5 hw accel rev: 4.03 (context 3 @0x411c1000)
-[23;80H [24;1Hnss_sham_probe: probe() done
-[23;80H [24;1Hnotify_init : notify drivercreated  for  remote proc id 2 at physical Address 0[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80H0[24;1Hoprofile: hardware counters not available
-[23;80H [24;1Hoprofile: using timer interrupt.
-[23;80H [24;1HTCP cubic registered
-[23;80H [24;1HNET: Registered protocol family 17
-[23;80H [24;1HVFP support v0.3: implementor 41 architecture 3 part 30 variant c rev 3
-[23;80H [24;1Homap_voltage_late_init: Voltage driver support not added
-[23;80H [24;1HPower Management for TI81XX.
-[23;80H [24;1Homap_rtc omap_rtc: setting system clock to 2000-01-01 00:00:00 UTC (946684800)
-[23;80H [24;1Hmmc0: new high speed SDHC card at address 0001
-[23;80H [24;1Hmmcblk0: mmc0:0001 SD8GB 7.27 GiB 
-[23;80H [24;1H mmcblk0: p1
-[23;80H [24;1Hdavinci_mdio davinci_mdio.0: resetting idled controller
-[23;80H [24;1Hnet eth0: attached PHY driver [ET1011C] (mii_bus:phy_addr=0:01, id=282f014)
-[23;80H [24;1HIP-Config: Guessing netmask 255.255.255.0
-[23;80H [24;1HIP-Config: Complete:
-[23;80H [24;1H     device=eth0, addr=192.168.1.210, mask=255.255.255.0, gw=255.255.255.255,
-[23;80H [24;1H     host=192.168.1.210, domain=, nis-domain=(none),
-[23;80H [24;1H     bootserver=255.255.255.255, rootserver=255.255.255.255, rootpath=
-[23;80H [24;1HUBIFS: start fixing up free space
-[23;80H [24;1HPHY: 0:01 - Link is Up - 100/Full
-[23;80H [24;1HUBIFS: free space fixup complete
-[23;80H [24;1HUBIFS: mounted UBI device 0, volume 0, name "rootfs"
-[23;80H [24;1HUBIFS: file system size:   199225344 bytes (194556 KiB, 189 MiB, 1569 LEBs)
-[23;80H [24;1HUBIFS: journal size:       9023488 bytes (8812 KiB, 8 MiB, 72 LEBs)
-[23;80H [24;1HUBIFS: media format:       w4/r0 (latest is w4/r0)
-[23;80H [24;1HUBIFS: default compressor: lzo
-[23;80H [24;1HUBIFS: reserved for root:  0 bytes (0 KiB)
-[23;80H [24;1HVFS: Mounted root (ubifs filesystem) on device 0:14.
-[23;80H [24;1Hdevtmpfs: mounted
-[23;80H [24;1HFreeing init memory: 208K
-[23;80H [24;1HINIT: version 2.88 booting
-[23;80H [24;1H Mounting /dev/shm              :  Mounting /dev/pts          :  Mounting other[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80Hy[24;1HSync command ...Error opening /dev/fb0: No such file or directory
-[23;80H [24;1HStarting udev
-[23;80H [24;1Hudev[98]: starting version 164
-[23;80H [24;1Hudevd-work[101]: error changing net interface name eth0 to eth3: Device or reso[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80Hy[24;1H
-[23;80H [24;1HEXT3-fs: barriers not enabled
-[23;80H [24;1Hkjournald starting.  Commit interval 5 seconds
-[23;80H [24;1HEXT3-fs (mmcblk0p1): using internal journal
-[23;80H [24;1HEXT3-fs (mmcblk0p1): mounted filesystem with writeback data mode
-[23;80H [24;1HStarting Bootlog daemon: bootlogd.
-[23;80H [24;1HApplying sync command
-[23;80H [24;1H/dev/mmcblk0p1 on /media/mmcblk0p1 type ext3 (rw,relatime,errors=continue,user_[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80H)[24;1Hsystem SDcard exist !
-[23;80H [24;1H-------------------Start XZRS application-------------
-[23;80H [24;1H*** Bootargs Validated for mem param ***
-[23;80H [24;1H*** Bootargs Validated for notifyk.vpssm3 params ***
-[23;80H [24;1H*** Kernel Base address validated ***
-[23;80H [24;1HKernel bootargs validated
-[23;80H [24;1H+++++++++++++++++++++++main,122++++++++++++++++++++++++
-[23;80H [24;1H[main]-137: 
-[23;80H [24;1HCurrent timeout value is : 0 seconds
-[23;80H [24;1H[main]-147: 
-[23;80H [24;1HNew timeout value is : 30 seconds[main]-155: 
-[23;80H [24;1HCurrent timeout value is : 30 seconds
-[23;80H [24;1H[init_wdg_server]-648: [create_wdg_server]-505: create_wdg_server, fd = 7
-[23;80H [24;1HCreate init_net_wdg_sess thread sucess .
-[23;80H [24;1Hamixer: Control default open error: No such file or directory
-[23;80H [24;1H
-[23;80H [24;1Hamixer: Control default open error: No such file or directory
-[23;80H [24;1H
-[23;80H [24;1H [c6xdsp ] Remote Debug Shared Memory @ 0xbfd00000
-[23;80H [24;1H [m3video] Remote Debug Shared Memory @ 0xbfd10820
-[23;80H [24;1H [m3vpss ] Remote Debug Shared Memory @ 0xbfd21040
-[23;80H [24;1HSysLink version : 2.20.02.20
-[23;80H [24;1HSysLink module created on Date:Apr  1 2016 Time:15:23:49
-[23;80H [24;1HTrace enabled
-[23;80H [24;1HTrace SetFailureReason enabled
-[23;80H [24;1H Setting DMM priority for [DUCATI  ] to [0] ( 0x4e000624 = 0x08000000 )
-[23;80H [24;1H Setting DMM priority for [HDVICP0 ] to [2] ( 0x4e000634 = 0x0000000a )
-[23;80H [24;1H Setting DMM priority for [HDVICP1 ] to [2] ( 0x4e000634 = 0x000a0000 )
-[23;80H [24;1H Setting DMM priority for [HDVICP2 ] to [2] ( 0x4e000634 = 0x00a00000 )
-[23;80H [24;1H/dev/mmcblk0p1 on /media/mmcblk0p1 type ext3 (rw,relatime,errors=continue,user_[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80H)[24;1HRecovery will remove database!
-[23;80H [24;1HSDcard backup database file didn't exist !
-[23;80H [24;1H./write_default_db to create a default database file!
-[23;80H [24;1Heth0,This is a test, 
-[23;80H [24;1H&&&&&&&&&&&&&will free the db handle&&&&&&&&&&&&&&&&
-[23;80H [24;1H&&&&&g_sqlite3 != NULL, will call sqlite3_close
-[23;80H [24;1H&&&&&g_sqlite3 != NULL, will call sqlite3_close  2
-[23;80H [24;1HSDcard appconfig database file didn't exist, will create a default database fil[24;80H
-[23;80He[24;1Hcp /media/mmcblk0p1/backup/config.db /media/mmcblk0p1/appconfig/config.db !
-[23;80H [24;1HSDcard backup log4plus configuration file didn't exist, will create a default c[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80He[24;1HSDcard appconfig log4plus configuration file didn't exist, will create a defaul[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80He[24;1HAttached to slave procId 2.
-[23;80H [24;1HLoaded file ../firmware/dvr_rdk_fw_m3vpss_2048M_512M.xem3 on slave procId 2.
-[23;80H [24;1HStarted slave procId 2.
-[23;80H [24;1HAfter Ipc_loadcallback status [0x00000000]
-[23;80H [24;1H [m3vpss ] ***** VPSS Firmware build time 17:52:31 May 23 2016  EDG gcc 3.0 mod[24;80H
-[23;80He[24;1H [m3vpss ] ***** SYSTEM  : Frequency <ORG> - 250000000, <NEW> - 250000000
-[23;80H [24;1H [m3vpss ] notify_attach  rtnVal  0
-[23;80H [24;1H [m3vpss ] initProxyServer  rtnVal  0
-[23;80H [24;1H [m3vpss ]  
-[23;80H [24;1H [m3vpss ]  *** UTILS: CPU KHz = 500000 Khz ***
-[23;80H [24;1H [m3vpss ]  
-[23;80H [24;1H [m3vpss ]  38: SYSTEM  : System Common Init in progress !!!
-[23;80H [24;1H [m3vpss ]  38: SYSTEM: IPC init in progress !!!
-[23;80H [24;1H [m3vpss ]  38: SYSTEM: Attaching to [HOST] ... 
-[23;80H [24;1H [m3vpss ]  41: SYSTEM: Attaching to [HOST] ... SUCCESS !!!
-[23;80H [24;1HAfter Ipc_startcallback status [0x00000000]
-[23;80H [24;1HAttached to slave procId 0.
-[23;80H [24;1HDMA: Module install successful, device major num = 250 
-[23;80H [24;1HDRV: Module install successful
-[23;80H [24;1HDRV: Module built on Mar  1 2016 14:36:27 
-[23;80H [24;1H [c6xdsp ] Remote Debug Shared Memory @ 0xbfd00000
-[23;80H [24;1H [m3video] Remote Debug Shared Memory @ 0xbfd10820
-[23;80H [24;1H [m3vpss ] Remote Debug Shared Memory @ 0xbfd21040
-[23;80H [24;1HAttached to slave procId 1.
-[23;80H [24;1HLoaded file ../firmware/dvr_rdk_fw_c6xdsp_2048M_512M.xe674 on slave procId 0.
-[23;80H [24;1HStarted slave procId 0.
-[23;80H [24;1HAfter Ipc_loadcallback status [0x00000000]
-[23;80H [24;1H [c6xdsp ] ***** VIDEO Firmware build time 17:31:51 May 23 2016  EDG gcc 3.0 mo[24;80H[24;80H
-[23;80He[24;1H [c6xdsp ] ***** SYSTEM  : Frequency <ORG> - 800000000, <NEW> - 800000000
-[23;80H [24;1H [c6xdsp ]  
-[23;80H [24;1H [c6xdsp ]  *** UTILS: CPU KHz = 800000 Khz ***
-[23;80H [24;1H [c6xdsp ]  
-[23;80H [24;1H [c6xdsp ]  5: SYSTEM  : System Common Init in progress !!!
-[23;80H [24;1H [c6xdsp ]  5: SYSTEM: IPC init in progress !!!
-[23;80H [24;1H [c6xdsp ]  5: SYSTEM: Attaching to [HOST] ... 
-[23;80H [24;1H [c6xdsp ]  8: SYSTEM: Attaching to [HOST] ... SUCCESS !!!
-[23;80H [24;1HLoaded file ../firmware/dvr_rdk_fw_m3video_2048M_512M.xem3 on slave procId 1.
-[23;80H [24;1HStarted slave procId 1.
-[23;80H [24;1HAfter Ipc_loadcallback status [0x00000000]
-[23;80H [24;1HAfter Ipc_startcallback status [0x00000000]
-[23;80H [24;1H [c6xdsp ]  17: SYSTEM: Attaching to [VIDEO-M3] ... SUCCESS !!!
-[23;80H [24;1H [m3video] ***** VIDEO Firmware build time 17:53:06 May 23 2016  EDG gcc 3.0 mo[24;80H[24;80H
-[23;80He[24;1H [m3video] ***** SYSTEM  : Frequency <ORG> - 250000000, <NEW> - 250000000
-[23;80H [24;1H [m3video]  
-[23;80H [24;1H [m3video]  *** UTILS: CPU KHz = 500000 Khz ***
-[23;80H [24;1H [m3video]  
-[23;80H [24;1H [m3video]  1020: SYSTEM  : System Common Init in progress !!!
-[23;80H [24;1H [m3video]  1020: SYSTEM: IPC init in progress !!!
-[23;80H [24;1H [m3video]  1020: SYSTEM: Attaching to [HOST] ... 
-[23;80H [24;1H [m3video]  1023: SYSTEM: Attaching to [HOST] ... SUCCESS !!!
-[23;80H [24;1H [m3video]  1025: SYSTEM: Attaching to [DSP] ... SUCCESS !!!
-[23;80H [24;1HAfter Ipc_startcallback status [0x00000000]
-[23;80H [24;1H [c6xdsp ]  19: SYSTEM: Attaching to [VPSS-M3] ... SUCCESS !!!
-[23;80H [24;1H [m3video]  1029: SYSTEM: Attaching to [VPSS-M3] ... SUCCESS !!!
-[23;80H [24;1H [m3vpss ]  1026: SYSTEM: Attaching to [DSP] ... SUCCESS !!!
-[23;80H [24;1H [c6xdsp ]  19: SYSTEM: Creating MsgQ Heap [IPC_MSGQ_MSG_HEAP_0] ...
-[23;80H [24;1H [m3video]  1029: SYSTEM: Creating MsgQ Heap [IPC_MSGQ_MSG_HEAP_1] ...
-[23;80H [24;1H [m3vpss ]  1029: SYSTEM: Attaching to [VIDEO-M3] ... SUCCESS !!!
-[23;80H [24;1H [c6xdsp ]  19: SYSTEM: Creating MsgQ [DSP_MSGQ] ...
-[23;80H [24;1H [m3video]  1029: SYSTEM: Creating MsgQ [VIDEO-M3_MSGQ] ...
-[23;80H [24;1H [m3vpss ]  1029: SYSTEM: Creating MsgQ Heap [IPC_MSGQ_MSG_HEAP_2] ...
-[23;80H [24;1H [c6xdsp ]  19: SYSTEM: Creating MsgQ [DSP_ACK_MSGQ] ...
-[23;80H [24;1H [m3video]  1029: SYSTEM: Creating MsgQ [VIDEO-M3_ACK_MSGQ] ...
-[23;80H [24;1H [m3vpss ]  1029: SYSTEM: Creating MsgQ [VPSS-M3_MSGQ] ...
-[23;80H [24;1H [c6xdsp ]  20: SYSTEM: Notify register to [HOST] line 0, event 15 ... 
-[23;80H [24;1H [m3video]  1031: SYSTEM: Notify register to [HOST] line 0, event 15 ... 
-[23;80H [24;1H [m3vpss ]  1029: SYSTEM: Creating MsgQ [VPSS-M3_ACK_MSGQ] ...
-[23;80H [24;1H [c6xdsp ]  20: SYSTEM: Notify register to [VIDEO-M3] line 0, event 15 ... 
-[23;80H [24;1H [m3video]  1031: SYSTEM: Notify register to [DSP] line 0, event 15 ... 
-[23;80H [24;1H [m3vpss ]  1031: SYSTEM: Notify register to [HOST] line 0, event 15 ... 
-[23;80H [24;1H [c6xdsp ]  20: SYSTEM: Notify register to [VPSS-M3] line 0, event 15 ... 
-[23;80H [24;1H [m3video]  1031: SYSTEM: Notify register to [VPSS-M3] line 0, event 15 ... 
-[23;80H [24;1H [m3vpss ]  1031: SYSTEM: Notify register to [DSP] line 0, event 15 ... 
-[23;80H [24;1H [c6xdsp ]  20: SYSTEM: IPC init DONE !!!
-[23;80H [24;1H [m3video]  1031: SYSTEM: IPC init DONE !!!
-[23;80H [24;1H [m3vpss ]  1031: SYSTEM: Notify register to [VIDEO-M3] line 0, event 15 ... 
-[23;80H [24;1H [c6xdsp ]  22: MEM: Shared Region 2: Base = 0x96000000, Length = 0x28000000 (6[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80H [24;1H [m3vpss ]  1031: SYSTEM: IPC init DONE !!!
-[23;80H [24;1H [c6xdsp ]  22: MEM: Shared Region 1: Base = 0x80000000, Length = 0x0e300000 (2[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80H [24;1H [c6xdsp ]  23: SYSTEM  : System Common Init Done !!!
-[23;80H [24;1H [c6xdsp ]  17: SYSTEM  : System DSP Init in progress !!!
-[23;80H [24;1H [c6xdsp ]  17: SYSTEM  : RpeServer_init() done... Ret Val 0!!!
-[23;80H [24;1H [c6xdsp ]  26: SYSTEM: Creating ListMP [DSP_IPC_OUT_19] in region 0 ...
-[23;80H [24;1H [c6xdsp ]  26: SYSTEM: Creating ListMP [DSP_IPC_IN_19] in region 0 ...
-[23;80H [24;1H [c6xdsp ]  26: SYSTEM: ListElem Shared Addr = 0xbe1b3e00
-[23;80H [24;1H [c6xdsp ]  27: SYSTEM: Creating ListMP [DSP_IPC_OUT_20] in region 0 ...
-[23;80H [24;1H [c6xdsp ]  27: SYSTEM: Creating ListMP [DSP_IPC_IN_20] in region 0 ...
-[23;80H [24;1H [c6xdsp ]  27: SYSTEM: ListElem Shared Addr = 0xbe1d9600
-[23;80H [24;1H [c6xdsp ]  28: SYSTEM: Creating ListMP [DSP_IPC_OUT_21] in region 0 ...
-[23;80H [24;1H [c6xdsp ]  28: SYSTEM: Creating ListMP [DSP_IPC_IN_21] in region 0 ...
-[23;80H [24;1H [c6xdsp ]  28: SYSTEM: ListElem Shared Addr = 0xbe1fee00
-[23;80H [24;1H [c6xdsp ]  29: SYSTEM: Creating ListMP [DSP_IPC_OUT_24] in region 0 ...
-[23;80H [24;1H [c6xdsp ]  29: SYSTEM: Creating ListMP [DSP_IPC_IN_24] in region 0 ...
-[23;80H [24;1H [c6xdsp ]  29: SYSTEM: ListElem Shared Addr = 0xbe224600
-[23;80H [24;1H [c6xdsp ]  29: SYSTEM: Creating ListMP [DSP_IPC_OUT_25] in region 0 ...
-[23;80H [24;1H [c6xdsp ]  29: SYSTEM: Creating ListMP [DSP_IPC_IN_25] in region 0 ...
-[23;80H [24;1H [c6xdsp ]  30: SYSTEM: ListElem Shared Addr = 0xbe243080
-[23;80H [24;1H [c6xdsp ] !!WARNING.Resource already registered:2
-[23;80H [24;1H [c6xdsp ]  24: SYSTEM  : Initializing Links !!! 
-[23;80H [24;1H [m3video]  1038: MEM: Shared Region 2: Base = 0x96000000, Length = 0x28000000 [24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80H [24;1H [m3vpss ]  1038: MEM: Shared Region 2: Base = 0x96000000, Length = 0x28000000 [24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80H [24;1H [m3video]  1039: MEM: Shared Region 1: Base = 0x80000000, Length = 0x0e300000 [24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80H [24;1H [m3vpss ]  1039: MEM: Shared Region 1: Base = 0x80000000, Length = 0x0e300000 [24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80H [24;1H [c6xdsp ]  30: SYSTEM  : FREE SPACE : System Heap      = 52285056 B, Mbx = 102[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80H [24;1H [m3video]  1040: SYSTEM  : System Common Init Done !!!
-[23;80H [24;1H [m3vpss ]  1041: SYSTEM  : System Common Init Done !!!
-[23;80H [24;1H [m3video]  1041: SYSTEM  : System Video Init in progress !!!
-[23;80H [24;1H [m3vpss ]  1041: SYSTEM  : System VPSS Init in progress !!!
-[23;80H [24;1H [c6xdsp ]  26: SYSTEM  : Initializing Links ... DONE !!! 
-[23;80H [24;1H [m3video]  1041: SYSTEM  : System Video Init Done !!!
-[23;80H [24;1H [m3vpss ] === HDVPSS Clocks are enabled ===
-[23;80H [24;1H [m3video]  1041: SYSTEM: Creating ListMP [VIDEO-M3_IPC_OUT_0] in region 0 ...
-[23;80H [24;1H [m3vpss ] === HDVPSS is fully functional ===
-[23;80H [24;1H [c6xdsp ]  ETH_OFFLOAD: Init !!!
-[23;80H [24;1H [m3video]  1042: SYSTEM: Creating ListMP [VIDEO-M3_IPC_IN_0] in region 0 ...
-[23;80H [24;1H [m3vpss ] === HDVPSS module is not in standby ===
-[23;80H [24;1H [c6xdsp ]  27: SYSTEM  : System DSP Init Done !!!
-[23;80H [24;1H [m3video]  1042: SYSTEM: ListElem Shared Addr = 0xbe261b00
-[23;80H [24;1H [m3vpss ] === I2C1 Clk is active ===
-[23;80H [24;1H [m3video]  1044: SYSTEM: Creating ListMP [VIDEO-M3_IPC_OUT_1] in region 0 ...
-[23;80H [24;1H [m3vpss ]  1050: SYSTEM: Creating ListMP [VPSS-M3_IPC_OUT_0] in region 0 ...
-[23;80H [24;1H [m3video]  1044: SYSTEM: Creating ListMP [VIDEO-M3_IPC_IN_1] in region 0 ...
-[23;80H [24;1H [m3vpss ]  1050: SYSTEM: Creating ListMP [VPSS-M3_IPC_IN_0] in region 0 ...
-[23;80H [24;1H [m3video]  1044: SYSTEM: ListElem Shared Addr = 0xbe265000
-[23;80H [24;1H [m3vpss ]  1050: SYSTEM: ListElem Shared Addr = 0xbe268500
-[23;80H [24;1H [m3video]  1051: SYSTEM: Creating ListMP [VIDEO-M3_IPC_OUT_19] in region 0 ...
-[23;80H [24;1H [m3vpss ]  1053: SYSTEM: Creating ListMP [VPSS-M3_IPC_OUT_1] in region 0 ...
-[23;80H [24;1H [m3video]  1051: SYSTEM: Creating ListMP [VIDEO-M3_IPC_IN_19] in region 0 ...
-[23;80H [24;1H [m3vpss ]  1053: SYSTEM: Creating ListMP [VPSS-M3_IPC_IN_1] in region 0 ...
-[23;80H [24;1H [m3video]  1051: SYSTEM: ListElem Shared Addr = 0xbe26ba00
-[23;80H [24;1H [m3vpss ]  1053: SYSTEM: ListElem Shared Addr = 0xbe291200
-[23;80H [24;1H [m3video]  1054: SYSTEM: Creating ListMP [VIDEO-M3_IPC_OUT_20] in region 0 ...
-[23;80H [24;1H [m3vpss ]  1068: SYSTEM: Creating ListMP [VPSS-M3_IPC_OUT_19] in region 0 ...
-[23;80H [24;1H [m3video]  1054: SYSTEM: Creating ListMP [VIDEO-M3_IPC_IN_20] in region 0 ...
-[23;80H [24;1H [m3vpss ]  1069: SYSTEM: Creating ListMP [VPSS-M3_IPC_IN_19] in region 0 ...
-[23;80H [24;1H [m3video]  1054: SYSTEM: ListElem Shared Addr = 0xbe294700
-[23;80H [24;1H [m3vpss ]  1069: SYSTEM: ListElem Shared Addr = 0xbe2df700
-[23;80H [24;1H [m3video]  1057: SYSTEM: Creating ListMP [VIDEO-M3_IPC_OUT_21] in region 0 ...
-[23;80H [24;1H [m3vpss ]  1072: SYSTEM: Creating ListMP [VPSS-M3_IPC_OUT_20] in region 0 ...
-[23;80H [24;1H [m3video]  1057: SYSTEM: Creating ListMP [VIDEO-M3_IPC_IN_21] in region 0 ...
-[23;80H [24;1H [m3vpss ]  1072: SYSTEM: Creating ListMP [VPSS-M3_IPC_IN_20] in region 0 ...
-[23;80H [24;1H [m3video]  1057: SYSTEM: ListElem Shared Addr = 0xbe2b9f00
-[23;80H [24;1H [m3vpss ]  1072: SYSTEM: ListElem Shared Addr = 0xbe305180
-[23;80H [24;1H [m3video]  1072: SYSTEM: Creating ListMP [VIDEO-M3_IPC_OUT_24] in region 0 ...
-[23;80H [24;1H [m3vpss ]  1075: SYSTEM: Creating ListMP [VPSS-M3_IPC_OUT_21] in region 0 ...
-[23;80H [24;1H [m3video]  1072: SYSTEM: Creating ListMP [VIDEO-M3_IPC_IN_24] in region 0 ...
-[23;80H [24;1H [m3vpss ]  1075: SYSTEM: Creating ListMP [VPSS-M3_IPC_IN_21] in region 0 ...
-[23;80H [24;1H [m3video]  1073: SYSTEM: ListElem Shared Addr = 0xbe32a700
-[23;80H [24;1H [m3vpss ]  1075: SYSTEM: ListElem Shared Addr = 0xbe349700
-[23;80H [24;1H [m3video]  1075: SYSTEM: Creating ListMP [VIDEO-M3_IPC_OUT_25] in region 0 ...
-[23;80H [24;1H [m3vpss ] Received character 's'
-[23;80H [24;1H [m3vpss ]  1077: SYSTEM : HDVPSS Drivers Version: HDVPSS_01_00_01_37
-[23;80H [24;1H [m3video]  1075: SYSTEM: Creating ListMP [VIDEO-M3_IPC_IN_25] in region 0 ...
-[23;80H [24;1H [m3vpss ]  1077: SYSTEM  : FVID2 Init in progress !!!
-[23;80H [24;1H [m3video]  1076: SYSTEM: ListElem Shared Addr = 0xbe36e980
-[23;80H [24;1H [m3video]  1077: HDVICP: Doing PRCM for IVAHD[0] ... 
-[23;80H [24;1H [m3video]  1078: HDVICP: PRCM for IVAHD[0] ... DONE.
-[23;80H [24;1H [m3video]  1078: HDVICP: Doing PRCM for IVAHD[1] ... 
-[23;80H [24;1H [m3video]  1078: HDVICP: PRCM for IVAHD[1] ... DONE.
-[23;80H [24;1H [m3vpss ] TILER_STATS: CNT :8BIT
-[23;80H [24;1H [m3video]  1078: HDVICP: Doing PRCM for IVAHD[2] ... 
-[23;80H [24;1H [m3video]  1078: HDVICP: PRCM for IVAHD[2] ... DONE.
-[23;80H [24;1H [m3vpss ] TILER_STATS: CNT RESOLUTION:    16384 x 8192
-[23;80H [24;1H [m3video]  1078: SYSTEM  : Initializ[module] vpss probe done.
-[23;80H [24;1Hing Links !!! 
-[23;80H [24;1H [m3vpss ] TILER_STATS: BUCKET RESOLUTION: 16384 x 8188
-[23;80H [24;1H [m3video]  1079: SYSTEM  : FREE SPACE : System Heap      = 6279304 B, Mbx = 10[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80H [24;1H [m3vpss ] TILER_STATS: NUM FREE BUCKETS:  1
-[23;80H [24;1H [m3video]  1079: SYSTEM  : FREE SPACE : SR0 Heap         = 20394496 B (19 MB) 
-[23;80H [24;1H [m3vpss ] TILER_STATS: NUM USED BUCKETS:  0[module] ti81xxfb probe done.
-[23;80H [24;1H
-[23;80H [24;1H [m3video]  1079: SYSTEM  : FREE SPACE : Frame Buffer     = 671088512 B (639 MB[24;80H[24;80H
-[23;80H [24;1H [m3vpss ] TILER_STATS: TOTAL FREE AREA:   134152192 (99 %)
-[23;80H [24;1H [m3video]  1079: SYSTEM  : FREE SPACE : Bitstream Buffer = 238026624 B (226 MB[24;80H[24;80H
-[23;80H [24;1H [m3vpss ] TILER_STATS: TOTAHDMI W1 rev 2.0
-[23;80H [24;1HL USED AREA:   0HDMI CEC Spec version 1.2
-[23;80H [24;1H (0 %)
-[23;80H [24;1H [m3video]  1079: SYSTEM: Opening MsgQ [VPSS-M3_MSGQ] ...
-[23;80H [24;1H [m3video]  1081: SYSTEM  : FREE SPACE : Tiler 8-bit      = 134152192 B (127 MB[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80H [24;1H [c6xdsp ] Remote Debug Shared Memory @ 0xbfd00000
-[23;80H [24;1H [m3video] Remote Debug Shared Memory @ 0xbfd10820
-[23;80H [24;1H [m3vpss ] Remote Debug Shared Memory @ 0xbfd21040
-[23;80H [24;1H [m3video] Received character 's'
-[23;80H [24;1H [m3video]  1081: SYSTEM  : FREE SPACE : Tiler 16-bit     = 134217728 B (128 MB[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80H [24;1H [c6xdsp ] Remote Debug Shared Memory @ 0xbfd00000
-[23;80H [24;1H [m3video] Remote Debug Shared Memory @ 0xbfd10820
-[23;80H [24;1H [m3vpss ] Remote Debug Shared Memory @ 0xbfd21040
-[23;80H [24;1H [c6xdsp ] Received character 's'
-[23;80H [24;1H/opt/dvr_rdk/ti816x
-[23;80H [24;1H [m3video]  1121: SYSTEM  : Initializing Links ... DONE !!! 
-[23;80H [24;1H [m3vpss ] TILER_STATS: CNT :16BIT
-[23;80H [24;1H [m3vpss ] TILER_STATS: CNT RESOLUTION:    32768 x 4096
-[23;80H [24;1H [m3vpss ] TILER_STATS: BUCKET RESOLUTION: 32768 x 4096
-[23;80H [24;1H [m3vpss ] TILER_STATS: NUM FREE BUCKETS:  1
-[23;80H [24;1H [m3vpss ] TILER_STATS: NUM USED BUCKETS:  0
-[23;80H [24;1H [m3vpss ] TILER_STATS: TOTAL FREE AREA:   134217728 (100 %)
-[23;80H [24;1H [m3vpss ] TILER_STATS: TOTAL USED AREA:   0 (0 %)
-[23;80H [24;1H [m3vpss ]  1153: SYSTEM  : FVID2 Init in progress DONE !!!
-[23;80H [24;1H [m3vpss ]  1153: SYSTEM  : Device Init in progress !!!
-[23;80H [24;1H [m3vpss ]  1155: SYSTEM  : Device Init in progress DONE !!!
-[23;80H [24;1H [m3vpss ]  1199: SYSTEM  : System VPSS Init Done !!!
-[23;80H [24;1H [m3vpss ]  1200: UTILS: DMA: HWI Create for INT63 !!!
-[23;80H [24;1H [m3vpss ]  1200: SYSTEM  : Initializing Links !!! 
-[23;80H [24;1H [m3vpss ]  1201: SYSTEM  : FREE SPACE : System Heap      = 74056 B, Mbx = 1024[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80H [24;1H [m3vpss ]  1201: SYSTEM  : FREE SPACE : SR0 Heap         = 20394496 B (19 MB) 
-[23;80H [24;1H [m3vpss ]  1201: SYSTEM  : FREE SPACE : Frame Buffer     = 666778496 B (635 MB[24;80H[24;80H
-[23;80H [24;1H [m3vpss ]  1201: SYSTEM  : FREE SPACE : Bitstream Buffer = 238026624 B (226 MB[24;80H[24;80H
-[23;80H [24;1H [m3vpss ] TILER_STATS: CNT :8BIT
-[23;80H [24;1H [m3vpss ] TILER_STATS: CNT RESOLUTION:    16384 x 8192
-[23;80H [24;1H [m3vpss ] TILER_STATS: BUCKET RESOLUTION: 16384 x 8188
-[23;80H [24;1H [m3vpss ] TILER_STATS: NUM FREE BUCKETS:  1
-[23;80H [24;1H [m3vpss ] TILER_STATS: NUM USED BUCKETS:  0
-[23;80H [24;1H [m3vpss ] TILER_STATS: TOTAL FREE AREA:   134152192 (99 %)
-[23;80H [24;1H [m3vpss ] TILER_STATS: TOTAL USED AREA:   0 (0 %)
-[23;80H [24;1H [m3vpss ] TILER_STATS: CNT :16BIT
-[23;80H [24;1H [m3vpss ] TILER_STATS: CNT RESOLUTION:    32768 x 4096
-[23;80H [24;1H [m3vpss ] TILER_STATS: BUCKET RESOLUTION: 32768 x 4096
-[23;80H [24;1H [m3vpss ] TILER_STATS: NUM FREE BUCKETS:  1
-[23;80H [24;1H [m3vpss ] TILER_STATS: NUM USED BUCKETS:  0
-[23;80H [24;1H [m3vpss ] TILER_STATS: TOTAL FREE AREA:   134217728 (100 %)
-[23;80H [24;1HI2C No Ack
-[23;80H [24;1H
-[23;80H [24;1HHDMI failed to read E-EDID
-[23;80H [24;1H [m3vpss ] TILER_STATS: TOTAL USED AREA:   0 (0 %)
-[23;80H [24;1H [m3vpss ]  1202: SYSTEM  : FREE SPACE : Tiler 8-bit      = 134152192 B (127 MB[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80H [24;1H [m3vpss ]  1202: SYSTEM  : FREE SPACE : Tiler 16-bit     = 134217728 B (128 MB[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80H [24;1H [m3vpss ]  1333: SYSTEM  : Initializing Links ... DONE !!! 
-[23;80H [24;1H [m3vpss ]  1333: SYSTEM  : Set Static L3 pressure for HDVPSS as High
-[23;80H [24;1H
-
-[23;80H [24;1H 
-[23;80H [24;1H ORG 0x46c00524: 0
-[23;80H [24;1H NEW 0x46c00524: 2
-[23;80H [24;1H 
-[23;80H [24;1H[msg_open]-66: Creat queue id:0
-[23;80H [24;32H[msg_open]-68: queue id:0
-[23;80H [24;57H----------------fopen u[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80H-[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80H0[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80H5[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80Hs[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80H1[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80H [24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80H9[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80H0[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80H1[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80H0[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80H0[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80H0[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80H [24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80H9[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80H0[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80H1[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80H0[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80H0[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80H0[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80H0[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80H [24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80H0[24;80H
-[23;80H [24;1H                         #####    ###     ###
-[23;80H [24;1H #    #     #    #    # #     #  #   #   #   #
-[23;80H [24;1H  #  #      #    ##   #       # # #   # # #   #
-[23;80H [24;1H   ##       #    # #  #  #####  #  #  # #  #  #
-[23;80H [24;1H   ##       #    #  # #       # #   # # #   # #
-[23;80H [24;1H  #  #      #    #   ## #     #  #   #   #   #
-[23;80H [24;1H #    #     #    #    #  #####    ###     ###
-[23;80H [24;1H
-[23;80H [24;1HXZRS http://cdxzrs.com xzrs ttyO2
-[23;80H [24;1H
-[23;80H [24;1Hxzrs login:root
- root
-[23;80H [24;17HPassword: xzrsP@ssw0rd
-
-[23;80H [24;1H[system_monitor_run]-1033: [xz_connect]-1739: xz_connect, 1739
-[23;80H [24;1H[create_wdg_server]-555: create_wdg_server, clientFd = 8
-[23;80H [24;1H[create_wdg_server]-556: -------wdg accept--------
-[23;80H [24;1H[create_wdg_server]-571: Data:accept clientFd:8 ,pos[0]succeed g_wdg_c_con_inf_[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80H.[24;1H[create_wdg_server]-579: Create client thread sucess .
-[23;80H [24;1H[create_wdg_server]-596: 
-[23;80H [24;1HCurrent timeout value is : 30 seconds
-[23;80H [24;1H[create_wdg_server]-606: 
-[23;80H [24;1HNew timeout value is : 30 seconds[create_wdg_server]-614: 
-[23;80H [24;1HCurrent timeout value is : 30 seconds
-[23;80H [24;1H[send_sys_inf_to_wdg]-560: process path /opt/dvr_rdk/ti816x/xz_nvs_exe.bin
-[23;80H [24;1Hfile:{xz_system_monitor.c},func:[system_monitor_thr_cb],line:-787.
-[23;80H [24;1H[wdg_get_client_resp]-223: +++++++++++++++++++++++wdg_get_client_resp,223++++++[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80H+[24;1H[wdg_get_client_resp]-234: proc path ,pid 674.
-[23;80H [24;1HCreate system_monitor_thr_cb thread sucess .
-[23;80H [24;1H[xz_authorize_check]-556: **************check ret = 0 ****************
-[23;80H [24;1H[xz_authorize_check]-559: **************check ret = 0 ****************
-[23;80H [24;1Hfile:{xz_platform_gb_start.c},func:[xz_platform_gb_start],line:-209.
-[23;80H [24;1H[xz_priv_sdk_init]-586: xz_priv_sdk_init, 586 
-[23;80H [24;1H[xz_priv_sdk_init]-592: xz_priv_sdk_init, 592 
-[23;80H [24;1H[xz_create_web_msg_module_session]-1885: Create web_msg_thr_cb thread success .
-[23;80H [24;1H[xz_web_msg_init]-1919: Init web module success .
-[23;80H [24;1H[msg_open]-66: Creat queue id:32769
-[23;80H [24;1H[msg_open]-68: queue id:32769
-[23;80H [24;1H[xz_sdk_thread]-436: xz_sdk_thread, 436 
-[23;80H [24;1H[xz_sdk_thread]-462: xz_sdk_thread, 462 
-[23;80H [24;1H[xz_sdk_thread]-462: xz_sdk_thread, 462 
-[23;80H [24;1H[xz_sdk_thread]-462: xz_sdk_thread, 462 
-[23;80H [24;1H[xz_sdk_thread]-462: xz_sdk_thread, 462 
-[23;80H [24;1H[xz_sdk_thread]-474: xz_sdk_thread, 474 
-[23;80H [24;1H
-[23;80H [24;1H [host] xz_dm8168_enc_set_wac_param 1 ,0 
-[23;80H [24;1H
-[23;80H [24;1H [host] don't change anything, just return
-[23;80H [24;1H 0: SYSTEM: System Common Init in progress !!!
-[23;80H [24;1H 0: SYSTEM: IPC init in progress !!!
-[23;80H [24;1H[ptz_module_session]-989: Didn't Start the guard_point_timer timer 
-[23;80H [24;1H 84: SYSTEM: CPU [DSP] syslink proc ID is [0] !!!
-[23;80H [24;1H 84: SYSTEM: CPU [VIDEO-M3] syslink proc ID is [1] !!!
-[23;80H [24;1H 84: SYSTEM: CPU [VPSS-M3] syslink proc ID is [2] !!!
-[23;80H [24;1H 84: SYSTEM: CPU [HOST] syslink proc ID is [3] !!!
-[23;80H [24;1H 86: SYSTEM: Creating MsgQ Heap [IPC_MSGQ_MSG_HEAP_3] ...
-[23;80H [24;1H 91: SYSTEM: Creating MsgQ [HOST_MSGQ] ...
-[23;80H [24;1H 93: SYSTEM: Creating MsgQ [HOST_ACK_MSGQ] ...
-[23;80H [24;1H 94: SYSTEM: Opening MsgQ [DSP_MSGQ] ...
-[23;80H [24;1H 95: SYSTEM: Opening MsgQ [VIDEO-M3_MSGQ] ...
-[23;80H [24;1H 95: SYSTEM: Opening MsgQ [VPSS-M3_MSGQ] ...
-[23;80H [24;1H 96: SYSTEM: Notify register to [DSP] line 0, event 15 ... 
-[23;80H [24;1H 98: SYSTEM: Notify register to [VIDEO-M3] line 0, event 15 ... 
-[23;80H [24;1H 99: SYSTEM: Notify register to [VPSS-M3] line 0, event 15 ... 
-[23;80H [24;1H 99: SYSTEM: IPC init DONE !!!
-[23;80H [24;1H 103: SYSTEM: Creating ListMP [HOST_IPC_OUT_24] in region 0 ...
-[23;80H [24;1H 105: SYSTEM: Creating ListMP [HOST_IPC_IN_24] in region 0 ...
-[23;80H [24;1H 107: SYSTEM: ListElem Shared Addr = 0x48a25680
-[23;80H [24;1H 108: SYSTEM: Creating ListMP [HOST_IPC_OUT_25] in region 0 ...
-[23;80H [24;1H 110: SYSTEM: Creating ListMP [HOST_IPC_IN_25] in region 0 ...
-[23;80H [24;1H 111: SYSTEM: ListElem Shared Addr = 0x48a5c480
-[23;80H [24;1H 114: SYSTEM: Creating ListMP [HOST_IPC_OUT_19] in region 0 ...
-[23;80H [24;1H 116: SYSTEM: Creating ListMP [HOST_IPC_IN_19] in region 0 ...
-[23;80H [24;1H 117: SYSTEM: ListElem Shared Addr = 0x48a93280
-[23;80H [24;1H 119: SYSTEM: Creating ListMP [HOST_IPC_OUT_20] in region 0 ...
-[23;80H [24;1H 121: SYSTEM: Creating ListMP [HOST_IPC_IN_20] in region 0 ...
-[23;80H [24;1H 122: SYSTEM: ListElem Shared Addr = 0x48ad6580
-[23;80H [24;1H 123: SYSTEM: Creating ListMP [HOST_IPC_OUT_21] in region 0 ...
-[23;80H [24;1H 125: SYSTEM: Creating ListMP [HOST_IPC_IN_21] in region 0 ...
-[23;80H [24;1H 127: SYSTEM: ListElem Shared Addr = 0x48b19880
-[23;80H [24;1H 146: SYSTEM: System Common Init Done !!!
-[23;80H [24;1H
-[23;80H [24;1H [host] App_streamSysInit  Vsys_allocBuf  success 
-[23;80H [24;1HCreat queue id:65538
-[23;80H [24;1Hqueue id:65538
-[23;80H [24;1HStream Debug:  Init_Msg_Func 
-[23;80H [24;1H
-[23;80H [24;1H [host] xz_dm8168_app_mgt_ctl.motBitsBuf[0][0].bufVirtAddr = 0x4dbcd000 
-[23;80H [24;1H
-[23;80H [24;1H [host] xz_dm8168_app_mgt_ctl.motBitsBuf[0][1].bufVirtAddr = 0x4dbcdfa0 
-[23;80H [24;1H
-[23;80H [24;1H [host] xz_dm8168_app_mgt_ctl.motBitsBuf[0][2].bufVirtAddr = 0x4dbcef40 
-[23;80H [24;1H
-[23;80H [24;1H [host] xz_dm8168_app_mgt_ctl.motBitsBuf[0][3].bufVirtAddr = 0x4dbcfee0 
-[23;80H [24;1H
-[23;80H [24;1H [host] xz_dm8168_app_mgt_ctl.motBitsBuf[0][4].bufVirtAddr = 0x4dbd0e80 
-[23;80H [24;1H
-[23;80H [24;1H [host] xz_dm8168_app_mgt_ctl.motBitsBuf[0][5].bufVirtAddr = 0x4dbd1e20 
-[23;80H [24;1H
-[23;80H [24;1H [host] xz_dm8168_app_mgt_ctl.motBitsBuf[0][6].bufVirtAddr = 0x4dbd2dc0 
-[23;80H [24;1H
-[23;80H [24;1H [host] xz_dm8168_app_mgt_ctl.motBitsBuf[1][0].bufVirtAddr = 0x4dbd3d60 
-[23;80H [24;1H
-[23;80H [24;1H [host] xz_dm8168_app_mgt_ctl.motBitsBuf[1][1].bufVirtAddr = 0x4dbd4d00 
-[23;80H [24;1H
-[23;80H [24;1H [host] xz_dm8168_app_mgt_ctl.motBitsBuf[1][2].bufVirtAddr = 0x4dbd5ca0 
-[23;80H [24;1H
-[23;80H [24;1H [host] xz_dm8168_app_mgt_ctl.motBitsBuf[1][3].bufVirtAddr = 0x4dbd6c40 
-[23;80H [24;1H
-[23;80H [24;1H [host] xz_dm8168_app_mgt_ctl.motBitsBuf[1][4].bufVirtAddr = 0x4dbd7be0 
-[23;80H [24;1H
-[23;80H [24;1H [host] xz_dm8168_app_mgt_ctl.motBitsBuf[1][5].bufVirtAddr = 0x4dbd8b80 
-[23;80H [24;1H
-[23;80H [24;1H [host] xz_dm8168_app_mgt_ctl.motBitsBuf[1][6].bufVirtAddr = 0x4dbd9b20 
-[23;80H [24;1H
-[23;80H [24;1H [host] XZ_BOARD2_IPNC_CHAIN  
-[23;80H [24;1H 162: MCFW  : CPU Revision [ES2.0] !!! 
-[23;80H [24;1H [m3vpss ] WARNING!!.Tiler Memory cannot be accessed by M3 in 2G build.Will not[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80He[24;1H [m3vpss ]  5130: CAPTURE: Create in progress !!!
-[23;80H [24;1H [m3vpss ]  5162: CAPTURE: VIP0 PortA capture mode is [16-bit, Non-mux Embedded[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80H [24;1Hroot@xzrs:~#

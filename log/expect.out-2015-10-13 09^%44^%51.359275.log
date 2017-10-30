@@ -1,741 +1,0 @@
-
-[!p[?3;4l[4l>[0m(B[?1h=[H[2J[?12l[?25h
-Welcome to minicom 2.7
-
-OPTIONS: I18n 
-Compiled on Jan  1 2014, 17:13:19.
-Port /dev/ttyUSB1, 09:44:32
-
-Press CTRL-A Z for help on special keys
-
-
-root@dm816x:~#reboot
- reboot
-
-Broadcast message from root@dm816x (console) (Tue Sep  8 04:17:48 2015):
-
-The system is going down for reINIT: Sending processes the TERM signal
-wdg module, wdg_main_exit_cb , signo = 15,SIGINT = 2,SIGTERM = 15
-[main]-193: +++++++++++++++++++++++main,193++++++++++++++++++++++++
-[xz_wdg_read]-271: retVal = 0 errno = 0, errstr = Success
-wdg client:[5] select err[0] , tmpLen = -2146500587.
-[wdg_cli_session_thr_cb]-420: errno 0 ,Success .
-wdg client fd[5] close or err .
-[wdg_cli_session_thr_cb]-426: +++++++++++++wdg_cli_session_thr_cb,426will _exit [22;80Ht[22;80Hh[22;80He[22;80H [22;80Hs[22;80Hy[22;80Hs[22;80Ht[22;80He[22;80Hm[22;80H+[22;80H+[22;80H+[22;80H+[22;80H+[22;80H+[22;80H+[22;80H+[22;80H+[22;80H+[22;80H+[22;80H+[22;80H+[22;80H
-[wdg_cli_session_thr_cb]-487: +++++++++++++++++++++++wdg_cli_session_thr_cb,487+[23;80H+[23;80H+[23;80H+[23;80H+[23;80H+[23;80H+[23;80H+[23;80H+[23;80H+[23;80H+[23;80H+[23;80H+[23;80H+[23;80H+[23;80H+[23;80H+[23;80H+[23;80H+[23;80H+[23;80H+[23;80H+[23;80H+[23;80H+[23;80H
-[wdg_cli_session_thr_cb]-490: +++++++++++++wdg_cli_session_thr_cb,490will _exit[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80H+[24;1Hroot@dm816x:~# Stopping telnet daemon.
-[23;80H [24;1HStopping system message bus: dbus.
-[23;80H [24;1HStopping syslogd/klogd: stopped syslogd (pid 537)
-[23;80H [24;1Hstopped klogd (pid 539)
-[23;80H [24;1Hdone
-[23;80H [24;1HALSA: Storing mixer settings...
-[23;80H [24;1HDeconfiguring network interfaces... done.
-[23;80H [24;1HSending all processes the TERM signal...
-[23;80H [24;1Hwdg module, wdg_main_exit_cb , signo = 15,SIGINT = 2,SIGTERM = 15
-[23;80H [24;1H[main]-199: +++++++++++++++++++++++main,199++++++++++++++++++++++++
-[23;80H [24;1H[xz_release_watchdog_service]-721: +++++++++++++++++++++++xz_release_watchdog_s[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80H+[24;1H[create_wdg_server]-662: +++++++++++++++++++++++create_wdg_server,662++++++++++[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80H+[24;1H[main]-201: +++++++++++++++++++++++main,201++++++++++++++++++++++++
-[23;80H [24;1HSending all processes the KILL signal...
-[23;80H [24;1HUnmounting remote filesystems...
-[23;80H [24;1HDeactivating swap...
-[23;80H [24;1HUnmounting local filesystems...
-[23;80H [24;1HRebooting... musb-hdrc musb-hdrc.1: remove, state 1
-[23;80H [24;1Husb usb2: USB disconnect, address 1
-[23;80H [24;1Hmusb-hdrc musb-hdrc.1: USB bus 2 deregistered
-[23;80H [24;1Hmusb-hdrc musb-hdrc.0: remove, state 1
-[23;80H [24;1Husb usb1: USB disconnect, address 1
-[23;80H [24;1Hmusb-hdrc musb-hdrc.0: USB bus 1 deregistered
-[23;80H [24;1HRestarting system.
-[23;80H [24;1H
-[23;80H [24;1H
-[23;80H [24;1HU-Boot 2010.06 (Aug 14 2014 - 21:58:33)
-[23;80H [24;1H
-[23;80H [24;1HTI8168-GP rev 2.1
-[23;80H [24;1H
-[23;80H [24;1HHDVICP clk     : 533MHz
-[23;80H [24;1HL3 Fast clk    : 500MHz
-[23;80H [24;1HHDVPSS clk     : 250MHz
-[23;80H [24;1HDucati M3 clk  : 250MHz
-[23;80H [24;1HDSP clk        : 800MHz
-[23;80H [24;1HARM clk        : 987MHz
-[23;80H [24;1HDDR clk        : 796MHz
-[23;80H [24;1H
-[23;80H [24;1HI2C:   ready
-[23;80H [24;1HDRAM:  2 GiB
-[23;80H [24;1HNAND:  HW ECC BCH8 Selected
-[23;80H [24;1H256 MiB
-[23;80H [24;1HMMC:   OMAP SD/MMC: 0
-[23;80H [24;1H                                                                 
-[23;80H [24;1H                                                                 
-[23;80H [24;1H                   D S P D S P D S P D S                         
-[23;80H [24;1H               P D S P D S P D S P D S P D                       
-[23;80H [24;1H             S P D S P D S P D S P D S P D                       
-[23;80H [24;1H             S P D S P D S P D S P D S P D   S P D               
-[23;80H [24;1H               S P D S P D S P D S P D S     P D S P             
-[23;80H [24;1H                 D S P D S P D S P D S P   D S P D S P           
-[23;80H [24;1H                   D S P D S P D S P D S P D S P D S P           
-[23;80H [24;1H                     D S P D S P D S P D S P D S P D S P         
-[23;80H [24;1H                     D S P D S P D S P D S P D S P D S P         
-[23;80H [24;1H                       D S P D S P D S P D S P D S P D S P       
-[23;80H [24;1H                       D S P D S P D S P D S P D S P D S P       
-[23;80H [24;1H                       D S P D S P D S P D S P D S P D S P       
-[23;80H [24;1H                       D S P D S P D S P D S P D S P D S P       
-[23;80H [24;1H                       D S P D S P D S P D S P D S P D S P       
-[23;80H [24;1H                       D S P D S P D S P D S P D S P D S P       
-[23;80H [24;1H                       D S P D S P D S P D S P D S P D S P       
-[23;80H [24;1H                     D S P D S P D S P D S P D S P D S P D       
-[23;80H [24;1H                     S P D S P D S         P D S P D S P D       
-[23;80H [24;1H                   S P D S P D               S P D S P D         
-[23;80H [24;1H                   S P D S P                   D S P D S         
-[23;80H [24;1H                 P D S P D                       S P D S         
-[23;80H [24;1H                 P D S P                         D S P           
-[23;80H [24;1H               D S P D                           S P D           
-[23;80H [24;1H             S P D S                             P D             
-[23;80H [24;1H             S P D                                               
-[23;80H [24;1H             S P D                                               
-[23;80H [24;1H                                                                 
-[23;80H [24;1H
-[23;80H [24;1HNet:   Ethernet PHY: GENERIC @ 0x01
-[23;80H [24;1HDaVinci EMAC
-[23;80H [24;1HHit any key to stop autoboot:
-
-  3  0 
-[23;80H [24;1HYX-UBOOT # setenv ipaddr 192.168.1.198
-
-[23;80H [24;1HYX-UBOOT # setenv ipaddr 192.168.1.198setenv gatewayip 192.168.1.9
-
-[23;80H [24;1HYX-UBOOT # setenv gatewayip 192.168.1.9setenv netmask 255.255.255.0
-
-[23;80H [24;1HYX-UBOOT # setenv netmask 255.255.255.0setenv serverip 192.168.1.9
-
-[23;80H [24;1HYX-UBOOT # setenv serverip 192.168.1.9setenv bootargs 'console=ttyO2,115200n8 noinitrd ip=192.168.1.198 mem=256M rootwait=1 rw ubi.mtd=8,2048 rootfstype=ubifs root=ubi0:rootfs init=/init vram=20M notifyk.vpssm3_sva=0xBEE00000 stdin=serial ddr_mem=1024M'
-
-[23;80H [24;1HYX-UBOOT # setenv bootargs 'console=ttyO2,115200n8 noinitrd ip=192.168.1.198 me[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80Hsetenv 'noinitrd rw ubi.mtd'
-
-[23;80H'[24;1HYX-UBOOT # setenv 'noinitrd rw ubi.mtd'setenv ip
-
-[23;80H [24;1HYX-UBOOT # setenv ipsaveenv
-
-[23;80H [24;1HYX-UBOOT # saveenvnand scrub
-
-[23;80H [24;1HSaving Environment to NAND...
-[23;80H [24;1HErasing Nand...
-[23;80H [24;1HWarning: Erase size 0x00002000 smaller than one erase block 0x00020000
-[23;80H [24;1H         Erasing 0x00020000 instead
-[23;80H [24;1HErasing at 0x240000 -- 100% complete.
-[23;80H [24;1HWriting to Nand... done
-[23;80H [24;1HYX-UBOOT # nand scrub
-[23;80H [24;1H
-[23;80H [24;1HNAND scrub: device 0 whole chip
-[23;80H [24;1HWarning: scrub option will erase all factory set bad blocks!
-[23;80H [24;1H         There is no reliable way to recover them.
-[23;80H [24;1H         Use this command only for testing purposes if you
-[23;80H [24;1H         are sure of what you are doing!
-[23;80H [24;1H
-[23;80H [24;1HReally scrub this NAND flash? <y/N>y
-[23;80H [24;1HyErasing at 0x0 --   0% complete.Erasing at 0x280000 --   1% complete.Erasing at 0x500000 --   2% complete.Erasing at 0x7a0000 --   3% complete.Erasing at 0xa20000 --   4% complete.Erasing at 0xcc0000 --   5% complete.Erasing at 0xf40000 --   6% complete.Erasing at 0x11e0000 --   7% complete.Erasing at 0x1460000 --   8% complete.Erasing at 0x1700000 --   9% complete.Erasing at 0x1980000 --  10% complete.Erasing at 0x1c20000 --  11% complete.Erasing at 0x1ea0000 --  12% complete.Erasing at 0x2140000 --  13% complete.Erasing at 0x23c0000 --  14% complete.Erasing at 0x2660000 --  15% complete.Erasing at 0x28e0000 --  16% complete.Erasing at 0x2b80000 --  17% complete.Erasing at 0x2e00000 --  18% complete.Erasing at 0x30a0000 --  19% complete.Erasing at 0x3320000 --  20% complete.Erasing at 0x35c0000 --  21% complete.Erasing at 0x3840000 --  22% complete.Erasing at 0x3ae0000 --  23% complete.Erasing at 0x3d60000 --  24% complete.Erasing at 0x3fe0000 --  25% complete.Erasing at 0x4280000 --  26% complete.Erasing at 0x4500000 --  27% complete.Erasing at 0x47a0000 --  28% complete.Erasing at 0x4a20000 --  29% complete.Erasing at 0x4cc0000 --  30% complete.Erasing at 0x4f40000 --  31% complete.Erasing at 0x51e0000 --  32% complete.Erasing at 0x5460000 --  33% complete.Erasing at 0x5700000 --  34% complete.Erasing at 0x5980000 --  35% complete.Erasing at 0x5c20000 --  36% complete.Erasing at 0x5ea0000 --  37% complete.Erasing at 0x6140000 --  38% complete.Erasing at 0x63c0000 --  39% complete.Erasing at 0x6660000 --  40% complete.Erasing at 0x68e0000 --  41% complete.Erasing at 0x6b80000 --  42% complete.Erasing at 0x6e00000 --  43% complete.Erasing at 0x70a0000 --  44% complete.Erasing at 0x7320000 --  45% complete.Erasing at 0x75c0000 --  46% complete.Erasing at 0x7840000 --  47% complete.Erasing at 0x7ae0000 --  48% complete.Erasing at 0x7d60000 --  49% complete.Erasing at 0x7fe0000 --  50% complete.Erasing at 0x8280000 --  51% complete.Erasing at 0x8500000 --  52% complete.Erasing at 0x87a0000 --  53% complete.Erasing at 0x8a20000 --  54% complete.Erasing at 0x8cc0000 --  55% complete.Erasing at 0x8f40000 --  56% complete.Erasing at 0x91e0000 --  57% complete.Erasing at 0x9460000 --  58% complete.Erasing at 0x9700000 --  59% complete.Erasing at 0x9980000 --  60% complete.Erasing at 0x9c20000 --  61% complete.Erasing at 0x9ea0000 --  62% complete.Erasing at 0xa140000 --  63% complete.Erasing at 0xa3c0000 --  64% complete.Erasing at 0xa660000 --  65% complete.Erasing at 0xa8e0000 --  66% complete.Erasing at 0xab80000 --  67% complete.Erasing at 0xae00000 --  68% complete.Erasing at 0xb0a0000 --  69% complete.Erasing at 0xb320000 --  70% complete.Erasing at 0xb5c0000 --  71% complete.Erasing at 0xb840000 --  72% complete.Erasing at 0xbae0000 --  73% complete.Erasing at 0xbd60000 --  74% complete.Erasing at 0xbfe0000 --  75% complete.Erasing at 0xc280000 --  76% complete.Erasing at 0xc500000 --  77% complete.Erasing at 0xc7a0000 --  78% complete.Erasing at 0xca20000 --  79% complete.Erasing at 0xccc0000 --  80% complete.Erasing at 0xcf40000 --  81% complete.Erasing at 0xd1e0000 --  82% complete.Erasing at 0xd460000 --  83% complete.Erasing at 0xd700000 --  84% complete.Erasing at 0xd980000 --  85% complete.Erasing at 0xdc20000 --  86% complete.Erasing at 0xdea0000 --  87% complete.Erasing at 0xe140000 --  88% complete.Erasing at 0xe3c0000 --  89% complete.Erasing at 0xe660000 --  90% complete.Erasing at 0xe8e0000 --  91% complete.Erasing at 0xeb80000 --  92% complete.Erasing at 0xee00000 --  93% complete.Erasing at 0xf0a0000 --  94% complete.Erasing at 0xf320000 --  95% complete.Erasing at 0xf5c0000 --  96% complete.Erasing at 0xf840000 --  97% complete.Erasing at 0xfae0000 --  98% complete.Erasing at 0xfd60000 --  99% complete.Erasing at 0xffe0000 -- 100% complete.
-[23;80H [24;1HOKls
-
-[23;80H [24;1HYX-UBOOT # lsmw.b 0x81000000 0xFF 0x260000
-
-[23;80H [24;1HUnknown command 'ls' - try 'help'
-[23;80H [24;1HYX-UBOOT # mw.b 0x81000000 0xFF 0x260000tftp 0x81000000 2015-9-29/xzrs_uboot.bin
-
-[23;80H [24;1HYX-UBOOT # tftp 0x81000000 2015-9-29/xzrs_uboot.bin
-[23;80H [24;1HConnect speed 100M Full
-[23;80H [24;1HUsing DaVinci EMAC device
-[23;80H [24;1HTFTP from server 192.168.1.9; our IP address is 192.168.1.198
-[23;80H [24;1HFilename '2015-9-29/xzrs_uboot.bin'.
-[23;80H [24;1HLoad address: 0x81000000
-[23;80H [24;1HLoading: *WARN: emac_send_packet: No link
-[23;80H [24;1HT T T ###############
-[23;80H [24;1Hdone
-[23;80H [24;1HBytes transferred = 215680 (0x34a80)nandecc hw 2
-
-[23;80H [24;1HYX-UBOOT # nandecc hw 2nand erase 0x0 0x35000
-
-[23;80H [24;1HHW ECC BCH8 Selected
-[23;80H [24;1HYX-UBOOT # nand erase 0x0 0x35000nand write.i 0x81000000  0x0 0x35000
-
-[23;80H [24;1H
-[23;80H [24;1HNAND erase: device 0 offset 0x0, size 0x35000
-[23;80H [24;1HErasing at 0x0 --  60% complete.Erasing at 0x20000 -- 120% complete.
-[23;80H [24;1HOK
-[23;80H [24;1HYX-UBOOT # nand write.i 0x81000000  0x0 0x35000
-[23;80H [24;1H
-[23;80H [24;1HNAND write: device 0 offset 0x0, size 0x35000
-[23;80H [24;1H 217088 bytes written: OKsetenv ipaddr 192.168.1.198
-
-[23;80H [24;1HYX-UBOOT # setenv ipaddr 192.168.1.198setenv gatewayip 192.168.1.9
-
-[23;80H [24;1HYX-UBOOT # setenv gatewayip 192.168.1.9setenv netmask 255.255.255.0
-
-[23;80H [24;1HYX-UBOOT # setenv netmask 255.255.255.0setenv serverip 192.168.1.9
-
-[23;80H [24;1HYX-UBOOT # setenv serverip 192.168.1.9setenv bootargs 'console=ttyO2,115200n8 noinitrd ip=192.168.1.198 mem=256M rootwait=1 rw ubi.mtd=8,2048 rootfstype=ubifs root=ubi0:rootfs init=/init vram=20M notifyk.vpssm3_sva=0xBEE00000 stdin=serial ddr_mem=1024M'
-
-[23;80H [24;1HYX-UBOOT # setenv bootargs 'console=ttyO2,115200n8 noinitrd ip=192.168.1.198 me[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80Hsetenv 'noinitrd rw ubi.mtd'
-
-[23;80H'[24;1HYX-UBOOT # setenv 'noinitrd rw ubi.mtd'setenv ip
-
-[23;80H [24;1HYX-UBOOT # setenv ipsaveenv
-
-[23;80H [24;1HYX-UBOOT # saveenv
-
-[23;80H [24;1HSaving Environment to NAND...
-[23;80H [24;1HErasing Nand...
-[23;80H [24;1HWarning: Erase size 0x00002000 smaller than one erase block 0x00020000
-[23;80H [24;1H         Erasing 0x00020000 instead
-[23;80H [24;1HErasing at 0x240000 -- 100% complete.
-[23;80H [24;1HWriting to Nand... done
-[23;80H [24;1HYX-UBOOT # reset
-
-[23;80H [24;1HYX-UBOOT # reset
-[23;80H [24;1Hresetting ...
-[23;80H [24;1H
-[23;80H [24;1H
-[23;80H [24;1HU-Boot 2010.06 (Aug 14 2014 - 21:58:33)
-[23;80H [24;1H
-[23;80H [24;1HTI8168-GP rev 2.1
-[23;80H [24;1H
-[23;80H [24;1HHDVICP clk     : 533MHz
-[23;80H [24;1HL3 Fast clk    : 500MHz
-[23;80H [24;1HHDVPSS clk     : 250MHz
-[23;80H [24;1HDucati M3 clk  : 250MHz
-[23;80H [24;1HDSP clk        : 800MHz
-[23;80H [24;1HARM clk        : 987MHz
-[23;80H [24;1HDDR clk        : 796MHz
-[23;80H [24;1H
-[23;80H [24;1HI2C:   ready
-[23;80H [24;1HDRAM:  2 GiB
-[23;80H [24;1HNAND:  HW ECC BCH8 Selected
-[23;80H [24;1H256 MiB
-[23;80H [24;1HMMC:   OMAP SD/MMC: 0
-[23;80H [24;1H                                                                 
-[23;80H [24;1H                                                                 
-[23;80H [24;1H                   D S P D S P D S P D S                         
-[23;80H [24;1H               P D S P D S P D S P D S P D                       
-[23;80H [24;1H             S P D S P D S P D S P D S P D                       
-[23;80H [24;1H             S P D S P D S P D S P D S P D   S P D               
-[23;80H [24;1H               S P D S P D S P D S P D S     P D S P             
-[23;80H [24;1H                 D S P D S P D S P D S P   D S P D S P           
-[23;80H [24;1H                   D S P D S P D S P D S P D S P D S P           
-[23;80H [24;1H                     D S P D S P D S P D S P D S P D S P         
-[23;80H [24;1H                     D S P D S P D S P D S P D S P D S P         
-[23;80H [24;1H                       D S P D S P D S P D S P D S P D S P       
-[23;80H [24;1H                       D S P D S P D S P D S P D S P D S P       
-[23;80H [24;1H                       D S P D S P D S P D S P D S P D S P       
-[23;80H [24;1H                       D S P D S P D S P D S P D S P D S P       
-[23;80H [24;1H                       D S P D S P D S P D S P D S P D S P       
-[23;80H [24;1H                       D S P D S P D S P D S P D S P D S P       
-[23;80H [24;1H                       D S P D S P D S P D S P D S P D S P       
-[23;80H [24;1H                     D S P D S P D S P D S P D S P D S P D       
-[23;80H [24;1H                     S P D S P D S         P D S P D S P D       
-[23;80H [24;1H                   S P D S P D               S P D S P D         
-[23;80H [24;1H                   S P D S P                   D S P D S         
-[23;80H [24;1H                 P D S P D                       S P D S         
-[23;80H [24;1H                 P D S P                         D S P           
-[23;80H [24;1H               D S P D                           S P D           
-[23;80H [24;1H             S P D S                             P D             
-[23;80H [24;1H             S P D                                               
-[23;80H [24;1H             S P D                                               
-[23;80H [24;1H                                                                 
-[23;80H [24;1H
-[23;80H [24;1HNet:   Ethernet PHY: GENERIC @ 0x01
-[23;80H [24;1HDaVinci EMAC
-[23;80H [24;1HHit any key to stop autoboot:
-  3  0 
-[23;80H [24;1HYX-UBOOT #ls
- ls
-[23;80H [24;1HUnknown command 'ls' - try 'help'
-[23;80H [24;1HYX-UBOOT #mw.b 0x81000000 0xFF 0x300000
- mw.b 0x81000000 0xFF 0x300000
-[23;80H [24;1HYX-UBOOT #tftp 0x81000000 2015-9-29/xzrs_uimage.bin
- tftp 0x81000000 2015-9-29/xzrs_uimage.bin
-[23;80H [24;1HConnect speed 100M Full
-[23;80H [24;1HUsing DaVinci EMAC device
-[23;80H [24;1HTFTP from server 192.168.1.9; our IP address is 192.168.1.198
-[23;80H [24;1HFilename '2015-9-29/xzrs_uimage.bin'.
-[23;80H [24;1HLoad address: 0x81000000
-[23;80H [24;1HLoading: *WARN: emac_send_packet: No link
-[23;80H [24;1HT T T #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H ##########################################
-[23;80H [24;1Hdone
-[23;80H [24;1HBytes transferred = 2520976 (0x267790)nand erase 0x00580000 0x268000
-
-[23;80H [24;1HYX-UBOOT # nand erase 0x00580000 0x268000nand write.i 0x81000000  0x00580000 0x268000
-
-[23;80H [24;1H
-[23;80H [24;1HNAND erase: device 0 offset 0x580000, size 0x268000
-[23;80H [24;1HErasing at 0x580000 --   5% complete.Erasing at 0x5a0000 --  10% complete.Erasing at 0x5c0000 --  15% complete.Erasing at 0x5e0000 --  20% complete.Erasing at 0x600000 --  25% complete.Erasing at 0x620000 --  31% complete.Erasing at 0x640000 --  36% complete.Erasing at 0x660000 --  41% complete.Erasing at 0x680000 --  46% complete.Erasing at 0x6a0000 --  51% complete.Erasing at 0x6c0000 --  57% complete.Erasing at 0x6e0000 --  62% complete.Erasing at 0x700000 --  67% complete.Erasing at 0x720000 --  72% complete.Erasing at 0x740000 --  77% complete.Erasing at 0x760000 --  83% complete.Erasing at 0x780000 --  88% complete.Erasing at 0x7a0000 --  93% complete.Erasing at 0x7c0000 --  98% complete.Erasing at 0x7e0000 -- 103% complete.
-[23;80H [24;1HOK
-[23;80H [24;1HYX-UBOOT # nand write.i 0x81000000  0x00580000 0x268000
-[23;80H [24;1H
-[23;80H [24;1HNAND write: device 0 offset 0x580000, size 0x268000
-[23;80H [24;1H 2523136 bytes written: OKls
-
-[23;80H [24;1HYX-UBOOT # lsmw.b 0x81000000 0xFF 0x4000000
-
-[23;80H [24;1HUnknown command 'ls' - try 'help'
-[23;80H [24;1HYX-UBOOT # mw.b 0x81000000 0xFF 0x4000000tftp 0x81000000 2015-9-29/xzrs_fs.bin
-
-[23;80H [24;1HYX-UBOOT # tftp 0x81000000 2015-9-29/xzrs_fs.bin
-[23;80H [24;1HConnect speed 1G Full
-[23;80H [24;1HUsing DaVinci EMAC device
-[23;80H [24;1HTFTP from server 192.168.1.9; our IP address is 192.168.1.198
-[23;80H [24;1HFilename '2015-9-29/xzrs_fs.bin'.
-[23;80H [24;1HLoad address: 0x81000000
-[23;80H [24;1HLoading: *WARN: emac_send_packet: No link
-[23;80H [24;1HT T T T T T T T T T T T T T T T T T T T 
-[23;80H [24;1HRetry count exceeded; starting again
-[23;80H [24;1HConnect speed 100M Full
-[23;80H [24;1HWARN: emac_send_packet: No link
-[23;80H [24;1HUsing DaVinci EMAC device
-[23;80H [24;1HTFTP from server 192.168.1.9; our IP address is 192.168.1.198
-[23;80H [24;1HFilename '2015-9-29/xzrs_fs.bin'.
-[23;80H [24;1HLoad address: 0x81000000
-[23;80H [24;1HLoading: *T #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H #################################################################
-[23;80H [24;1H[24;9H ########################################################
-[23;80H [24;1Hdone
-[23;80H [24;1HBytes transferred = 88604672 (0x5480000)nand erase 0x009c0000 0x5490000
-
-[23;80H [24;1HYX-UBOOT # nand erase 0x009c0000 0x5490000nand write 0x81000000 0x009c0000 0x5490000
-
-[23;80H [24;1H
-[23;80H [24;1HNAND erase: device 0 offset 0x9c0000, size 0x5490000
-[23;80H [24;1HErasing at 0x9c0000 --   0% complete.Erasing at 0xa80000 --   1% complete.Erasing at 0xb60000 --   2% complete.Erasing at 0xc40000 --   3% complete.Erasing at 0xd20000 --   4% complete.Erasing at 0xde0000 --   5% complete.Erasing at 0xec0000 --   6% complete.Erasing at 0xfa0000 --   7% complete.Erasing at 0x1080000 --   8% complete.Erasing at 0x1140000 --   9% complete.Erasing at 0x1220000 --  10% complete.Erasing at 0x1300000 --  11% complete.Erasing at 0x13e0000 --  12% complete.Erasing at 0x14a0000 --  13% complete.Erasing at 0x1580000 --  14% complete.Erasing at 0x1660000 --  15% complete.Erasing at 0x1740000 --  16% complete.Erasing at 0x1820000 --  17% complete.Erasing at 0x18e0000 --  18% complete.Erasing at 0x19c0000 --  19% complete.Erasing at 0x1aa0000 --  20% complete.Erasing at 0x1b80000 --  21% complete.Erasing at 0x1c40000 --  22% complete.Erasing at 0x1d20000 --  23% complete.Erasing at 0x1e00000 --  24% complete.Erasing at 0x1ee0000 --  25% complete.Erasing at 0x1fa0000 --  26% complete.Erasing at 0x2080000 --  27% complete.Erasing at 0x2160000 --  28% complete.Erasing at 0x2240000 --  29% complete.Erasing at 0x2300000 --  30% complete.Erasing at 0x23e0000 --  31% complete.Erasing at 0x24c0000 --  32% complete.Erasing at 0x25a0000 --  33% complete.Erasing at 0x2680000 --  34% complete.Erasing at 0x2740000 --  35% complete.Erasing at 0x2820000 --  36% complete.Erasing at 0x2900000 --  37% complete.Erasing at 0x29e0000 --  38% complete.Erasing at 0x2aa0000 --  39% complete.Erasing at 0x2b80000 --  40% complete.Erasing at 0x2c60000 --  41% complete.Erasing at 0x2d40000 --  42% complete.Erasing at 0x2e00000 --  43% complete.Erasing at 0x2ee0000 --  44% complete.Erasing at 0x2fc0000 --  45% complete.Erasing at 0x30a0000 --  46% complete.Erasing at 0x3160000 --  47% complete.Erasing at 0x3240000 --  48% complete.Erasing at 0x3320000 --  49% complete.Erasing at 0x3400000 --  50% complete.Erasing at 0x34e0000 --  51% complete.Erasing at 0x35a0000 --  52% complete.Erasing at 0x3680000 --  53% complete.Erasing at 0x3760000 --  54% complete.Erasing at 0x3840000 --  55% complete.Erasing at 0x3900000 --  56% complete.Erasing at 0x39e0000 --  57% complete.Erasing at 0x3ac0000 --  58% complete.Erasing at 0x3ba0000 --  59% complete.Erasing at 0x3c60000 --  60% complete.Erasing at 0x3d40000 --  61% complete.Erasing at 0x3e20000 --  62% complete.Erasing at 0x3f00000 --  63% complete.Erasing at 0x3fc0000 --  64% complete.Erasing at 0x40a0000 --  65% complete.Erasing at 0x4180000 --  66% complete.Erasing at 0x4260000 --  67% complete.Erasing at 0x4340000 --  68% complete.Erasing at 0x4400000 --  69% complete.Erasing at 0x44e0000 --  70% complete.Erasing at 0x45c0000 --  71% complete.Erasing at 0x46a0000 --  72% complete.Erasing at 0x4760000 --  73% complete.Erasing at 0x4840000 --  74% complete.Erasing at 0x4920000 --  75% complete.Erasing at 0x4a00000 --  76% complete.Erasing at 0x4ac0000 --  77% complete.Erasing at 0x4ba0000 --  78% complete.Erasing at 0x4c80000 --  79% complete.Erasing at 0x4d60000 --  80% complete.Erasing at 0x4e20000 --  81% complete.Erasing at 0x4f00000 --  82% complete.Erasing at 0x4fe0000 --  83% complete.Erasing at 0x50c0000 --  84% complete.Erasing at 0x51a0000 --  85% complete.Erasing at 0x5260000 --  86% complete.Erasing at 0x5340000 --  87% complete.Erasing at 0x5420000 --  88% complete.Erasing at 0x5500000 --  89% complete.Erasing at 0x55c0000 --  90% complete.Erasing at 0x56a0000 --  91% complete.Erasing at 0x5780000 --  92% complete.Erasing at 0x5860000 --  93% complete.Erasing at 0x5920000 --  94% complete.Erasing at 0x5a00000 --  95% complete.Erasing at 0x5ae0000 --  96% complete.Erasing at 0x5bc0000 --  97% complete.Erasing at 0x5c80000 --  98% complete.Erasing at 0x5d60000 --  99% complete.Erasing at 0x5e40000 -- 100% complete.
-[23;80H [24;1HOK
-[23;80H [24;1HYX-UBOOT # nand write 0x81000000 0x009c0000 0x5490000
-[23;80H [24;1H
-[23;80H [24;1HNAND write: device 0 offset 0x9c0000, size 0x5490000
-[23;80H [24;1H 88670208 bytes written: OKls
-
-
-[23;80H [24;1HYX-UBOOT # ls
-[23;80H [24;1HUnknown command 'ls' - try 'help'
-[23;80H [24;1HYX-UBOOT # reset
-
-[23;80H [24;1HYX-UBOOT # reset
-[23;80H [24;1Hresetting ...
-[23;80H [24;1H
-[23;80H [24;1H
-[23;80H [24;1HU-Boot 2010.06 (Aug 14 2014 - 21:58:33)
-[23;80H [24;1H
-[23;80H [24;1HTI8168-GP rev 2.1
-[23;80H [24;1H
-[23;80H [24;1HHDVICP clk     : 533MHz
-[23;80H [24;1HL3 Fast clk    : 500MHz
-[23;80H [24;1HHDVPSS clk     : 250MHz
-[23;80H [24;1HDucati M3 clk  : 250MHz
-[23;80H [24;1HDSP clk        : 800MHz
-[23;80H [24;1HARM clk        : 987MHz
-[23;80H [24;1HDDR clk        : 796MHz
-[23;80H [24;1H
-[23;80H [24;1HI2C:   ready
-[23;80H [24;1HDRAM:  2 GiB
-[23;80H [24;1HNAND:  HW ECC BCH8 Selected
-[23;80H [24;1H256 MiB
-[23;80H [24;1HMMC:   OMAP SD/MMC: 0
-[23;80H [24;1H                                                                 
-[23;80H [24;1H                                                                 
-[23;80H [24;1H                   D S P D S P D S P D S                         
-[23;80H [24;1H               P D S P D S P D S P D S P D                       
-[23;80H [24;1H             S P D S P D S P D S P D S P D                       
-[23;80H [24;1H             S P D S P D S P D S P D S P D   S P D               
-[23;80H [24;1H               S P D S P D S P D S P D S     P D S P             
-[23;80H [24;1H                 D S P D S P D S P D S P   D S P D S P           
-[23;80H [24;1H                   D S P D S P D S P D S P D S P D S P           
-[23;80H [24;1H                     D S P D S P D S P D S P D S P D S P         
-[23;80H [24;1H                     D S P D S P D S P D S P D S P D S P         
-[23;80H [24;1H                       D S P D S P D S P D S P D S P D S P       
-[23;80H [24;1H                       D S P D S P D S P D S P D S P D S P       
-[23;80H [24;1H                       D S P D S P D S P D S P D S P D S P       
-[23;80H [24;1H                       D S P D S P D S P D S P D S P D S P       
-[23;80H [24;1H                       D S P D S P D S P D S P D S P D S P       
-[23;80H [24;1H                       D S P D S P D S P D S P D S P D S P       
-[23;80H [24;1H                       D S P D S P D S P D S P D S P D S P       
-[23;80H [24;1H                     D S P D S P D S P D S P D S P D S P D       
-[23;80H [24;1H                     S P D S P D S         P D S P D S P D       
-[23;80H [24;1H                   S P D S P D               S P D S P D         
-[23;80H [24;1H                   S P D S P                   D S P D S         
-[23;80H [24;1H                 P D S P D                       S P D S         
-[23;80H [24;1H                 P D S P                         D S P           
-[23;80H [24;1H               D S P D                           S P D           
-[23;80H [24;1H             S P D S                             P D             
-[23;80H [24;1H             S P D                                               
-[23;80H [24;1H             S P D                                               
-[23;80H [24;1H                                                                 
-[23;80H [24;1H
-[23;80H [24;1HNet:   Ethernet PHY: GENERIC @ 0x01
-[23;80H [24;1HDaVinci EMAC
-[23;80H [24;1HHit any key to stop
- autoboot:  3  2  1  0 
-[23;80H [24;1H
-[23;80H [24;1HNAND read: device 0 offset 0x580000, size 0x300000
-[23;80H [24;1H 3145728 bytes read: OK
-[23;80H [24;1H## Booting kernel from Legacy Image at 81000000 ...
-[23;80H [24;1H   Image Name:   Linux-2.6.37
-[23;80H [24;1H   Created:      2015-08-10   5:22:37 UTC
-[23;80H [24;1H   Image Type:   ARM Linux Kernel Image (uncompressed)
-[23;80H [24;1H   Data Size:    2520912 Bytes = 2.4 MiB
-[23;80H [24;1H   Load Address: 80008000
-[23;80H [24;1H   Entry Point:  80008000
-[23;80H [24;1H   Verifying Checksum ... OK
-[23;80H [24;1H   Loading Kernel Image ... OK
-[23;80H [24;1HOK
-[23;80H [24;1H
-[23;80H [24;1HStarting kernel ...
-[23;80H [24;1H
-[23;80H [24;1HUncompressing Linux... done, booting the kernel.
-[23;80H [24;1HLinux version 2.6.37 (hsw@ubuntu) (gcc version 4.5.3 20110311 (prerelease) (GCC[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80H5[24;1HCPU: ARMv7 Processor [413fc082] revision 2 (ARMv7), cr=10c53c7f
-[23;80H [24;1HCPU: VIPT nonaliasing data cache, VIPT aliasing instruction cache
-[23;80H [24;1HMachine: ti8168evm
-[23;80H [24;1Hvram size = 20971520 at 0x0
-[23;80H [24;1Hti81xx_reserve: ### Reserved DDR region @8ff00000
-[23;80H [24;1Hreserved size = 20971520 at 0x0
-[23;80H [24;1HFB: Reserving 20971520 bytes SDRAM for VRAM
-[23;80H [24;1HMemory policy: ECC disabled, Data cache writeback
-[23;80H [24;1HOMAP chip is TI8168 2.1
-[23;80H [24;1HBuilt 1 zonelists in Zone order, mobility grouping on.  Total pages: 59648
-[23;80H [24;1HKernel command line: console=ttyO2,115200n8 noinitrd ip=192.168.1.198 mem=256M [24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80HM[24;1HPID hash table entries: 1024 (order: 0, 4096 bytes)
-[23;80H [24;1HDentry cache hash table entries: 32768 (order: 5, 131072 bytes)
-[23;80H [24;1HInode-cache hash table entries: 16384 (order: 4, 65536 bytes)
-[23;80H [24;1HMemory: 234MB 1MB = 235MB total
-[23;80H [24;1HMemory: 232936k/232936k available, 29208k reserved, 0K highmem
-[23;80H [24;1HVirtual kernel memory layout:
-[23;80H [24;1H    vector  : 0xffff0000 - 0xffff1000   (   4 kB)
-[23;80H [24;1H    fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
-[23;80H [24;1H    DMA     : 0xffc00000 - 0xffe00000   (   2 MB)
-[23;80H [24;1H    vmalloc : 0xd0800000 - 0xf8000000   ( 632 MB)
-[23;80H [24;1H    lowmem  : 0xc0000000 - 0xd0000000   ( 256 MB)
-[23;80H [24;1H    pkmap   : 0xbfe00000 - 0xc0000000   (   2 MB)
-[23;80H [24;1H    modules : 0xbf000000 - 0xbfe00000   (  14 MB)
-[23;80H [24;1H      .init : 0xc0008000 - 0xc003f000   ( 220 kB)
-[23;80H [24;1H      .text : 0xc003f000 - 0xc04c2000   (4620 kB)
-[23;80H [24;1H      .data : 0xc04c2000 - 0xc05110c0   ( 317 kB)
-[23;80H [24;1HSLUB: Genslabs=11, HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
-[23;80H [24;1HNR_IRQS:375
-[23;80H [24;1HIRQ: Found an INTC at 0xfa200000 (revision 5.0) with 128 interrupts
-[23;80H [24;1HTotal of 128 interrupts on 1 active controller
-[23;80H [24;1HGPMC revision 6.0
-[23;80H [24;1HTrying to install interrupt handler for IRQ368
-[23;80H [24;1HTrying to install interrupt handler for IRQ369
-[23;80H [24;1HTrying to install interrupt handler for IRQ370
-[23;80H [24;1HTrying to install interrupt handler for IRQ371
-[23;80H [24;1HTrying to install interrupt handler for IRQ372
-[23;80H [24;1HTrying to install interrupt handler for IRQ373
-[23;80H [24;1HTrying to install interrupt handler for IRQ374
-[23;80H [24;1HTrying to install type control for IRQ375
-[23;80H [24;1HTrying to set irq flags for IRQ375
-[23;80H [24;1HOMAP clockevent source: GPTIMER1 at 27000000 Hz
-[23;80H [24;1HConsole: colour dummy device 80x30
-[23;80H [24;1HCalibrating delay loop... 986.31 BogoMIPS (lpj=4931584)
-[23;80H [24;1Hpid_max: default: 32768 minimum: 301
-[23;80H [24;1HSecurity Framework initialized
-[23;80H [24;1HMount-cache hash table entries: 512
-[23;80H [24;1HCPU: Testing write buffer coherency: ok
-[23;80H [24;1Hdevtmpfs: initialized
-[23;80H [24;1HTI81XX: Map 0x8ff00000 to 0xfe500000 for dram barrier
-[23;80H [24;1HTI81XX: Map 0x40300000 to 0xfe600000 for sram barrier
-[23;80H [24;1Homap_voltage_early_init: voltage driver support not added
-[23;80H [24;1Hregulator: core version 0.5
-[23;80H [24;1Hregulator: dummy: 
-[23;80H [24;1HNET: Registered protocol family 16
-[23;80H [24;1Homap_voltage_domain_lookup: Voltage driver init not yet happened.Faulting!
-[23;80H [24;1Homap_voltage_add_dev: VDD specified does not exist!
-[23;80H [24;1HOMAP GPIO hardware version 0.1
-[23;80H [24;1HOMAP GPIO hardware version 0.1
-[23;80H [24;1Homap_mux_init: Add partition: #1: core, flags: 0
-[23;80H [24;1H_omap_mux_get_by_name: Could not find signal i2c2_scl.i2c2_scl
-[23;80H [24;1H_omap_mux_get_by_name: Could not find signal i2c2_sda.i2c2_sda
-[23;80H [24;1HNOR: Can't request GPMC CS
-[23;80H [24;1Hregistered ti816x_gpio_vr device
-[23;80H [24;1Hregistered ti816x_sr device
-[23;80H [24;1HCannot clk_get ck_32
-[23;80H [24;1Hpm_dbg_init: only OMAP3 supported
-[23;80H [24;1Hregistered ti81xx_vpss device
-[23;80H [24;1Hregistered ti81xx_vidout device
-[23;80H [24;1Hregistered ti81xx on-chip HDMI device
-[23;80H [24;1Hregistered ti81xx_fb device
-[23;80H [24;1Hregistered ti81xx_vin device
-[23;80H [24;1HNSS Crypto DMA hardware revision 1.9 @ IRQ 116
-[23;80H [24;1Hbio: create slab <bio-0> at 0
-[23;80H [24;1Hregulator: VFB: 800 <--> 1025 mV at 800 mV 
-[23;80H [24;1HSCSI subsystem initialized
-[23;80H [24;1Husbcore: registered new interface driver usbfs
-[23;80H [24;1Husbcore: registered new interface driver hub
-[23;80H [24;1Husbcore: registered new device driver usb
-[23;80H [24;1HUSBSS revision 4ea20809
-[23;80H [24;1Hregisterd cppi-dma Intr @ IRQ 17
-[23;80H [24;1HCppi41 Init Done
-[23;80H [24;1Homap_i2c omap_i2c.1: bus 1 rev4.0 at 100 kHz
-[23;80H [24;1HI2C: Read failed at pcf8575_cir_enable 673 with error code: -121
-[23;80H [24;1HI2C: Transfer failed at pcf8575_cir_enable 679 with error code: -121
-[23;80H [24;1Homap_i2c omap_i2c.2: bus 2 rev4.0 at 100 kHz
-[23;80H [24;1HAdvanced Linux Sound Architecture Driver Version 1.0.23.
-[23;80H [24;1HSwitching to clocksource gp timer
-[23;80H [24;1Hmusb-hdrc: version 6.0, host, debug=0
-[23;80H [24;1Hmusb-hdrc musb-hdrc.0: dma type: dma-cppi41
-[23;80H [24;1HMUSB controller-0 revision 4ea20800
-[23;80H [24;1Hmusb-hdrc musb-hdrc.0: MUSB HDRC host driver
-[23;80H [24;1Hmusb-hdrc musb-hdrc.0: new USB bus registered, assigned bus number 1
-[23;80H [24;1Husb usb1: New USB device found, idVendor=1d6b, idProduct=0002
-[23;80H [24;1Husb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
-[23;80H [24;1Husb usb1: Product: MUSB HDRC host driver
-[23;80H [24;1Husb usb1: Manufacturer: Linux 2.6.37 musb-hcd
-[23;80H [24;1Husb usb1: SerialNumber: musb-hdrc.0
-[23;80H [24;1Hhub 1-0:1.0: USB hub found
-[23;80H [24;1Hhub 1-0:1.0: 1 port detected
-[23;80H [24;1Hmusb-hdrc musb-hdrc.0: USB Host mode controller at d081e000 using DMA, IRQ 18
-[23;80H [24;1Hmusb-hdrc musb-hdrc.1: dma type: dma-cppi41
-[23;80H [24;1HMUSB controller-1 revision 4ea20800
-[23;80H [24;1Hmusb-hdrc musb-hdrc.1: MUSB HDRC host driver
-[23;80H [24;1Hmusb-hdrc musb-hdrc.1: new USB bus registered, assigned bus number 2
-[23;80H [24;1Husb usb2: New USB device found, idVendor=1d6b, idProduct=0002
-[23;80H [24;1Husb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
-[23;80H [24;1Husb usb2: Product: MUSB HDRC host driver
-[23;80H [24;1Husb usb2: Manufacturer: Linux 2.6.37 musb-hcd
-[23;80H [24;1Husb usb2: SerialNumber: musb-hdrc.1
-[23;80H [24;1Hhub 2-0:1.0: USB hub found
-[23;80H [24;1Hhub 2-0:1.0: 1 port detected
-[23;80H [24;1Hmusb-hdrc musb-hdrc.1: USB Host mode controller at d082a800 using DMA, IRQ 19
-[23;80H [24;1HNET: Registered protocol family 2
-[23;80H [24;1HIP route cache hash table entries: 2048 (order: 1, 8192 bytes)
-[23;80H [24;1HTCP established hash table entries: 8192 (order: 4, 65536 bytes)
-[23;80H [24;1HTCP bind hash table entries: 8192 (order: 3, 32768 bytes)
-[23;80H [24;1HTCP: Hash tables configured (established 8192 bind 8192)
-[23;80H [24;1HTCP reno registered
-[23;80H [24;1HUDP hash table entries: 256 (order: 0, 4096 bytes)
-[23;80H [24;1HUDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
-[23;80H [24;1HNET: Registered protocol family 1
-[23;80H [24;1HRPC: Registered udp transport module.
-[23;80H [24;1HRPC: Registered tcp transport module.
-[23;80H [24;1HRPC: Registered tcp NFSv4.1 backchannel transport module.
-[23;80H [24;1HNetWinder Floating Point Emulator V0.97 (double precision)
-[23;80H [24;1HPMU: registered new PMU device of type 0
-[23;80H [24;1Homap-iommu omap-iommu.0: ducati registered
-[23;80H [24;1Homap-iommu omap-iommu.1: sys registered
-[23;80H [24;1HJFFS2 version 2.2. (NAND) ÂÂ© 2001-2006 Red Hat, Inc.
-[23;80H [24;1Hmsgmni has been set to 454
-[23;80H [24;1Halg: No test for stdrng (krng)
-[23;80H [24;1Hio scheduler noop registered
-[23;80H [24;1Hio scheduler deadline registered
-[23;80H [24;1Hio scheduler cfq registered (default)
-[23;80H [24;1Hnss_rng nss_rng: NSS Random Number Generator ver. 2.0
-[23;80H [24;1HSerial: 8250/16550 driver, 4 ports, IRQ sharing enabled
-[23;80H [24;1Homap_uart.0: ttyO0 at MMIO 0x48020000 (irq = 72) is a OMAP UART0
-[23;80H [24;1Homap_uart.1: ttyO1 at MMIO 0x48022000 (irq = 73) is a OMAP UART1
-[23;80H [24;1Homap_uart.2: ttyO2 at MMIO 0x48024000 (irq = 74) is a OMAP UART2
-[23;80H [24;1Hconsole [ttyO2] enabled
-[23;80H [24;1Hbrd: module loaded
-[23;80H [24;1Hloop: module loaded
-[23;80H [24;1Hm25p80 spi1.0: found m25p05-nonjedec, expected m25p80
-[23;80H [24;1Hm25p80 spi1.0: m25p05-nonjedec (64 Kbytes)
-[23;80H [24;1HCreating 4 MTD partitions on "spi_flash":
-[23;80H [24;1H0x000000000000-0x000000040000 : "U-Boot"
-[23;80H [24;1Hmtd: partition "U-Boot" extends beyond the end of device "spi_flash" -- size tr[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80H0[24;1H0x000000010000-0x000000012000 : "U-Boot Env"
-[23;80H [24;1Hmtd: partition "U-Boot Env" is out of reach -- disabled
-[23;80H [24;1H0x000000000000-0x000000280000 : "Kernel"
-[23;80H [24;1Hmtd: partition "Kernel" extends beyond the end of device "spi_flash" -- size tr[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80H0[24;1H0x000000010000-0x000000010000 : "File System"
-[23;80H [24;1Hmtd: partition "File System" is out of reach -- disabled
-[23;80H [24;1Homap2-nand driver initializing
-[23;80H [24;1HNAND device: Maf ID: 0xec, Chip ID: 0xda (Samsung, )
-[23;80H [24;1H erasesize: 0x20000, writesize: 2048, oobsize: 64
-[23;80H [24;1Homap2-nand: detected x8 NAND flash 
-[23;80H [24;1HCreating 6 MTD partitions on "omap2-nand.0":
-[23;80H [24;1H0x000000000000-0x000000260000 : "U-Boot"
-[23;80H [24;1H0x000000260000-0x000000280000 : "U-Boot Env"
-[23;80H [24;1H0x000000280000-0x000000580000 : "U-Boot Logo"
-[23;80H [24;1H0x000000580000-0x0000009c0000 : "Kernel"
-[23;80H [24;1H0x0000009c0000-0x00000d1e0000 : "File System"
-[23;80H [24;1H0x00000d1e0000-0x000010000000 : "Reserved"
-[23;80H [24;1HUBI: attaching mtd8 to ubi0
-[23;80H [24;1HUBI: physical eraseblock size:   131072 bytes (128 KiB)
-[23;80H [24;1HUBI: logical eraseblock size:    126976 bytes
-[23;80H [24;1HUBI: smallest flash I/O unit:    2048
-[23;80H [24;1HUBI: sub-page size:              512
-[23;80H [24;1HUBI: VID header offset:          2048 (aligned 2048)
-[23;80H [24;1HUBI: data offset:                4096
-[23;80H [24;1HUBI error: process_eb: bad image sequence number 329536878 in PEB 676, expected[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80H6[24;1HUBI error: ubi_init: cannot attach mtd8
-[23;80H [24;1Hdavinci_mdio davinci_mdio.0: davinci mdio revision 1.6
-[23;80H [24;1Hdavinci_mdio davinci_mdio.0: detected phy mask fffffff5
-[23;80H [24;1Hdavinci_mdio.0: probed
-[23;80H [24;1Hdavinci_mdio davinci_mdio.0: phy[1]: device 0:01, driver unknown
-[23;80H [24;1Hdavinci_mdio davinci_mdio.0: phy[3]: device 0:03, driver unknown
-[23;80H [24;1Husbcore: registered new interface driver cdc_ether
-[23;80H [24;1Husbcore: registered new interface driver dm9601
-[23;80H [24;1HInitializing USB Mass Storage driver...
-[23;80H [24;1Husbcore: registered new interface driver usb-storage
-[23;80H [24;1HUSB Mass Storage support registered.
-[23;80H [24;1Hmice: PS/2 mouse device common for all mice
-[23;80H [24;1Hrtc-ds1307 1-0068: rtc core: registered ds1337 as rtc0
-[23;80H [24;1Homap_rtc omap_rtc: rtc core: registered omap_rtc as rtc1
-[23;80H [24;1Hi2c /dev entries driver
-[23;80H [24;1HLinux video capture interface: v2.00
-[23;80H [24;1Husbcore: registered new interface driver uvcvideo
-[23;80H [24;1HUSB Video Class driver (v1.0.0)
-[23;80H [24;1HOMAP Watchdog Timer Rev 0x00: initial timeout 60 sec
-[23;80H [24;1Hnss_aes_mod_init: loading NSS AES driver
-[23;80H [24;1Hnss-aes nss-aes: NSS AES hw accel rev: 3.2 (context 0 @0x41140000)
-[23;80H [24;1Hnss-aes nss-aes: NSS AES hw accel rev: 3.2 (context 1 @0x41141000)
-[23;80H [24;1Hnss-aes nss-aes: NSS AES hw accel rev: 3.2 (context 2 @0x411a0000)
-[23;80H [24;1Hnss-aes nss-aes: NSS AES hw accel rev: 3.2 (context 3 @0x411a1000)
-[23;80H [24;1Hnss_aes_probe: probe() done
-[23;80H [24;1Hnss_des_mod_init: loading NSS DES driver
-[23;80H [24;1Hnss-des nss-des: NSS DES hw accel rev: 2.2 (context 0 @0x41160000)
-[23;80H [24;1Hnss-des nss-des: NSS DES hw accel rev: 2.2 (context 1 @0x41161000)
-[23;80H [24;1Hnss_des_probe: probe() done
-[23;80H [24;1Hnss_sham_mod_init: loading NSS SHA/MD5 driver
-[23;80H [24;1Hnss-sham nss-sham: NSS SHA/MD5 hw accel rev: 4.03 (context 0 @0x41100000)
-[23;80H [24;1Hnss-sham nss-sham: NSS SHA/MD5 hw accel rev: 4.03 (context 1 @0x41101000)
-[23;80H [24;1Hnss-sham nss-sham: NSS SHA/MD5 hw accel rev: 4.03 (context 2 @0x411c0000)
-[23;80H [24;1Hnss-sham nss-sham: NSS SHA/MD5 hw accel rev: 4.03 (context 3 @0x411c1000)
-[23;80H [24;1Hnss_sham_probe: probe() done
-[23;80H [24;1Husbcore: registered new interface driver usbhid
-[23;80H [24;1Husbhid: USB HID core driver
-[23;80H [24;1Hnotify_init : notify drivercreated  for  remote proc id 2 at physical Address 0[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80H0[24;1Husbcore: registered new interface driver snd-usb-audio
-[23;80H [24;1HRegistered tvp5158 audio codec
-[23;80H [24;1Hasoc: tvp5158-hifi <-> davinci-mcasp.0 mapping ok
-[23;80H [24;1Hasoc: tlv320aic3x-hifi <-> davinci-mcasp.2 mapping ok
-[23;80H [24;1Hasoc: HDMI-DAI-CODEC <-> hdmi-dai mapping ok
-[23;80H [24;1HALSA device list:
-[23;80H [24;1H  #0: TI81XX SOUND0
-[23;80H [24;1H  #1: TI81XX SOUND1
-[23;80H [24;1HTCP cubic registered
-[23;80H [24;1HNET: Registered protocol family 17
-[23;80H [24;1HVFP support v0.3: implementor 41 architecture 3 part 30 variant c rev 3
-[23;80H [24;1Homap_voltage_late_init: Voltage driver support not added
-[23;80H [24;1HPower Management for TI81XX.
-[23;80H [24;1Hsmartreflex smartreflex: Driver initialized
-[23;80H [24;1Hrtc-ds1307 1-0068: setting system clock to 2015-09-08 04:23:06 UTC (1441686186)
-[23;80H [24;1Hdavinci_mdio davinci_mdio.0: resetting idled controller
-[23;80H [24;1Hnet eth0: attached PHY driver [Generic PHY] (mii_bus:phy_addr=0:01, id=282f014)
-[23;80H [24;1HIP-Config: Guessing netmask 255.255.255.0
-[23;80H [24;1HIP-Config: Complete:
-[23;80H [24;1H     device=eth0, addr=192.168.1.198, mask=255.255.255.0, gw=255.255.255.255,
-[23;80H [24;1H     host=192.168.1.198, domain=, nis-domain=(none),
-[23;80H [24;1H     bootserver=255.255.255.255, rootserver=255.255.255.255, rootpath=
-[23;80H [24;1HVFS: Cannot open root device "ubi0:rootfs" or unknown-block(0,0)
-[23;80H [24;1HPlease append a correct "root=" boot option; here are the available partitions:
-[23;80H [24;1H1f00              64 mtdblock0  (driver?)
-[23;80H [24;1H1f02              64 mtdblock2  (driver?)
-[23;80H [24;1H1f04            2432 mtdblock4  (driver?)
-[23;80H [24;1H1f05             128 mtdblock5  (driver?)
-[23;80H [24;1H1f06            3072 mtdblock6  (driver?)
-[23;80H [24;1H1f07            4352 mtdblock7  (driver?)
-[23;80H [24;1H1f08          204928 mtdblock8  (driver?)
-[23;80H [24;1H1f09           47232 mtdblock9  (driver?)
-[23;80H [24;1HKernel panic - not syncing: VFS: Unable to mount root fs on unknown-block(0,0)
-[23;80H [24;1HBacktrace: 
-[23;80H [24;1H[<c004cfac>] (dump_backtrace+0x0/0x110) from [<c03856a8>] (dump_stack+0x18/0x1c[24;80H
-[23;80H)[24;1H r6:00008000 r5:ce414000 r4:c0511c58 r3:60000013
-[23;80H [24;1H[<c0385690>] (dump_stack+0x0/0x1c) from [<c0385708>] (panic+0x5c/0x178)
-[23;80H [24;1H[<c03856ac>] (panic+0x0/0x178) from [<c0009184>] (mount_block_root+0x1c4/0x204)
-[23;80H [24;1H r3:00000000 r2:00000000 r1:ce42bf78 r0:c04439e5
-[23;80H [24;1H r7:c002e38c
-[23;80H [24;1H[<c0008fc0>] (mount_block_root+0x0/0x204) from [<c000940c>] (prepare_namespace+[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80H)[24;1H[<c0009378>] (prepare_namespace+0x0/0x1cc) from [<c0008d70>] (kernel_init+0x114[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H[24;80H
-[23;80H)[24;1H r5:c002d958 r4:c002d958
-[23;80H [24;1H[<c0008c5c>] (kernel_init+0x0/0x154) from [<c0073fec>] (do_exit+0x0/0x5d0)
-[23;80H [24;1H r5:c0008c5c r4:00000000
-[23;80H [24;1H

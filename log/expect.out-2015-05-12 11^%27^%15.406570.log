@@ -1,3 +1,0 @@
-setenv ipaddr 192.168.1.198
-Device /dev/ttyUSB1 is locked.
-setenv ipaddr 192.168.1.198
